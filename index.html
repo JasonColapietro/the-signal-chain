@@ -29,7 +29,7 @@
 {"@context":"https://schema.org","@graph":[
 {"@type":"WebSite","@id":"https://jasoncolapietro.github.io/the-signal-chain/#website","url":"https://jasoncolapietro.github.io/the-signal-chain/","name":"THE SIGNAL CHAIN","inLanguage":"en","publisher":{"@id":"https://jasoncolapietro.github.io/the-signal-chain/#org"}},
 {"@type":"Organization","@id":"https://jasoncolapietro.github.io/the-signal-chain/#org","name":"Johnny Suede Press","founder":{"@id":"https://jasoncolapietro.github.io/the-signal-chain/#person"}},
-{"@type":"Person","@id":"https://jasoncolapietro.github.io/the-signal-chain/#person","name":"Jason Colapietro","alternateName":"Johnny Suede","url":"https://github.com/JasonColapietro","sameAs":["https://github.com/JasonColapietro"]},
+{"@type":"Person","@id":"https://jasoncolapietro.github.io/the-signal-chain/#person","name":"Jason Colapietro","alternateName":"Johnny Suede","url":"https://suedeai.org","image":"https://jasoncolapietro.github.io/the-signal-chain/author.png","jobTitle":"Founder","worksFor":{"@type":"Organization","name":"Suede Labs AI","url":"https://suedeai.org"},"sameAs":["https://github.com/JasonColapietro","https://x.com/johnnysuede","https://suedeai.org"]},
 {"@type":"Book","name":"THE SIGNAL CHAIN","headline":"THE SIGNAL CHAIN — A Player's History of Guitar Tone, Amps & Effects","author":{"@id":"https://jasoncolapietro.github.io/the-signal-chain/#person"},"publisher":{"@id":"https://jasoncolapietro.github.io/the-signal-chain/#org"},"url":"https://jasoncolapietro.github.io/the-signal-chain/","image":"https://jasoncolapietro.github.io/the-signal-chain/og-card.png","description":"An illustrated history of guitar amplifiers, effects pedals, and tone, with music theory and hundreds of tablature examples.","inLanguage":"en","numberOfPages":485,"bookFormat":"https://schema.org/EBook","genre":["Music","Guitar","Reference"],"isAccessibleForFree":true}
 ]}
 </script>
@@ -79,6 +79,8 @@ section{padding:4rem 0;border-bottom:1px solid var(--rule);}
 .feat li{margin:.5rem 0;}
 .author{display:flex;gap:1.6rem;align-items:flex-start;flex-wrap:wrap;}
 .author .badge{flex:0 0 auto;width:74px;height:74px;border-radius:50%;background:var(--ink);color:var(--amber);display:flex;align-items:center;justify-content:center;font-family:"Iowan Old Style",Georgia,serif;font-size:1.8rem;font-weight:700;}
+.author .photo{flex:0 0 auto;width:100px;height:100px;border-radius:50%;object-fit:cover;border:2px solid var(--amber);}
+.author .links a{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:.92rem;}
 .author .bio{flex:1;min-width:260px;}
 footer{background:var(--dark);color:#cdbb9e;text-align:center;padding:2.4rem 1.5rem;font-size:.86rem;}
 footer a{color:var(--amber);}
@@ -181,14 +183,18 @@ footer a{color:var(--amber);}
 <section id="author"><div class="wrap">
   <div class="kick">The Author</div>
   <div class="author">
-    <div class="badge">JC</div>
+    <img class="photo" src="author.png" alt="Jason Colapietro (Johnny Suede)"/>
     <div class="bio">
       <h2 style="font-size:1.5rem;margin-bottom:.4rem;">Jason Colapietro <span style="color:var(--mut);font-weight:400;font-style:italic;font-family:Georgia,serif;">— writing as Johnny Suede</span></h2>
-      <p style="color:#473b2e;">THE SIGNAL CHAIN is written, designed, illustrated, and typeset by Jason Colapietro,
-      published under the <strong>Johnny Suede Press</strong> imprint. The book and its companion workbook are
-      generated entirely from open Markdown sources and self-contained vector art — no external assets.</p>
-      <p><a href="https://github.com/JasonColapietro">github.com/JasonColapietro</a> &middot;
-         <a href="https://github.com/JasonColapietro/the-signal-chain">View the source on GitHub</a></p>
+      <p style="color:#473b2e;">Founder of <strong>Suede Labs AI</strong> — building programmable IP, creator ownership,
+      provenance, licensing, x402 payments, and ACP-ready agent commerce for AI-native media. THE SIGNAL CHAIN is
+      written, designed, and illustrated by Jason and published under the <strong>Johnny Suede Press</strong> imprint.</p>
+      <p class="links">
+        <a href="https://suedeai.org">suedeai.org</a> &middot;
+        <a href="https://x.com/johnnysuede">@johnnysuede</a> &middot;
+        <a href="https://github.com/JasonColapietro">GitHub</a> &middot;
+        <a href="https://github.com/JasonColapietro/the-signal-chain">Source</a>
+      </p>
     </div>
   </div>
 </div></section>

@@ -377,7 +377,10 @@ def seo_head(meta_title, desc, keywords, author, publisher, url="", image=""):
     ld = {
         "@context": "https://schema.org", "@type": "Book", "name": meta_title,
         "author": {"@type": "Person", "name": author, "alternateName": "Johnny Suede",
-                   "sameAs": ["https://github.com/JasonColapietro"]},
+                   "url": "https://suedeai.org", "jobTitle": "Founder",
+                   "worksFor": {"@type": "Organization", "name": "Suede Labs AI"},
+                   "sameAs": ["https://github.com/JasonColapietro", "https://x.com/johnnysuede",
+                              "https://suedeai.org"]},
         "publisher": {"@type": "Organization", "name": publisher},
         "inLanguage": "en", "description": desc, "keywords": keywords,
         "genre": ["Music", "Guitar", "Reference"],
