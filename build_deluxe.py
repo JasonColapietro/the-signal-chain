@@ -164,8 +164,10 @@ for p in part_seq:
         for lf in CH2LESSON.get(cnum(fn), []):
             B.append('<section class="chapter workshop" id="%s">%s</section>'
                      % (lsec(lf), bk.render_blocks(bk.read_text(os.path.join(LES, lf + ".md")).splitlines())))
+SITE = "https://jasoncolapietro.github.io/the-signal-chain"
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME, WS),
-              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
+              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
+                                        SITE + "/THE-SIGNAL-CHAIN-DELUXE.html", SITE + "/preview-9-cover.png"))
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN-DELUXE.html"), "w", encoding="utf-8").write(html)
 
 print("deluxe: %d chapters + %d workshops, %d tab blocks, %d words" %

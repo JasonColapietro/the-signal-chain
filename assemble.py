@@ -157,8 +157,10 @@ for p in part_seq:
             fig_no += 1
             bh = art.inject_hero(bh, fh)
         B.append('<section class="chapter" id="%s">%s</section>' % (csec(fn), bh))
+SITE = "https://jasoncolapietro.github.io/the-signal-chain"
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
-              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
+              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
+                                        SITE + "/THE-SIGNAL-CHAIN.html", SITE + "/preview-9-cover.png"))
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN.html"), "w", encoding="utf-8").write(html)
 
 print("book: %d sections, %d tab blocks, %d words" %
