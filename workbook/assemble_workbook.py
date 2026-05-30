@@ -90,7 +90,7 @@ for part, fns in PARTS:
     for fn in fns:
         B.append('<section class="chapter" id="%s">%s</section>'
                  % (csec(fn), bk.render_blocks(bk.read_text(os.path.join(LES, fn + ".md")).splitlines())))
-SITE = "https://jasoncolapietro.github.io/the-signal-chain"
+SITE = "https://guitar.solutions"
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
               "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
                                         SITE + "/THE-SIGNAL-CHAIN-WORKBOOK.html", SITE + "/og-card.png"))

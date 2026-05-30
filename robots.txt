@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jasoncolapietro.github.io/the-signal-chain/sitemap.xml
+Sitemap: https://guitar.solutions/sitemap.xml
