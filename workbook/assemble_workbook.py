@@ -93,7 +93,7 @@ for part, fns in PARTS:
 SITE = "https://jasoncolapietro.github.io/the-signal-chain"
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
               "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
-                                        SITE + "/THE-SIGNAL-CHAIN-WORKBOOK.html", SITE + "/preview-3-workbook-title.png"))
+                                        SITE + "/THE-SIGNAL-CHAIN-WORKBOOK.html", SITE + "/og-card.png"))
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN-WORKBOOK.html"), "w", encoding="utf-8").write(html)
 
 print("workbook: %d lessons, %d tab blocks, %d words" %

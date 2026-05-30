@@ -416,5 +416,8 @@ def doc(title, css, body_html, head_extra=""):
     return ("<!DOCTYPE html>\n"
             '<html lang="en"><head><meta charset="utf-8"/>'
             '<meta name="viewport" content="width=device-width, initial-scale=1"/>'
+            '<link rel="icon" type="image/svg+xml" href="favicon.svg"/>'
+            '<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"/>'
+            '<link rel="apple-touch-icon" href="apple-touch-icon.png"/>'
             "<title>%s</title>%s<style>%s</style></head><body><div class=\"page\">%s</div></body></html>"
             % (esc(title), head_extra, css, body_html))
