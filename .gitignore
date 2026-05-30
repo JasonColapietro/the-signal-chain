@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# local safety backups (pre-polish originals — not part of the book)
+_backup_pre_polish/
