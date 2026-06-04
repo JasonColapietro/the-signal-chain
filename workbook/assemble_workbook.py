@@ -22,6 +22,7 @@ THEME = {"paper": "#f6f3ec", "ink": "#211f24", "inksoft": "#5f5a52", "accent": "
          "accent2": "#9a7b2e", "rule": "#d6cdb6", "tabbg": "#ece7da", "quote": "#eae8f2"}
 
 PARTS = [
+    ("0 · Theory: The Self-Taught Curriculum", ["THEORY-curriculum"]),
     ("A · Foundations & Tweed", ["L01-solo-flight", "L02-johnny-b-goode", "L03-peggy-sue", "L04-rumble", "L05-mannish-boy"]),
     ("B · British Invasion & 60s Amps", ["L06-ticket-to-ride", "L07-you-really-got-me", "L08-pinball-wizard", "L09-misirlou", "L10-apache"]),
     ("C · Fuzz, Wah & First Effects", ["L11-satisfaction", "L12-voodoo-child", "L13-white-room", "L14-purple-haze", "L15-paranoid"]),
@@ -90,10 +91,8 @@ for part, fns in PARTS:
     for fn in fns:
         B.append('<section class="chapter" id="%s">%s</section>'
                  % (csec(fn), bk.render_blocks(bk.read_text(os.path.join(LES, fn + ".md")).splitlines())))
-SITE = "https://guitar.solutions"
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
-              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
-                                        SITE + "/THE-SIGNAL-CHAIN-WORKBOOK.html", SITE + "/og-card.png"))
+              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN-WORKBOOK.html"), "w", encoding="utf-8").write(html)
 
 print("workbook: %d lessons, %d tab blocks, %d words" %

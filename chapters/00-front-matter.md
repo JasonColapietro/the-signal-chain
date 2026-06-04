@@ -6,7 +6,37 @@
 
 ---
 
+## Dedication
+
+For my family.
+
+My dad, my mom, my brothers JC, TC, and GR, my daughter, and her mother.
+
+The music started long before this book. Some of it came through drums, some through love, and all of it shaped me.
+
+## Epigraph
+
+> "I just believe in the natural power of music. People who think of music as a job are working in the wrong field."
+> — Jeff Buckley
+
+> "He not busy being born is busy dying."
+> — Bob Dylan, "It's Alright, Ma (I'm Only Bleeding)"
+
+## About the Author
+
+Jason Colapietro fell into music more than he chose it: a high school dropout, self-taught, broke more often than not, hauling one guitar coast to coast, from Malibu and Hollywood to Skid Row. No money, no plans, no permission slip. He made it back to the East Coast and built Suede Labs, a multimillion-dollar global music-technology company that puts ownership, rights, and revenue back in the hands of the artists who make the work. Somewhere along the way, he became a four-time published author who speaks and leads seminars around the world. What a long, strange trip it's been.
+
+That arc is why this book exists. He has spent his life on both sides of the music it describes: how a sound gets made, the circuits and tubes and speakers, who gets paid when it does, and how to put more of both back in musicians' hands. This is no collector's history. He wrote it after plugging in, getting it wrong, getting it right, and building the tools he wished had existed when he walked the boulevard. Take the opinions for what they are: earned.
+
 ## Preface
+
+I didn't arrive at this music through the guitar. I arrived through a hammer and my dad's bongos: through percussion, through rhythm, through the part of music you feel in the body long before you can name it. Bass came next, in a punk band, where I learned two things that have never left me: that bass got the girls just as well as lead guitar ever did, and that the low end isn't the bottom of a song but its spine, the background that can carry everything, and often will. The guitar came last, and I chose it the way you choose a traveling companion: it could cover the most ground, say the most with the least, and it came with me to every place I lived.
+
+That's what this book is about, and it's why a builder ended up writing a history of tone. Like my father, I can't leave a system alone until I've mapped its architecture and interdependencies. And tone is the most beautiful, "holy" architecture I know: a chain whose entire secret is that interdependence. The string needs the magnet, the magnet needs the circuit, the circuit needs the speaker, the speaker needs the room, and not one of them owns the sound alone. You don't master tone by mastering a part. You master it by learning to hear the relationships between the parts.
+
+I write often as Johnny Suede. But this one is for my daughter, so today I'm Jason Colapietro. I wrote it so the chain that's always been there for me will always be there for her: a rich history she can trace, an origin she can stand on, something that will keep guiding her long after the amp in the corner has gone quiet. The sound was handed to me. This book is how I hand it on.
+
+## Introduction
 
 Somewhere around 1951, in a small shop in Fullerton, California, a radio repairman with no real ear for music wired up a wooden plank with a single magnetic pickup and plugged it into an amplifier he had also built. The amplifier was, in a sense, the more radical invention. A guitar that made almost no acoustic sound of its own was a strange object — nearly silent in a quiet room, useless at a campfire. It only became an instrument when the signal left the strings, traveled down a cable, and was reborn as a column of moving air pushed by a paper cone. From that moment forward, the electric guitar was never one instrument. It was always at least two, and usually more: a string, a magnet, a cable, a circuit, a tube, a transformer, a speaker, a room. The thing we casually call "the guitar sound" is the sum of all of them, and the great secret of electric tone is that no single link owns it.
 

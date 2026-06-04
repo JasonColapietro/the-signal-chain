@@ -65,6 +65,7 @@ ORDER = [
     ("44-gain-staging.md", "Part VIII: Building Your Rig"),
     ("45-building-the-pedalboard.md", "Part VIII: Building Your Rig"),
     ("46-matching-tone-to-music.md", "Part VIII: Building Your Rig"),
+    ("EPILOGUE.md", "Epilogue"),
     ("47-appendix-a-glossary.md", "Appendices"),
     ("48-appendix-b-timeline.md", "Appendices"),
     ("49-appendix-c-tab-reference.md", "Appendices"),
@@ -157,10 +158,8 @@ for p in part_seq:
             fig_no += 1
             bh = art.inject_hero(bh, fh)
         B.append('<section class="chapter" id="%s">%s</section>' % (csec(fn), bh))
-SITE = "https://guitar.solutions"
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
-              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
-                                        SITE + "/THE-SIGNAL-CHAIN.html", SITE + "/og-card.png"))
+              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN.html"), "w", encoding="utf-8").write(html)
 
 print("book: %d sections, %d tab blocks, %d words" %

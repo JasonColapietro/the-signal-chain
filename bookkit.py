@@ -372,55 +372,35 @@ def build_css(theme, ws=None):
     return css
 
 
-def seo_head(meta_title, desc, keywords, author, publisher, url="", image=""):
+def seo_head(meta_title, desc, keywords, author, publisher):
     import json
     ld = {
         "@context": "https://schema.org", "@type": "Book", "name": meta_title,
-        "author": {"@type": "Person", "name": author, "alternateName": "Johnny Suede",
-                   "url": "https://suedeai.ai", "jobTitle": "Founder",
-                   "worksFor": {"@type": "Organization", "name": "Suede Labs AI"},
-                   "sameAs": ["https://github.com/JasonColapietro", "https://x.com/johnnysuede",
-                              "https://suedeai.ai"]},
+        "author": {"@type": "Person", "name": author, "alternateName": "Johnny Suede"},
         "publisher": {"@type": "Organization", "name": publisher},
         "inLanguage": "en", "description": desc, "keywords": keywords,
         "genre": ["Music", "Guitar", "Reference"],
         "about": ["electric guitar tone", "guitar amplifiers", "effects pedals", "guitar tablature"],
     }
-    if url:
-        ld["url"] = url
-    if image:
-        ld["image"] = image
 
     def m(name, content, prop=False):
         a = "property" if prop else "name"
         return '<meta %s="%s" content="%s"/>' % (a, name, _html.escape(content, quote=True))
 
-    tags = [m("description", desc), m("keywords", keywords),
-            m("author", author + " (Johnny Suede)"), m("robots", "index, follow"),
-            m("og:title", meta_title, True), m("og:description", desc, True),
-            m("og:type", "book", True), m("og:site_name", publisher, True), m("og:locale", "en_US", True),
-            m("book:author", author, True),
-            m("twitter:title", meta_title), m("twitter:description", desc)]
-    if url:
-        tags.append('<link rel="canonical" href="%s"/>' % _html.escape(url, quote=True))
-        tags.append(m("og:url", url, True))
-    if image:
-        tags.append(m("og:image", image, True))
-        tags.append(m("og:image:alt", meta_title, True))
-        tags.append(m("twitter:image", image))
-        tags.append(m("twitter:card", "summary_large_image"))
-    else:
-        tags.append(m("twitter:card", "summary"))
-    tags.append('<script type="application/ld+json">' + json.dumps(ld) + "</script>")
-    return "".join(tags)
+    return "".join([
+        m("description", desc), m("keywords", keywords),
+        m("author", author + " (Johnny Suede)"), m("robots", "index, follow"),
+        m("og:title", meta_title, True), m("og:description", desc, True),
+        m("og:type", "book", True), m("og:site_name", publisher, True), m("og:locale", "en_US", True),
+        m("book:author", author, True),
+        m("twitter:card", "summary"), m("twitter:title", meta_title), m("twitter:description", desc),
+        '<script type="application/ld+json">' + json.dumps(ld) + "</script>",
+    ])
 
 
 def doc(title, css, body_html, head_extra=""):
     return ("<!DOCTYPE html>\n"
             '<html lang="en"><head><meta charset="utf-8"/>'
             '<meta name="viewport" content="width=device-width, initial-scale=1"/>'
-            '<link rel="icon" type="image/svg+xml" href="favicon.svg"/>'
-            '<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"/>'
-            '<link rel="apple-touch-icon" href="apple-touch-icon.png"/>'
             "<title>%s</title>%s<style>%s</style></head><body><div class=\"page\">%s</div></body></html>"
             % (esc(title), head_extra, css, body_html))
