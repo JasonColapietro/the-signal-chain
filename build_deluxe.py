@@ -191,7 +191,7 @@ for p in part_seq:
     if p == "Front Matter":
         B.append('<div class="toc-part"><a href="#%s">Front Matter</a></div>' % csec("00-front-matter.md"))
         continue
-    B.append('<div class="toc-part"><a href="#%s">%s</a></div>' % (pid(p), bk.esc(p.replace(":", " &middot;"))))
+    B.append('<div class="toc-part"><a href="#%s">%s</a></div>' % (pid(p), bk.esc(p.replace(":", " ·"))))
     B.append("<ul>")
     for fn in by_part[p]:
         B.append('<li><a href="#%s">%s</a></li>' % (csec(fn), bk.esc(ch_head[fn])))
