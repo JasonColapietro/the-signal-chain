@@ -3,6 +3,8 @@
 **A Player's History of Amplifiers, Effects, and the Pursuit of Electric Guitar Tone**
 by **Jason Colapietro** · *Johnny Suede Press*
 
+### 📖 [Read the full book free online → **guitar.solutions**](https://guitar.solutions)
+
 ![Cover](preview-9-cover.png)
 
 An illustrated, ~480-page history of electric guitar tone — the amplifiers, the effects pedals,
