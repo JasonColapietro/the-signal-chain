@@ -38,45 +38,63 @@ def inject_hero(body_html, fig_html):
 
 # ----------------------------------------------------------------- COVER
 def cover_hero(a, b):
-    cream = "#f1e6d4"
+    """Amp control-panel faceplate: jack, five knobs, jewel pilot light."""
+    cream = "#f2e7cf"
+    dim = "#c9b896"
+    panel = "#191210"
     parts = []
-    # radiating sound-waves from the speaker (right)
-    for i, r in enumerate((34, 58, 82, 106)):
-        op = 0.85 - i * 0.18
-        parts.append('<path d="M362 %d A %d %d 0 0 1 362 %d" stroke="%s" stroke-width="2" opacity="%.2f"/>'
-                      % (150 - r, r, r, 150 + r, b, op))
-    # amp cabinet
-    parts.append('<rect x="150" y="78" width="150" height="150" rx="10" stroke="%s" stroke-width="2.5"/>' % cream)
-    parts.append('<rect x="162" y="118" width="126" height="86" rx="5" stroke="%s" stroke-width="1.5" opacity=".8"/>' % b)
-    # grille texture
-    for gx in range(170, 286, 9):
-        parts.append('<line x1="%d" y1="120" x2="%d" y2="202" stroke="%s" stroke-width="1" opacity=".35"/>' % (gx, gx, b))
-    # control panel + knobs + glowing tube
-    parts.append('<rect x="162" y="90" width="126" height="20" rx="3" stroke="%s" stroke-width="1.2" opacity=".7"/>' % cream)
-    for kx in (176, 196, 216, 236):
-        parts.append('<circle cx="%d" cy="100" r="5" stroke="%s" stroke-width="1.3"/><line x1="%d" y1="100" x2="%d" y2="96" stroke="%s" stroke-width="1.3"/>' % (kx, cream, kx, kx, cream))
-    parts.append('<circle cx="266" cy="100" r="8" fill="%s" opacity=".25"/><circle cx="266" cy="100" r="4.5" stroke="%s" stroke-width="1.4"/>' % (b, b))
-    # guitar feeding in (left): body + neck + cable through a small pedal
-    parts.append('<ellipse cx="64" cy="150" rx="30" ry="40" stroke="%s" stroke-width="2.5"/>' % cream)
-    parts.append('<ellipse cx="64" cy="150" rx="11" ry="11" stroke="%s" stroke-width="1.4" opacity=".7"/>' % b)
-    parts.append('<line x1="86" y1="128" x2="150" y2="92" stroke="%s" stroke-width="2"/>' % cream)   # neck
-    parts.append('<path d="M92 178 C 112 192, 120 188, 124 176" stroke="%s" stroke-width="2"/>' % b)  # cable
-    parts.append('<rect x="118" y="168" width="20" height="26" rx="3" stroke="%s" stroke-width="1.6"/><circle cx="128" cy="176" r="2.4" fill="%s"/>' % (b, b))
-    parts.append('<path d="M138 181 C 146 181, 148 158, 162 150" stroke="%s" stroke-width="2"/>' % b)
-    return svg(420, 300, "".join(parts))
+    # panel + inner engraving line
+    parts.append('<rect x="6" y="14" width="448" height="142" rx="10" fill="%s" stroke="%s" stroke-width="2"/>' % (panel, dim))
+    parts.append('<rect x="15" y="23" width="430" height="124" rx="6" stroke="%s" stroke-width="1" opacity=".4"/>' % b)
+    # corner screws (slotted)
+    for sx, sy in ((26, 34), (434, 34), (26, 136), (434, 136)):
+        parts.append('<circle cx="%d" cy="%d" r="4" stroke="%s" stroke-width="1.1" opacity=".8"/>' % (sx, sy, dim))
+        parts.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" stroke-width="1.1" opacity=".8"/>'
+                     % (sx - 2.3, sy + 2.3, sx + 2.3, sy - 2.3, dim))
+    # input jack
+    parts.append('<circle cx="56" cy="76" r="13" stroke="%s" stroke-width="2"/>' % cream)
+    parts.append('<circle cx="56" cy="76" r="5" stroke="%s" stroke-width="1.4"/>' % b)
+    parts.append(t(56, 112, "INPUT", size=9, fill=dim, weight="700", ls=".18em"))
+    # five knobs with real settings
+    knobs = (("VOLUME", 8), ("BASS", 4), ("MIDS", 7), ("TREBLE", 6), ("REVERB", 3))
+    for i, (label, val) in enumerate(knobs):
+        cx = 118 + i * 62
+        cy = 76
+        # tick ring
+        for tv in (0, 2.5, 5, 7.5, 10):
+            ang = math.radians(-135 + 27 * tv)
+            x1 = cx + 21 * math.sin(ang); y1 = cy - 21 * math.cos(ang)
+            x2 = cx + 24.5 * math.sin(ang); y2 = cy - 24.5 * math.cos(ang)
+            parts.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" stroke-width="1.1" opacity=".75"/>'
+                         % (x1, y1, x2, y2, b))
+        parts.append('<circle cx="%d" cy="%d" r="17" stroke="%s" stroke-width="1.9" fill="#140e0a"/>' % (cx, cy, cream))
+        ang = math.radians(-135 + 27 * val)
+        px = cx + 12.5 * math.sin(ang); py = cy - 12.5 * math.cos(ang)
+        parts.append('<line x1="%d" y1="%d" x2="%.1f" y2="%.1f" stroke="%s" stroke-width="2.3"/>' % (cx, cy, px, py, cream))
+        parts.append('<circle cx="%d" cy="%d" r="2" fill="%s"/>' % (cx, cy, cream))
+        parts.append(t(cx, 112, label, size=9, fill=dim, weight="700", ls=".16em"))
+    # jewel pilot light
+    parts.append('<circle cx="408" cy="76" r="15" fill="#e0452f" opacity=".14"/>')
+    parts.append('<circle cx="408" cy="76" r="10.5" fill="#e0452f" opacity=".22"/>')
+    parts.append('<circle cx="408" cy="76" r="9.5" stroke="%s" stroke-width="1.2" opacity=".85"/>' % dim)
+    parts.append('<circle cx="408" cy="76" r="6.5" fill="#d8472f"/>')
+    parts.append('<circle cx="405.5" cy="73.5" r="2" fill="#ff9d8a" opacity=".9"/>')
+    parts.append(t(408, 112, "ON", size=9, fill=dim, weight="700", ls=".2em"))
+    # bottom engraving
+    parts.append(t(230, 143, "MODEL JSP-2026  \u00b7  HAND-WIRED  \u00b7  POINT-TO-POINT", size=8.5, fill=dim, weight="400", ls=".22em"))
+    return svg(460, 170, "".join(parts))
 
 
 def cover(super_kicker, title, subtitle, author, imprint, a, b):
     return ('<section class="cover"><div class="cover-inner">'
-            '<div class="cover-kicker">%s</div>'
+            '<div class="cover-kicker"><span class="cover-lamp"></span>%s</div>'
             '<h1 class="cover-title">%s</h1>'
-            '<div class="cover-rule"></div>'
-            '<p class="cover-sub">%s</p>'
             '<div class="cover-hero">%s</div>'
+            '<p class="cover-sub">%s</p>'
             '<p class="cover-author">%s</p>'
             '<p class="cover-imprint">%s</p>'
-            '</div></section>') % (esc(super_kicker), esc(title), esc(subtitle),
-                                   cover_hero(a, b), esc(author), esc(imprint))
+            '</div></section>') % (esc(super_kicker), esc(title), cover_hero(a, b),
+                                   esc(subtitle), esc(author), esc(imprint))
 
 
 # ----------------------------------------------------------------- DIAGRAM HELPERS

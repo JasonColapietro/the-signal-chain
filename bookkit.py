@@ -310,15 +310,16 @@ th{background:@TABBG@;font-family:"Helvetica Neue",Arial,sans-serif;}
 .fig-art svg{max-width:100%;height:auto;display:inline-block;}
 .fig figcaption{font-family:"Iowan Old Style",Georgia,serif;font-style:italic;font-size:.86rem;color:@INKSOFT@;margin-top:.65rem;line-height:1.45;max-width:34rem;margin-left:auto;margin-right:auto;}
 .fig .fig-label{font-family:"Helvetica Neue",Arial,sans-serif;font-style:normal;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:@ACCENT@;font-size:.66rem;margin-right:.5em;}
-.cover{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:radial-gradient(125% 95% at 50% 32%, #2c2723 0%, #1c1815 55%, #141110 100%);color:#f1e6d4;padding:3rem 2rem;}
-.cover-inner{max-width:34rem;}
-.cover-kicker{font-family:"Helvetica Neue",Arial,sans-serif;letter-spacing:.36em;text-transform:uppercase;font-size:.78rem;color:@ACCENT2@;margin-bottom:1.1rem;}
-.cover-title{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:clamp(2.8rem,9vw,5.4rem);letter-spacing:.07em;line-height:1;margin:0;color:#f7ecda;}
-.cover-rule{width:90px;height:2px;background:@ACCENT2@;margin:1.5rem auto;opacity:.85;}
-.cover-sub{font-style:italic;font-size:1.12rem;color:#dcc8aa;max-width:27rem;margin:0 auto;}
-.cover-hero{margin:2.2rem auto 1.4rem;}
-.cover-author{font-family:"Iowan Old Style",Georgia,serif;font-variant:small-caps;letter-spacing:.12em;font-size:1.18rem;color:@ACCENT2@;margin:.2rem 0 0;}
-.cover-imprint{font-family:"Helvetica Neue",Arial,sans-serif;letter-spacing:.3em;text-transform:uppercase;font-size:.7rem;color:#b89e7e;margin-top:1.3rem;}
+.cover{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:radial-gradient(115% 75% at 50% 6%, #2b1d10 0%, #19110a 52%, #110c08 100%);color:#f2e7cf;padding:3rem 2rem;}
+.cover-inner{max-width:36rem;}
+.cover-kicker{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;letter-spacing:.32em;text-transform:uppercase;font-size:.76rem;color:@ACCENT2@;margin-bottom:1.4rem;display:flex;align-items:center;justify-content:center;gap:.65rem;}
+.cover-lamp{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;background:#d8472f;box-shadow:0 0 10px 2px rgba(216,71,47,.6);}
+.cover-title{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:clamp(3rem,10vw,5.9rem);letter-spacing:.045em;line-height:.98;margin:0;color:#f5ead2;}
+.cover-hero{margin:2.4rem auto 1.8rem;max-width:30rem;}
+.cover-hero svg{width:100%;height:auto;}
+.cover-sub{font-style:italic;font-size:1.16rem;color:#cfbb97;max-width:28rem;margin:0 auto;}
+.cover-author{font-family:"Iowan Old Style",Georgia,serif;font-variant:small-caps;letter-spacing:.14em;font-size:1.22rem;color:@ACCENT2@;margin:1.5rem 0 0;}
+.cover-imprint{font-family:"Helvetica Neue",Arial,sans-serif;letter-spacing:.32em;text-transform:uppercase;font-size:.68rem;color:#a98e6b;margin-top:1rem;}
 @media (max-width:600px){body{font-size:17px;}pre.tab{font-size:11px;}}
 @media print{
  @page{margin:20mm 18mm;}
@@ -404,3 +405,44 @@ def doc(title, css, body_html, head_extra=""):
             '<meta name="viewport" content="width=device-width, initial-scale=1"/>'
             "<title>%s</title>%s<style>%s</style></head><body><div class=\"page\">%s</div></body></html>"
             % (esc(title), head_extra, css, body_html))
+
+
+# ----------------------------------------------------------------- PAYWALL
+def paywall(cut_id, buy_url, unlock_url="unlock.html", lessons_url="lessons.html"):
+    """Soft client-side gate. Hides every chapter/part-divider from cut_id onward
+    unless localStorage tsc-unlock=1 (set by unlock.html after purchase) or the
+    page is opened with ?full=1 (used when printing the PDFs)."""
+    panel = (
+        '<div style="font-weight:700;letter-spacing:.28em;font-size:.72rem;color:#eb9a26;">'
+        '<span style="color:#d8472f;">\u25cf</span>&nbsp; END OF THE FREE PREVIEW</div>'
+        '<div style="font-weight:800;font-size:clamp(1.6rem,4vw,2.3rem);line-height:1.1;color:#f2e7cf;margin:1rem 0 .9rem;">'
+        'Keep reading. Unlock everything.</div>'
+        '<div style="font-size:1rem;line-height:1.65;color:#d9c9a8;max-width:34rem;margin:0 auto;">'
+        'One purchase opens all three editions in this browser, plus the PDF downloads: '
+        '<b style="color:#f2e7cf;">The Signal Chain</b> (the history), '
+        '<b style="color:#f2e7cf;">The Tone Workbook</b> (all 50 lessons), and '
+        '<b style="color:#f2e7cf;">A Life in Six Strings</b> (the complete edition).</div>'
+        '<div style="margin:1.6rem 0 .4rem;"><a href="%s" '
+        'style="display:inline-block;background:linear-gradient(180deg,#ffb84d,#eb9a26);color:#1a130b;'
+        'font-weight:700;font-size:1.05rem;padding:.9rem 1.8rem;border-radius:6px;text-decoration:none;">'
+        'Unlock everything \u00b7 $9.99</a></div>'
+        '<div style="font-size:.85rem;color:#a98e6b;margin-top:1rem;">'
+        'Already purchased? <a href="%s" style="color:#ffb84d;">Restore access on this device</a>'
+        ' &nbsp;\u00b7&nbsp; Still browsing? <a href="%s" style="color:#ffb84d;">Three full lessons are free</a></div>'
+    ) % (buy_url, unlock_url, lessons_url)
+    return (
+        '<script>(function(){'
+        'try{if(/[?&]full=1/.test(location.search))return;'
+        'if(localStorage.getItem("tsc-unlock")==="1")return;}catch(e){return;}'
+        'var cut=document.getElementById("%s");if(!cut)return;'
+        'var secs=document.querySelectorAll("section.chapter,section.part-divider");'
+        'var hide=false;for(var i=0;i<secs.length;i++){if(secs[i].id==="%s")hide=true;'
+        'if(hide)secs[i].style.display="none";}'
+        'var d=document.createElement("section");d.id="paywall";'
+        'd.style.cssText="background:radial-gradient(115%% 90%% at 50%% 0%%,#2b1d10 0%%,#170f09 60%%,#110c08 100%%);'
+        'border-radius:14px;padding:3rem 1.6rem;margin:3.2rem 0;text-align:center;'
+        'font-family:Helvetica Neue,Arial,sans-serif;";'
+        "d.innerHTML='%s';"
+        'cut.parentNode.insertBefore(d,cut);'
+        '})();</script>'
+    ) % (cut_id, cut_id, panel.replace("'", "\\'"))

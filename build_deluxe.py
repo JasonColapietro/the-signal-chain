@@ -216,6 +216,7 @@ for p in part_seq:
         for lf in CH2LESSON.get(cnum(fn), []):
             B.append('<section class="chapter workshop" id="%s">%s</section>'
                      % (lsec(lf), bk.render_blocks(bk.read_text(os.path.join(LES, lf + ".md")).splitlines())))
+B.append(bk.paywall("sec-02-anatomy-of-an-amplifier", "https://buy.stripe.com/3cIfZjbldfDT7RafInaZi0h"))
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME, WS),
               "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN-DELUXE.html"), "w", encoding="utf-8").write(html)

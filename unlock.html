@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Access Unlocked — THE SIGNAL CHAIN</title>
+<meta name="description" content="Your all-access unlock for THE SIGNAL CHAIN: all three editions plus PDF downloads."/>
+<meta name="robots" content="noindex, follow"/>
+<link rel="canonical" href="https://guitar.solutions/unlock.html"/>
+<meta name="theme-color" content="#120e0b"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@700;800&family=Literata:ital,opsz,wght@0,7..72,400;1,7..72,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#120e0b;--panel:#1f1812;--panel2:#261d14;--line:#3b2f20;--cream:#f2e7cf;--cream-dim:#d9c9a8;
+ --body-t:#cfc0a1;--amber:#eb9a26;--amber-hot:#ffb84d;--jewel:#ff4b33}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(90rem 40rem at 50% -10%,rgba(235,154,38,.08),transparent 60%),var(--bg);
+ color:var(--body-t);font-family:Literata,Georgia,serif;font-size:1.05rem;line-height:1.7;min-height:100vh;
+ display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem 1.25rem;-webkit-font-smoothing:antialiased}
+.card{max-width:38rem;width:100%;background:linear-gradient(180deg,var(--panel2),var(--panel));
+ border:1px solid #54400f;border-radius:14px;padding:clamp(1.8rem,5vw,3rem);text-align:center}
+.lamp{width:.85rem;height:.85rem;border-radius:50%;display:inline-block;margin-bottom:1rem;
+ background:radial-gradient(circle at 35% 30%,#ff9d8a,var(--jewel) 55%,#7e1404 95%);box-shadow:0 0 12px 2px rgba(255,75,51,.7)}
+.kick{font-family:"Courier Prime",monospace;font-weight:700;font-size:.78rem;letter-spacing:.26em;color:var(--amber);margin:0}
+h1{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.05;color:var(--cream);
+ margin:.6rem 0 1rem;text-transform:uppercase;text-wrap:balance}
+p{margin:.4rem 0;text-wrap:pretty}
+.eds{display:flex;flex-direction:column;gap:.6rem;margin:1.6rem 0 .4rem;text-align:left}
+.eds a{display:flex;justify-content:space-between;align-items:center;gap:1rem;border:1px solid var(--line);
+ border-radius:8px;padding:.85rem 1.1rem;text-decoration:none;color:var(--cream);transition:border-color .15s}
+.eds a:hover{border-color:var(--amber)}
+.eds b{font-family:Jost,sans-serif;font-weight:700;font-size:.98rem}
+.eds small{font-family:"Courier Prime",monospace;font-size:.72rem;letter-spacing:.08em;color:var(--cream-dim)}
+.eds .pdf{font-family:"Courier Prime",monospace;font-weight:700;font-size:.75rem;letter-spacing:.1em;color:var(--amber-hot);white-space:nowrap}
+.note{font-size:.85rem;color:var(--cream-dim);margin-top:1.4rem}
+.note a{color:var(--amber-hot)}
+.home{display:inline-block;margin-top:1.2rem;font-family:Jost,sans-serif;font-weight:700;font-size:.9rem;
+ color:var(--amber-hot);text-decoration:none}
+.home:hover{text-decoration:underline}
+@media (prefers-reduced-motion: reduce){.lamp{box-shadow:0 0 8px 1px rgba(255,75,51,.5)}}
+</style>
+</head>
+<body>
+<main class="card">
+  <span class="lamp" aria-hidden="true"></span>
+  <p class="kick">ALL ACCESS · POWER ON</p>
+  <h1 id="state-h">Access unlocked.</h1>
+  <p>Thank you. All three editions now read in full <strong style="color:var(--cream)">in this browser</strong>, and the PDFs are yours to download.</p>
+  <nav class="eds" aria-label="Your editions">
+    <a href="THE-SIGNAL-CHAIN-DELUXE.html"><span><b>A Life in Six Strings</b><br/><small>THE COMPLETE EDITION · 968 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN-DELUXE.pdf">PDF · 13 MB</span></a>
+    <a href="THE-SIGNAL-CHAIN.html"><span><b>The Signal Chain</b><br/><small>THE HISTORY · 493 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN.pdf">PDF · 6.5 MB</span></a>
+    <a href="THE-SIGNAL-CHAIN-WORKBOOK.html"><span><b>The Tone Workbook</b><br/><small>50 SONG LESSONS · 351 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN-WORKBOOK.pdf">PDF · 5.5 MB</span></a>
+  </nav>
+  <p class="note">Each row opens the reader; the amber tag downloads the PDF. Reading on another device later? Open this page there once: keep your Stripe receipt email, it links straight back here. Questions: <a href="https://x.com/johnnysuede">@johnnysuede</a>.</p>
+  <a class="home" href="index.html">Back to guitar.solutions</a>
+</main>
+<script>
+try{localStorage.setItem('tsc-unlock','1');}catch(e){
+  document.getElementById('state-h').textContent='Almost there.';
+  document.querySelector('.note').innerHTML='Your browser is blocking local storage, which this unlock needs. Allow site data for guitar.solutions, then reload this page. Questions: <a href="https://x.com/johnnysuede" style="color:#ffb84d">@johnnysuede</a>.';
+}
+document.querySelectorAll('.pdf').forEach(function(el){
+  el.addEventListener('click',function(ev){ev.preventDefault();ev.stopPropagation();
+    var a=document.createElement('a');a.href=el.dataset.pdf;a.download='';document.body.appendChild(a);a.click();a.remove();});
+});
+</script>
+</body>
+</html>
