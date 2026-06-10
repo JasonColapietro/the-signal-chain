@@ -21,10 +21,13 @@
 <meta name="twitter:title" content="THE SIGNAL CHAIN: A Life in Six Strings"/>
 <meta name="twitter:description" content="A history of guitar tone, a self-taught memoir, theory, gear, and 50 song lessons. By Jason Colapietro (Johnny Suede). Read free online."/>
 <meta name="twitter:image" content="https://guitar.solutions/og-card.png"/>
-<meta name="theme-color" content="#1c1815"/>
+<meta name="theme-color" content="#120e0b"/>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"/>
 <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700;800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400;1,7..72,500&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"/>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":"WebSite","@id":"https://guitar.solutions/#website","url":"https://guitar.solutions/","name":"THE SIGNAL CHAIN","inLanguage":"en","publisher":{"@id":"https://guitar.solutions/#org"}},
@@ -34,180 +37,505 @@
 ]}
 </script>
 <style>
-:root{--paper:#f7f2e8;--ink:#2a2118;--mut:#6b5d4c;--ox:#8c2f22;--amber:#b06a24;--rule:#d9c9a9;--dark:#1c1815;}
-*{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{margin:0;background:var(--paper);color:var(--ink);
- font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-size:18px;line-height:1.65;-webkit-font-smoothing:antialiased;}
-a{color:var(--ox);}
-.wrap{max-width:64rem;margin:0 auto;padding:0 1.5rem;}
-h2{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:1.9rem;letter-spacing:-.01em;margin:0 0 1.2rem;}
-.kick{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;letter-spacing:.3em;text-transform:uppercase;font-size:.74rem;color:var(--amber);}
-/* hero */
-.hero{background:radial-gradient(125% 90% at 50% 25%,#2c2723 0%,#1c1815 55%,#141110 100%);color:#f1e6d4;text-align:center;padding:5rem 1.5rem 4rem;}
-.hero .kick{color:var(--amber);}
-.hero h1{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:clamp(2.8rem,9vw,5.4rem);letter-spacing:.08em;line-height:1.02;margin:.8rem 0 0;color:#f7ecda;}
-.hero .sub{font-style:italic;font-size:1.2rem;color:#dcc8aa;max-width:34rem;margin:1.2rem auto 0;}
-.hero .by{margin-top:1.4rem;font-variant:small-caps;letter-spacing:.1em;color:var(--amber);font-size:1.1rem;}
-.hero .by a{color:var(--amber);text-decoration:none;}
-.hero svg{max-width:380px;width:80%;height:auto;margin:2rem auto .5rem;display:block;}
-.cta{margin-top:1.8rem;display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;}
-.btn{display:inline-block;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:.92rem;letter-spacing:.02em;text-decoration:none;padding:.7rem 1.5rem;border-radius:6px;}
-.btn-primary{background:var(--amber);color:#1c1815;}
-.btn-ghost{border:1.5px solid #6b5a44;color:#f1e6d4;}
-/* stats */
-.stats{background:var(--ink);color:#f1e6d4;}
-.stats .wrap{display:flex;flex-wrap:wrap;justify-content:space-around;gap:1rem;padding:1.8rem 1.5rem;text-align:center;}
-.stat b{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:1.8rem;color:var(--amber);}
-.stat span{font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;color:#cdbb9e;}
-/* sections */
-section{padding:4rem 0;border-bottom:1px solid var(--rule);}
-.lead-p{font-size:1.18rem;max-width:42rem;color:#473b2e;}
-.editions{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.4rem;margin-top:1.8rem;}
-.card{background:#fff;border:1px solid var(--rule);border-radius:10px;padding:1.6rem;display:flex;flex-direction:column;}
-.card .tag{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:.68rem;color:var(--ox);}
-.card h3{font-family:"Iowan Old Style",Georgia,serif;font-size:1.4rem;margin:.4rem 0 .2rem;}
-.card .pp{font-size:.86rem;color:var(--mut);}
-.card p{font-size:.96rem;color:#473b2e;flex:1;}
-.card .links{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem;}
-.card .links a{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.82rem;font-weight:700;text-decoration:none;padding:.45rem .9rem;border-radius:5px;}
-.card .links .r{background:var(--ox);color:#fff;}
-.card .links .d{border:1.5px solid var(--rule);color:var(--ink);}
-.feat{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;}
-.feat img{width:100%;border:1px solid var(--rule);border-radius:8px;}
-.feat ul{margin:0;padding-left:1.1rem;}
-.feat li{margin:.5rem 0;}
-.author{display:flex;gap:1.6rem;align-items:flex-start;flex-wrap:wrap;}
-.author .badge{flex:0 0 auto;width:74px;height:74px;border-radius:50%;background:var(--ink);color:var(--amber);display:flex;align-items:center;justify-content:center;font-family:"Iowan Old Style",Georgia,serif;font-size:1.8rem;font-weight:700;}
-.author .photo{flex:0 0 auto;width:100px;height:100px;border-radius:50%;object-fit:cover;border:2px solid var(--amber);}
-.author .links a{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:.92rem;}
-.author .bio{flex:1;min-width:260px;}
-footer{background:var(--dark);color:#cdbb9e;text-align:center;padding:2.4rem 1.5rem;font-size:.86rem;}
-footer a{color:var(--amber);}
-@media(max-width:640px){.feat{grid-template-columns:1fr;}}
+:root{
+ --bg:#120e0b; --bg2:#19130d; --panel:#1f1812; --panel2:#261d14;
+ --line:#3b2f20; --line-soft:#2b2218;
+ --cream:#f2e7cf; --cream-dim:#d9c9a8; --body-t:#cfc0a1;
+ --amber:#eb9a26; --amber-hot:#ffb84d; --jewel:#ff4b33; --ox:#a33a25;
+ --paper:#f2e7cf; --paper-ink:#241c12;
+ --z-nav:30; --z-skip:40;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+ radial-gradient(90rem 40rem at 80% -10%,rgba(235,154,38,.07),transparent 60%),
+ radial-gradient(70rem 36rem at 0% 0%,rgba(163,58,37,.05),transparent 55%),
+ var(--bg);
+ color:var(--body-t);font-family:Literata,Georgia,serif;font-size:1.075rem;line-height:1.72;
+ -webkit-font-smoothing:antialiased}
+h1,h2,h3{color:var(--cream);text-wrap:balance}
+p{text-wrap:pretty}
+a{color:var(--amber-hot)}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:72rem;margin:0 auto;padding:0 clamp(1.25rem,4vw,2.5rem)}
+.skip{position:absolute;left:-200vw;top:.5rem;z-index:var(--z-skip);background:var(--amber);color:#1a130b;
+ font-family:Jost,sans-serif;font-weight:700;padding:.5rem 1rem;border-radius:4px;text-decoration:none}
+.skip:focus{left:.5rem}
+
+/* ---------- panel nav ---------- */
+.panel-nav{position:sticky;top:0;z-index:var(--z-nav);background:rgba(18,14,11,.92);
+ border-bottom:1px solid var(--line-soft);backdrop-filter:blur(8px)}
+.panel-nav .wrap{display:flex;align-items:center;gap:1.25rem;padding-top:.7rem;padding-bottom:.7rem}
+.brand{display:flex;align-items:center;gap:.65rem;text-decoration:none;margin-right:auto}
+.jewel{width:.72rem;height:.72rem;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9d8a,var(--jewel) 55%,#7e1404 95%);
+ box-shadow:0 0 8px 1px rgba(255,75,51,.7);animation:jewel 4.5s ease-in-out infinite}
+@keyframes jewel{0%,100%{box-shadow:0 0 7px 1px rgba(255,75,51,.55)}50%{box-shadow:0 0 11px 2px rgba(255,75,51,.85)}}
+.brand b{font-family:Jost,sans-serif;font-weight:800;font-size:.95rem;letter-spacing:.16em;color:var(--cream)}
+.panel-nav nav{display:flex;gap:1.35rem;align-items:center}
+.panel-nav nav a{font-family:Jost,sans-serif;font-weight:700;font-size:.8rem;letter-spacing:.12em;
+ text-transform:uppercase;color:var(--cream-dim);text-decoration:none;padding:.25rem 0;border-bottom:2px solid transparent}
+.panel-nav nav a:hover{color:var(--cream);border-bottom-color:var(--amber)}
+.panel-nav .go{background:var(--amber);color:#1a130b;border-radius:4px;padding:.45rem .95rem;border-bottom:none}
+.panel-nav .go:hover{background:var(--amber-hot);color:#1a130b}
+@media(max-width:760px){
+ .panel-nav nav a:not(.go){display:none}
+ .brand b{font-size:.8rem;letter-spacing:.1em;white-space:nowrap}
+ .panel-nav .go{white-space:nowrap;padding:.4rem .8rem;font-size:.72rem}
+}
+
+/* ---------- hero ---------- */
+.hero{padding:clamp(3.5rem,9vh,6.5rem) 0 0;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(1.5rem,4vw,4rem);align-items:center}
+.hero .kick{font-family:"Courier Prime",monospace;font-size:.85rem;color:var(--amber);letter-spacing:.08em;margin:0}
+.hero h1{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(2.9rem,7.5vw,5.6rem);
+ line-height:.98;letter-spacing:-.015em;margin:.5rem 0 0;text-transform:uppercase}
+.hero h1 em{font-style:normal;color:var(--amber)}
+.hero .sub{font-style:italic;font-size:clamp(1.15rem,2vw,1.4rem);color:var(--cream-dim);max-width:36rem;margin:1.3rem 0 0;line-height:1.55}
+.hero .by{font-family:Jost,sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.18em;text-transform:uppercase;color:var(--cream-dim);margin-top:1.4rem}
+.hero .by a{color:var(--amber);text-decoration:none}
+.hero .by a:hover{text-decoration:underline}
+.cta{margin-top:2rem;display:flex;gap:.85rem;flex-wrap:wrap}
+.btn{display:inline-block;font-family:Jost,sans-serif;font-weight:700;font-size:.95rem;letter-spacing:.05em;
+ text-decoration:none;padding:.8rem 1.6rem;border-radius:5px;transition:transform .18s cubic-bezier(.16,1,.3,1),background .18s,border-color .18s,color .18s}
+.btn-amp{background:linear-gradient(180deg,var(--amber-hot),var(--amber));color:#1a130b;box-shadow:0 1px 0 rgba(255,255,255,.25) inset}
+.btn-amp:hover{transform:translateY(-2px);background:var(--amber-hot)}
+.btn-line{border:1.5px solid var(--line);color:var(--cream)}
+.btn-line:hover{border-color:var(--amber);color:var(--amber-hot);transform:translateY(-2px)}
+.chain-art{width:100%;height:auto}
+.chain-art .pulse{offset-path:path('M14 150 L96 150 L96 196 L168 196 L168 150 L262 150 L262 196 L330 196 L330 150 L420 150');
+ offset-distance:0%;animation:travel 5.5s linear infinite}
+@keyframes travel{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.spec-plate{margin-top:clamp(2.5rem,6vh,4rem);border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+ background:linear-gradient(180deg,rgba(242,231,207,.035),rgba(242,231,207,0))}
+.spec-plate .wrap{display:flex;flex-wrap:wrap;gap:.4rem 2.4rem;justify-content:space-between;padding-top:.8rem;padding-bottom:.8rem}
+.spec-plate span{font-family:"Courier Prime",monospace;font-size:.82rem;letter-spacing:.1em;color:var(--cream-dim);white-space:nowrap}
+.spec-plate b{color:var(--amber);font-weight:700}
+@media(max-width:880px){.hero .wrap{grid-template-columns:1fr}.hero .chain-art{max-width:30rem}}
+
+/* ---------- stage headers ---------- */
+section{padding:clamp(3.5rem,9vh,6.5rem) 0}
+.stage{display:flex;align-items:center;gap:.8rem;margin-bottom:clamp(1.6rem,4vh,2.6rem)}
+.stage .jack{flex:0 0 auto}
+.stage b{font-family:"Courier Prime",monospace;font-weight:700;font-size:.85rem;letter-spacing:.22em;color:var(--amber)}
+.stage i{flex:1;height:1px;background:var(--line);font-style:normal}
+h2{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(1.9rem,4vw,3rem);line-height:1.08;letter-spacing:-.01em;margin:0 0 1.4rem}
+
+/* ---------- the book ---------- */
+.book-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:clamp(2rem,5vw,4.5rem);align-items:start}
+.lead-p{font-size:clamp(1.12rem,1.6vw,1.28rem);line-height:1.7;color:var(--body-t);max-width:38rem;margin:0 0 1.2rem}
+.lead-p strong{color:var(--cream);font-weight:600}
+.cover-obj{position:relative;margin:0;transform:rotate(2.2deg);transition:transform .35s cubic-bezier(.16,1,.3,1)}
+.cover-obj:hover{transform:rotate(0deg) translateY(-6px)}
+.cover-obj img{border-radius:4px;box-shadow:0 30px 60px -25px rgba(0,0,0,.8),0 8px 18px -8px rgba(0,0,0,.6)}
+.cover-obj figcaption{font-family:"Courier Prime",monospace;font-size:.78rem;letter-spacing:.12em;color:var(--cream-dim);
+ text-align:center;margin-top:.9rem}
+.pull{border:none;margin:2.6rem 0 0;padding:0 0 0 1.4rem;border-left:3px solid var(--amber);max-width:34rem}
+.pull p{font-style:italic;font-size:clamp(1.3rem,2.2vw,1.65rem);line-height:1.45;color:var(--cream);margin:0}
+.pull footer{font-family:"Courier Prime",monospace;font-size:.8rem;letter-spacing:.14em;color:var(--cream-dim);margin-top:.8rem}
+
+/* ---------- inside / excerpt ---------- */
+.inside-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(2rem,5vw,4rem);align-items:center}
+.page-artifact{background:var(--paper);color:var(--paper-ink);border-radius:3px;padding:clamp(1.5rem,3.5vw,2.6rem);
+ box-shadow:0 24px 50px -22px rgba(0,0,0,.75);max-width:34rem}
+.page-artifact .ch{font-family:Jost,sans-serif;font-weight:700;font-size:.75rem;letter-spacing:.22em;color:var(--ox);text-transform:uppercase}
+.page-artifact p{font-size:1.02rem;line-height:1.75;margin:.9rem 0 0;color:var(--paper-ink)}
+.page-artifact p::first-letter{font-size:2.6em;float:left;line-height:.85;padding:.06em .12em 0 0;color:var(--ox);font-weight:600}
+.fig-stack{position:relative;min-height:30rem}
+.fig-stack figure{position:absolute;margin:0;border-radius:4px;overflow:hidden;border:1px solid var(--line);
+ box-shadow:0 22px 44px -18px rgba(0,0,0,.8);background:#0d0a08}
+.fig-stack img{object-fit:cover;object-position:top;width:100%;height:100%}
+.fig-a{left:0;top:0;width:58%;height:88%}
+.fig-b{right:0;top:10%;width:46%;height:80%;z-index:2}
+.fig-cap{font-family:"Courier Prime",monospace;font-size:.78rem;letter-spacing:.1em;color:var(--cream-dim);margin-top:1rem}
+@media(max-width:880px){.book-grid,.inside-grid{grid-template-columns:1fr}.cover-obj{max-width:21rem}.fig-stack{min-height:24rem}}
+
+/* ---------- tone wall ---------- */
+.tone-intro{max-width:40rem;font-size:1.15rem;margin-bottom:2.4rem}
+.tone-wall{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:1.1rem}
+.plate{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:8px;
+ padding:1.35rem 1.35rem 1.1rem;display:flex;flex-direction:column;gap:.55rem;position:relative;
+ transition:border-color .2s,transform .2s cubic-bezier(.16,1,.3,1)}
+.plate:hover{border-color:var(--amber);transform:translateY(-3px)}
+.plate .era{font-family:"Courier Prime",monospace;font-size:.74rem;letter-spacing:.16em;color:var(--amber)}
+.plate h3{font-family:Jost,sans-serif;font-weight:800;font-size:1.18rem;letter-spacing:.04em;text-transform:uppercase;
+ margin:0;line-height:1.25}
+.plate .who{font-family:Jost,sans-serif;font-weight:700;font-size:.8rem;letter-spacing:.1em;color:var(--cream-dim);text-transform:uppercase}
+.plate .tone{font-style:italic;font-size:.95rem;line-height:1.55;color:var(--body-t);margin:0;flex:1}
+.knob-row{display:flex;gap:.5rem;justify-content:space-between;margin-top:.5rem;padding-top:.9rem;border-top:1px solid var(--line-soft)}
+.knob{display:flex;flex-direction:column;align-items:center;gap:.3rem;flex:1;min-width:0}
+.knob .dial{position:relative;width:44px;height:44px;display:block}
+.knob .dial::after{content:"";position:absolute;left:50%;top:50%;width:2.5px;height:15px;margin-left:-1.25px;
+ background:var(--cream);border-radius:2px;transform-origin:50% 100%;
+ transform:translateY(-100%) rotate(calc(-135deg + var(--v)*27deg))}
+.knob output{font-family:"Courier Prime",monospace;font-weight:700;font-size:.8rem;color:var(--amber)}
+.knob .lbl{font-family:"Courier Prime",monospace;font-size:.62rem;letter-spacing:.1em;color:var(--cream-dim);text-align:center}
+.plate .lnk{font-family:"Courier Prime",monospace;font-size:.76rem;letter-spacing:.12em;color:var(--cream-dim);
+ text-decoration:none;margin-top:.8rem}
+.plate .lnk b{color:var(--amber-hot);font-weight:700}
+.plate .lnk:hover b{text-decoration:underline}
+
+/* ---------- free lessons ---------- */
+.free-head{margin:4rem 0 1.6rem;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap}
+.free-head h3{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(1.4rem,2.6vw,2rem);margin:0;text-transform:uppercase;letter-spacing:.02em;color:var(--cream)}
+.free-head span{font-family:"Courier Prime",monospace;font-size:.85rem;color:var(--amber)}
+.setlist{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.setlist a{display:grid;grid-template-columns:3.4rem minmax(0,1.3fr) minmax(0,2fr) auto;gap:1.2rem;align-items:center;
+ padding:1.15rem .4rem;border-bottom:1px solid var(--line);text-decoration:none;transition:background .18s,padding-left .25s cubic-bezier(.16,1,.3,1)}
+.setlist a:hover{background:rgba(235,154,38,.06);padding-left:1rem}
+.setlist .no{font-family:"Courier Prime",monospace;font-weight:700;color:var(--amber);font-size:1.05rem}
+.setlist .song{font-family:Jost,sans-serif;font-weight:800;color:var(--cream);font-size:1.12rem;letter-spacing:.02em;line-height:1.3}
+.setlist .song small{display:block;font-family:"Courier Prime",monospace;font-weight:400;font-size:.76rem;letter-spacing:.1em;color:var(--cream-dim);margin-top:.15rem}
+.setlist .steal{font-style:italic;font-size:.95rem;color:var(--body-t);line-height:1.5}
+.setlist .tag{font-family:"Courier Prime",monospace;font-size:.72rem;letter-spacing:.14em;color:var(--cream-dim);
+ border:1px solid var(--line);border-radius:99px;padding:.3rem .8rem;white-space:nowrap}
+.setlist a:hover .tag{border-color:var(--amber);color:var(--amber-hot)}
+@media(max-width:760px){.setlist a{grid-template-columns:2.4rem 1fr;grid-template-rows:auto auto}.setlist .steal{grid-column:2}.setlist .tag{display:none}}
+
+/* ---------- editions ---------- */
+.ed-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:1.1rem}
+.ed{border:1px solid var(--line);border-radius:10px;padding:clamp(1.5rem,3vw,2.2rem);background:linear-gradient(180deg,var(--panel),var(--bg2));
+ display:flex;flex-direction:column;gap:.7rem;transition:border-color .2s}
+.ed:hover{border-color:var(--amber)}
+.ed-feature{grid-row:span 2;background:linear-gradient(165deg,#2c2013,var(--panel) 55%,var(--bg2));border-color:#54400f}
+.ed .tag{font-family:"Courier Prime",monospace;font-size:.74rem;letter-spacing:.2em;color:var(--amber)}
+.ed h3{font-family:Literata,Georgia,serif;font-weight:600;font-style:italic;font-size:clamp(1.5rem,2.6vw,2.1rem);margin:0;line-height:1.2}
+.ed-feature h3{font-size:clamp(1.9rem,3.4vw,2.7rem)}
+.ed .pp{font-family:"Courier Prime",monospace;font-size:.8rem;letter-spacing:.08em;color:var(--cream-dim)}
+.ed p{margin:.2rem 0 0;font-size:.98rem;line-height:1.65;flex:1}
+.ed .links{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1rem}
+.ed .links .r{background:linear-gradient(180deg,var(--amber-hot),var(--amber));color:#1a130b;font-family:Jost,sans-serif;
+ font-weight:700;font-size:.85rem;text-decoration:none;padding:.6rem 1.2rem;border-radius:5px}
+.ed .links .r:hover{background:var(--amber-hot)}
+.ed .links .d{border:1.5px solid var(--line);color:var(--cream);font-family:Jost,sans-serif;font-weight:700;
+ font-size:.85rem;text-decoration:none;padding:.6rem 1.2rem;border-radius:5px}
+.ed .links .d:hover{border-color:var(--amber);color:var(--amber-hot)}
+.ed .open{margin-top:.4rem;font-size:.9rem;font-style:italic;color:var(--cream-dim);flex:0}
+@media(max-width:880px){.ed-grid{grid-template-columns:1fr}.ed-feature{grid-row:auto}}
+
+/* ---------- author ---------- */
+.author{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(1.5rem,4vw,3rem);align-items:start;max-width:56rem}
+.author .ph{position:relative;width:clamp(7rem,16vw,10rem)}
+.author .ph img{border-radius:4px;filter:saturate(.92)}
+.author .ph::before,.author .ph::after{content:"";position:absolute;width:1.1rem;height:1.1rem;border:2px solid var(--amber)}
+.author .ph::before{left:-7px;top:-7px;border-right:none;border-bottom:none}
+.author .ph::after{right:-7px;bottom:-7px;border-left:none;border-top:none}
+.author h2{font-size:clamp(1.5rem,2.6vw,2rem);margin-bottom:.2rem}
+.author .as{font-style:italic;color:var(--cream-dim);font-size:1.02rem;margin:0}
+.author p{margin:.9rem 0 0;max-width:36rem}
+.author .links{font-family:Jost,sans-serif;font-weight:700;font-size:.9rem;margin-top:1.1rem}
+.author .links a{margin-right:1.2rem;text-decoration:none;color:var(--amber-hot)}
+.author .links a:hover{text-decoration:underline}
+@media(max-width:640px){.author{grid-template-columns:1fr}}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:2.8rem 0 3.4rem;margin-top:2rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:1.2rem 3rem;align-items:center}
+footer .out{font-family:"Courier Prime",monospace;font-size:.8rem;letter-spacing:.14em;color:var(--cream-dim)}
+footer .out b{color:var(--amber)}
+footer .legal{font-size:.85rem;color:var(--cream-dim);margin-left:auto}
+footer a{color:var(--amber-hot)}
+
+/* ---------- reveal ---------- */
+html.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
+html.js .reveal.lit{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+ html{scroll-behavior:auto}
+ .jewel{animation:none}
+ .chain-art .pulse{animation:none;display:none}
+ html.js .reveal{opacity:1;transform:none;transition:none}
+ .btn,.plate,.setlist a,.cover-obj{transition:none}
+}
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
-<header class="hero">
+<header class="panel-nav">
   <div class="wrap">
-    <div class="kick">A Life in Six Strings</div>
-    <h1>THE&nbsp;SIGNAL&nbsp;CHAIN</h1>
-    <p class="sub">A player's history of electric guitar tone, and the self-taught life behind the sound.</p>
-    <p class="by">by <a href="#author">Jason Colapietro</a> &middot; Johnny Suede Press</p>
-    <svg viewBox="0 0 420 300" width="420" height="300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M362 116 A 34 34 0 0 1 362 184" stroke="#b06a24" stroke-width="2" opacity="0.85"/>
-      <path d="M362 92 A 58 58 0 0 1 362 208" stroke="#b06a24" stroke-width="2" opacity="0.67"/>
-      <path d="M362 68 A 82 82 0 0 1 362 232" stroke="#b06a24" stroke-width="2" opacity="0.49"/>
-      <path d="M362 44 A 106 106 0 0 1 362 256" stroke="#b06a24" stroke-width="2" opacity="0.31"/>
-      <rect x="150" y="78" width="150" height="150" rx="10" stroke="#f1e6d4" stroke-width="2.5"/>
-      <rect x="162" y="118" width="126" height="86" rx="5" stroke="#b06a24" stroke-width="1.5" opacity=".8"/>
-      <rect x="162" y="90" width="126" height="20" rx="3" stroke="#f1e6d4" stroke-width="1.2" opacity=".7"/>
-      <circle cx="176" cy="100" r="5" stroke="#f1e6d4" stroke-width="1.3"/><circle cx="196" cy="100" r="5" stroke="#f1e6d4" stroke-width="1.3"/><circle cx="216" cy="100" r="5" stroke="#f1e6d4" stroke-width="1.3"/><circle cx="236" cy="100" r="5" stroke="#f1e6d4" stroke-width="1.3"/>
-      <circle cx="266" cy="100" r="8" fill="#b06a24" opacity=".25"/><circle cx="266" cy="100" r="4.5" stroke="#b06a24" stroke-width="1.4"/>
-      <ellipse cx="64" cy="150" rx="30" ry="40" stroke="#f1e6d4" stroke-width="2.5"/>
-      <ellipse cx="64" cy="150" rx="11" ry="11" stroke="#b06a24" stroke-width="1.4" opacity=".7"/>
-      <line x1="86" y1="128" x2="150" y2="92" stroke="#f1e6d4" stroke-width="2"/>
-      <path d="M92 178 C 112 192, 120 188, 124 176" stroke="#b06a24" stroke-width="2"/>
-      <rect x="118" y="168" width="20" height="26" rx="3" stroke="#b06a24" stroke-width="1.6"/><circle cx="128" cy="176" r="2.4" fill="#b06a24"/>
-      <path d="M138 181 C 146 181, 148 158, 162 150" stroke="#b06a24" stroke-width="2"/>
-    </svg>
-    <div class="cta">
-      <a class="btn btn-primary" href="THE-SIGNAL-CHAIN.html">Read the book</a>
-      <a class="btn btn-ghost" href="#editions">All editions &amp; PDFs</a>
-    </div>
+    <a class="brand" href="#top" aria-label="The Signal Chain, home"><span class="jewel" aria-hidden="true"></span><b>THE SIGNAL CHAIN</b></a>
+    <nav aria-label="Main navigation">
+      <a href="#book">The Book</a>
+      <a href="#lessons">Lessons</a>
+      <a href="#editions">Editions</a>
+      <a href="#author">Author</a>
+      <a class="go" href="THE-SIGNAL-CHAIN.html">Read free</a>
+    </nav>
   </div>
 </header>
 
-<div class="stats"><div class="wrap">
-  <div class="stat"><b>968</b><span>pages</span></div>
-  <div class="stat"><b>50</b><span>song lessons</span></div>
-  <div class="stat"><b>12</b><span>diagrams</span></div>
-  <div class="stat"><b>100s</b><span>of tab examples</span></div>
-  <div class="stat"><b>8</b><span>parts</span></div>
-</div></div>
-
-<section><div class="wrap">
-  <div class="kick">The Book</div>
-  <h2>The whole journey of a string's voice, from steel to speaker.</h2>
-  <p class="lead-p">An illustrated history of electric guitar tone — the amplifiers, the effects pedals, and the
-  players who defined the sound — told as story, grounded in how the signal actually behaves, and woven with
-  mid-level music theory and hundreds of properly formatted tablature examples. From the Rickenbacker Frying
-  Pan and Leo Fender's tweed to fuzz, the wah, the Big Muff, high gain, and digital modeling — with deep dives
-  on Hendrix, Clapton, Page, Gilmour, Van Halen, SRV, The Edge, and more.</p>
-  <p class="lead-p" style="margin-top:1.1rem;">The complete edition, <em>A Life in Six Strings</em>, goes further: a self-taught memoir,
-  a theory curriculum, the gear of a life on the road, and a songbook. It opens with a pre-memoir,
-  <em>Six Strings, No Serial Number</em>, a first taste of the forthcoming <em>Loaded</em>.</p>
-</div></section>
-
-<section id="editions"><div class="wrap">
-  <div class="kick">Three Editions</div>
-  <h2>Read free online, or download the PDF.</h2>
-  <div class="editions">
-    <div class="card">
-      <span class="tag">The History</span>
-      <h3>The Signal Chain</h3>
-      <span class="pp">493 pages · 8 parts · 46 chapters</span>
-      <p>The complete illustrated history, with diagrams and tablature throughout.</p>
-      <div class="links"><a class="r" href="THE-SIGNAL-CHAIN.html">Read online</a><a class="d" href="THE-SIGNAL-CHAIN.pdf">PDF</a></div>
+<main id="main">
+<section class="hero" id="top" aria-labelledby="hero-h">
+  <div class="wrap">
+    <div>
+      <p class="kick">JOHNNY SUEDE PRESS // GUITAR.SOLUTIONS</p>
+      <h1 id="hero-h">The Signal<br/>Chain<em>.</em></h1>
+      <p class="sub">A player's history of electric guitar tone, and the self-taught life behind the sound. Read the whole thing free, online or as a PDF.</p>
+      <p class="by">by <a href="#author">Jason Colapietro</a> · writing as Johnny Suede</p>
+      <div class="cta">
+        <a class="btn btn-amp" href="THE-SIGNAL-CHAIN.html">Start reading free</a>
+        <a class="btn btn-line" href="lessons.html">Try 3 free lessons</a>
+      </div>
     </div>
-    <div class="card">
-      <span class="tag">The Lessons</span>
-      <h3>The Tone Workbook</h3>
-      <span class="pp">351 pages · 50 song-lessons</span>
-      <p>Fifty iconic tones, each decoded with the rig, a tone recipe, theory, and original tab drills.</p>
-      <div class="links"><a class="r" href="THE-SIGNAL-CHAIN-WORKBOOK.html">Read online</a><a class="d" href="THE-SIGNAL-CHAIN-WORKBOOK.pdf">PDF</a></div>
-    </div>
-    <div class="card">
-      <span class="tag">The Complete Edition</span>
-      <h3>A Life in Six Strings</h3>
-      <span class="pp">968 pages · memoir + history + 50 workshops + gear + songbook</span>
-      <p>Everything in one volume: the self-taught memoir, a theory curriculum, the full tone history with all fifty lessons interleaved as Workshops, the gear, and the songbook. Opens with the pre-memoir, <em>Six Strings, No Serial Number</em>.</p>
-      <div class="links"><a class="r" href="THE-SIGNAL-CHAIN-DELUXE.html">Read online</a><a class="d" href="THE-SIGNAL-CHAIN-DELUXE.pdf">PDF</a></div>
+    <svg class="chain-art" viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Line drawing of a guitar signal chain: guitar into fuzz pedal, into wah pedal, into amplifier and speaker, with sound waves radiating out">
+      <ellipse cx="44" cy="138" rx="26" ry="36" stroke="#f2e7cf" stroke-width="2.2"/>
+      <ellipse cx="44" cy="138" rx="9" ry="9" stroke="#eb9a26" stroke-width="1.4" opacity=".75"/>
+      <line x1="62" y1="112" x2="118" y2="78" stroke="#f2e7cf" stroke-width="2"/>
+      <line x1="118" y1="78" x2="128" y2="72" stroke="#eb9a26" stroke-width="2"/>
+      <path d="M14 150 L96 150 L96 196 L168 196 L168 150 L262 150 L262 196 L330 196 L330 150 L420 150" stroke="#5a4426" stroke-width="1.6" stroke-dasharray="3 5"/>
+      <rect x="76" y="176" width="40" height="48" rx="4" stroke="#eb9a26" stroke-width="1.8"/>
+      <circle cx="88" cy="188" r="3.4" stroke="#f2e7cf" stroke-width="1.2"/>
+      <circle cx="104" cy="188" r="3.4" stroke="#f2e7cf" stroke-width="1.2"/>
+      <circle cx="96" cy="212" r="4.6" fill="#eb9a26" opacity=".3"/>
+      <path d="M148 224 L188 224 L182 200 L154 206 Z" stroke="#eb9a26" stroke-width="1.8"/>
+      <rect x="282" y="120" width="96" height="34" rx="5" stroke="#f2e7cf" stroke-width="2.2"/>
+      <circle cx="296" cy="137" r="4" stroke="#f2e7cf" stroke-width="1.2"/>
+      <circle cx="312" cy="137" r="4" stroke="#f2e7cf" stroke-width="1.2"/>
+      <circle cx="328" cy="137" r="4" stroke="#f2e7cf" stroke-width="1.2"/>
+      <circle cx="344" cy="137" r="4" stroke="#f2e7cf" stroke-width="1.2"/>
+      <circle cx="366" cy="137" r="3" fill="#ff4b33" opacity=".9"/>
+      <rect x="282" y="160" width="96" height="80" rx="5" stroke="#f2e7cf" stroke-width="2.2"/>
+      <rect x="292" y="170" width="76" height="60" rx="3" stroke="#eb9a26" stroke-width="1.3" opacity=".8"/>
+      <circle cx="330" cy="200" r="22" stroke="#eb9a26" stroke-width="1.2" opacity=".55"/>
+      <circle cx="330" cy="200" r="9" stroke="#eb9a26" stroke-width="1.2" opacity=".75"/>
+      <path d="M398 168 A 40 40 0 0 1 398 232" stroke="#eb9a26" stroke-width="2" opacity=".8"/>
+      <path d="M408 152 A 62 62 0 0 1 408 248" stroke="#eb9a26" stroke-width="2" opacity=".55"/>
+      <path d="M418 136 A 84 84 0 0 1 418 264" stroke="#eb9a26" stroke-width="2" opacity=".3"/>
+      <circle class="pulse" r="4" fill="#ffb84d"/>
+      <circle class="pulse" r="8" fill="#ffb84d" opacity=".25"/>
+    </svg>
+  </div>
+  <div class="spec-plate" role="presentation">
+    <div class="wrap">
+      <span>MODEL: <b>A LIFE IN SIX STRINGS</b></span>
+      <span><b>968</b> PAGES</span>
+      <span><b>50</b> SONG LESSONS</span>
+      <span><b>46</b> CHAPTERS</span>
+      <span><b>100+</b> TAB FIGURES</span>
+      <span>PRICE: <b>FREE</b></span>
     </div>
   </div>
-</div></section>
+</section>
 
-<section><div class="wrap feat">
-  <div>
-    <div class="kick">What's Inside</div>
-    <h2>History you can play.</h2>
-    <ul>
-      <li><strong>46 chapters + 4 appendices</strong> across eight eras of tone.</li>
-      <li><strong>50 analytical song-lessons</strong> — the real gear, a tone recipe, the theory, and original tab.</li>
-      <li><strong>12 original diagrams &amp; infographics</strong> — the signal chain, tube-amp anatomy, the EQ spectrum, clipping waveforms, the harmonic series, gain staging, and more.</li>
-      <li><strong>Hundreds of tablature examples</strong>, properly formatted and aligned.</li>
-      <li><strong>The complete edition adds the life behind the sound:</strong> a self-taught memoir, a theory curriculum, the gear of two setups and a working stack, and a songbook.</li>
-      <li>Hand-typeset and illustrated as self-contained HTML and SVG, crisp on screen and in print.</li>
-    </ul>
-  </div>
-  <div><img src="preview-10-figures.png" alt="A gallery of diagrams from THE SIGNAL CHAIN — the harmonic series, amp anatomy, the EQ spectrum, the stack, clipping waveforms, and the wah sweep"/></div>
-</div></section>
-
-<section id="author"><div class="wrap">
-  <div class="kick">The Author</div>
-  <div class="author">
-    <img class="photo" src="author.png" alt="Jason Colapietro (Johnny Suede)"/>
-    <div class="bio">
-      <h2 style="font-size:1.5rem;margin-bottom:.4rem;">Jason Colapietro <span style="color:var(--mut);font-weight:400;font-style:italic;font-family:Georgia,serif;">— writing as Johnny Suede</span></h2>
-      <p style="color:#473b2e;">Founder of <strong>Suede Labs AI</strong> — building programmable IP, creator ownership,
-      provenance, licensing, x402 payments, and ACP-ready agent commerce for AI-native media. THE SIGNAL CHAIN is
-      written, designed, and illustrated by Jason and published under the <strong>Johnny Suede Press</strong> imprint.</p>
-      <p class="links">
-        <a href="https://suedeai.ai">suedeai.ai</a> &middot;
-        <a href="https://x.com/johnnysuede">@johnnysuede</a> &middot;
-        <a href="https://github.com/JasonColapietro">GitHub</a> &middot;
-        <a href="https://github.com/JasonColapietro/the-signal-chain">Source</a>
-      </p>
+<section id="book" aria-labelledby="book-h">
+  <div class="wrap">
+    <div class="stage"><svg class="jack" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" stroke="#eb9a26" stroke-width="1.5" fill="none"/><circle cx="10" cy="10" r="3" fill="#eb9a26"/></svg><b>INPUT · THE BOOK</b><i></i></div>
+    <div class="book-grid">
+      <div class="reveal">
+        <h2 id="book-h">The whole journey of a string's voice, from steel to speaker.</h2>
+        <p class="lead-p">An illustrated history of electric guitar tone: the amplifiers, the pedals, and the players who bent electricity into a voice. It reads like a story, keeps the science honest, and lands every idea in tablature you can play. From the Rickenbacker Frying Pan and Leo Fender's tweed to fuzz, the wah, the Big Muff, high gain, and digital modeling, with deep dives on <strong>Hendrix, Clapton, Page, Gilmour, Van&nbsp;Halen, SRV, and The&nbsp;Edge</strong>.</p>
+        <p class="lead-p">The complete edition, <strong><em>A Life in Six Strings</em></strong>, adds the life behind the sound: a self-taught memoir, a theory curriculum, the gear of a life on the road, and a songbook.</p>
+        <blockquote class="pull">
+          <p>"The serial number that didn't exist had quietly become my proof of identity."</p>
+          <footer>FROM THE PROLOGUE · THE GUITAR THAT STAYED</footer>
+        </blockquote>
+      </div>
+      <figure class="cover-obj reveal">
+        <img src="preview-9-cover.png" width="1200" height="1700" loading="lazy" alt="The cover of THE SIGNAL CHAIN: a dark panel with cream lettering and a line drawing of an amplifier and speaker"/>
+        <figcaption>FIRST EDITION · 2026</figcaption>
+      </figure>
     </div>
   </div>
-</div></section>
+</section>
+
+<section id="inside" aria-labelledby="inside-h">
+  <div class="wrap">
+    <div class="stage"><svg class="jack" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="5" width="14" height="10" rx="2" stroke="#eb9a26" stroke-width="1.5" fill="none"/><circle cx="7" cy="10" r="1.6" fill="#eb9a26"/><circle cx="13" cy="10" r="1.6" fill="#eb9a26"/></svg><b>PREAMP · INSIDE THE PAGES</b><i></i></div>
+    <h2 id="inside-h">History that reads like a road book. Diagrams drawn like schematics.</h2>
+    <div class="inside-grid" style="margin-top:2.2rem">
+      <article class="page-artifact reveal">
+        <span class="ch">From Chapter 16 · The Fuzz Explosion</span>
+        <p>By August "(I Can't Get No) Satisfaction" was the number-one record in America, and the sound bleeding out of every transistor radio in the country was not a saxophone but a Gibson Maestro fuzz unit chewing a guitar signal into a fat, woolly, almost vocal snarl. A generation of teenagers heard that tone and felt something tighten in the chest. They did not know it was a circuit. They thought it was attitude itself, electrified.</p>
+      </article>
+      <div class="reveal">
+        <div class="fig-stack">
+          <figure class="fig-a"><img src="preview-7-book-spread.png" width="1240" height="2250" loading="lazy" alt="A typeset spread from the book, with chapter prose and an inline diagram"/></figure>
+          <figure class="fig-b"><img src="preview-10-figures.png" width="1240" height="2600" loading="lazy" alt="A gallery of original diagrams: the harmonic series, amp anatomy, the EQ spectrum, clipping waveforms, and the wah sweep"/></figure>
+        </div>
+        <p class="fig-cap">HAND-TYPESET HTML + SVG · 12 ORIGINAL DIAGRAMS · CRISP ON SCREEN AND IN PRINT</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="lessons" aria-labelledby="lessons-h">
+  <div class="wrap">
+    <div class="stage"><svg class="jack" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" stroke="#eb9a26" stroke-width="1.5" fill="none"/><line x1="10" y1="10" x2="10" y2="4.5" stroke="#f2e7cf" stroke-width="1.8"/></svg><b>TONE STACK · THE LESSONS</b><i></i></div>
+    <h2 id="lessons-h">Fifty iconic tones, decoded knob by knob.</h2>
+    <p class="tone-intro">Every lesson in <em>The Tone Workbook</em> gives you the real rig, an honest recipe you can dial on affordable gear, the theory underneath, and original tab drills. No secret-settings folklore. Six of the fifty, at a glance:</p>
+    <div class="tone-wall">
+      <article class="plate reveal">
+        <span class="era">1958 · FOUNDATIONS &amp; TWEED</span>
+        <h3>Johnny B. Goode</h3>
+        <span class="who">Chuck Berry</span>
+        <p class="tone">Bright semi-hollow jangle pushed into the first hair of tweed breakup. Clean enough to bite, dirty enough to growl.</p>
+        <div class="knob-row" aria-label="Suggested amp settings, out of 10">
+          <span class="knob" style="--v:6.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>6.5</output><span class="lbl">VOLUME</span></span>
+          <span class="knob" style="--v:7"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>7</output><span class="lbl">TREBLE</span></span>
+          <span class="knob" style="--v:4"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>4</output><span class="lbl">BASS</span></span>
+          <span class="knob" style="--v:2.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>2.5</output><span class="lbl">REVERB</span></span>
+        </div>
+        <a class="lnk" href="THE-SIGNAL-CHAIN-WORKBOOK.html">LESSON 02/50 · <b>OPEN THE WORKBOOK</b></a>
+      </article>
+      <article class="plate reveal">
+        <span class="era">1968 · FUZZ, WAH &amp; FIRST EFFECTS</span>
+        <h3>Voodoo Child (Slight Return)</h3>
+        <span class="who">Jimi Hendrix</span>
+        <p class="tone">A vocal, throat-of-God Strat through a swept wah and barely-tamed fuzz. Rhythm and lead become the same conversation.</p>
+        <div class="knob-row" aria-label="Suggested settings, out of 10">
+          <span class="knob" style="--v:7"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>7</output><span class="lbl">FUZZ</span></span>
+          <span class="knob" style="--v:4"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>4</output><span class="lbl">GAIN</span></span>
+          <span class="knob" style="--v:7"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>7</output><span class="lbl">MIDS</span></span>
+          <span class="knob" style="--v:6"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>6</output><span class="lbl">TREBLE</span></span>
+        </div>
+        <a class="lnk" href="THE-SIGNAL-CHAIN-WORKBOOK.html">LESSON 12/50 · <b>OPEN THE WORKBOOK</b></a>
+      </article>
+      <article class="plate reveal">
+        <span class="era">1980 · MARSHALL &amp; LES PAUL</span>
+        <h3>Back in Black</h3>
+        <span class="who">AC/DC</span>
+        <p class="tone">An SG straight into cranked Marshalls. No pedals, no tricks: wood, fingers, and power tubes pushed just past clean.</p>
+        <div class="knob-row" aria-label="Suggested amp settings, out of 10">
+          <span class="knob" style="--v:4.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>4.5</output><span class="lbl">GAIN</span></span>
+          <span class="knob" style="--v:4"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>4</output><span class="lbl">BASS</span></span>
+          <span class="knob" style="--v:7"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>7</output><span class="lbl">MIDS</span></span>
+          <span class="knob" style="--v:6.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>6.5</output><span class="lbl">TREBLE</span></span>
+        </div>
+        <a class="lnk" href="THE-SIGNAL-CHAIN-WORKBOOK.html">LESSON 20/50 · <b>OPEN THE WORKBOOK</b></a>
+      </article>
+      <article class="plate reveal">
+        <span class="era">1978 · HIGH GAIN &amp; THE 80S</span>
+        <h3>Eruption</h3>
+        <span class="who">Van Halen</span>
+        <p class="tone">The brown sound: liquid, singing saturation that stays clear and vocal at maximum aggression, with a slow phaser swirl.</p>
+        <div class="knob-row" aria-label="Suggested settings, out of 10">
+          <span class="knob" style="--v:6.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>6.5</output><span class="lbl">GAIN</span></span>
+          <span class="knob" style="--v:7"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>7</output><span class="lbl">MIDS</span></span>
+          <span class="knob" style="--v:6.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>6.5</output><span class="lbl">TREBLE</span></span>
+          <span class="knob" style="--v:3.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>3.5</output><span class="lbl">PHASER</span></span>
+        </div>
+        <a class="lnk" href="THE-SIGNAL-CHAIN-WORKBOOK.html">LESSON 32/50 · <b>OPEN THE WORKBOOK</b></a>
+      </article>
+      <article class="plate reveal">
+        <span class="era">1991 · ALT, GRUNGE &amp; MODERN</span>
+        <h3>Smells Like Teen Spirit</h3>
+        <span class="who">Nirvana</span>
+        <p class="tone">Whisper verses, detonation choruses. A clean amp and one distortion pedal doing the loudest jump cut in rock.</p>
+        <div class="knob-row" aria-label="Suggested settings, out of 10">
+          <span class="knob" style="--v:3"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>3</output><span class="lbl">AMP GAIN</span></span>
+          <span class="knob" style="--v:7"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>7</output><span class="lbl">DRIVE</span></span>
+          <span class="knob" style="--v:5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>5</output><span class="lbl">TONE</span></span>
+          <span class="knob" style="--v:2"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>2</output><span class="lbl">REVERB</span></span>
+        </div>
+        <a class="lnk" href="THE-SIGNAL-CHAIN-WORKBOOK.html">LESSON 38/50 · <b>OPEN THE WORKBOOK</b></a>
+      </article>
+      <article class="plate reveal">
+        <span class="era">1987 · DELAY AS A BANDMATE</span>
+        <h3>Where the Streets Have No Name</h3>
+        <span class="who">U2 · The Edge</span>
+        <p class="tone">Glassy chime multiplied by a dotted-eighth delay into a self-harmonizing cascade. The delay is the second guitarist.</p>
+        <div class="knob-row" aria-label="Suggested settings, out of 10">
+          <span class="knob" style="--v:2.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>2.5</output><span class="lbl">GAIN</span></span>
+          <span class="knob" style="--v:7"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>7</output><span class="lbl">TREBLE</span></span>
+          <span class="knob" style="--v:4"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>4</output><span class="lbl">DLY MIX</span></span>
+          <span class="knob" style="--v:3.5"><span class="dial"><svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true"><circle cx="22" cy="22" r="19" stroke="#3b2f20" stroke-width="2" fill="#16110c"/><circle cx="22" cy="22" r="13.5" stroke="#5a4426" stroke-width="1" fill="none"/></svg></span><output>3.5</output><span class="lbl">REPEATS</span></span>
+        </div>
+        <a class="lnk" href="THE-SIGNAL-CHAIN-WORKBOOK.html">LESSON 44/50 · <b>OPEN THE WORKBOOK</b></a>
+      </article>
+    </div>
+
+    <div class="free-head">
+      <h3>Three lessons, free, in full</h3>
+      <span>// NO EMAIL. NO PAYWALL. JUST PLAY.</span>
+    </div>
+    <div class="setlist">
+      <a href="lessons.html#purple-haze">
+        <span class="no">14</span>
+        <span class="song">Purple Haze<small>THE JIMI HENDRIX EXPERIENCE · 1967</small></span>
+        <span class="steal">Steal the E7#9 grip, the tritone hook, and the fuzz-cleanup volume trick.</span>
+        <span class="tag">INTERMEDIATE</span>
+      </a>
+      <a href="lessons.html#comfortably-numb">
+        <span class="no">22</span>
+        <span class="song">Comfortably Numb<small>PINK FLOYD · 1979</small></span>
+        <span class="steal">Steal bend-to-pitch patience, chord-tone targeting, and solo architecture.</span>
+        <span class="tag">ADVANCED</span>
+      </a>
+      <a href="lessons.html#pride-and-joy">
+        <span class="no">28</span>
+        <span class="song">Pride and Joy<small>STEVIE RAY VAUGHAN · 1983</small></span>
+        <span class="steal">Steal the Texas shuffle engine, the rake, and a vibrato with a voice.</span>
+        <span class="tag">ADVANCED</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="editions" aria-labelledby="editions-h">
+  <div class="wrap">
+    <div class="stage"><svg class="jack" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 14 L4 8 L8 8 L8 5 L12 5 L12 8 L16 8 L16 14" stroke="#eb9a26" stroke-width="1.5" fill="none"/></svg><b>POWER AMP · THREE EDITIONS</b><i></i></div>
+    <h2 id="editions-h">Pick your edition. Read free, online or as a PDF.</h2>
+    <div class="ed-grid" style="margin-top:2.2rem">
+      <article class="ed ed-feature reveal">
+        <span class="tag">THE COMPLETE EDITION</span>
+        <h3>A Life in Six Strings</h3>
+        <span class="pp">968 PAGES · MEMOIR + HISTORY + 50 WORKSHOPS + GEAR + SONGBOOK</span>
+        <p>Everything in one volume. The self-taught memoir, a theory curriculum, the full tone history with all fifty lessons interleaved as workshops, the gear of a life on the road, and a songbook.</p>
+        <p class="open">Opens with the pre-memoir <em>Six Strings, No Serial Number</em>, a first taste of the forthcoming <em>Loaded</em>.</p>
+        <div class="links"><a class="r" href="THE-SIGNAL-CHAIN-DELUXE.html">Read online</a><a class="d" href="THE-SIGNAL-CHAIN-DELUXE.pdf">Download PDF · 13 MB</a></div>
+      </article>
+      <article class="ed reveal">
+        <span class="tag">THE HISTORY</span>
+        <h3>The Signal Chain</h3>
+        <span class="pp">493 PAGES · 8 PARTS · 46 CHAPTERS</span>
+        <p>The complete illustrated history of electric guitar tone, with the diagrams and tablature woven through.</p>
+        <div class="links"><a class="r" href="THE-SIGNAL-CHAIN.html">Read online</a><a class="d" href="THE-SIGNAL-CHAIN.pdf">PDF · 6.5 MB</a></div>
+      </article>
+      <article class="ed reveal">
+        <span class="tag">THE LESSONS</span>
+        <h3>The Tone Workbook</h3>
+        <span class="pp">351 PAGES · 50 SONG LESSONS</span>
+        <p>Fifty iconic tones decoded: the real rig, an honest recipe, the theory underneath, and original tab drills.</p>
+        <div class="links"><a class="r" href="THE-SIGNAL-CHAIN-WORKBOOK.html">Read online</a><a class="d" href="THE-SIGNAL-CHAIN-WORKBOOK.pdf">PDF · 5.5 MB</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="author" aria-labelledby="author-h">
+  <div class="wrap">
+    <div class="stage"><svg class="jack" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="7" r="3.5" stroke="#eb9a26" stroke-width="1.5" fill="none"/><path d="M3.5 17 C3.5 12.5 16.5 12.5 16.5 17" stroke="#eb9a26" stroke-width="1.5" fill="none"/></svg><b>SOURCE · THE AUTHOR</b><i></i></div>
+    <div class="author reveal">
+      <div class="ph"><img src="author.png" width="460" height="460" loading="lazy" alt="Jason Colapietro, who writes as Johnny Suede"/></div>
+      <div>
+        <h2 id="author-h">Jason Colapietro</h2>
+        <p class="as">writing as Johnny Suede</p>
+        <p>Self-taught: basements, walk-ups, and the hills behind the Hollywood Bowl. Jason wrote, illustrated, and hand-typeset every page of THE SIGNAL CHAIN, published under the Johnny Suede Press imprint. He is the founder of <strong>Suede Labs AI</strong>, building proof of creation, programmable IP, and royalty infrastructure for music in the AI era.</p>
+        <p class="links">
+          <a href="https://suedeai.ai">suedeai.ai</a>
+          <a href="https://x.com/johnnysuede">@johnnysuede</a>
+          <a href="https://github.com/JasonColapietro/the-signal-chain">Source on GitHub</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
 
 <footer>
-  <p><strong style="color:#f1e6d4;">THE SIGNAL CHAIN</strong> &nbsp;·&nbsp; by Jason Colapietro &nbsp;·&nbsp; Johnny Suede Press</p>
-  <p>© 2026 Jason Colapietro. All rights reserved. &nbsp;·&nbsp;
-     <a href="https://github.com/JasonColapietro/the-signal-chain">Source &amp; downloads on GitHub</a></p>
+  <div class="wrap">
+    <span class="out"><b>OUTPUT</b> · 8Ω · THIS PAGE TERMINATES INTO A SPEAKER</span>
+    <span class="legal">© 2026 Jason Colapietro · Johnny Suede Press · <a href="https://github.com/JasonColapietro/the-signal-chain">Source &amp; downloads on GitHub</a></span>
+  </div>
 </footer>
 
+<script>
+document.documentElement.classList.add('js');
+if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('lit');io.unobserve(e.target);}});},{rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+}else{
+  document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('lit');});
+}
+</script>
 </body>
 </html>

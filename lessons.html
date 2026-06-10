@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Three Free Guitar Lessons — Purple Haze, Comfortably Numb, Pride and Joy | THE SIGNAL CHAIN</title>
+<meta name="description" content="Three complete lessons from The Tone Workbook, free: Purple Haze (Hendrix), Comfortably Numb (Pink Floyd), and Pride and Joy (Stevie Ray Vaughan). The real rig, an honest tone recipe, the theory, and original tablature drills for each."/>
+<meta name="author" content="Jason Colapietro (Johnny Suede)"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://guitar.solutions/lessons.html"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="Johnny Suede Press"/>
+<meta property="og:title" content="Three Free Guitar Lessons from THE SIGNAL CHAIN"/>
+<meta property="og:description" content="Purple Haze, Comfortably Numb, and Pride and Joy, decoded in full: rig, tone recipe, theory, and original tab drills. Free, no email."/>
+<meta property="og:url" content="https://guitar.solutions/lessons.html"/>
+<meta property="og:image" content="https://guitar.solutions/og-card.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="theme-color" content="#120e0b"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700;800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400;1,7..72,500&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"/>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Three free lessons from The Tone Workbook","itemListElement":[
+{"@type":"ListItem","position":1,"url":"https://guitar.solutions/lessons.html#purple-haze","name":"Purple Haze · The Jimi Hendrix Experience"},
+{"@type":"ListItem","position":2,"url":"https://guitar.solutions/lessons.html#comfortably-numb","name":"Comfortably Numb · Pink Floyd"},
+{"@type":"ListItem","position":3,"url":"https://guitar.solutions/lessons.html#pride-and-joy","name":"Pride and Joy · Stevie Ray Vaughan"}]}
+</script>
+<style>
+:root{
+ --bg:#120e0b; --bg2:#19130d; --panel:#1f1812; --panel2:#261d14;
+ --line:#3b2f20; --line-soft:#2b2218;
+ --cream:#f2e7cf; --cream-dim:#d9c9a8; --body-t:#cfc0a1;
+ --amber:#eb9a26; --amber-hot:#ffb84d; --jewel:#ff4b33; --ox:#a33a25;
+ --paper:#f2e7cf; --paper-ink:#241c12; --paper-mut:#7a6747;
+ --z-nav:30; --z-skip:40;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+ radial-gradient(90rem 40rem at 80% -10%,rgba(235,154,38,.07),transparent 60%),
+ var(--bg);
+ color:var(--body-t);font-family:Literata,Georgia,serif;font-size:1.05rem;line-height:1.74;
+ -webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{color:var(--cream);text-wrap:balance}
+p{text-wrap:pretty}
+a{color:var(--amber-hot)}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:50rem;margin:0 auto;padding:0 clamp(1.25rem,4vw,2.5rem)}
+.skip{position:absolute;left:-200vw;top:.5rem;z-index:var(--z-skip);background:var(--amber);color:#1a130b;
+ font-family:Jost,sans-serif;font-weight:700;padding:.5rem 1rem;border-radius:4px;text-decoration:none}
+.skip:focus{left:.5rem}
+.panel-nav{position:sticky;top:0;z-index:var(--z-nav);background:rgba(18,14,11,.92);
+ border-bottom:1px solid var(--line-soft);backdrop-filter:blur(8px)}
+.panel-nav .nwrap{max-width:72rem;margin:0 auto;padding:.7rem clamp(1.25rem,4vw,2.5rem);display:flex;align-items:center;gap:1.25rem}
+.brand{display:flex;align-items:center;gap:.65rem;text-decoration:none;margin-right:auto}
+.jewel{width:.72rem;height:.72rem;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9d8a,var(--jewel) 55%,#7e1404 95%);
+ box-shadow:0 0 8px 1px rgba(255,75,51,.7);animation:jewel 4.5s ease-in-out infinite}
+@keyframes jewel{0%,100%{box-shadow:0 0 7px 1px rgba(255,75,51,.55)}50%{box-shadow:0 0 11px 2px rgba(255,75,51,.85)}}
+.brand b{font-family:Jost,sans-serif;font-weight:800;font-size:.95rem;letter-spacing:.16em;color:var(--cream)}
+.panel-nav nav{display:flex;gap:1.35rem;align-items:center}
+.panel-nav nav a{font-family:Jost,sans-serif;font-weight:700;font-size:.8rem;letter-spacing:.12em;
+ text-transform:uppercase;color:var(--cream-dim);text-decoration:none}
+.panel-nav nav a:hover{color:var(--cream)}
+.panel-nav .go{background:var(--amber);color:#1a130b;border-radius:4px;padding:.45rem .95rem}
+.panel-nav .go:hover{background:var(--amber-hot);color:#1a130b}
+@media(max-width:760px){
+ .panel-nav nav a:not(.go){display:none}
+ .brand b{font-size:.8rem;letter-spacing:.1em;white-space:nowrap}
+ .panel-nav .go{white-space:nowrap;padding:.4rem .8rem;font-size:.72rem}
+}
+
+/* page head */
+.page-head{padding:clamp(3rem,8vh,5rem) 0 clamp(2rem,5vh,3rem)}
+.page-head .kick{font-family:"Courier Prime",monospace;font-size:.85rem;color:var(--amber);letter-spacing:.08em;margin:0}
+.page-head h1{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(2.2rem,6vw,3.8rem);line-height:1.02;
+ letter-spacing:-.01em;margin:.5rem 0 0;text-transform:uppercase}
+.page-head p.intro{font-size:clamp(1.05rem,1.6vw,1.2rem);max-width:38rem;margin:1.2rem 0 0;color:var(--body-t)}
+.page-head .toc{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.8rem}
+.page-head .toc a{font-family:"Courier Prime",monospace;font-size:.82rem;letter-spacing:.08em;color:var(--cream);
+ border:1px solid var(--line);border-radius:99px;padding:.45rem 1rem;text-decoration:none}
+.page-head .toc a:hover{border-color:var(--amber);color:var(--amber-hot)}
+
+/* lesson */
+.lesson{padding:clamp(2.5rem,7vh,4.5rem) 0;border-top:1px solid var(--line)}
+.lesson-head .era{font-family:"Courier Prime",monospace;font-size:.78rem;letter-spacing:.16em;color:var(--amber)}
+.lesson-head h2{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(1.9rem,4.6vw,3rem);line-height:1.05;
+ margin:.4rem 0 .2rem;text-transform:uppercase;letter-spacing:0}
+.lesson-head .who{font-family:Jost,sans-serif;font-weight:700;font-size:.92rem;letter-spacing:.12em;color:var(--cream-dim);text-transform:uppercase}
+.glance{margin:1.5rem 0 0;border:1px solid var(--line);border-radius:8px;background:linear-gradient(180deg,var(--panel2),var(--panel));
+ padding:1.1rem 1.3rem;display:flex;flex-wrap:wrap;gap:.5rem 2rem}
+.glance span{font-family:"Courier Prime",monospace;font-size:.8rem;letter-spacing:.08em;color:var(--cream-dim);white-space:nowrap}
+.glance b{color:var(--amber);font-weight:700}
+.tone-line{font-style:italic;font-size:clamp(1.15rem,2vw,1.4rem);line-height:1.5;color:var(--cream);
+ margin:1.6rem 0 0;padding-left:1.2rem;border-left:3px solid var(--amber);max-width:36rem}
+.chain-pills{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:1.6rem 0 0}
+.chain-pills span{font-family:"Courier Prime",monospace;font-weight:700;font-size:.78rem;letter-spacing:.1em;
+ color:var(--cream);border:1px solid var(--line);border-radius:5px;padding:.4rem .75rem;background:var(--bg2)}
+.chain-pills i{color:var(--amber);font-style:normal;font-family:"Courier Prime",monospace}
+.lesson h3{font-family:Jost,sans-serif;font-weight:800;font-size:1.25rem;letter-spacing:.06em;text-transform:uppercase;
+ margin:2.6rem 0 .9rem;display:flex;align-items:center;gap:.7rem}
+.lesson h3::after{content:"";flex:1;height:1px;background:var(--line)}
+.lesson h4{font-family:Jost,sans-serif;font-weight:700;font-size:1.02rem;margin:1.8rem 0 .5rem;color:var(--cream)}
+.lesson p{max-width:44rem}
+.lesson ul{padding-left:1.2rem;max-width:44rem;margin:.6rem 0}
+.lesson li{margin:.5rem 0}
+.lesson li::marker{color:var(--amber)}
+.lesson strong{color:var(--cream);font-weight:600}
+.tab-sheet{background:var(--paper);color:var(--paper-ink);border-radius:4px;margin:1rem 0 .4rem;
+ box-shadow:0 14px 30px -16px rgba(0,0,0,.7);overflow:hidden}
+.tab-sheet .tab-label{font-family:Jost,sans-serif;font-weight:700;font-size:.68rem;letter-spacing:.18em;
+ color:var(--ox);text-transform:uppercase;padding:.6rem 1.1rem .1rem}
+.tab-sheet pre{margin:0;padding:.5rem 1.1rem 1rem;overflow-x:auto;font-family:"Courier Prime",monospace;
+ font-size:.82rem;line-height:1.45;color:var(--paper-ink)}
+.tab-note{font-size:.92rem;font-style:italic;color:var(--cream-dim);max-width:44rem;margin:.4rem 0 0}
+.listen{margin:2.4rem 0 0;border:1px solid #54400f;border-radius:8px;background:linear-gradient(165deg,#2c2013,var(--panel));
+ padding:1.3rem 1.5rem}
+.listen b.t{font-family:"Courier Prime",monospace;font-weight:700;font-size:.8rem;letter-spacing:.2em;color:var(--amber)}
+.listen ul{margin:.7rem 0 0}
+.recipe-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0 0}
+.recipe-grid .col{border:1px solid var(--line-soft);border-radius:8px;padding:1rem 1.2rem;background:var(--bg2)}
+.recipe-grid .col b.t{font-family:"Courier Prime",monospace;font-size:.74rem;letter-spacing:.16em;color:var(--amber);font-weight:700}
+@media(max-width:760px){.recipe-grid{grid-template-columns:1fr}}
+
+/* CTA + footer */
+.end-cta{margin:1rem 0 0;padding:clamp(2.5rem,7vh,4rem) 0;border-top:1px solid var(--line);text-align:left}
+.end-cta h2{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(1.7rem,3.6vw,2.6rem);margin:0 0 .8rem;text-transform:uppercase}
+.end-cta p{max-width:40rem}
+.cta{margin-top:1.6rem;display:flex;gap:.85rem;flex-wrap:wrap}
+.btn{display:inline-block;font-family:Jost,sans-serif;font-weight:700;font-size:.95rem;letter-spacing:.05em;
+ text-decoration:none;padding:.8rem 1.6rem;border-radius:5px;transition:transform .18s cubic-bezier(.16,1,.3,1)}
+.btn-amp{background:linear-gradient(180deg,var(--amber-hot),var(--amber));color:#1a130b}
+.btn-amp:hover{transform:translateY(-2px)}
+.btn-line{border:1.5px solid var(--line);color:var(--cream)}
+.btn-line:hover{border-color:var(--amber);color:var(--amber-hot);transform:translateY(-2px)}
+footer{border-top:1px solid var(--line);padding:2.4rem 0 3rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:1rem 3rem;align-items:center;max-width:72rem}
+footer .out{font-family:"Courier Prime",monospace;font-size:.8rem;letter-spacing:.14em;color:var(--cream-dim)}
+footer .out b{color:var(--amber)}
+footer .legal{font-size:.85rem;color:var(--cream-dim);margin-left:auto}
+@media (prefers-reduced-motion: reduce){
+ html{scroll-behavior:auto}
+ .jewel{animation:none}
+ .btn{transition:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="panel-nav">
+  <div class="nwrap">
+    <a class="brand" href="index.html" aria-label="The Signal Chain, home"><span class="jewel" aria-hidden="true"></span><b>THE SIGNAL CHAIN</b></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html#book">The Book</a>
+      <a href="index.html#editions">Editions</a>
+      <a href="THE-SIGNAL-CHAIN-WORKBOOK.html">The Workbook</a>
+      <a class="go" href="THE-SIGNAL-CHAIN.html">Read free</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div class="page-head">
+  <div class="wrap">
+    <p class="kick">THE TONE WORKBOOK // SAMPLE LESSONS</p>
+    <h1>Three lessons,<br/>free, in full.</h1>
+    <p class="intro">Straight out of <em>The Tone Workbook</em>, exactly as they appear in the book: the real rig, an honest recipe you can dial on affordable gear, the theory underneath, and original tab drills. No email. No paywall. Tune up.</p>
+    <nav class="toc" aria-label="Lessons on this page">
+      <a href="#purple-haze">14 · PURPLE HAZE</a>
+      <a href="#comfortably-numb">22 · COMFORTABLY NUMB</a>
+      <a href="#pride-and-joy">28 · PRIDE AND JOY</a>
+    </nav>
+  </div>
+</div>
+
+<article class="lesson" id="purple-haze" aria-labelledby="ph-h">
+  <div class="wrap">
+    <header class="lesson-head">
+      <span class="era">LESSON 14 OF 50 · FUZZ, WAH &amp; FIRST EFFECTS</span>
+      <h2 id="ph-h">Purple Haze</h2>
+      <span class="who">The Jimi Hendrix Experience</span>
+      <div class="glance">
+        <span>ALBUM: <b>ARE YOU EXPERIENCED</b> (1967)</span>
+        <span>KEY: <b>E</b> (BLUES / DORIAN FLAVOR)</span>
+        <span>DIFFICULTY: <b>INTERMEDIATE</b></span>
+      </div>
+      <p class="tone-line">"A snarling, slightly broken-up Strat soaked in germanium fuzz, with a ghostly octave-up shimmer on the lead that sounds like two guitars stacked into one."</p>
+    </header>
+
+    <h3>The Rig &amp; Signal Chain</h3>
+    <div class="chain-pills" aria-label="Signal chain"><span>STRAT</span><i>→</i><span>FUZZ FACE</span><i>→</i><span>OCTAVIA</span><i>→</i><span>MARSHALL STACK</span></div>
+    <p>Hendrix's core rig here is one of the most documented in rock, and also one of the most mythologized — so let's separate what's solid from what's lore.</p>
+    <ul>
+      <li><strong>Guitar:</strong> A <strong>Fender Stratocaster</strong>, played right-handed-strung but flipped for a left-hander. That flip matters tonally: the staggered pole pieces and the slanted bridge pickup end up reversed, which subtly changes the high end. The bridge pickup does most of the work on the riff and lead.</li>
+      <li><strong>Fuzz:</strong> A <strong>Fuzz Face</strong> — period units used germanium transistors, which are touch-sensitive and clean up dramatically when you roll back the guitar's volume knob. This is the single most important pedal in the chain. It's woolly, a little unstable, and reacts to your hands.</li>
+      <li><strong>Octave:</strong> An <strong>Octavia</strong> (built by Roger Mayer), an octave-up fuzz that adds a ring-modulated, upper-octave ghost note. You hear it most clearly on the solo, where single notes high on the neck bloom into that piercing, alien doubling.</li>
+      <li><strong>Amp:</strong> <strong>Marshall</strong> stacks — commonly cited as 100-watt heads pushed loud. Settings are usually described as bright and near-full, but treat any "exact" numbers you see online as approximate; the surviving documentation is thin.</li>
+    </ul>
+    <p>What's well-supported is the <em>Octavia</em> on the lead. Be skeptical of overly precise claims about "secret" settings — the magic here is mostly fuzz + a Strat + a loud Marshall + Jimi's hands.</p>
+
+    <h3>The Tone Recipe</h3>
+    <p>You can get ~90% there with accessible modern gear.</p>
+    <div class="recipe-grid">
+      <div class="col">
+        <b class="t">SUBSTITUTIONS</b>
+        <ul>
+          <li><strong>Guitar:</strong> Any Strat-style guitar with single-coils, on the <strong>bridge pickup</strong>. Humbuckers: split the coil or roll the tone back.</li>
+          <li><strong>Fuzz:</strong> A modern silicon or germanium Fuzz Face clone, or any two-knob fuzz. A Big Muff works but is darker.</li>
+          <li><strong>Octave:</strong> Any octave-up fuzz; engage it only for the solo.</li>
+          <li><strong>Amp:</strong> Cranked-clean or lightly driven, set bright. Let the fuzz do the dirty work.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <b class="t">STARTING POINTS (OUT OF 10)</b>
+        <ul>
+          <li>Fuzz pedal: <strong>Fuzz 7–8, Volume to unity.</strong></li>
+          <li>Guitar volume: <strong>8–9</strong> for the riff, back to ~6 if it's too fizzy.</li>
+          <li>Amp: clean-ish. <strong>Bass 5, Mids 6, Treble 7</strong>, loud enough to feel it.</li>
+          <li>Guitar tone: <strong>7–8.</strong> Fuzz can get shrill; this tames it.</li>
+          <li>Pick attack: <strong>medium-hard, edge of the pick.</strong> The fuzz rewards aggression.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="tab-note">Key move: practice rolling your guitar volume knob. Fuzz-cleanup is the secret handshake of this tone.</p>
+
+    <h3>What's Going On Musically</h3>
+    <p>The song lives in <strong>E</strong>, but not plain major. Hendrix is working a blues/rock vocabulary built around the <strong>E minor pentatonic</strong> (E–G–A–B–D) and the <strong>E blues scale</strong> (add the b5, Bb), while the chords lean on <strong>E7#9</strong> — the famous "Hendrix chord."</p>
+    <p><strong>Why E7#9 sounds the way it does.</strong> A dominant 7 chord (E7 = E–G#–B–D) wants both a major 3rd (G#) and a flat 7 (D). The "#9" adds what is enharmonically <strong>G</strong> — the <em>minor</em> 3rd. So you're stacking a major 3rd and a minor 3rd in the same chord. That collision is exactly the sound of the blues: the vocal "blue note" frozen into a chord. Tense, gritty, unresolved — which is why it became shorthand for funk, psych, and hard rock.</p>
+    <p><strong>The tritone.</strong> The intro hook is the interval <strong>E to Bb</strong> — three whole steps apart, a <em>tritone</em>, historically nicknamed "the devil in music." It's the most dissonant interval in the octave and it refuses to sit still. Hendrix exploits that restlessness as a hook before the riff even starts.</p>
+
+    <h3>Signature Moves</h3>
+    <h4>1) The tritone intro (E ↔ Bb)</h4>
+    <div class="tab-sheet"><span class="tab-label">FIG. 14.1 · HEAVY, SWUNG EIGHTHS, ~108 BPM</span><pre>
+e|-------------------------|
+B|-------------------------|
+G|-------------------------|
+D|-------------------------|
+A|--7~----6~----7~----6~---|   &lt;- Bb on the A string
+E|--0-----0-----0-----0----|   &lt;- E pedal underneath
+    Bb    A     Bb    A</pre></div>
+    <p class="tab-note">That clash of open E against Bb is the tritone — dissonant on purpose. Add slow vibrato (~) and let the fuzz growl.</p>
+    <h4>2) The main riff (E blues vocabulary)</h4>
+    <div class="tab-sheet"><span class="tab-label">FIG. 14.2 · AGGRESSIVE, SLIGHT SWING, ~108 BPM</span><pre>
+e|----------------------------|
+B|----------------------------|
+G|--------------------2-------|
+D|------2--4h5--------2-------|
+A|--0h2--------0------0-------|   &lt;- lands on an E7#9 stab
+E|--------------------0-------|</pre></div>
+    <p class="tab-note">Pentatonic motion underneath, resolving to a stabbed E7#9 voicing. Pick hard; this is where the Fuzz Face earns its keep.</p>
+    <h4>3) The E7#9 voicing (the Hendrix chord)</h4>
+    <div class="tab-sheet"><span class="tab-label">FIG. 14.3 · SHORT, FUNKY STAB</span><pre>
+e|--x--|
+B|--8--|   &lt;- G  (the #9 / minor-3rd "blue note")
+G|--7--|   &lt;- G# (the major 3rd)
+D|--6--|   &lt;- D  (the b7)
+A|--7--|   &lt;- E  (the root)
+E|--x--|</pre></div>
+    <p class="tab-note">Both 3rds (G# and G) in one grip — that's the entire emotional payload of the chord. Stab it, mute, repeat.</p>
+
+    <h3>The Drills</h3>
+    <h4>Drill A — 7#9 + R&amp;B embellishment</h4>
+    <p>Builds the funk-comping reflex Hendrix used everywhere: hold the chord, decorate it with hammer-ons and muted scratches.</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL A · FUNKY 16THS, ~104 BPM</span><pre>
+e|--x---x------x---x----------x---x------------|
+B|--8---8------8h8------------8---8------------|
+G|--7---7------7---7----------7---7------------|
+D|--6---6------6---6----------6---6----6/7-6---|
+A|--7---7------7---7----------7---7----7-------|
+E|--x---x------x---x----------x---x------------|
+    >   >                     >   >    slide tag</pre></div>
+    <p class="tab-note">Tone: bridge pickup, fuzz at 6–7, guitar volume rolled to ~6 so the chord stays defined. Keep the strumming hand moving in constant 16ths; let the pick skim muted strings between hits.</p>
+    <h4>Drill B — Tritone riff</h4>
+    <p>Trains the E-against-Bb tension move and locks in a swung, lurching feel.</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL B · HEAVY SWING, ~108 BPM</span><pre>
+e|--------------------------------------------|
+B|--------------------------------------------|
+G|--------------------7-----------------------|
+D|--------------------------------------------|
+A|--7~----6-----7-----7-----6-----7~----6-----|
+E|--0-----0-----0-----0-----0-----0-----0-----|
+    Bb    A     Bb          A     Bb    A
+  (tritone)           (resolve up to D then back)</pre></div>
+    <p class="tab-note">Fuzz growling, guitar volume ~8 for bite. Let the open E ring under everything so the dissonance stays in your ear. The brief jump to D gives the line somewhere to breathe before it falls back into the clash.</p>
+    <h4>Drill C — Octavia-style lead lick</h4>
+    <p>Trains high-neck single-note phrasing with bends, where an octave-up fuzz sings hardest.</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL C · VOCAL, BEHIND THE BEAT, ~108 BPM</span><pre>
+e|--12b14r12----------12-15-12-----------------|
+B|-----------15--12----------------15b17~------|
+G|---------------------------------------------|
+D|---------------------------------------------|
+A|---------------------------------------------|
+E|---------------------------------------------|
+   bend &amp; release     run down     wail + vibrato</pre></div>
+    <p class="tab-note">Engage the octave fuzz and use the bridge pickup. The effect tracks cleanest on single notes above the 12th fret, so keep the lines high and avoid full chords. Bend slowly and add wide vibrato — let each note bloom into its ghostly upper octave.</p>
+
+    <h3>Make It Yours</h3>
+    <p>The takeaways travel far beyond this one song. First, the <strong>E7#9 grip</strong> is a permanent addition to your vocabulary — drop it as a funk stab, a turnaround chord, or the last hit of any blues. Second, <strong>fuzz-cleanup</strong>: practicing your volume knob turns one pedal into a whole pedalboard, from clean-ish sparkle at 4 to full snarl at 10, all without tap-dancing. Third, the <strong>tritone</strong> is a tension tool you can sprinkle into any riff — pit a root against its b5 and let your ear feel the pull. Steal these ideas and you've got the DNA of a sound, not just a cover.</p>
+
+    <aside class="listen">
+      <b class="t">LISTEN FOR</b>
+      <ul>
+        <li>The <strong>tritone clash</strong> (E against Bb) in the intro — can you hear the dissonance refusing to resolve?</li>
+        <li>Both <strong>3rds ringing together</strong> (G# and G) when you stab the E7#9 — the "blue note" living inside the chord.</li>
+        <li>The <strong>fuzz cleaning up</strong> as you roll your guitar volume down — grit melting to clarity without your foot moving.</li>
+        <li>The <strong>octave-up ghost note</strong> blooming on the high lead lines — present on single notes, gone on chords.</li>
+        <li>Your <strong>right-hand attack</strong> driving the fuzz — dig in for the riff, ease off for the comping.</li>
+      </ul>
+    </aside>
+  </div>
+</article>
+
+<article class="lesson" id="comfortably-numb" aria-labelledby="cn-h">
+  <div class="wrap">
+    <header class="lesson-head">
+      <span class="era">LESSON 22 OF 50 · 70S PEDALS, MODULATION &amp; SUSTAIN</span>
+      <h2 id="cn-h">Comfortably Numb</h2>
+      <span class="who">Pink Floyd · David Gilmour</span>
+      <div class="glance">
+        <span>ALBUM: <b>THE WALL</b> (1979)</span>
+        <span>KEY: <b>B MINOR</b> · STANDARD TUNING</span>
+        <span>DIFFICULTY: <b>ADVANCED</b></span>
+      </div>
+      <p class="tone-line">"A singing, violin-like lead — thick fuzz sustain wrapped in spacious delay over a glassy, clean amp — that breathes more than it shreds."</p>
+    </header>
+
+    <p style="margin-top:1.6rem">This is the lesson where you stop measuring solos in notes-per-second and start measuring them in <em>intention per note</em>. Gilmour's outro solo is one of the most loved in rock not because it's hard to fret, but because every bend lands exactly on pitch, every note is allowed to bloom, and the whole thing climbs like a story with a beginning, a middle, and a roof-raising end. Your hands can probably play these notes today. The work is in the <em>patience</em>.</p>
+
+    <h3>The Rig &amp; Signal Chain</h3>
+    <div class="chain-pills" aria-label="Signal chain"><span>BLACK STRAT</span><i>→</i><span>BIG MUFF</span><i>→</i><span>DELAY</span><i>→</i><span>COMPRESSOR</span><i>→</i><span>HIWATT</span></div>
+    <ul>
+      <li><strong>Guitar:</strong> A <strong>Fender Stratocaster</strong> (his famous black Strat), typically on bridge or bridge-plus-middle for leads. Single-coils are central — that glassy attack is doing real work.</li>
+      <li><strong>Fuzz:</strong> An <strong>Electro-Harmonix Big Muff</strong>, the violinist's secret weapon, for that endless, vocal sustain. The Muff is a fuzz, not a tube-amp overdrive — it compresses hard and sings.</li>
+      <li><strong>Delay:</strong> Tape/analog-style <strong>delay</strong> for the wide, rhythmic repeats that make the solo feel three-dimensional.</li>
+      <li><strong>Compression:</strong> A touch of <strong>compression</strong> (he's a known MXR Dyna Comp user across this era) to even out sustain and round the attack.</li>
+      <li><strong>Amp:</strong> <strong>Hiwatt</strong> heads run clean and loud, a big uncolored platform so the pedals define the dirt.</li>
+    </ul>
+    <p>The signal philosophy matters more than the brands: <em>dirt from a pedal, cleanliness from the amp, space from delay.</em> That's the template for the whole genre of soaring lead tone.</p>
+
+    <h3>The Tone Recipe</h3>
+    <p>You can get ~90% there with very accessible gear. The point is the <em>relationship</em> between fuzz, clean amp, and delay — not boutique exotica.</p>
+    <div class="recipe-grid">
+      <div class="col">
+        <b class="t">SUBSTITUTIONS</b>
+        <ul>
+          <li><strong>Guitar:</strong> Any Strat-style single-coil guitar, bridge pickup. Humbucker? Roll the tone to ~6 and reduce gain — you're chasing glassy, not dark.</li>
+          <li><strong>Fuzz:</strong> Any Big Muff variant or clone. In a pinch, a high-gain overdrive into a clean amp gets you in the area, with less bloom.</li>
+          <li><strong>Delay:</strong> ~430–480 ms, feedback for 3–5 audible repeats, mix moderate.</li>
+          <li><strong>Amp:</strong> Any amp set <em>clean</em> with headroom. A clean Fender-style channel is perfect.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <b class="t">STARTING POINTS (OUT OF 10)</b>
+        <ul>
+          <li>Big Muff: <strong>Sustain ~7, Tone ~4–5</strong> (back off the fizz), Volume to unity.</li>
+          <li>Compressor: light — <strong>Sustain ~4</strong>, Output to taste.</li>
+          <li>Delay: <strong>Time long, Repeats ~3–4, Mix ~3–4.</strong></li>
+          <li>Amp: clean and bright but not harsh; <strong>Treble 6, Mids 5–6, Bass 5.</strong></li>
+          <li>Pick attack: <strong>medium-soft, near the neck.</strong> Let the note ring; vibrato from the fingers, not the pick.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>What's Going On Musically</h3>
+    <p>The famous outro solo sits over a repeating loop in <strong>B minor</strong>: <strong>Bm – A – G</strong>. Your core scale is <strong>B minor pentatonic</strong>, rooted at the 7th fret. The magic ingredient Gilmour adds is <strong>Dorian color</strong>: a minor scale with one bright note raised, the <strong>major 6th</strong> (in B Dorian, that's G#). Hitting it over the A or G chords gives that hopeful, lifted, "not-quite-sad" sound that keeps the solo from feeling like a generic blues.</p>
+    <p>Here's the chord-tone map you'll target — the whole secret to <em>why</em> his notes sound "right":</p>
+    <ul>
+      <li>Over <strong>Bm</strong>: aim for B, D, F#.</li>
+      <li>Over <strong>A</strong>: aim for A, C#, E.</li>
+      <li>Over <strong>G</strong>: aim for G, B, D.</li>
+    </ul>
+    <p>When the chord changes, a great soloist changes their <em>target note</em> to match. That's why Gilmour's lines feel like melodies that belong to the song rather than scales sprayed on top. <strong>Targeting chord tones</strong> is the single highest-value skill in this lesson.</p>
+
+    <h3>Signature Moves</h3>
+    <h4>1) The conversational opener (call-and-answer phrasing)</h4>
+    <div class="tab-sheet"><span class="tab-label">FIG. 22.1 · ~63 BPM, FREE AND BREATHING. LEAVE THE GAPS.</span><pre>
+e|------------------------------------------------|
+B|--10b12r10--7~~~------------7--10b12~~~----------|
+G|---------------------9~~~-9----------------------|
+D|------------------------------------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|</pre></div>
+    <p class="tab-note">Phrases that pose a question (the first bend) and answer it (the resolution), with silence carrying the line. Let the delay fill the gaps.</p>
+    <h4>2) The soaring sustained bend</h4>
+    <div class="tab-sheet"><span class="tab-label">FIG. 22.2 · BEND SLOW, HOLD, ADD WIDE VIBRATO</span><pre>
+e|------------------------------------------------|
+B|--15b17~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+G|------------------------------------------------|
+D|------------------------------------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|</pre></div>
+    <p class="tab-note">Push the 15th-fret B up a whole step to the target pitch, then sustain. Don't rush the vibrato in — let the note bloom first, then shimmer it. This is the Big Muff and compressor doing their job; your job is the vibrato.</p>
+    <h4>3) The climactic repeated bend</h4>
+    <div class="tab-sheet"><span class="tab-label">FIG. 22.3 · URGENT. EACH BEND FULL AND IN TUNE.</span><pre>
+e|--15b17~~--15b17~~--15b17~~--15b17~~-------------|
+B|------------------------------------------------|
+G|------------------------------------------------|
+D|------------------------------------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|</pre></div>
+    <p class="tab-note">Repetition is the payoff. Every repeat must hit the exact same pitch — wandering intonation kills the climax. Dig in slightly harder each pass.</p>
+
+    <h3>The Drills</h3>
+    <h4>Drill A — Sustained bend-to-pitch with delay</h4>
+    <p>Trains intonation and patience. Set delay long with a few repeats.</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL A · ~60 BPM · REFERENCE THE TARGET, THEN BEND TO MATCH IT</span><pre>
+e|------------------------------------------------|
+B|--15--15b17~~~~~~~~~~~~--15--15b17~~~~~~~~~~~~---|
+G|------------------------------------------------|
+D|------------------------------------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|</pre></div>
+    <p class="tab-note">Builds pitch-perfect whole-step bends. Trick — first fret the destination note (17) and listen, then bend the lower note and make it match exactly. Tone: Muff Sustain ~7, delay mix ~4 so the repeats reinforce your sustain.</p>
+    <h4>Drill B — B minor pentatonic chord-tone targeting</h4>
+    <p>Trains landing on the right note when the chord moves. Loop Bm–A–G underneath (or imagine it).</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL B · ~70 BPM · LAND ON THE MARKED NOTE AS EACH CHORD HITS</span><pre>
+      (Bm)              (A)               (G)
+e|------------------|------------------|------------------|
+B|--10b12~~--10-----|--10--7-----------|------------------|
+G|-------------11---|--------9--7~~----|--7~~--9--7-------|
+D|------------------|------------------|------------9~~---|
+A|------------------|------------------|------------------|
+E|------------------|------------------|------------------|
+   target: F#/D        target: C#/A       target: D/G</pre></div>
+    <p class="tab-note">Builds hearing the chord under your line. The held notes are chord tones of each chord — that's why the line sounds "composed." Tone: a hair less gain than the climax so the note changes stay articulate.</p>
+    <h4>Drill C — Long-phrase building (the narrative arc)</h4>
+    <p>Trains stamina and dynamic shape: start low and quiet, climb, and peak. One continuous four-bar idea.</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL C · ~63 BPM · BUILD REGISTER AND INTENSITY EACH BAR</span><pre>
+e|-------------------------------------------------|-----------------|
+B|-------------------------------------------------|--15b17~~~~~~~~~~|
+G|--7~~--9--7----------9b11~~--9--------------------|-----------------|
+D|------------9--7--9-------------9~~--7------------|-----------------|
+A|-------------------------------------------------|-----------------|
+E|--7~~--------------------------------------------|-----------------|</pre></div>
+    <p class="tab-note">Builds solo architecture — the discipline of saving your highest, loudest note for last. Play it three times without stopping; the high bend should feel earned, not early. Ride your volume knob up as you climb for a built-in crescendo.</p>
+
+    <h3>Make It Yours</h3>
+    <p>The lesson of "Comfortably Numb" transfers to <em>any</em> solo you'll ever play: <strong>slow down, bend in tune, and target the chord.</strong> Next time you take a lead break, give yourself a one-note rule for the first phrase — bend to pitch, hold it, add vibrato, and <em>stop</em>. Let the silence (and a little delay) do the talking. Then build, raising your register and intensity only as the section repeats, so you always have somewhere left to go. The Big Muff sustain is fun, but the real tone here is <em>restraint</em>: a clean amp, a held note, and the confidence to let it ring. Steal the architecture, not just the licks.</p>
+
+    <aside class="listen">
+      <b class="t">LISTEN FOR</b>
+      <ul>
+        <li>Bends that arrive <em>exactly</em> on pitch — no flat, no sharp, no creeping up to it.</li>
+        <li>Notes that bloom and sustain (fuzz + compression + clean amp), not stab and die.</li>
+        <li>Delay that adds width and rhythm without washing out your dry attack.</li>
+        <li>A genuine arc: the solo climbs in register and intensity toward a clear climax.</li>
+        <li>The repeated climactic bend hit identically every time — that consistency <em>is</em> the payoff.</li>
+      </ul>
+    </aside>
+  </div>
+</article>
+
+<article class="lesson" id="pride-and-joy" aria-labelledby="pj-h">
+  <div class="wrap">
+    <header class="lesson-head">
+      <span class="era">LESSON 28 OF 50 · BLUES &amp; THE TUBE SCREAMER</span>
+      <h2 id="pj-h">Pride and Joy</h2>
+      <span class="who">Stevie Ray Vaughan &amp; Double Trouble</span>
+      <div class="glance">
+        <span>ALBUM: <b>TEXAS FLOOD</b> (1983)</span>
+        <span>KEY: <b>E</b> · SRV TUNED TO Eb; WORKS IN STANDARD</span>
+        <span>DIFFICULTY: <b>ADVANCED</b></span>
+      </div>
+      <p class="tone-line">"A thick, biting, bell-clear Stratocaster bridge sound — gritty enough to bark, clean enough to hear every string — driving a relentless Texas shuffle."</p>
+    </header>
+
+    <h3>The Rig &amp; Signal Chain</h3>
+    <div class="chain-pills" aria-label="Signal chain"><span>NUMBER ONE STRAT</span><i>→</i><span>TUBE SCREAMER</span><i>→</i><span>FENDER VIBROVERB</span></div>
+    <ul>
+      <li><strong>Guitar:</strong> SRV's "Number One," a hard-played early-'60s-spec <strong>Stratocaster</strong> with a fat neck. The defining feature is the <strong>strings</strong>: famously heavy gauges, commonly cited as .013s and up, tuned down a half step. Heavy strings are a big part of why his tone has that piano-like fundamental and refuses to sound thin.</li>
+      <li><strong>Overdrive:</strong> A <strong>Tube Screamer</strong> (TS-808 / TS9 family), used less as a "distortion" box and more as a midrange-pushing, signal-fattening boost: it tightens the lows, bumps the mids, and shoves a clean-ish tube amp into early, touch-sensitive breakup.</li>
+      <li><strong>Amp:</strong> <strong>Fender</strong> — a <strong>Vibroverb</strong> and/or <strong>Super Reverb</strong>, run loud and fairly clean-to-edge-of-breakup, letting the Tube Screamer and his right hand do the dirty work.</li>
+      <li><strong>Pickup:</strong> <strong>Bridge</strong> for the rhythm bark; neck and middle for fatter lead moments.</li>
+    </ul>
+    <p>Settings are best treated as approximate. Avoid anyone who quotes you exact "secret" dial positions — those are guesses.</p>
+
+    <h3>The Tone Recipe</h3>
+    <p>You can get ~90% there with very accessible gear.</p>
+    <div class="recipe-grid">
+      <div class="col">
+        <b class="t">SUBSTITUTIONS</b>
+        <ul>
+          <li><strong>Guitar:</strong> Any Strat-style guitar with single-coils. Bridge pickup is home base.</li>
+          <li><strong>Strings:</strong> Go up at least one gauge from your norm — try .010s or .011s. You don't need .013s to start, but heavier strings genuinely change attack and sustain.</li>
+          <li><strong>Overdrive:</strong> Any Tube Screamer-style pedal. A "green overdrive" with a mid hump is the sound.</li>
+          <li><strong>Amp:</strong> Any Fender-voiced clean amp pushed to the edge of breakup.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <b class="t">STARTING POINTS (OUT OF 10)</b>
+        <ul>
+          <li>Tube Screamer: <strong>Drive 3–4, Tone 5–6, Level 6–7.</strong> Fatness and bite, not fuzz. The Level past noon is what pushes the amp.</li>
+          <li>Amp: <strong>Bass 5, Mids 6–7, Treble 6, Reverb 3</strong>, volume as loud as you can stand — power-tube compression is part of the feel.</li>
+          <li>Pick attack: <strong>dig in.</strong> This tone lives in the right hand — play hard, near the bridge, with a stiff pick.</li>
+          <li>Gain placement: most of the dirt from <strong>amp and pick attack</strong>; the pedal is the flavor, not the whole meal.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>What's Going On Musically</h3>
+    <p>This is a <strong>12-bar blues</strong> in <strong>E</strong>, played as a <strong>shuffle</strong> — a swung, triplet-based feel where each beat divides into a long-short "dah-da" rather than even eighths. The "Texas shuffle" is a particularly driving, full version of that.</p>
+    <p>The vocabulary is the <strong>E blues scale</strong> (E – G – A – Bb – B – D) over <strong>dominant</strong> harmony. Because each chord in a blues is a dominant 7th (E7, A7, B7), the underlying color is <strong>E Mixolydian</strong>. The magic of blues is rubbing the bluesy minor-3rd (G) and b5 (Bb) against the major-leaning chords — that friction <em>is</em> the sound.</p>
+    <div class="tab-sheet"><span class="tab-label">THE FORM · 12-BAR BLUES IN E</span><pre>
+| E7 | E7 | E7 | E7 |
+| A7 | A7 | E7 | E7 |
+| B7 | A7 | E7 | B7 |   (last bar = turnaround)</pre></div>
+    <p>What makes SRV special isn't the form — it's that he plays <strong>bass, chords, and lead simultaneously</strong>. The thumb and low strings imply a walking bassline while the upper strings stab chords and fills. A <strong>double-stop</strong> gives those fills their thickness. And everything is glued together with enormous <strong>vibrato</strong> — wide, vocal, as much a part of his signature as any note choice.</p>
+
+    <h3>Signature Moves</h3>
+    <h4>1) The Texas shuffle engine</h4>
+    <p>A moving bassline under a chord stab — a boogie pattern that walks while the high strings answer. Keep it <em>swung</em>.</p>
+    <div class="tab-sheet"><span class="tab-label">FIG. 28.1 · SHUFFLE FEEL, MEDIUM-UP, HARD SWING</span><pre>
+e|---------------------------------|
+B|---------------------------------|
+G|---------------------------------|
+D|-------2----2----4----5----------|
+A|---2----2----2----2----2---------|
+E|-0----0----0----0----0-----------|
+      (let the low E ring, walk the A string)</pre></div>
+    <p class="tab-note">A two-bar fragment of the boogie engine — thumb and low strings imply the bass while the pulse stays swung. Palm-mute lightly for punch.</p>
+    <h4>2) The turnaround</h4>
+    <p>The last two bars resolve the form and set up the repeat. This descending figure over E is a blues staple SRV peppers with grit.</p>
+    <div class="tab-sheet"><span class="tab-label">FIG. 28.2 · SLOW, DELIBERATE, SWUNG</span><pre>
+e|----------------------------------|
+B|----------------------------------|
+G|--3-------2-------1-------0--------|
+D|--2-------2-------2-------2--------|
+A|--2-------2-------2-------2--------|
+E|--0-------0-------0-------0--------|
+   E7      (chromatic descent)    B7</pre></div>
+    <p class="tab-note">A classic turnaround shape — the top voice steps down chromatically over a held E, then you'd land on B7 to restart.</p>
+    <h4>3) Raked double-stop fill</h4>
+    <p>SRV "rakes" — dragging the pick across muted strings into the target double-stop so the notes arrive with a percussive <em>scrrr-CHANK</em>.</p>
+    <div class="tab-sheet"><span class="tab-label">FIG. 28.3 · PUNCHY, SWUNG 16THS INTO THE HIT</span><pre>
+e|--------------5b6----------|
+B|--x--x--x-----5------------|
+G|--x--x--x------------------|
+D|---------------------------|
+A|---------------------------|
+E|---------------------------|
+   (rake the dead strings)
+                (bend the top note up)</pre></div>
+    <p class="tab-note">The rake (xxx) is the run-up; the double-stop with a slight bend on the high E is the payoff. The dead-string scratch is the attitude.</p>
+
+    <h3>The Drills</h3>
+    <h4>Drill A — Shuffle independence</h4>
+    <p>The hardest part of this music: keeping a steady swung bass while stabbing chords on top. Thumb (or pick) hits the bass note; fingers and pick answer on the upper strings on the off-beat.</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL A · HARD SWING, ~80 BPM UNTIL LOCKED, THEN PUSH</span><pre>
+e|------------------------------------------|
+B|----3-------3-------3-------3-------------|
+G|----4-------4-------4-------4-------------|
+D|--2-------2-------4-------5---------------|
+A|-----------------------------------------|
+E|-0-------0-------0-------0----------------|
+   BASS  stab   BASS  stab    (walk D string up)</pre></div>
+    <p class="tab-note">Builds bass-and-chord independence plus a rock-solid swing. Bridge pickup, palm-mute the low E for thump, let the stabs ring. Start painfully slow — the groove is in the spaces.</p>
+    <h4>Drill B — Raked double-stops up the neck</h4>
+    <p>Trains the rake attack and double-stop intonation across positions. Each rake (xxx) leads into a clean two-note hit.</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL B · SWUNG, AGGRESSIVE PICK ATTACK, ~90 BPM</span><pre>
+e|--x--x--5/7~-----x--x--7/9~-----x--x--9/10~-----|
+B|--x--x--5/7~-----x--x--7/9~-----x--x--9/10~-----|
+G|------------------------------------------------|
+D|------------------------------------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|
+   rake   slide+vib   rake   slide+vib   rake   slide+vib</pre></div>
+    <p class="tab-note">Builds the percussive rake, double-stop sliding, and vibrato on TWO strings at once. Push the Tube Screamer's Level so the rake scratches bark. Keep both fingers parallel so the slide stays in tune.</p>
+    <h4>Drill C — E blues lead with wide vibrato</h4>
+    <p>The vibrato exercise. The whole point is the <em>shake</em> — slow, wide, vocal. Don't rush past the held notes.</p>
+    <div class="tab-sheet"><span class="tab-label">DRILL C · SLOW BLUES, MILK EVERY BEND, ~70 BPM</span><pre>
+e|------------------------------------------------|
+B|-------------------8b9r8-----5~~~---------------|
+G|--7b9~~~-------7----------7----------------------|
+D|------------9-----------------------9~~~---------|
+A|------------------------------------------------|
+E|------------------------------------------------|
+   big bend+vib   blues phrase   land + WIDE vib</pre></div>
+    <p class="tab-note">Builds the SRV vibrato — wrist-driven, wide, and patient — plus full-step bend control. Use the neck pickup for a fatter lead voice. The held notes with ~~~ are the lesson: make them sing, don't just touch them.</p>
+
+    <h3>Make It Yours</h3>
+    <p>You don't need .013s, an Eb tuning, or a Vibroverb to absorb what makes this great. The transferable lessons are three: <strong>play hard</strong>, <strong>swing everything</strong>, and <strong>commit to your vibrato</strong>. Take the shuffle independence idea into any blues — even implying a single bass note under a chord stab instantly makes your rhythm playing sound like a whole band. Steal the rake as an accent on any double-stop fill; it turns a polite lick into a statement. And spend real time on a slow, wide vibrato — it's the single fastest way to sound like a player with a voice rather than a player running scales.</p>
+
+    <aside class="listen">
+      <b class="t">LISTEN FOR</b>
+      <ul>
+        <li>A <strong>swung, triplet</strong> pulse — never straight eighths. If it sounds even, slow down and re-feel it.</li>
+        <li><strong>Bass and chords at once</strong> — the low strings walking while the top stabs answer.</li>
+        <li>The <strong>percussive rake</strong> into double-stops: that <em>scrrr-CHANK</em> of dead strings before the hit.</li>
+        <li><strong>Wide, vocal vibrato</strong> on held notes — slow and deliberate, from the wrist, not a nervous wiggle.</li>
+        <li><strong>Bite with clarity</strong> — a bridge-pickup tone that's gritty and thick yet lets every string ring.</li>
+      </ul>
+    </aside>
+  </div>
+</article>
+
+<section class="end-cta">
+  <div class="wrap">
+    <h2>That's 3 of 50.</h2>
+    <p>The full <em>Tone Workbook</em> decodes forty-seven more, from Charlie Christian's "Solo Flight" to Santana's "Black Magic Woman": Zeppelin, Sabbath, the Police, Metallica, Radiohead, John Mayer, and the rest of the family tree. Every lesson, the same deal: real rig, honest recipe, the theory, original drills.</p>
+    <div class="cta">
+      <a class="btn btn-amp" href="THE-SIGNAL-CHAIN-WORKBOOK.html">Open the full Workbook</a>
+      <a class="btn btn-line" href="THE-SIGNAL-CHAIN-WORKBOOK.pdf">Download the PDF · 5.5 MB</a>
+      <a class="btn btn-line" href="index.html">Back to the book</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="out"><b>OUTPUT</b> · 8Ω · PRACTICE LOUD, LIVE QUIET</span>
+    <span class="legal">© 2026 Jason Colapietro · Johnny Suede Press · <a href="https://github.com/JasonColapietro/the-signal-chain">Source on GitHub</a></span>
+  </div>
+</footer>
+</body>
+</html>
