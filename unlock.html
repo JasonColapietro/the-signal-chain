@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Access Unlocked — THE SIGNAL CHAIN</title>
+<title>Unlock — THE SIGNAL CHAIN</title>
 <meta name="description" content="Your all-access unlock for THE SIGNAL CHAIN: all three editions plus PDF downloads."/>
 <meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="https://guitar.solutions/unlock.html"/>
@@ -27,6 +27,10 @@ body{margin:0;background:radial-gradient(90rem 40rem at 50% -10%,rgba(235,154,38
 h1{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.05;color:var(--cream);
  margin:.6rem 0 1rem;text-transform:uppercase;text-wrap:balance}
 p{margin:.4rem 0;text-wrap:pretty}
+.hide{display:none !important}
+.spin{width:2.2rem;height:2.2rem;border-radius:50%;border:3px solid var(--line);border-top-color:var(--amber);
+ margin:1.2rem auto .6rem;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
 .eds{display:flex;flex-direction:column;gap:.6rem;margin:1.6rem 0 .4rem;text-align:left}
 .eds a{display:flex;justify-content:space-between;align-items:center;gap:1rem;border:1px solid var(--line);
  border-radius:8px;padding:.85rem 1.1rem;text-decoration:none;color:var(--cream);transition:border-color .15s}
@@ -36,35 +40,124 @@ p{margin:.4rem 0;text-wrap:pretty}
 .eds .pdf{font-family:"Courier Prime",monospace;font-weight:700;font-size:.75rem;letter-spacing:.1em;color:var(--amber-hot);white-space:nowrap}
 .note{font-size:.85rem;color:var(--cream-dim);margin-top:1.4rem}
 .note a{color:var(--amber-hot)}
+.mylink{margin-top:1.3rem;border:1px dashed var(--line);border-radius:8px;padding:.9rem 1rem;text-align:left}
+.mylink b{font-family:"Courier Prime",monospace;font-size:.72rem;letter-spacing:.16em;color:var(--amber);display:block;margin-bottom:.4rem}
+.mylink code{display:block;font-family:"Courier Prime",monospace;font-size:.78rem;color:var(--cream-dim);word-break:break-all}
+.mylink button{margin-top:.6rem;background:none;border:1.5px solid var(--line);color:var(--cream);border-radius:5px;
+ font-family:Jost,sans-serif;font-weight:700;font-size:.8rem;padding:.45rem .9rem;cursor:pointer}
+.mylink button:hover{border-color:var(--amber);color:var(--amber-hot)}
+.restore input{width:100%;background:#16110c;border:1px solid var(--line);border-radius:6px;color:var(--cream);
+ font-family:"Courier Prime",monospace;font-size:.85rem;padding:.75rem .9rem;margin:.9rem 0 .6rem}
+.restore input:focus{outline:2px solid var(--amber);outline-offset:1px}
+.btn{display:inline-block;font-family:Jost,sans-serif;font-weight:700;font-size:.95rem;letter-spacing:.05em;cursor:pointer;
+ border:none;text-decoration:none;padding:.8rem 1.6rem;border-radius:5px;background:linear-gradient(180deg,var(--amber-hot),var(--amber));color:#1a130b}
 .home{display:inline-block;margin-top:1.2rem;font-family:Jost,sans-serif;font-weight:700;font-size:.9rem;
  color:var(--amber-hot);text-decoration:none}
 .home:hover{text-decoration:underline}
-@media (prefers-reduced-motion: reduce){.lamp{box-shadow:0 0 8px 1px rgba(255,75,51,.5)}}
+.err{color:#ff8f7a;font-size:.95rem}
+@media (prefers-reduced-motion: reduce){.lamp{box-shadow:0 0 8px 1px rgba(255,75,51,.5)}.spin{animation-duration:2s}}
 </style>
 </head>
 <body>
 <main class="card">
   <span class="lamp" aria-hidden="true"></span>
   <p class="kick">ALL ACCESS · POWER ON</p>
-  <h1 id="state-h">Access unlocked.</h1>
-  <p>Thank you. All three editions now read in full <strong style="color:var(--cream)">in this browser</strong>, and the PDFs are yours to download.</p>
-  <nav class="eds" aria-label="Your editions">
-    <a href="THE-SIGNAL-CHAIN-DELUXE.html"><span><b>A Life in Six Strings</b><br/><small>THE COMPLETE EDITION · 968 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN-DELUXE.pdf">PDF · 13 MB</span></a>
-    <a href="THE-SIGNAL-CHAIN.html"><span><b>The Signal Chain</b><br/><small>THE HISTORY · 493 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN.pdf">PDF · 6.5 MB</span></a>
-    <a href="THE-SIGNAL-CHAIN-WORKBOOK.html"><span><b>The Tone Workbook</b><br/><small>50 SONG LESSONS · 351 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN-WORKBOOK.pdf">PDF · 5.5 MB</span></a>
-  </nav>
-  <p class="note">Each row opens the reader; the amber tag downloads the PDF. Reading on another device later? Open this page there once: keep your Stripe receipt email, it links straight back here. Questions: <a href="https://x.com/johnnysuede">@johnnysuede</a>.</p>
+
+  <section id="st-checking" class="hide" aria-live="polite">
+    <h1>Confirming your purchase…</h1>
+    <div class="spin" role="presentation"></div>
+    <p>Talking to the payment desk. This usually takes a few seconds.</p>
+  </section>
+
+  <section id="st-unlocked" class="hide">
+    <h1>Access unlocked.</h1>
+    <p>Thank you. All three editions now read in full <strong style="color:var(--cream)">in this browser</strong>, and the PDFs are yours to download.</p>
+    <nav class="eds" aria-label="Your editions">
+      <a href="THE-SIGNAL-CHAIN-DELUXE.html"><span><b>A Life in Six Strings</b><br/><small>THE COMPLETE EDITION · 968 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN-DELUXE.pdf">PDF · 13 MB</span></a>
+      <a href="THE-SIGNAL-CHAIN.html"><span><b>The Signal Chain</b><br/><small>THE HISTORY · 493 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN.pdf">PDF · 6.5 MB</span></a>
+      <a href="THE-SIGNAL-CHAIN-WORKBOOK.html"><span><b>The Tone Workbook</b><br/><small>50 SONG LESSONS · 351 PAGES</small></span><span class="pdf" data-pdf="THE-SIGNAL-CHAIN-WORKBOOK.pdf">PDF · 5.5 MB</span></a>
+    </nav>
+    <div class="mylink"><b>YOUR PERSONAL UNLOCK LINK · SAVE IT</b>
+      <code id="mylink-url"></code>
+      <button id="copy-link" type="button">Copy link</button>
+      <span id="copied" class="hide" style="font-family:'Courier Prime',monospace;font-size:.75rem;color:var(--amber);margin-left:.6rem">COPIED</span>
+    </div>
+    <p class="note">Open that link on any other device to unlock it there too. Each row above opens the reader; the amber tag downloads the PDF. Questions: <a href="https://x.com/johnnysuede">@johnnysuede</a>.</p>
+  </section>
+
+  <section id="st-restore" class="hide">
+    <h1>Restore your access.</h1>
+    <p>Bought the book already? Open your <strong style="color:var(--cream)">personal unlock link</strong> (you saved it after purchase, or use the link Stripe sent you back to after paying). You can also paste it here:</p>
+    <div class="restore">
+      <label for="restore-in" style="position:absolute;left:-200vw">Paste your unlock link or session id</label>
+      <input id="restore-in" type="text" placeholder="https://guitar.solutions/unlock.html?session_id=cs_live_…" autocomplete="off"/>
+      <button class="btn" id="restore-go" type="button">Restore access</button>
+    </div>
+    <p id="restore-err" class="err hide"></p>
+    <p class="note">Haven't bought it yet? <a href="https://buy.stripe.com/3cIfZjbldfDT7RafInaZi0h">Unlock everything for $9.99</a>, or keep reading the <a href="index.html">free preview</a>. Trouble restoring? <a href="https://x.com/johnnysuede">@johnnysuede</a> will sort you out.</p>
+  </section>
+
+  <section id="st-failed" class="hide">
+    <h1>Almost there.</h1>
+    <p id="failed-msg">We couldn't confirm this purchase yet. If you paid seconds ago, give it a moment and try again.</p>
+    <p style="margin-top:1.2rem"><button class="btn" id="retry" type="button">Try again</button></p>
+    <p class="note">Still stuck? Message <a href="https://x.com/johnnysuede">@johnnysuede</a> with your Stripe receipt and you'll be unlocked manually.</p>
+  </section>
+
   <a class="home" href="index.html">Back to guitar.solutions</a>
 </main>
 <script>
-try{localStorage.setItem('tsc-unlock','1');}catch(e){
-  document.getElementById('state-h').textContent='Almost there.';
-  document.querySelector('.note').innerHTML='Your browser is blocking local storage, which this unlock needs. Allow site data for guitar.solutions, then reload this page. Questions: <a href="https://x.com/johnnysuede" style="color:#ffb84d">@johnnysuede</a>.';
-}
-document.querySelectorAll('.pdf').forEach(function(el){
-  el.addEventListener('click',function(ev){ev.preventDefault();ev.stopPropagation();
-    var a=document.createElement('a');a.href=el.dataset.pdf;a.download='';document.body.appendChild(a);a.click();a.remove();});
-});
+(function(){
+  var API='https://guitar-solutions-api.vercel.app';
+  var qs=new URLSearchParams(location.search);
+  var sid=qs.get('session_id')||'';
+  if(!/^cs_(live|test)_[A-Za-z0-9]{10,}$/.test(sid)){sid='';}
+  if(!sid){try{sid=localStorage.getItem('tsc-session')||'';}catch(e){}}
+  var states=['checking','unlocked','restore','failed'];
+  function show(s){states.forEach(function(n){document.getElementById('st-'+n).classList.toggle('hide',n!==s);});}
+
+  function unlockedUI(token,session){
+    try{localStorage.setItem('tsc-token',token);localStorage.setItem('tsc-session',session);}catch(e){}
+    var link='https://guitar.solutions/unlock.html?session_id='+session;
+    document.getElementById('mylink-url').textContent=link;
+    document.getElementById('copy-link').onclick=function(){
+      (navigator.clipboard?navigator.clipboard.writeText(link):Promise.reject()).then(function(){
+        document.getElementById('copied').classList.remove('hide');
+      }).catch(function(){});
+    };
+    document.querySelectorAll('#st-unlocked .pdf').forEach(function(el){
+      el.addEventListener('click',function(ev){ev.preventDefault();ev.stopPropagation();
+        var a=document.createElement('a');a.href=el.dataset.pdf;a.download='';document.body.appendChild(a);a.click();a.remove();});
+    });
+    show('unlocked');
+  }
+
+  function verify(session,tries){
+    show('checking');
+    fetch(API+'/api/verify?session_id='+encodeURIComponent(session))
+      .then(function(r){if(r.status===404)throw {retry:true};if(!r.ok)throw {retry:false};return r.json();})
+      .then(function(d){unlockedUI(d.token,session);})
+      .catch(function(e){
+        if(e&&e.retry&&tries<5){setTimeout(function(){verify(session,tries+1);},(tries+1)*2500);}
+        else{show('failed');}
+      });
+  }
+
+  document.getElementById('retry').onclick=function(){if(sid)verify(sid,0);else show('restore');};
+  document.getElementById('restore-go').onclick=function(){
+    var v=document.getElementById('restore-in').value||'';
+    var m=v.match(/cs_(?:live|test)_[A-Za-z0-9]{10,}/);
+    var err=document.getElementById('restore-err');
+    if(!m){err.textContent='That doesn’t look like an unlock link or session id. It should contain “cs_live_…”.';err.classList.remove('hide');return;}
+    err.classList.add('hide');sid=m[0];verify(sid,0);
+  };
+
+  // already unlocked on this device with a stored token? go straight to the good news
+  var tok=null;try{tok=localStorage.getItem('tsc-token');}catch(e){}
+  if(tok&&sid){unlockedUI(tok,sid);}
+  else if(sid){verify(sid,0);}
+  else{show('restore');}
+})();
 </script>
 </body>
 </html>

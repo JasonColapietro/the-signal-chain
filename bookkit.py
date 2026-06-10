@@ -408,41 +408,77 @@ def doc(title, css, body_html, head_extra=""):
 
 
 # ----------------------------------------------------------------- PAYWALL
-def paywall(cut_id, buy_url, unlock_url="unlock.html", lessons_url="lessons.html"):
-    """Soft client-side gate. Hides every chapter/part-divider from cut_id onward
-    unless localStorage tsc-unlock=1 (set by unlock.html after purchase) or the
-    page is opened with ?full=1 (used when printing the PDFs)."""
-    panel = (
+import json as _json
+
+API_BASE = "https://guitar-solutions-api.vercel.app"
+LOCKED_OUT_DIR = "/Users/jason/Documents/guitar-solutions-api/api/_locked"
+
+
+def _panel(buy_url, unlock_url="unlock.html", lessons_url="lessons.html"):
+    tpl = (
+        '<section id="paywall" style="background:radial-gradient(115% 90% at 50% 0%,#2b1d10 0%,#170f09 60%,#110c08 100%);'
+        'border-radius:14px;padding:3rem 1.6rem;margin:3.2rem 0;text-align:center;font-family:Helvetica Neue,Arial,sans-serif;">'
         '<div style="font-weight:700;letter-spacing:.28em;font-size:.72rem;color:#eb9a26;">'
         '<span style="color:#d8472f;">\u25cf</span>&nbsp; END OF THE FREE PREVIEW</div>'
         '<div style="font-weight:800;font-size:clamp(1.6rem,4vw,2.3rem);line-height:1.1;color:#f2e7cf;margin:1rem 0 .9rem;">'
         'Keep reading. Unlock everything.</div>'
         '<div style="font-size:1rem;line-height:1.65;color:#d9c9a8;max-width:34rem;margin:0 auto;">'
-        'One purchase opens all three editions in this browser, plus the PDF downloads: '
+        'One purchase opens all three editions, plus the PDF downloads: '
         '<b style="color:#f2e7cf;">The Signal Chain</b> (the history), '
         '<b style="color:#f2e7cf;">The Tone Workbook</b> (all 50 lessons), and '
         '<b style="color:#f2e7cf;">A Life in Six Strings</b> (the complete edition).</div>'
-        '<div style="margin:1.6rem 0 .4rem;"><a href="%s" '
+        '<div style="margin:1.6rem 0 .4rem;"><a href="@BUY@" '
         'style="display:inline-block;background:linear-gradient(180deg,#ffb84d,#eb9a26);color:#1a130b;'
         'font-weight:700;font-size:1.05rem;padding:.9rem 1.8rem;border-radius:6px;text-decoration:none;">'
         'Unlock everything \u00b7 $9.99</a></div>'
         '<div style="font-size:.85rem;color:#a98e6b;margin-top:1rem;">'
-        'Already purchased? <a href="%s" style="color:#ffb84d;">Restore access on this device</a>'
-        ' &nbsp;\u00b7&nbsp; Still browsing? <a href="%s" style="color:#ffb84d;">Three full lessons are free</a></div>'
-    ) % (buy_url, unlock_url, lessons_url)
+        'Already purchased? <a href="@UNLOCK@" style="color:#ffb84d;">Restore access</a>'
+        ' &nbsp;\u00b7&nbsp; Still browsing? <a href="@LESSONS@" style="color:#ffb84d;">Three full lessons are free</a></div>'
+        '</section>'
+    )
+    return tpl.replace('@BUY@', buy_url).replace('@UNLOCK@', unlock_url).replace('@LESSONS@', lessons_url)
+
+
+def split_gated(B, cut_id):
+    """Split assembled body blocks at the section whose id == cut_id.
+    Returns (free_blocks, locked_html). The locked half is shipped to the
+    content API, never to the public site."""
+    marker = 'id="%s"' % cut_id
+    idx = next(i for i, blk in enumerate(B) if marker in blk)
+    return list(B[:idx]), "\n".join(B[idx:])
+
+
+def gate_block(edition_key, buy_url, api_base=API_BASE):
+    """Client gate appended to the gated public build: with a purchase token it
+    fetches the locked half from the API and injects it; otherwise it shows the
+    unlock panel."""
+    loading = ('<div style="text-align:center;font-family:Helvetica Neue,Arial,sans-serif;'
+               'color:#6b5d4c;padding:2.5rem 1rem;">Loading the full edition\u2026</div>')
+    restore = ('<div style="text-align:center;font-family:Helvetica Neue,Arial,sans-serif;font-size:.85rem;'
+               'color:#a33a25;margin-top:.8rem;">Your earlier unlock could not be confirmed on this device. '
+               '<a href="unlock.html" style="color:#a33a25;font-weight:700;">Restore access</a>.</div>')
     return (
+        '<div id="locked-root"></div>'
         '<script>(function(){'
-        'try{if(/[?&]full=1/.test(location.search))return;'
-        'if(localStorage.getItem("tsc-unlock")==="1")return;}catch(e){return;}'
-        'var cut=document.getElementById("%s");if(!cut)return;'
-        'var secs=document.querySelectorAll("section.chapter,section.part-divider");'
-        'var hide=false;for(var i=0;i<secs.length;i++){if(secs[i].id==="%s")hide=true;'
-        'if(hide)secs[i].style.display="none";}'
-        'var d=document.createElement("section");d.id="paywall";'
-        'd.style.cssText="background:radial-gradient(115%% 90%% at 50%% 0%%,#2b1d10 0%%,#170f09 60%%,#110c08 100%%);'
-        'border-radius:14px;padding:3rem 1.6rem;margin:3.2rem 0;text-align:center;'
-        'font-family:Helvetica Neue,Arial,sans-serif;";'
-        "d.innerHTML='%s';"
-        'cut.parentNode.insertBefore(d,cut);'
+        'var API=%s,ED=%s,PANEL=%s;'
+        'var root=document.getElementById("locked-root");if(!root)return;'
+        'function showPanel(extra){root.innerHTML=PANEL+(extra||"");}'
+        'var tok=null;try{tok=localStorage.getItem("tsc-token");}catch(e){}'
+        'if(!tok){showPanel("");return;}'
+        'root.innerHTML=%s;'
+        'fetch(API+"/api/content?edition="+ED+"&token="+encodeURIComponent(tok))'
+        '.then(function(r){if(!r.ok)throw new Error(r.status);return r.text();})'
+        '.then(function(h){root.innerHTML=h;})'
+        '.catch(function(){showPanel(%s);});'
         '})();</script>'
-    ) % (cut_id, cut_id, panel.replace("'", "\\'"))
+    ) % (_json.dumps(api_base), _json.dumps(edition_key), _json.dumps(_panel(buy_url)),
+         _json.dumps(loading), _json.dumps(restore))
+
+
+def write_locked_fragment(edition_key, html):
+    import os as _os
+    d = _os.environ.get("LOCKED_OUT_DIR", LOCKED_OUT_DIR)
+    _os.makedirs(d, exist_ok=True)
+    path = _os.path.join(d, edition_key + ".js")
+    open(path, "w", encoding="utf-8").write("module.exports = { html: " + _json.dumps(html) + " };\n")
+    return path

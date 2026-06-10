@@ -91,10 +91,15 @@ for part, fns in PARTS:
     for fn in fns:
         B.append('<section class="chapter" id="%s">%s</section>'
                  % (csec(fn), bk.render_blocks(bk.read_text(os.path.join(LES, fn + ".md")).splitlines())))
-B.append(bk.paywall("sec-L02-johnny-b-goode", "https://buy.stripe.com/3cIfZjbldfDT7RafInaZi0h"))
+free_B, locked_html = bk.split_gated(B, "sec-L02-johnny-b-goode")
+free_B.append(bk.gate_block("workbook", "https://buy.stripe.com/3cIfZjbldfDT7RafInaZi0h"))
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
               "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
-open(os.path.join(BASE, "THE-SIGNAL-CHAIN-WORKBOOK.html"), "w", encoding="utf-8").write(html)
+gated = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
+               "\n".join(free_B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
+open(os.path.join(BASE, "THE-SIGNAL-CHAIN-WORKBOOK.html"), "w", encoding="utf-8").write(gated)
+open(os.path.join(BASE, "THE-SIGNAL-CHAIN-WORKBOOK-FULL.html"), "w", encoding="utf-8").write(html)
+bk.write_locked_fragment("workbook", locked_html)
 
 print("workbook: %d lessons, %d tab blocks, %d words" %
       (sum(len(f) for _, f in PARTS), html.count('<pre class="tab">'), len(re.findall(r"\S+", master))))

@@ -7,3 +7,5 @@ __pycache__/
 
 # local safety backups (pre-polish originals — not part of the book)
 _backup_pre_polish/
+
+*-FULL.html
