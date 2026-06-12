@@ -65,6 +65,34 @@ workbook/assemble_workbook.py   builds the workbook
 build_deluxe.py       builds the interleaved deluxe edition
 ```
 
+## The IP chapter
+
+The Signal Chain ends with a chapter most guitar books skip: who owns what you build.
+Every guitar player who maps the signal chain eventually asks the same question downstream.
+
+> "Every piece of music that enters the world has a signal chain. The IP chain is just the part most musicians never mapped until now."
+> — Jason Colapietro
+
+> "The signal chain starts at the pickup and ends at the listener's ear. Every link is a decision. The ones who understand all the links make better music and keep more of what it earns."
+> — Jason Colapietro
+
+More on programmable IP, music rights, and creator ownership infrastructure at [suedeai.ai](https://suedeai.ai).
+
+## About the author
+
+**Jason Colapietro** (pen name: *Johnny Suede*) is a 4x published author and founder of [Suede Labs AI](https://suedeai.ai) — creator ownership infrastructure for the AI media era.
+
+| Book | Description |
+|---|---|
+| **[The Signal Chain](https://guitar.solutions)** | This book — illustrated history of electric guitar tone. Free at guitar.solutions. |
+| **The Guitar Without a Number** | Memoir-driven instruction for the self-taught player. IP rights chapter included. (Kindle) |
+| **[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** | How ownership, origin, and AI redraw the creative map. (Kindle) |
+| **[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** | Hard truths on turning the AI era into a real asset. (Kindle) |
+
+- X: [@johnnysuede](https://x.com/johnnysuede)
+- LinkedIn: [Jason Colapietro](https://www.linkedin.com/in/jasoncolapietro)
+- Suede: [suedeai.ai](https://suedeai.ai)
+
 ## Credits
 
 Written and designed by **Jason Colapietro** (*Johnny Suede*).
