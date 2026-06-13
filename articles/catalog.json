@@ -114,5 +114,254 @@
         }
       ]
     }
-  ]
+  ],
+  "map": {
+    "intro": "Beyond the books and apps above, here's the rest of the Suede ecosystem — every public surface, grouped. Some of the app's deeper tools need a free Suede account.",
+    "groups": [
+      {
+        "title": "The Suede app",
+        "note": "Inside the Suede app · a free account opens the deeper tools",
+        "items": [
+          {
+            "label": "Studio",
+            "url": "https://app.suedeai.ai/create"
+          },
+          {
+            "label": "Library",
+            "url": "https://app.suedeai.ai/library"
+          },
+          {
+            "label": "Royalty Rails",
+            "url": "https://app.suedeai.ai/royalties",
+            "tag": "NEW"
+          },
+          {
+            "label": "Public Ledger",
+            "url": "https://app.suedeai.ai/rewards/leaderboard",
+            "tag": "NEW"
+          },
+          {
+            "label": "Marketplace",
+            "url": "https://app.suedeai.ai/marketplace"
+          },
+          {
+            "label": "Licensing",
+            "url": "https://app.suedeai.ai/licenses"
+          },
+          {
+            "label": "My IPs",
+            "url": "https://app.suedeai.ai/my-ips"
+          },
+          {
+            "label": "Verify Rights",
+            "url": "https://app.suedeai.ai/verify"
+          },
+          {
+            "label": "Manage Assets",
+            "url": "https://app.suedeai.ai/manage"
+          },
+          {
+            "label": "Subscription",
+            "url": "https://app.suedeai.ai/subscription"
+          },
+          {
+            "label": "Profile",
+            "url": "https://app.suedeai.ai/profile"
+          },
+          {
+            "label": "Ambassador",
+            "url": "https://app.suedeai.ai/affiliate"
+          }
+        ]
+      },
+      {
+        "title": "Creation tools",
+        "note": "inside the app · free account required",
+        "items": [
+          {
+            "label": "Upload Music",
+            "url": "https://app.suedeai.ai/upload-music"
+          },
+          {
+            "label": "Upload Vocals",
+            "url": "https://app.suedeai.ai/upload"
+          },
+          {
+            "label": "Avatar Studio",
+            "url": "https://app.suedeai.ai/avatar-studio"
+          },
+          {
+            "label": "AI Assistant",
+            "url": "https://app.suedeai.ai/chat"
+          },
+          {
+            "label": "Training",
+            "url": "https://app.suedeai.ai/train"
+          },
+          {
+            "label": "IP Landing Page",
+            "url": "https://app.suedeai.ai/iplandingpage"
+          },
+          {
+            "label": "Artist Tools",
+            "url": "https://app.suedeai.ai/artist"
+          },
+          {
+            "label": "Sing & Sign",
+            "url": "https://suedeai.ai/#proof",
+            "tag": "Soon"
+          }
+        ]
+      },
+      {
+        "title": "Registries, chains & distribution",
+        "note": "the on-chain + release surfaces",
+        "items": [
+          {
+            "label": "Distro",
+            "url": "https://distro.suedeai.ai",
+            "tag": "NEW"
+          },
+          {
+            "label": "Launchpad",
+            "url": "https://launch.suedeai.ai"
+          },
+          {
+            "label": "NFT",
+            "url": "https://nft.suedeai.ai"
+          },
+          {
+            "label": "Base Chain",
+            "url": "https://base.suedeai.ai"
+          },
+          {
+            "label": "Solana Registry",
+            "url": "https://solana.suedeai.ai"
+          },
+          {
+            "label": "Avax Registry",
+            "url": "https://avax.suedeai.ai"
+          }
+        ]
+      },
+      {
+        "title": "From suedeai.ai",
+        "note": "the company site",
+        "items": [
+          {
+            "label": "Home",
+            "url": "https://suedeai.ai/"
+          },
+          {
+            "label": "Manifesto",
+            "url": "https://suedeai.ai/manifesto"
+          },
+          {
+            "label": "Founder",
+            "url": "https://suedeai.ai/founder"
+          },
+          {
+            "label": "Blog",
+            "url": "https://suedeai.ai/blog",
+            "tag": "NEW"
+          },
+          {
+            "label": "Press",
+            "url": "https://suedeai.ai/press"
+          },
+          {
+            "label": "Book",
+            "url": "https://app.suedeai.ai/book"
+          },
+          {
+            "label": "Jason Colapietro",
+            "url": "https://suedeai.ai/jason-colapietro-images"
+          },
+          {
+            "label": "Crypto Investing",
+            "url": "https://suedeai.ai/crypto-investing-ai-ip-rwa-music"
+          },
+          {
+            "label": "Rewards",
+            "url": "https://suedeai.ai/rewards"
+          },
+          {
+            "label": "iOS Apps",
+            "url": "https://suedeai.ai/ios",
+            "tag": "NEW"
+          }
+        ]
+      },
+      {
+        "title": "Reading: the case for ownership",
+        "note": "suedeai.org",
+        "items": [
+          {
+            "label": "Proof of Creation",
+            "url": "https://suedeai.org/proof-of-creation/"
+          },
+          {
+            "label": "Programmable IP",
+            "url": "https://suedeai.org/programmable-ip/"
+          },
+          {
+            "label": "Why Copyright Fails",
+            "url": "https://suedeai.org/why-copyright-fails/"
+          },
+          {
+            "label": "AI Voice Protection",
+            "url": "https://suedeai.org/ai-voice-protection/"
+          },
+          {
+            "label": "Likeness Protection",
+            "url": "https://suedeai.org/ai-likeness-protection/"
+          },
+          {
+            "label": "Content Provenance",
+            "url": "https://suedeai.org/content-provenance/"
+          },
+          {
+            "label": "Creator Ownership",
+            "url": "https://suedeai.org/creator-ownership/"
+          },
+          {
+            "label": "Investor Brief",
+            "url": "https://suedeai.ai/#institutional-access"
+          }
+        ]
+      },
+      {
+        "title": "Tokens, swaps & agent commerce",
+        "note": "the $SUEDE economy",
+        "items": [
+          {
+            "label": "Vaults",
+            "url": "https://suedeai.ai/vaults",
+            "tag": "HOT"
+          },
+          {
+            "label": "Swap",
+            "url": "https://suedeai.ai/vaults#suede-swap",
+            "tag": "HOT"
+          },
+          {
+            "label": "$SUEDE on Coinbase",
+            "url": "https://www.coinbase.com/price/johnny-suede-solana-2ncehpecqvnmfzju5fdmakws1vbxmzxvwr6qqlpapump-token"
+          },
+          {
+            "label": "Stargate Bridge",
+            "url": "https://stargate.finance"
+          },
+          {
+            "label": "x402 manifest",
+            "url": "https://app.suedeai.ai/.well-known/x402.json"
+          },
+          {
+            "label": "Agent card",
+            "url": "https://app.suedeai.ai/.well-known/agent-card.json"
+          }
+        ]
+      }
+    ]
+  }
 }

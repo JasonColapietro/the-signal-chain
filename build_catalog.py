@@ -63,7 +63,22 @@ CATALOG_CSS = r"""
 .cat-promo .k{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:.66rem;color:#b06a24;margin:0 0 .55rem;}
 .cat-promo p{text-align:left;margin:0 0 .85rem;font-size:.99rem;line-height:1.5;color:#3a2f24;}
 .cat-promo a.btn{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:.85rem;color:#8c2f22;}
-@media (max-width:600px){.cat-title{font-size:2.2rem;}}
+.cat-map{margin:3.6rem 0 0;border-top:2px solid #8c2f22;padding-top:1.4rem;}
+.cat-map-h{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:800;font-size:1.02rem;letter-spacing:.04em;text-transform:uppercase;color:#1a1410;margin:0;padding-left:0;}
+.cat-map-h::before{display:none;}
+.cat-map-intro{color:#6b5d4c;font-size:1rem;line-height:1.55;margin:.7rem 0 0;text-align:left;hyphens:none;-webkit-hyphens:none;}
+.cat-map-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr));gap:1.9rem 1.6rem;margin-top:1.9rem;}
+.cat-map-col h3{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#8c2f22;margin:0 0 .15rem;}
+.cat-map-col .note{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.66rem;letter-spacing:.01em;color:#9c8e78;margin:0 0 .65rem;text-transform:none;line-height:1.35;}
+.cat-map-col ul{list-style:none;margin:0;padding:0;}
+.cat-map-col li{margin:.1rem 0;}
+.cat-map-col li a{font-family:"Iowan Old Style",Georgia,serif;font-size:1.02rem;color:#3a2f24;display:inline-flex;align-items:center;gap:.4rem;}
+.cat-map-col li a:hover{color:#8c2f22;text-decoration:none;}
+.cat-tag{font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;padding:.12em .42em;border-radius:3px;border:1px solid currentColor;}
+.cat-tag.new{color:#8c2f22;}
+.cat-tag.hot{color:#b06a24;}
+.cat-tag.soon{color:#9c8e78;}
+@media (max-width:600px){.cat-title{font-size:2.2rem;}.cat-map-grid{grid-template-columns:1fr 1fr;}}
 """
 
 
@@ -135,6 +150,25 @@ def build():
                            esc(it["blurb"]), escq(url), link_attrs(url), esc(it["cta"])))
             all_items.append({"@type": "CreativeWork", "name": it["name"], "url": url})
         body.append('</ul></section>')
+
+    mp = data.get("map")
+    if mp:
+        body.append('<section class="cat-map"><h2 class="cat-map-h">Everything else — the full map</h2>')
+        body.append('<p class="cat-map-intro">%s</p>' % esc(mp["intro"]))
+        body.append('<div class="cat-map-grid">')
+        for g in mp["groups"]:
+            body.append('<div class="cat-map-col"><h3>%s</h3>' % esc(g["title"]))
+            if g.get("note"):
+                body.append('<span class="note">%s</span>' % esc(g["note"]))
+            body.append('<ul>')
+            for it in g["items"]:
+                tag = ('<span class="cat-tag %s">%s</span>' % (it["tag"].lower(), esc(it["tag"]))) if it.get("tag") else ''
+                body.append('<li><a href="%s"%s>%s%s</a></li>'
+                            % (escq(it["url"]), link_attrs(it["url"]), esc(it["label"]), tag))
+            body.append('</ul></div>')
+            for it in g["items"]:
+                all_items.append({"@type": "WebPage", "name": it["label"], "url": it["url"]})
+        body.append('</div></section>')
 
     body.append('<aside class="cat-promo"><p class="k">Start here</p>'
                 '<p>New to the desk? Begin with <b>THE SIGNAL CHAIN</b> — chapter one and three '
