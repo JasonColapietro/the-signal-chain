@@ -1,0 +1,200 @@
+{
+  "series": {
+    "series_dek": "Nine essays on tone, dynamics, and the parts of a record that never make it onto the lead sheet.",
+    "standfirst": "There is a breath at 3:20 in Jeff Buckley's Hallelujah — a body, audible inside the tape, that no lead sheet contains. This is a nine-part listen for the things that don't fit on the chart: the Telecaster and the Quadraverb preset, the loudness war in DR numbers, the religion of the 1176, the rooms at Bearsville and Muscle Shoals, the difference between a comp of takes and a stitch of syllables. Free to read, and a companion to the book THE SIGNAL CHAIN.",
+    "seo_title": "Print the Quiet — Essays on Tone | Johnny Suede",
+    "seo_description": "A nine-part series on tone, dynamics, and the parts of a record that aren't on the lead sheet: Buckley, the loudness war, the compressor, the room."
+  },
+  "essays": [
+    {
+      "title": "Print the Quiet",
+      "dek": "How Jeff Buckley out-toned Leonard Cohen at Bearsville in September 1993, and why no master has matched that take on its own terms.",
+      "subject": "Jeff Buckley's tone, his gear and technique, and the Hallelujah recording at Bearsville.",
+      "seo_description": "Inside Jeff Buckley's Hallelujah: the 1983 Telecaster, the Quadraverb halo, Andy Wallace's comp at Bearsville, and why tone won Cohen's song.",
+      "keywords": [
+        "Jeff Buckley Hallelujah",
+        "Jeff Buckley guitar tone",
+        "Bearsville Studios 1993",
+        "Andy Wallace mix",
+        "1983 Fender Telecaster Top Loader",
+        "Alesis Quadraverb Taj Mahal",
+        "Grace album dynamic range",
+        "John Cale Hallelujah"
+      ],
+      "pull_quote": "It is the irreducible record of a body in a room making a decision in time.",
+      "est_read_min": 14,
+      "n": 1,
+      "file": "01-jeff-buckley-tone-hallelujah.md",
+      "slug": "01-jeff-buckley-tone-hallelujah",
+      "seo_title": "Jeff Buckley’s Hallelujah: The Tone That Won the Song"
+    },
+    {
+      "title": "The Loudness War, in Numbers",
+      "dek": "How the masters got crushed, who tried to stop it, and whether streaming normalization actually ended it.",
+      "subject": "DR scores, LUFS, the Waves L1/L2, and the loudness war from 1994 to 2026",
+      "seo_description": "Metallica's Death Magnetic hit DR3. Here's the loudness war in numbers: LUFS, DR scores, the Waves L1, Bob Katz's K-system, and what Spotify actually changed.",
+      "keywords": [
+        "loudness war",
+        "LUFS normalization",
+        "dynamic range DR score",
+        "Death Magnetic DR3",
+        "Waves L1 Ultramaximizer",
+        "Spotify -14 LUFS",
+        "Bob Katz K-system",
+        "Ted Jensen mastering"
+      ],
+      "pull_quote": "For the first time in twenty years, mastering loud was the worse strategy.",
+      "est_read_min": 11,
+      "n": 2,
+      "file": "02-loudness-war-in-numbers.md",
+      "slug": "02-loudness-war-in-numbers"
+    },
+    {
+      "title": "The Religion of the Compressor",
+      "dek": "How the Fairchild, LA-2A, 1176, SSL G-bus and Distressor became gods, and why glue and breath are physical facts, not metaphors.",
+      "subject": "What a compressor does, the canonical units, and the craft and crime of using one.",
+      "seo_description": "Why engineers worship the compressor — Fairchild to Distressor, parallel and sidechain, Clearmountain and Scheps, and the brick-wall crime of Death Magnetic.",
+      "keywords": [
+        "compressor",
+        "1176 all-buttons-in",
+        "LA-2A",
+        "Fairchild 660",
+        "SSL G-bus compressor",
+        "parallel compression",
+        "Andrew Scheps",
+        "gated reverb"
+      ],
+      "pull_quote": "The compressor is the throat of the recording.",
+      "est_read_min": 11,
+      "n": 3,
+      "file": "03-religion-of-the-compressor.md",
+      "slug": "03-religion-of-the-compressor"
+    },
+    {
+      "title": "The Lost Art of Clean",
+      "dek": "A clean tone is a courtroom where every pickstroke is on trial. Knopfler, Hendrix, SRV, and Larry Carlton paid the price; their records show what it buys.",
+      "subject": "Why undistorted guitar tone is the hardest, most revealing thing a player can put on a record.",
+      "seo_description": "Essay 4 of Print the Quiet: what a clean guitar tone costs and what it buys, from \"Sultans of Swing\" to Larry Carlton's $50K Dumble and SRV's \"Lenny.\"",
+      "keywords": [
+        "clean guitar tone",
+        "Mark Knopfler Sultans of Swing",
+        "Larry Carlton Dumble Overdrive Special",
+        "Stevie Ray Vaughan Lenny tone",
+        "amp breakup point",
+        "Jeff Buckley Hallelujah Telecaster",
+        "right-hand pick attack technique",
+        "Jason Colapietro Suede Labs"
+      ],
+      "pull_quote": "Clean is the practice of subtracting until only the player remains.",
+      "est_read_min": 9,
+      "n": 4,
+      "file": "04-lost-art-of-clean.md",
+      "slug": "04-lost-art-of-clean"
+    },
+    {
+      "title": "The Room as Instrument",
+      "dek": "Bearsville, Sound City, Muscle Shoals, Electric Lady, Capitol, Power Station, Daptone — and the one instrument your plugins still can't fake.",
+      "subject": "How specific recording rooms shaped specific records, and what bedroom production loses.",
+      "seo_description": "Why Hallelujah, Rumours, and Back to Black owe their sound to the rooms they were cut in — Bearsville to Daptone — and what convolution reverb can't fake.",
+      "keywords": [
+        "room acoustics in recording",
+        "Bearsville Studios Jeff Buckley Grace",
+        "Sound City Neve 8028",
+        "Muscle Shoals Sound Studio",
+        "Electric Lady Studios",
+        "Capitol echo chambers",
+        "convolution reverb vs real room",
+        "bedroom production limitations"
+      ],
+      "pull_quote": "The room is on the recording the same way a violin's body is in the violinist's note.",
+      "est_read_min": 11,
+      "n": 5,
+      "file": "05-room-as-instrument.md",
+      "slug": "05-room-as-instrument"
+    },
+    {
+      "title": "One Take, or Twenty",
+      "dek": "Why phoneme comping breaks something the ear can't name, and how Andy Wallace and Jeff Buckley found the honest middle at Bearsville.",
+      "subject": "Vocal phrasing, full-take vs. phoneme comping, and the causal chain a singer's body builds.",
+      "seo_description": "Glyn Johns won't punch in. Pop comps at the syllable. Buckley's Hallelujah found the middle: 20 takes, 3 chosen, no fixing inside them.",
+      "keywords": [
+        "phoneme comping",
+        "Glyn Johns method",
+        "Jeff Buckley Hallelujah",
+        "Andy Wallace producer",
+        "vocal comping technique",
+        "Rick Rubin first take",
+        "punch-in recording",
+        "AI vocal generation"
+      ],
+      "pull_quote": "Each take is a response to the take that came before it.",
+      "est_read_min": 8,
+      "n": 6,
+      "file": "06-one-take-or-twenty.md",
+      "slug": "06-one-take-or-twenty"
+    },
+    {
+      "title": "Tape Is a Compressor",
+      "dek": "For sixty years, magnetic tape ran soft compression, harmonic warmth, and head-bump bass on every track for free. Then ProTools pulled it off.",
+      "subject": "How tape's automatic processing chain shaped the sound of every record made before 1995.",
+      "seo_description": "Why pre-1995 records sound warm and glued: tape was a compressor, saturator, and head-bump bass booster running free on every track until ProTools killed it.",
+      "keywords": [
+        "tape saturation",
+        "Studer A800",
+        "analog tape vs digital recording",
+        "tape emulation plugins",
+        "UAD ATR-102",
+        "why pre-1995 records sound warm",
+        "head bump 15 IPS",
+        "Jack White Third Man Records tape"
+      ],
+      "pull_quote": "A drum hit that began as a transient with a 30-microsecond rise time has been softened, harmonically enriched, gently HF-rolled, and head-bumped four separate times before it reaches the listener.",
+      "est_read_min": 14,
+      "n": 7,
+      "file": "07-tape-is-a-compressor.md",
+      "slug": "07-tape-is-a-compressor"
+    },
+    {
+      "title": "The Vocal Chain, 1994 → 2026",
+      "dek": "Jeff Buckley's Hallelujah passed through five stages. A 2026 major-label lead runs fifteen. Here's everything added between the mouth and the master.",
+      "subject": "How the pop vocal signal chain tripled in length from 1994 to 2026, and what it cost.",
+      "seo_description": "From Buckley's U87 at Bearsville to Adele's Sony C800G and Suno v5.5 — how the vocal chain went from five stages to fifteen, and what the listener lost.",
+      "keywords": [
+        "vocal chain signal path",
+        "Auto-Tune Cher Effect retune speed",
+        "Jeff Buckley Hallelujah Andy Wallace",
+        "Adele vocal chain Tom Elmhirst 1176 LA-2A",
+        "Sony C800G de-essing",
+        "vocal comping Max Martin",
+        "Suno v5.5 synthetic voice",
+        "Serban Ghenea Andrew Scheps mixing"
+      ],
+      "pull_quote": "By the fifteenth stage, the listener is hearing the chain, not the singer.",
+      "est_read_min": 11,
+      "n": 8,
+      "file": "08-vocal-chain-1994-2026.md",
+      "slug": "08-vocal-chain-1994-2026"
+    },
+    {
+      "title": "What's in the Tape That Isn't in the Score",
+      "dek": "The closer: tone is the irreducible record of a body in a room making a decision in time, and that decision has to belong to someone.",
+      "subject": "Why tone is the unscored part of music, and what it means when AI can synthesize the body.",
+      "seo_description": "The closer to Print the Quiet: tone is the body audible inside a record. From Buckley's breath at 3:20 to AI synthesis, why the decision must stay traceable.",
+      "keywords": [
+        "tone vs score",
+        "Jeff Buckley Hallelujah",
+        "AI music limitations",
+        "Print the Quiet",
+        "Bearsville Studios",
+        "creator attribution music",
+        "dynamic range loudness war",
+        "Andy Wallace Grace"
+      ],
+      "pull_quote": "If the answer is *no one's* — if the breath is a default that the algorithm added because the training data taught it to — then the breath is no longer a meeting between two bodies.",
+      "est_read_min": 11,
+      "n": 9,
+      "file": "09-whats-in-the-tape.md",
+      "slug": "09-whats-in-the-tape"
+    }
+  ]
+}

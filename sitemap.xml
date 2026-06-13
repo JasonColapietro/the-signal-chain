@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://guitar.solutions/</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://guitar.solutions/</loc><lastmod>2026-06-13</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://guitar.solutions/print-the-quiet.html</loc><lastmod>2026-06-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://guitar.solutions/lessons.html</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://guitar.solutions/THE-SIGNAL-CHAIN.html</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
   <url><loc>https://guitar.solutions/THE-SIGNAL-CHAIN-WORKBOOK.html</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://guitar.solutions/THE-SIGNAL-CHAIN-DELUXE.html</loc><lastmod>2026-06-11</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://guitar.solutions/ptq-01-jeff-buckley-tone-hallelujah.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://guitar.solutions/ptq-02-loudness-war-in-numbers.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://guitar.solutions/ptq-03-religion-of-the-compressor.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://guitar.solutions/ptq-04-lost-art-of-clean.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://guitar.solutions/ptq-05-room-as-instrument.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://guitar.solutions/ptq-06-one-take-or-twenty.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://guitar.solutions/ptq-07-tape-is-a-compressor.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://guitar.solutions/ptq-08-vocal-chain-1994-2026.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://guitar.solutions/ptq-09-whats-in-the-tape.html</loc><lastmod>2026-06-13</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
 </urlset>
