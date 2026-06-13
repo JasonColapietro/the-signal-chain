@@ -1,0 +1,118 @@
+{
+  "masthead": {
+    "title": "Everything I Make",
+    "dek": "The full shelf from the desk that wrote THE SIGNAL CHAIN — the books, the essays, the apps, and the company underneath them",
+    "standfirst": "One catalog for the whole body of work — Jason Colapietro, who plays as Johnny Suede. It starts where this site starts: guitar and tone, a book about six strings and the life around them. From there it widens to three more books on AI and who owns what a creator makes, the apps I build for musicians, and Suede Labs AI, the company that puts ownership back in the artist's hands. Pick a shelf and start reading.",
+    "nav_label": "Catalog",
+    "seo_title": "Catalog — Jason Colapietro (Johnny Suede)",
+    "seo_description": "The full catalog from Jason Colapietro (Johnny Suede): THE SIGNAL CHAIN, the Print the Quiet essays, the Suede 100, three books on AI and ownership, the apps, and Suede Labs AI."
+  },
+  "sections": [
+    {
+      "key": "read",
+      "title": "Read — guitar & tone",
+      "intro": "This is the writing the whole site is built around — guitar, tone, and the parts of a record that never make it onto a lead sheet.",
+      "items": [
+        {
+          "name": "The Signal Chain",
+          "blurb": "A guitarist's history of amps, effects, and electric tone, braided with memoir, theory, a songbook, and 50 song lessons. Chapter one free.",
+          "cta": "Read the book",
+          "url": "index.html"
+        },
+        {
+          "name": "Print the Quiet",
+          "blurb": "Nine free essays on tone and dynamics — Jeff Buckley's Hallelujah, the loudness war, the compressor, the sound of the room itself.",
+          "cta": "Read the essays",
+          "url": "print-the-quiet.html"
+        },
+        {
+          "name": "The Suede 100",
+          "blurb": "Every effects pedal worth naming, ranked 1 to 100, head to head. No honorable mentions, no genre excuses. The list the press won't print.",
+          "cta": "See the ranking",
+          "url": "https://social.suedeai.ai/suede-100/best-and-worst"
+        }
+      ]
+    },
+    {
+      "key": "books",
+      "title": "More books — AI, ownership & the creative future",
+      "intro": "Same hand, different string. These titles trade the fretboard for the bigger question: who owns creative work once the machines can make it too.",
+      "items": [
+        {
+          "name": "Suede Labs: The Human Authenticity Layer",
+          "blurb": "The case that origin and ownership are the only marks AI can't fake — and the layer Suede Labs builds to prove them.",
+          "cta": "Read on Amazon",
+          "url": "https://www.amazon.com/dp/B0GD5FX6N6"
+        },
+        {
+          "name": "Proof as Infrastructure",
+          "blurb": "How to build systems that hold up when nobody trusts anybody — proof baked in, not bolted on. The blueprint under the registry.",
+          "cta": "Read on Amazon",
+          "url": "https://www.amazon.com/dp/B0GMB2VLXQ"
+        },
+        {
+          "name": "Stake Your Claim",
+          "blurb": "Speeches and hard truths on flipping the AI onslaught into an asset you own — autonomous agents, real claims, generational wealth.",
+          "cta": "Read on Amazon",
+          "url": "https://www.amazon.com/dp/B0GRG8LGQQ"
+        }
+      ]
+    },
+    {
+      "key": "apps",
+      "title": "Play & practice — the apps",
+      "intro": "Five tools built by a guitarist who got tired of practice apps that nag. A coach that answers in plain English, three studios that take your craft seriously, and a companion that pushes back.",
+      "items": [
+        {
+          "name": "Strumly",
+          "blurb": "Ask your guitar coach anything, any hour, and get a straight answer — tuner, metronome, chord and scale tools, song help, and an ear trainer built in",
+          "cta": "Try it free",
+          "url": "https://strumly.suedeai.ai"
+        },
+        {
+          "name": "Suede Studio Guitar",
+          "blurb": "A real guitar studio on your iPhone: tuner, timing drills, chord tools, a rig workbench, setup diagnostics, room health, and session capture",
+          "cta": "Get it on iOS",
+          "url": "https://apps.apple.com/us/app/suede-studio-guitar/id6767552764?uo=4"
+        },
+        {
+          "name": "Suede Studio Voice",
+          "blurb": "Map your range, watch your register shifts, and build voice routines that hold up. Local-first — your practice stays on your phone",
+          "cta": "Get it on iOS",
+          "url": "https://apps.apple.com/us/app/suede-studio-voice/id6767763231?uo=4"
+        },
+        {
+          "name": "Suede Studio Muse",
+          "blurb": "Think out loud with a dry-wit bandmate who works ideas with you and tells you when they're bad. Not a yes-man",
+          "cta": "Open in browser",
+          "url": "https://muse.suedeai.ai"
+        },
+        {
+          "name": "Suede Studio Inspiration",
+          "blurb": "A workspace for AI-assisted musical ideas that keeps the rights yours: provenance notes, ownership context, and signed creative records",
+          "cta": "Get it on iOS",
+          "url": "https://apps.apple.com/us/app/suede-studio-inspiration/id6765461286?uo=4"
+        }
+      ]
+    },
+    {
+      "key": "platform",
+      "title": "The platform — Suede Labs AI",
+      "intro": "Suede Labs AI is the substrate under everything else: tooling that lets a musician prove they made a thing, define who can use it, and get paid when it gets used.",
+      "items": [
+        {
+          "name": "Suede Labs AI",
+          "blurb": "The company under it all. Proof of creation, programmable rights, and royalty settlement — so artists hold the title to their work as AI eats the room.",
+          "cta": "See the platform",
+          "url": "https://suedeai.ai"
+        },
+        {
+          "name": "The Suede IP Registry",
+          "blurb": "Register a work, prove you made it first, and set the terms anyone licenses it on — ownership and provenance, on the public record.",
+          "cta": "Open the registry",
+          "url": "https://ip.suedeai.ai"
+        }
+      ]
+    }
+  ]
+}
