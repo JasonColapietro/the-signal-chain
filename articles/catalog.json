@@ -96,6 +96,49 @@
       ]
     },
     {
+      "key": "studios",
+      "title": "More from Suede — studio, video & community",
+      "intro": "Beyond the practice apps: the studio where a track gets made and shipped, the video tools that put it in front of people, the map you explore music on, and the community that argues tone with you.",
+      "items": [
+        {
+          "name": "Suede Studio",
+          "blurb": "The studio where the track gets made and shipped — an AI producer builds it, you keep the stems, and a real person releases it to 55+ platforms. Own 100% of your masters.",
+          "cta": "Open the studio",
+          "url": "https://studio.suedeai.ai"
+        },
+        {
+          "name": "Producer",
+          "blurb": "Faceless and avatar videos on autopilot — your keys, your channel, pennies per render. A posting channel that runs without showing your face.",
+          "cta": "Open Producer",
+          "url": "https://producer.suedeai.ai"
+        },
+        {
+          "name": "Promo",
+          "blurb": "The promo-video companion to Producer — turn a track or release into share-ready clips built to post across socials.",
+          "cta": "Open Promo",
+          "url": "https://promo.suedeai.ai"
+        },
+        {
+          "name": "Suede Social",
+          "blurb": "A guitar community built on real rigs — talk tone, share pedalboards and tone recipes, and post in the forum with players whose gear is actually on the page.",
+          "cta": "Join the community",
+          "url": "https://suede.social"
+        },
+        {
+          "name": "Suede Cosmos",
+          "blurb": "A navigable galaxy of music: stars cluster by genre and brighten by relevance. Click any one to explore the map.",
+          "cta": "Explore the map",
+          "url": "https://cosmos.suedeai.ai"
+        },
+        {
+          "name": "The Ecosystem Hub",
+          "blurb": "The interactive map of every Suede Labs platform, protocol, app, and surface — the whole company at a glance.",
+          "cta": "Open the hub",
+          "url": "https://hub.suedeai.ai"
+        }
+      ]
+    },
+    {
       "key": "platform",
       "title": "The platform — Suede Labs AI",
       "intro": "Suede Labs AI is the substrate under everything else: tooling that lets a musician prove they made a thing, define who can use it, and get paid when it gets used.",
