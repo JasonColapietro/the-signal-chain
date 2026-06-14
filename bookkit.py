@@ -430,7 +430,7 @@ def _panel(buy_url, unlock_url="unlock.html", lessons_url="lessons.html"):
         '<div style="margin:1.6rem 0 .4rem;"><a href="@BUY@" '
         'style="display:inline-block;background:linear-gradient(180deg,#ffb84d,#eb9a26);color:#1a130b;'
         'font-weight:700;font-size:1.05rem;padding:.9rem 1.8rem;border-radius:6px;text-decoration:none;">'
-        'Unlock everything \u00b7 $9.99</a></div>'
+        'Unlock everything \u00b7 $19.99</a></div>'
         '<div style="font-size:.85rem;color:#a98e6b;margin-top:1rem;">'
         'Already purchased? <a href="@UNLOCK@" style="color:#ffb84d;">Restore access</a>'
         ' &nbsp;\u00b7&nbsp; Still browsing? <a href="@LESSONS@" style="color:#ffb84d;">Three full lessons are free</a></div>'

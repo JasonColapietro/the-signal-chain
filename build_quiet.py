@@ -201,7 +201,7 @@ def index_page():
     items.append('</ol>')
     promo = ('<aside class="ptq-promo"><p class="k">The book</p>'
              '<p><b>THE SIGNAL CHAIN</b> — a player’s history of guitar tone, the gear, and the '
-             'self-taught life behind the sound. Chapter one and three lessons free; one $9.99 unlock opens '
+             'self-taught life behind the sound. Chapter one and three lessons free; one $19.99 unlock opens '
              'all three editions.</p>'
              '<a class="btn" href="index.html">Read the book →</a></aside>')
     body_html = bar + head_blk + "".join(items) + promo

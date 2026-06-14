@@ -6,7 +6,7 @@ by **Jason Colapietro** · *Johnny Suede Press*
 ### 📖 [Start reading free → **guitar.solutions**](https://guitar.solutions)
 
 Chapter one of every edition and three full sample lessons are free on the site.
-A one-time **$9.99 unlock** opens all three editions and the PDF downloads.
+A one-time **$19.99 unlock** opens all three editions and the PDF downloads.
 
 ![Cover](preview-9-cover.png)
 

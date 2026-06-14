@@ -159,7 +159,7 @@ for p in part_seq:
             bh = art.inject_hero(bh, fh)
         B.append('<section class="chapter" id="%s">%s</section>' % (csec(fn), bh))
 free_B, locked_html = bk.split_gated(B, "sec-02-anatomy-of-an-amplifier")
-free_B.append(bk.gate_block("book", "https://buy.stripe.com/3cIfZjbldfDT7RafInaZi0h"))
+free_B.append(bk.gate_block("book", "https://buy.stripe.com/eVqcN774Xajzb3mgMraZi0i"))
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
               "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
 gated = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
