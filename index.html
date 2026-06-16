@@ -196,6 +196,16 @@ h2{font-family:Jost,sans-serif;font-weight:800;font-size:clamp(1.9rem,4vw,3rem);
 .setlist a:hover .tag{border-color:var(--amber);color:var(--amber-hot)}
 @media(max-width:760px){.setlist a{grid-template-columns:2.4rem 1fr;grid-template-rows:auto auto}.setlist .steal{grid-column:2}.setlist .tag{display:none}}
 
+.social-bridge{margin-top:1.8rem;border:1px solid #54400f;border-left:4px solid var(--jewel);border-radius:8px;
+ background:linear-gradient(135deg,rgba(255,184,77,.12),rgba(255,75,51,.07) 48%,rgba(31,24,18,.94));
+ padding:clamp(1.2rem,3vw,1.7rem);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem 1.3rem;align-items:center}
+.social-bridge .ey{display:block;font-family:"Courier Prime",monospace;font-size:.74rem;letter-spacing:.18em;color:var(--amber);margin-bottom:.4rem}
+.social-bridge h3{font-family:Jost,sans-serif;font-size:clamp(1.25rem,2.2vw,1.65rem);line-height:1.15;margin:0;color:var(--cream)}
+.social-bridge p{margin:.55rem 0 0;max-width:38rem;font-size:.98rem;color:var(--cream-dim);line-height:1.6}
+.social-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:flex-end}
+.social-actions .btn{white-space:nowrap}
+@media(max-width:760px){.social-bridge{grid-template-columns:1fr}.social-actions{justify-content:flex-start}}
+
 /* ---------- editions ---------- */
 .ed-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:1.1rem}
 .ed{border:1px solid var(--line);border-radius:10px;padding:clamp(1.5rem,3vw,2.2rem);background:linear-gradient(180deg,var(--panel),var(--bg2));
@@ -267,6 +277,7 @@ html.js .reveal.lit{opacity:1;transform:none}
       <a href="#quiet">Print the Quiet</a>
       <a href="#catalog">Catalog</a>
       <a href="#author">Author</a>
+      <a href="https://social.suedeai.ai/?utm_source=guitar.solutions&amp;utm_medium=site_nav&amp;utm_campaign=signal_chain_to_social&amp;utm_content=global_nav">Suede Social</a>
       <a class="go" href="THE-SIGNAL-CHAIN.html">Read free</a>
     </nav>
   </div>
@@ -283,6 +294,7 @@ html.js .reveal.lit{opacity:1;transform:none}
       <div class="cta">
         <a class="btn btn-amp" href="THE-SIGNAL-CHAIN.html">Start reading free</a>
         <a class="btn btn-line" href="lessons.html">Try 3 free lessons</a>
+        <a class="btn btn-line" href="https://social.suedeai.ai/?utm_source=guitar.solutions&amp;utm_medium=hero_cta&amp;utm_campaign=signal_chain_to_social&amp;utm_content=homepage_hero">Join Suede Social</a>
       </div>
     </div>
     <svg class="chain-art" viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Line drawing of a guitar signal chain: guitar into fuzz pedal, into wah pedal, into amplifier and speaker, with sound waves radiating out">
@@ -476,6 +488,17 @@ html.js .reveal.lit{opacity:1;transform:none}
         <span class="tag">ADVANCED</span>
       </a>
     </div>
+    <aside class="social-bridge reveal" aria-label="Join Suede Social for guitar feedback">
+      <div>
+        <span class="ey">SUEDE SOCIAL · THE ROOM</span>
+        <h3>Take the tone into the room.</h3>
+        <p>Post the rig, ask what to change, or let other players roast the board before you spend money on another pedal.</p>
+      </div>
+      <div class="social-actions">
+        <a class="btn btn-amp" href="https://social.suedeai.ai/?utm_source=guitar.solutions&amp;utm_medium=lesson_cta&amp;utm_campaign=signal_chain_to_social&amp;utm_content=free_lessons_profile">Claim your handle</a>
+        <a class="btn btn-line" href="https://social.suedeai.ai/roast?utm_source=guitar.solutions&amp;utm_medium=lesson_cta&amp;utm_campaign=signal_chain_to_social&amp;utm_content=free_lessons_rig_roast">Roast my rig</a>
+      </div>
+    </aside>
   </div>
 </section>
 
@@ -525,7 +548,7 @@ html.js .reveal.lit{opacity:1;transform:none}
     <div class="stage"><svg class="jack" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 14 L4 8 L8 8 L8 5 L12 5 L12 8 L16 8 L16 14" stroke="#eb9a26" stroke-width="1.5" fill="none"/></svg><b>EVERYTHING ELSE &middot; THE CATALOG</b><i></i></div>
     <h2 id="catalog-h">Everything I make</h2>
     <p class="unlock-note reveal" style="font-size:1.06rem;max-width:48rem;margin-top:1.3rem">Everything else off the same desk &mdash; books on tone and on who owns creative work, the apps I build for guitarists and singers, and Suede Labs AI underneath them all.</p>
-    <div class="cta reveal"><a class="btn btn-amp" href="catalog.html">Browse the full catalog &rarr;</a><a class="btn btn-line" href="https://strumly.suedeai.ai">Try Strumly, the AI coach</a></div>
+    <div class="cta reveal"><a class="btn btn-amp" href="catalog.html">Browse the full catalog &rarr;</a><a class="btn btn-line" href="https://strumly.suedeai.ai">Try Strumly, the AI coach</a><a class="btn btn-line" href="https://social.suedeai.ai/forum?utm_source=guitar.solutions&amp;utm_medium=catalog_cta&amp;utm_campaign=signal_chain_to_social&amp;utm_content=everything_i_make_forum">Ask the Suede forum</a></div>
   </div>
 </section>
 
