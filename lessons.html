@@ -133,6 +133,7 @@ img{max-width:100%;height:auto;display:block}
 .recipe-grid .col{border:1px solid var(--line-soft);border-radius:8px;padding:1rem 1.2rem;background:var(--bg2)}
 .recipe-grid .col b.t{font-family:"Courier Prime",monospace;font-size:.74rem;letter-spacing:.16em;color:var(--amber);font-weight:700}
 @media(max-width:760px){.recipe-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.glance span{min-width:0;overflow-wrap:anywhere;white-space:normal}}
 
 /* CTA + footer */
 .end-cta{margin:1rem 0 0;padding:clamp(2.5rem,7vh,4rem) 0;border-top:1px solid var(--line);text-align:left}
@@ -145,6 +146,14 @@ img{max-width:100%;height:auto;display:block}
 .btn-amp:hover{transform:translateY(-2px)}
 .btn-line{border:1.5px solid var(--line);color:var(--cream)}
 .btn-line:hover{border-color:var(--amber);color:var(--amber-hot);transform:translateY(-2px)}
+.social-bridge{margin:2rem 0 .5rem;border:1px solid #54400f;border-left:4px solid var(--jewel);border-radius:8px;
+ background:linear-gradient(135deg,rgba(255,184,77,.12),rgba(255,75,51,.07) 48%,rgba(31,24,18,.94));
+ padding:clamp(1.2rem,3vw,1.7rem);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem 1.3rem;align-items:center}
+.social-bridge .ey{display:block;font-family:"Courier Prime",monospace;font-size:.74rem;letter-spacing:.18em;color:var(--amber);margin-bottom:.4rem}
+.social-bridge h3{font-family:Jost,sans-serif;font-size:clamp(1.25rem,2.2vw,1.65rem);line-height:1.15;margin:0;color:var(--cream)}
+.social-bridge p{margin:.55rem 0 0;max-width:34rem;font-size:.98rem;color:var(--cream-dim);line-height:1.6}
+.social-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:flex-end}
+.social-actions .btn{white-space:nowrap}
 footer{border-top:1px solid var(--line);padding:2.4rem 0 3rem}
 footer .wrap{display:flex;flex-wrap:wrap;gap:1rem 3rem;align-items:center;max-width:72rem}
 footer .out{font-family:"Courier Prime",monospace;font-size:.8rem;letter-spacing:.14em;color:var(--cream-dim)}
@@ -155,6 +164,7 @@ footer .legal{font-size:.85rem;color:var(--cream-dim);margin-left:auto}
  .jewel{animation:none}
  .btn{transition:none}
 }
+@media(max-width:760px){.social-bridge{grid-template-columns:1fr}.social-actions{justify-content:flex-start}}
 </style>
 </head>
 <body>
@@ -167,6 +177,7 @@ footer .legal{font-size:.85rem;color:var(--cream-dim);margin-left:auto}
       <a href="index.html#book">The Book</a>
       <a href="index.html#editions">Editions</a>
       <a href="THE-SIGNAL-CHAIN-WORKBOOK.html">The Workbook</a>
+      <a href="https://social.suedeai.ai/?utm_source=guitar.solutions&amp;utm_medium=site_nav&amp;utm_campaign=signal_chain_to_social&amp;utm_content=lessons_nav">Suede Social</a>
       <a class="go" href="THE-SIGNAL-CHAIN.html">Read free</a>
     </nav>
   </div>
@@ -183,6 +194,10 @@ footer .legal{font-size:.85rem;color:var(--cream-dim);margin-left:auto}
       <a href="#comfortably-numb">22 · COMFORTABLY NUMB</a>
       <a href="#pride-and-joy">28 · PRIDE AND JOY</a>
     </nav>
+    <div class="cta" aria-label="Suede Social actions">
+      <a class="btn btn-amp" href="https://social.suedeai.ai/?utm_source=guitar.solutions&amp;utm_medium=lessons_hero&amp;utm_campaign=signal_chain_to_social&amp;utm_content=claim_handle">Claim your handle</a>
+      <a class="btn btn-line" href="https://social.suedeai.ai/forum?utm_source=guitar.solutions&amp;utm_medium=lessons_hero&amp;utm_campaign=signal_chain_to_social&amp;utm_content=ask_forum">Ask the forum</a>
+    </div>
   </div>
 </div>
 
@@ -615,6 +630,17 @@ E|------------------------------------------------|
       <a class="btn btn-line" href="THE-SIGNAL-CHAIN-WORKBOOK.html">Read the free preview</a>
       <a class="btn btn-line" href="index.html">Back to the book</a>
     </div>
+    <aside class="social-bridge" aria-label="Join Suede Social after the free guitar lessons">
+      <div>
+        <span class="ey">SUEDE SOCIAL · AFTER THE LESSON</span>
+        <h3>Post the attempt before you buy more gear.</h3>
+        <p>Bring the tone question to the room, save your rig to a profile, and get pointed feedback from guitar people.</p>
+      </div>
+      <div class="social-actions">
+        <a class="btn btn-amp" href="https://social.suedeai.ai/forum?utm_source=guitar.solutions&amp;utm_medium=end_cta&amp;utm_campaign=signal_chain_to_social&amp;utm_content=ask_forum_after_lessons">Ask the forum</a>
+        <a class="btn btn-line" href="https://social.suedeai.ai/roast?utm_source=guitar.solutions&amp;utm_medium=end_cta&amp;utm_campaign=signal_chain_to_social&amp;utm_content=rig_roast_after_lessons">Roast my rig</a>
+      </div>
+    </aside>
   </div>
 </section>
 
