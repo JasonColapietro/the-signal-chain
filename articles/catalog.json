@@ -67,8 +67,14 @@
     {
       "key": "apps",
       "title": "Play & practice — the apps",
-      "intro": "Five tools built by a guitarist who got tired of practice apps that nag. A coach that answers in plain English, three studios that take your craft seriously, and a companion that pushes back.",
+      "intro": "Tools built by a guitarist who got tired of practice apps that nag. A free chord-and-scale reference, a coach that answers in plain English, three studios that take your craft seriously, and a companion that pushes back.",
       "items": [
+        {
+          "name": "guitarchords.info",
+          "blurb": "A free guitar reference site with no paywall and no account required: chord library, scale trainer, chromatic tuner, and metronome. A Suede Labs project.",
+          "cta": "Open the tools",
+          "url": "https://guitarchords.info"
+        },
         {
           "name": "Strumly",
           "blurb": "Ask your guitar coach anything, any hour, and get a straight answer — tuner, metronome, chord and scale tools, song help, and an ear trainer built in",
@@ -137,6 +143,12 @@
           "url": "https://cosmos.suedeai.ai"
         },
         {
+          "name": "GuitarHub",
+          "blurb": "The open guitar editorial hub — reads, rig guides, and gear breakdowns. Front door to the Suede Social community for players who want more than a forum.",
+          "cta": "Read and explore",
+          "url": "https://guitarhub.org"
+        },
+        {
           "name": "The Ecosystem Hub",
           "blurb": "The interactive map of every Suede Labs platform, protocol, app, and surface — the whole company at a glance.",
           "cta": "Open the hub",
@@ -160,6 +172,12 @@
           "blurb": "Register a work, prove you made it first, and set the terms anyone licenses it on — ownership and provenance, on the public record.",
           "cta": "Open the registry",
           "url": "https://ip.suedeai.ai"
+        },
+        {
+          "name": "Suede Agent Studio",
+          "blurb": "Build a visual agent flow and publish it as a paid x402 endpoint. Your automation earns every time another app calls it — the publishing layer for paid agent services.",
+          "cta": "Open the studio",
+          "url": "https://agents.suedeai.ai"
         }
       ]
     }
@@ -167,6 +185,21 @@
   "map": {
     "intro": "Beyond the books and apps above, here's the rest of the Suede ecosystem — every public surface, grouped. Some of the app's deeper tools need a free Suede account.",
     "groups": [
+      {
+        "title": "Print the Quiet — the essays",
+        "note": "on guitar.solutions · nine free essays on tone and dynamics",
+        "items": [
+          {"label": "Jeff Buckley's Hallelujah: The Tone That Won the Song", "url": "ptq-01-jeff-buckley-tone-hallelujah.html"},
+          {"label": "The Loudness War, in Numbers", "url": "ptq-02-loudness-war-in-numbers.html"},
+          {"label": "The Religion of the Compressor", "url": "ptq-03-religion-of-the-compressor.html"},
+          {"label": "The Lost Art of Clean", "url": "ptq-04-lost-art-of-clean.html"},
+          {"label": "The Room as Instrument", "url": "ptq-05-room-as-instrument.html"},
+          {"label": "One Take, or Twenty", "url": "ptq-06-one-take-or-twenty.html"},
+          {"label": "Tape Is a Compressor", "url": "ptq-07-tape-is-a-compressor.html"},
+          {"label": "The Vocal Chain, 1994 — 2026", "url": "ptq-08-vocal-chain-1994-2026.html"},
+          {"label": "What's in the Tape That Isn't in the Score", "url": "ptq-09-whats-in-the-tape.html"}
+        ]
+      },
       {
         "title": "The Suede app",
         "note": "Inside the Suede app · a free account opens the deeper tools",
