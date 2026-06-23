@@ -190,6 +190,12 @@
           "blurb": "Build a visual agent flow and publish it as a paid x402 endpoint. Your automation earns every time another app calls it — the publishing layer for paid agent services.",
           "cta": "Open the studio",
           "url": "https://agents.suedeai.ai"
+        },
+        {
+          "name": "Suede Creator Skills",
+          "blurb": "A 20-skill pack for AI coding agents: design and copy lanes, SEO/AEO/AI EO audits, Suedify site workflow, rights-passport tools, campaign and launch utilities, code grading, and the Johnny Suede writing and design modes. Install into Claude Code in one command.",
+          "cta": "Get the skills on GitHub",
+          "url": "https://github.com/JasonColapietro/suede-creator-skills"
         }
       ]
     }
@@ -479,6 +485,36 @@
           {
             "label": "JC Investment Group LLC",
             "url": "https://jcinvestmentgroup.ventures"
+          }
+        ]
+      },
+      {
+        "title": "Open source & GitHub",
+        "note": "public repos · Suede-AI + JasonColapietro orgs",
+        "items": [
+          {
+            "label": "Suede AI Python SDK",
+            "url": "https://github.com/Suede-AI/suede-sdk-python"
+          },
+          {
+            "label": "awesome-x402",
+            "url": "https://github.com/JasonColapietro/awesome-x402"
+          },
+          {
+            "label": "awesome-agentic-commerce",
+            "url": "https://github.com/JasonColapietro/awesome-agentic-commerce"
+          },
+          {
+            "label": "anti-slop-templates",
+            "url": "https://github.com/JasonColapietro/anti-slop-templates"
+          },
+          {
+            "label": "tokenmaxxing",
+            "url": "https://github.com/JasonColapietro/tokenmaxxing"
+          },
+          {
+            "label": "Suede AI org (GitHub)",
+            "url": "https://github.com/Suede-AI"
           }
         ]
       }
