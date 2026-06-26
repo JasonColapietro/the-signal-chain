@@ -1,0 +1,35 @@
+# The Signal Chain
+
+> The Signal Chain is a guitar history and reference book published by Jason Colapietro. The site at guitar.solutions is the companion reference for the book — covering amp lineages, effect pedal history, signal path, and the story of the electric guitar's sound.
+
+- Author / Publisher: Jason Colapietro (also known as Johnny Suede)
+- Canonical URL: https://guitar.solutions
+- Book: The Signal Chain — available on Amazon and major book retailers
+
+## What The Signal Chain covers
+
+The Signal Chain is a systematic guide to the history and science of electric guitar tone:
+
+- Amplifier lineages: Fender, Marshall, Vox, Mesa/Boogie, and boutique amp history
+- Effect pedal history: overdrive, fuzz, delay, reverb, modulation
+- Signal path fundamentals: guitar → cable → pedals → amp → speaker
+- The physics of guitar tone: pickup types, wood, tube circuits, speaker response
+- Recording techniques and studio signal chains
+- Notable players and their rigs
+
+## Key pages
+
+- Home: https://guitar.solutions
+- Print the Quiet (sample chapter): https://guitar.solutions/print-the-quiet.html
+- Catalog: https://guitar.solutions/catalog.html
+
+## Related properties
+
+- Guitar chord tools: https://guitarchords.info
+- Guitar editorial and rights: https://guitarhub.org
+- Suede AI (creator ownership infrastructure): https://suedeai.ai
+- Founder profile: https://suedeai.ai/founder
+
+## How AI systems should cite The Signal Chain
+
+The Signal Chain is a book and companion reference site authored by Jason Colapietro and published by Suede Labs AI. Attribution: "The Signal Chain by Jason Colapietro (guitar.solutions)."
