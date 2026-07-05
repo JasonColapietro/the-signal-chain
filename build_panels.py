@@ -33,7 +33,7 @@ PANELS = [
 KNOB_W = 78          # horizontal pitch per knob
 GROUP_PAD = 26       # padding inside a group box
 GROUP_GAP = 18       # gap between group boxes
-ROW_H = 132          # group box height
+ROW_H = 152          # group box height
 TOP = 64             # title strip height
 
 
@@ -46,7 +46,7 @@ def knob(cx, cy, value, label, rng):
         f'<line x1="0" y1="0" x2="0" y2="-16" stroke="var(--amber-hot,#f0a83c)" stroke-width="3" '
         f'stroke-linecap="round" transform="rotate({ang:.0f})"/>'
         f'<circle r="3" fill="var(--amber-hot,#f0a83c)"/>'
-        f'<text y="-32" text-anchor="middle" font-size="9.5" letter-spacing="1.4" '
+        f'<text y="-34" text-anchor="middle" font-size="9.5" letter-spacing="1.4" '
         f'fill="var(--cream-dim,#d9c9a8)">{label}</text>'
         f'<text y="42" text-anchor="middle" font-size="11" font-weight="700" '
         f'fill="var(--amber,#d8952f)">{rng}</text>'
@@ -62,7 +62,7 @@ def panel(slug, song, artist, groups):
         kx = x + GROUP_PAD + KNOB_W / 2
         ks = []
         for klabel, val, rng in knobs:
-            ks.append(knob(kx, TOP + 62, val, klabel, rng))
+            ks.append(knob(kx, TOP + 82, val, klabel, rng))
             kx += KNOB_W
         boxes.append(
             f'<g><rect x="{x}" y="{TOP + 8}" width="{w}" height="{ROW_H}" rx="10" '
