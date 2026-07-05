@@ -5,7 +5,7 @@ by **Jason Colapietro** · *Johnny Suede Press*
 
 ### 📖 [Start reading free → **guitar.solutions**](https://guitar.solutions)
 
-Chapter one of every edition and three full sample lessons are free on the site.
+Chapter one of every edition and four full sample lessons are free on the site.
 A one-time **$19.99 unlock** opens all three editions and the PDF downloads.
 
 ![Cover](preview-9-cover.png)
@@ -17,11 +17,13 @@ formatted tablature examples, and original vector diagrams. It ships in three ed
 
 ## Editions
 
-| Edition | Pages | Files |
+| Edition | Pages | Read it |
 |---|---|---|
-| **The Signal Chain** — the history | ~485 | [PDF](THE-SIGNAL-CHAIN.pdf) · [HTML](THE-SIGNAL-CHAIN.html) · [Markdown](THE-SIGNAL-CHAIN.md) |
-| **The Tone Workbook** — 50 song-lessons | ~338 | [PDF](THE-SIGNAL-CHAIN-WORKBOOK.pdf) · [HTML](THE-SIGNAL-CHAIN-WORKBOOK.html) · [Markdown](THE-SIGNAL-CHAIN-WORKBOOK.md) |
-| **Deluxe Edition** — book + lessons interleaved | ~827 | [PDF](THE-SIGNAL-CHAIN-DELUXE.pdf) · [HTML](THE-SIGNAL-CHAIN-DELUXE.html) · [Markdown](THE-SIGNAL-CHAIN-DELUXE.md) |
+| **The Signal Chain** — the history | ~485 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN.html) · full edition + PDF with the unlock |
+| **The Tone Workbook** — 50 song-lessons | ~338 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN-WORKBOOK.html) · full edition + PDF with the unlock |
+| **Deluxe Edition** — book + lessons interleaved | ~827 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN-DELUXE.html) · full edition + PDF with the unlock |
+
+One $19.99 unlock at [guitar.solutions](https://guitar.solutions) opens all three editions and the PDF downloads.
 
 ## What's inside
 
@@ -33,36 +35,25 @@ formatted tablature examples, and original vector diagrams. It ships in three ed
   spectrum, clipping waveforms, the harmonic series, gain staging, a pedalboard, and a century timeline.
 - **Hundreds of properly formatted ASCII tablature examples** throughout.
 
-## Build it yourself
+## The engine
 
-Everything is generated from the Markdown sources by self-contained Python (no third-party
-dependencies):
-
-```bash
-python3 assemble.py                     # The Signal Chain (book)
-python3 workbook/assemble_workbook.py   # The Tone Workbook
-python3 build_deluxe.py                 # The Deluxe Edition
-```
-
-Each writes a master `.md` and a typeset `.html`. To produce the PDFs, print the HTML with
-headless Chrome, e.g.:
-
-```bash
-"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
-  --headless=new --print-to-pdf="THE-SIGNAL-CHAIN.pdf" \
-  --no-pdf-header-footer "file://$PWD/THE-SIGNAL-CHAIN.html"
-```
+Everything is typeset by self-contained Python — no third-party dependencies, no LaTeX,
+no InDesign. The engine lives in this repo (`bookkit.py`, `assemble.py`, `build_deluxe.py`,
+`build_quiet.py`, `build_lesson_pages.py`, `build_panels.py`); PDFs are printed from the
+typeset HTML with headless Chrome. The book's Markdown sources moved to a private build
+repo — the free chapter, the four free lessons, and the whole typesetting engine stay
+public right here.
 
 ## Repository layout
 
 ```
-chapters/             51 source Markdown files (front matter + 46 chapters + 4 appendices)
-workbook/lessons/     50 lesson Markdown files
 bookkit.py            shared typesetting engine (Markdown → themed HTML)
 art.py                inline-SVG cover art + diagrams/infographics
-assemble.py           builds the book
-workbook/assemble_workbook.py   builds the workbook
+assemble.py           builds the book (sources in the private build repo)
 build_deluxe.py       builds the interleaved deluxe edition
+build_quiet.py        builds the Print the Quiet essay pages
+build_lesson_pages.py builds the standalone free-lesson pages from lessons.html
+build_panels.py       draws the amp-panel settings SVGs
 ```
 
 ## The IP chapter
