@@ -2,17 +2,17 @@
 
 ## At a Glance
 
-- **Artist:** Blink-182, with Tom DeLonge's right hand in the spotlight
+- **Artist:** Blink-182, with Tom DeLonge’s right hand in the spotlight
 - **Song:** “Dammit”
 - **Album:** *Dude Ranch* (1997)
 - **The tone in one sentence:** A bright bridge-humbucker punk tone driving a four-chord loop with all-downstroke urgency and almost no decoration.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** C major; standard tuning, E A D G B E
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Tom DeLonge's late-'90s sound is commonly remembered as simple and direct: hot bridge pickup, bright amp gain, and downstrokes. The exact *Dude Ranch* studio chain is not something I would overstate, especially because live rigs and later signature rigs get blended into the lore.
+Tom DeLonge’s late-'90s sound is commonly remembered as simple and direct: hot bridge pickup, bright amp gain, and downstrokes. The exact *Dude Ranch* studio chain is not something I would overstate, especially because live rigs and later signature rigs get blended into the lore.
 
 - **Guitar:** DeLonge is widely associated with Strat-style guitars using a high-output bridge humbucker. A Seymour Duncan Invader-style pickup is part of the later signature vocabulary, but the practical target is any loud bridge humbucker.
 - **Amp:** Mesa/Boogie and Marshall-style high-gain sounds are commonly tied to his broader era. For this song, keep the gain punk-tight rather than metal-saturated.
@@ -42,9 +42,9 @@ Dial a bright crunch that keeps the low strings readable.
 
 If the part hurts, slow it down. Tension is not tone.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Dammit" is built on one of pop-punk's most useful loops: **C – G – Am – F**, or I – V – vi – IV in C major. The harmony is beginner-friendly, but the job is endurance and consistency.
+“Dammit” is built on one of pop-punk’s most useful loops: **C – G – Am – F**, or I – V – vi – IV in C major. The harmony is beginner-friendly, but the job is endurance and consistency.
 
 The intro/rhythm idea uses a **single-note outline** of the progression before the full band turns it into power chords. That is a smart arrangement move: the listener learns the chord movement as a hook before the distorted guitars arrive.
 
@@ -52,7 +52,7 @@ All downstrokes matter because they make the part feel square, blunt, and adoles
 
 ## Signature Moves
 
-Short study fragments for the song's core mechanics.
+Short study fragments for the song’s core mechanics.
 
 **1. Four-chord outline**
 

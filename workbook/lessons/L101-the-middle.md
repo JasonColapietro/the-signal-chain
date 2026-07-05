@@ -8,14 +8,14 @@
 - **The tone in one sentence:** Tight clean verse guitar opening into a doubled wall of bright, friendly crunch that makes power-pop feel playable.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** D major; standard tuning, E A D G B E
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Jimmy Eat World's early-2000s guitar sound is polished but not mysterious. The exact studio chain for "The Middle" is not reliably public in a way that supports hard settings, so the safer target is the arrangement: clean, tight verse guitars and layered crunch when the chorus lands.
+Jimmy Eat World’s early-2000s guitar sound is polished but not mysterious. The exact studio chain for “The Middle” is not reliably public in a way that supports hard settings, so the safer target is the arrangement: clean, tight verse guitars and layered crunch when the chorus lands.
 
 - **Guitar:** Adkins and the band are commonly associated with Gibson-style and Fender-style stage tools across the era, but any guitar with clear bridge or middle-position attack can cover this lesson.
-- **Amp:** Medium-gain rock amps, likely layered and EQ'd carefully in the studio, are the right family. Do not chase metal gain.
+- **Amp:** Medium-gain rock amps, likely layered and EQ’d carefully in the studio, are the right family. Do not chase metal gain.
 - **Clean sound:** The verse needs a clean or barely broken-up tone that stays percussive.
 - **Dirty sound:** The chorus should be double-tracked or at least voiced wide. The gain is less important than the layered timing.
 - **Effects:** Little obvious modulation. Reverb is restrained so the rhythm stays tight.
@@ -43,9 +43,9 @@ Make two patches or two pedal states: clean verse, crunch chorus.
 
 If the chorus feels smaller than the verse, reduce the verse volume or add a second crunch layer before adding more gain.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"The Middle" sits in **D major** and uses friendly power-pop harmony: D, A, G, and related shapes. The progression is not the hard part. The lesson is **arrangement contrast**.
+“The Middle” sits in **D major** and uses friendly power-pop harmony: D, A, G, and related shapes. The progression is not the hard part. The lesson is **arrangement contrast**.
 
 The verse guitar is tight and almost percussive. It gives the vocal a grid. The chorus opens the same harmonic world into wider power chords, and because the verse stayed contained, the chorus feels larger without needing a dramatic harmonic trick.
 
@@ -53,7 +53,7 @@ The lead break also teaches a useful pop-rock principle: stay melodic and inside
 
 ## Signature Moves
 
-Short study sketches of the song's guitar logic.
+Short study sketches of the song’s guitar logic.
 
 **1. Clean verse grid**
 
@@ -165,7 +165,7 @@ This is the friendliest lesson in the closing set, and that is part of its value
 
 > **Listen For**
 >
-> - **0:00–0:20, roughly:** tight clean rhythm setting up the song's grid.
+> - **0:00–0:20, roughly:** tight clean rhythm setting up the song’s grid.
 > - **First chorus:** the guitar widening without becoming harsh.
 > - **Verse-to-chorus jump:** palm mute released, gain lifted, arrangement opened.
 > - **Lead break:** melodic major-key phrasing that stays inside the song.

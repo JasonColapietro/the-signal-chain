@@ -8,7 +8,7 @@
 - **The tone in one sentence:** Dry, close, fingerpicked acoustic intimacy — a small guitar part that carries the whole room by staying steady and human.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** D major for this lesson; standard tuning (E A D G B E)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
@@ -40,13 +40,13 @@ The sound is the opposite of a rig demo. The guitar is a witness. It keeps the s
 - Reverb: **0-2**.
 - Tempo feel: relaxed, never dragging; the story needs a walking pulse.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song works like a folk ballad: simple chords, strong bass motion, and a melody that carries the drama. In D, the basic world is **I-IV-V**: D, G, and A, with relative-minor colors available when the story darkens.
 
 The guitar job is **alternating-bass fingerpicking**. Your thumb moves between bass notes while the fingers add small chord fragments above it. This lets one guitar suggest both the bass player and the rhythm guitar.
 
-The important musical idea is **continuity**. The picking pattern should be steady enough to hold the song together, but not so rigid that it feels mechanical. Townes's world lives in that narrow band: time is solid, but the person playing it is visible.
+The important musical idea is **continuity**. The picking pattern should be steady enough to hold the song together, but not so rigid that it feels mechanical. Townes’s world lives in that narrow band: time is solid, but the person playing it is visible.
 
 Use chord tones more than licks. If the chord is D, the safest top notes are D, F#, and A. If the chord is G, lean on G, B, and D. Folk guitar often sounds deep because it chooses obvious notes at the right time.
 

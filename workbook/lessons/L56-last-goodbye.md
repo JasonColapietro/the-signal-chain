@@ -12,9 +12,9 @@
 
 ## The Rig & Signal Chain
 
-Jeff Buckley's guitar sound is often described in big emotional terms, but the useful player details are plain: clean electric guitar, clear attack, and a lot of dynamic control.
+Jeff Buckley’s guitar sound is often described in big emotional terms, but the useful player details are plain: clean electric guitar, clear attack, and a lot of dynamic control.
 
-- **Guitar:** A **Fender Telecaster** is the instrument most associated with Buckley's electric work in this period. The bridge and middle-style Tele sounds give the part its bright cut, while a rolled-back tone can soften the edges.
+- **Guitar:** A **Fender Telecaster** is the instrument most associated with Buckley’s electric work in this period. The bridge and middle-style Tele sounds give the part its bright cut, while a rolled-back tone can soften the edges.
 - **Amp:** Clean Fender-style and small-combo behavior are commonly associated with this kind of tone. Exact amp settings for this track are not reliably documented in a way that would justify pretending at knob numbers.
 - **Effects:** Light ambience is part of the recorded space, but the guitar is not an effects showcase. Reverb and compression should support the voice-like phrasing, not announce themselves.
 - **Gain:** Almost none in the modern pedal sense. The tone may have a little amp hair when hit hard, but the identity is clean articulation.
@@ -44,7 +44,7 @@ Start clean, then make the clean tone responsive.
 
 The target is a clean tone that still changes when you touch it differently. If every note is the same size, reduce compression and listen to your right hand.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 “Last Goodbye” is a song lesson in how clean guitar can lead without becoming busy. The harmony has a bright center, but the guitar part keeps adding small suspensions, open-string colors, and rhythmic lift.
 

@@ -1,20 +1,20 @@
-# Lesson 105 — "Jamie All Over" · Mayday Parade
+# Lesson 105 — “Jamie All Over” · Mayday Parade
 
 ## At a Glance
 
 - **Artist:** Mayday Parade
-- **Song:** "Jamie All Over"
+- **Song:** “Jamie All Over”
 - **Album:** *A Lesson in Romantics* (2007)
 - **The tone in one sentence:** Bright pop-punk rhythm guitars with twin lead lines on top — sweet enough to sing, tight enough to survive the downstrokes.
 - **Difficulty:** Intermediate
 - **Key & tuning:** Commonly approached with D-major / B-minor family shapes; this lesson is written in standard tuning, E A D G B E.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
 The exact session rigs for *A Lesson in Romantics* are not usually documented in the kind of detail guitar magazines gave to older classic-rock records. The sound still tells you a lot: humbucker guitars, polished mid-gain amps, and leads arranged to sound like hooks rather than solos.
 
-- **Guitars:** Mayday Parade's guitar vocabulary is commonly tied to **humbucker solidbodies** in the Les Paul / PRS / SG neighborhood. Treat the exact studio instruments as not firmly published; use a bridge humbucker for the rhythm and a slightly brighter setting for the leads.
+- **Guitars:** Mayday Parade’s guitar vocabulary is commonly tied to **humbucker solidbodies** in the Les Paul / PRS / SG neighborhood. Treat the exact studio instruments as not firmly published; use a bridge humbucker for the rhythm and a slightly brighter setting for the leads.
 - **Amps:** A **Marshall, Mesa, Orange, or similar high-gain rock platform** is a reasonable family to think in. The gain is cleaner than it feels; if the chords smear, back it down.
 - **Layering:** The big sound likely comes from doubled rhythm parts plus lead overdubs, not one guitar with extreme distortion.
 - **Effects:** Leads may have a little delay or reverb tucked under them. Keep it subtle. The hook needs definition.
@@ -42,9 +42,9 @@ The trick is to make the lead guitars sing without stealing all the midrange fro
 
 If you track this at home, pan the rhythm guitars wider and keep the lead closer to center. That is a practical way to hear the parts the way the arrangement wants them.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Jamie All Over" belongs to the pop-punk language where the lead guitar often behaves like a second chorus melody. The chords give you the emotional floor, but the high guitar line is what people remember.
+“Jamie All Over” belongs to the pop-punk language where the lead guitar often behaves like a second chorus melody. The chords give you the emotional floor, but the high guitar line is what people remember.
 
 The harmony sits in a bright major-key space with relative-minor turns — the same family that powers a lot of 2000s pop-punk. The lead work often leans on **diatonic thirds and sixths**. That means two notes from the key moving together, usually a third or sixth apart, so the line sounds harmonized without getting complicated.
 
@@ -54,7 +54,7 @@ The arrangement has three useful jobs:
 - **Lead guitar:** high-register hook, often doubled or harmonized.
 - **Transitions:** short slides and octave shapes that connect sections.
 
-When players talk about "twin leads," they often think of Thin Lizzy or Iron Maiden. This is the pop-punk version: shorter, cleaner, and written like a vocal counter-melody.
+When players talk about “twin leads,” they often think of Thin Lizzy or Iron Maiden. This is the pop-punk version: shorter, cleaner, and written like a vocal counter-melody.
 
 ## Signature Moves
 
@@ -158,7 +158,7 @@ E|------------------------|------------------|
 
 ## Make It Yours
 
-Write a short lead melody over a power-chord progression, then harmonize only the last half of it. That is often stronger than harmonizing the whole thing. Keep rhythm gain lower than you think, because the lead needs a clear bed. If you are playing live with one guitarist, choose the hook over the duplicate rhythm part whenever the band can carry the chords. The big lesson from "Jamie All Over" is that pop-punk leads work best when they are memorable enough to hum and simple enough to survive a loud room.
+Write a short lead melody over a power-chord progression, then harmonize only the last half of it. That is often stronger than harmonizing the whole thing. Keep rhythm gain lower than you think, because the lead needs a clear bed. If you are playing live with one guitarist, choose the hook over the duplicate rhythm part whenever the band can carry the chords. The big lesson from “Jamie All Over” is that pop-punk leads work best when they are memorable enough to hum and simple enough to survive a loud room.
 
 > **Listen For**
 >

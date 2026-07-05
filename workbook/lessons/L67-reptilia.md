@@ -14,7 +14,7 @@
 
 The Strokes guitar sound is not about size. It is about two parts staying narrow, bright, and rhythmically useful so the band can move as one machine.
 
-- **Guitars:** **Nick Valensi's Epiphone Riviera/P-94-style voice** and **Albert Hammond Jr.'s Strat-style voice** are commonly cited as the band's core contrast: one thicker and more mid-forward, one brighter and more wiry.
+- **Guitars:** **Nick Valensi’s Epiphone Riviera/P-94-style voice** and **Albert Hammond Jr.'s Strat-style voice** are commonly cited as the band’s core contrast: one thicker and more mid-forward, one brighter and more wiry.
 - **Amps:** Small-to-mid **Fender combo behavior** is commonly associated with the early Strokes sound. The target is compressed clean-to-crunch, not a huge high-gain stack.
 - **Effects:** The recorded parts sound comparatively dry. Compression and amp breakup are more important than obvious modulation.
 - **Gain:** Low-to-moderate. Enough hair to flatten the attack slightly, but not enough to hide the interlocking lines.
@@ -43,9 +43,9 @@ Think two smaller sounds, not one giant one.
 
 If you are playing alone, do not add huge gain to fill the space. Record one part, then play the second against it. The sound is in the interlock.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Reptilia" is built around **B minor-centered** riffing with two guitars sharing jobs: one part provides clipped harmonic pressure, the other cuts through with a narrow lead figure. The parts are simple on paper, but they need exact placement.
+“Reptilia” is built around **B minor-centered** riffing with two guitars sharing jobs: one part provides clipped harmonic pressure, the other cuts through with a narrow lead figure. The parts are simple on paper, but they need exact placement.
 
 The main vocabulary is **minor pentatonic and natural minor** with a sharp, almost new-wave attack. There is less bluesy bending than you might expect from a rock song. The notes are stated, repeated, and lined up.
 

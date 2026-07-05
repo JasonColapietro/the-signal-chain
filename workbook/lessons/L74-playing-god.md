@@ -8,15 +8,15 @@
 - **Section:** NOW
 - **The tone in one sentence:** A nylon-voiced electric guitar through modern processing, where classical brightness, trap-era precision, and modeler polish all live in the same part.
 - **Difficulty:** Advanced
-- **Key & tuning:** E-centered minor and harmonic-minor color for this lesson; standard tuning. The song's production and arrangement are dense enough that the technique matters more than naming one static scale.
+- **Key & tuning:** E-centered minor and harmonic-minor color for this lesson; standard tuning. The song’s production and arrangement are dense enough that the technique matters more than naming one static scale.
 
 ## The Rig & Signal Chain
 
 This is not a traditional nylon-string lesson and not a traditional shred lesson. The guitar voice is deliberately hybrid: percussive like a classical guitar, edited like a modern production, and processed like an electric rig.
 
 - **Guitar:** Henson is commonly associated with Ibanez nylon-string electric instruments in this era, including the TOD10N family and prototypes around it. The exact production chain is less important than the nylon-voiced, pickup-driven behavior.
-- **Processing:** Neural DSP and modeler-style processing are closely associated with Henson's modern tones. Expect compression, EQ, ambience, and a clean amp or DI-like platform rather than a roaring amp.
-- **Gain:** Very little traditional distortion. The "size" comes from compression, double-tracking, arrangement, and polished top end.
+- **Processing:** Neural DSP and modeler-style processing are closely associated with Henson’s modern tones. Expect compression, EQ, ambience, and a clean amp or DI-like platform rather than a roaring amp.
+- **Gain:** Very little traditional distortion. The “size” comes from compression, double-tracking, arrangement, and polished top end.
 - **Technique:** Hybrid picking, left-hand slurs, percussive thumb movement, and harmonics are part of the tone. The rig will not make the part sound correct if the hands are uneven.
 
 ## The Tone Recipe
@@ -40,9 +40,9 @@ This is not a traditional nylon-string lesson and not a traditional shred lesson
 
 The target is fast and clean, but not sterile. You should still hear the finger attack.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Playing God" is internet-era virtuosity in the best sense: the guitar is not just playing fast notes. It is carrying melody, percussion, arrangement, and production identity at once.
+“Playing God” is internet-era virtuosity in the best sense: the guitar is not just playing fast notes. It is carrying melody, percussion, arrangement, and production identity at once.
 
 The harmonic flavor borrows from **minor**, **harmonic minor**, and modal colors that sound Spanish or classical without becoming a straight classical piece. The technique leans on **hybrid picking**: the pick handles some attacks while the middle and ring fingers pluck higher strings. That lets one player create harp-like spacing and quick string skips.
 

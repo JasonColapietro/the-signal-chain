@@ -4,7 +4,7 @@
 
 - **Artist:** Oasis (Noel Gallagher)
 - **Song:** “Champagne Supernova”
-- **Album:** *(What's the Story) Morning Glory?* (1995)
+- **Album:** *(What’s the Story) Morning Glory?* (1995)
 - **Section:** THE 90s
 - **The tone in one sentence:** Semi-hollow Britpop layering turns open chords into a wide, chiming bed, then lets thicker lead and rhythm overdubs lift the whole song without losing the strum.
 - **Difficulty:** Beginner to Intermediate
@@ -12,9 +12,9 @@
 
 ## The Rig & Signal Chain
 
-Noel Gallagher's mid-'90s sound is less about one exposed guitar track and more about layered parts that add up to a huge, familiar shimmer.
+Noel Gallagher’s mid-'90s sound is less about one exposed guitar track and more about layered parts that add up to a huge, familiar shimmer.
 
-- **Guitar:** **Epiphone Sheraton, ES-335-style, Les Paul-style, and other semi-hollow or humbucker guitars** are commonly associated with Gallagher's Britpop era. For this lesson, the semi-hollow idea matters because it gives open chords body and chime.
+- **Guitar:** **Epiphone Sheraton, ES-335-style, Les Paul-style, and other semi-hollow or humbucker guitars** are commonly associated with Gallagher’s Britpop era. For this lesson, the semi-hollow idea matters because it gives open chords body and chime.
 - **Amp:** Vox-style and Marshall-style British amp sounds are commonly cited around Oasis recordings and live rigs. Exact per-track blends should be treated as approximate.
 - **Effects:** Light modulation, delay, and reverb can be part of the width, but the core is still strummed guitars layered with intent.
 - **Layering:** The recorded sound likely depends more on multiple guitar parts than on a single magic setting. One guitar should sound good alone; several should sound like a record.
@@ -43,7 +43,7 @@ Create one clear strum tone, then add width carefully.
 
 If you record layers, make the second part brighter or higher instead of simply louder. Layering works when the guitars occupy different spaces.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 “Champagne Supernova” lives in a broad **A-centered** world, with open chords and ringing tones giving the harmony its floating quality. The exact mood comes from simple shapes stretched across time. The song does not need dense jazz harmony; it needs chords that ring long enough to become atmosphere.
 

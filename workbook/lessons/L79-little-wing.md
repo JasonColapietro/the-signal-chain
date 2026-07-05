@@ -5,17 +5,17 @@
 - **Artist:** Jimi Hendrix
 - **Song:** “Little Wing”
 - **Album:** *Axis: Bold as Love* (1967)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 - **The tone in one sentence:** A glassy Strat rhythm-lead shimmer where chord fragments, double-stops, and a swirling studio texture turn accompaniment into melody.
 - **Difficulty:** Advanced
 - **Key & tuning:** E minor shapes; Hendrix commonly tuned a half-step down, so detune to Eb standard if you want to sit with the record.
 
 ## The Rig & Signal Chain
 
-Hendrix is already in this workbook in Lessons 12 and 14; come back here after "Purple Haze" if you want to hear how the same broad vocabulary becomes tender instead of explosive.
+Hendrix is already in this workbook in Lessons 12 and 14; come back here after “Purple Haze” if you want to hear how the same broad vocabulary becomes tender instead of explosive.
 
 - **Guitar:** A Fender Stratocaster is the tool most associated with Hendrix here. The neck or neck-middle area of the guitar is the practical target for the round, glassy attack.
-- **Amp:** Marshall amplification is commonly tied to Hendrix's late-1960s sound, but exact settings for this track should be treated as approximate.
+- **Amp:** Marshall amplification is commonly tied to Hendrix’s late-1960s sound, but exact settings for this track should be treated as approximate.
 - **Texture:** A rotating-speaker or Leslie-style treatment is commonly cited for the shimmer on the recording. The exact routing is not something I would present as a knob-level fact.
 - **Gain:** Light breakup, not fuzz-forward. The notes need to stay clear because the part is full of small chord tones.
 
@@ -40,9 +40,9 @@ Hendrix is already in this workbook in Lessons 12 and 14; come back here after "
 
 The part should never feel like a pedal demo. The swirl is a halo around the chord work.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Little Wing" is one of the great **rhythm-lead** studies. Hendrix does not separate chord playing from lead playing. He holds a chord shape, decorates it with hammer-ons and slides, then lets a double-stop or bass note imply the next change.
+“Little Wing” is one of the great **rhythm-lead** studies. Hendrix does not separate chord playing from lead playing. He holds a chord shape, decorates it with hammer-ons and slides, then lets a double-stop or bass note imply the next change.
 
 The progression moves through E minor colors, but the important concept is **chord embellishment**. Instead of strumming Em and waiting, you add the 2nd, 4th, or 6th around the grip. Those small neighboring notes make the chord breathe.
 

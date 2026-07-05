@@ -12,9 +12,9 @@
 
 ## The Rig & Signal Chain
 
-Slash's broad recipe is one of the most documented rigs in modern hard rock, but the exact studio chain for any one overdub should still be treated carefully.
+Slash’s broad recipe is one of the most documented rigs in modern hard rock, but the exact studio chain for any one overdub should still be treated carefully.
 
-- **Guitar:** A **Les Paul-style guitar with humbuckers** is the tool most associated with this sound. Slash's late-'80s and early-'90s recorded tones are commonly tied to Les Pauls and Les Paul-style instruments, with the **neck pickup** doing much of the singing lead work and the bridge pickup adding bite when the part needs to cut.
+- **Guitar:** A **Les Paul-style guitar with humbuckers** is the tool most associated with this sound. Slash’s late-'80s and early-'90s recorded tones are commonly tied to Les Pauls and Les Paul-style instruments, with the **neck pickup** doing much of the singing lead work and the bridge pickup adding bite when the part needs to cut.
 - **Amp:** A **Marshall-style high-gain head and 4x12 cabinet** is the core behavior to chase. Silver Jubilee and hot-rodded Marshall family tones are commonly cited around this era, but exact per-song settings are not reliably documented at the knob level.
 - **Gain:** The gain is thick, but not modern-metal saturated. The important behavior is midrange sustain, pick definition, and a top end that stays vocal instead of fizzy.
 - **Effects:** A touch of studio ambience, delay, and reverb are part of the presentation. Treat any precise delay-time or rack-unit claim as approximate unless it comes from a direct session source.
@@ -43,7 +43,7 @@ You can get close with common gear if you aim for sustain and midrange before sh
 
 Pick closer to the neck than you might expect. The attack should still be clear, but the front of the note wants to be rounded, not spiky.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 “November Rain” is built like a rock ballad that leaves a wide stage for the lead guitar. The harmony moves through a piano-centered world, but the solo language is classic Slash: minor pentatonic shapes, major-scale color tones, and chord-tone resolutions that make every bend sound aimed.
 

@@ -1,22 +1,22 @@
-# Lesson 107 — "Feel Good Drag" · Anberlin
+# Lesson 107 — “Feel Good Drag” · Anberlin
 
 ## At a Glance
 
 - **Artist:** Anberlin
-- **Song:** "Feel Good Drag"
+- **Song:** “Feel Good Drag”
 - **Album:** *New Surrender* (2008)
 - **The tone in one sentence:** A drop-tuned modern-rock surge, with tight low strings, sharp octave hooks, and enough midrange to keep the riff from turning into mud.
 - **Difficulty:** Intermediate
 - **Key & tuning:** Drop D for this lesson, D A D G B E; minor-key riff language centered around the low D string.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-The Anberlin guitar sound on "Feel Good Drag" is polished but still physical. Exact studio rigs are not usually documented in public detail, so the safe description is behavioral: humbuckers, drop tuning, controlled high gain, and layered guitars that hit hard without losing pick definition.
+The Anberlin guitar sound on “Feel Good Drag” is polished but still physical. Exact studio rigs are not usually documented in public detail, so the safe description is behavioral: humbuckers, drop tuning, controlled high gain, and layered guitars that hit hard without losing pick definition.
 
 - **Guitars:** The band is commonly associated with **humbucker-equipped rock guitars** in live and studio contexts. The exact instrument on the recording is not something to state with false certainty. Use a bridge humbucker if you have one.
 - **Amps:** A **Mesa, Marshall, Orange, or similar modern rock amp** is the right family of sound. You want tight lows and present mids, not scooped metal fizz.
-- **Pedals:** A boost or overdrive in front of the amp is a common way to tighten drop-tuned guitars, but it should not add much extra gain. Noise gates are useful if they do not chop off the riff's sustain.
+- **Pedals:** A boost or overdrive in front of the amp is a common way to tighten drop-tuned guitars, but it should not add much extra gain. Noise gates are useful if they do not chop off the riff’s sustain.
 - **Layers:** Rhythm guitars are likely doubled or layered. The recorded weight comes from tight performances more than one absurdly gained track.
 
 Drop D makes power shapes easy, but it also exposes sloppy muting. The lower string will ring whether you invited it or not.
@@ -42,9 +42,9 @@ Drop D makes power shapes easy, but it also exposes sloppy muting. The lower str
 
 The tone should feel like a clenched fist, not a blanket.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Feel Good Drag" uses the simplest gift of Drop D: one-finger power chords and a low open-string pedal. That lets the guitar jump between riff notes and full chords quickly while keeping the bottom end aggressive.
+“Feel Good Drag” uses the simplest gift of Drop D: one-finger power chords and a low open-string pedal. That lets the guitar jump between riff notes and full chords quickly while keeping the bottom end aggressive.
 
 The harmony is minor-leaning and riff-driven. Instead of a delicate chord progression, the song gets its identity from:
 
@@ -57,7 +57,7 @@ The low tuning does not make the part heavy by itself. The heaviness is in the m
 
 ## Signature Moves
 
-Short illustrative fragments in the song's style.
+Short illustrative fragments in the song’s style.
 
 **1. The drop-D pedal surge**
 
@@ -159,7 +159,7 @@ D|--0--0--0--0--5--5--8--8-----------------|
 
 ## Make It Yours
 
-Drop D is useful because it lets you simplify the left hand and focus on the right hand. Write a riff with only three fretted shapes, then make it interesting with muting, rests, and one octave answer. Keep the gain just low enough that you can hear the pick hit the string. If a riff only sounds heavy with the gain maxed, the part probably needs better rhythm. The real lesson from "Feel Good Drag" is controlled release: clamp down, build pressure, then open the chord at exactly the right moment.
+Drop D is useful because it lets you simplify the left hand and focus on the right hand. Write a riff with only three fretted shapes, then make it interesting with muting, rests, and one octave answer. Keep the gain just low enough that you can hear the pick hit the string. If a riff only sounds heavy with the gain maxed, the part probably needs better rhythm. The real lesson from “Feel Good Drag” is controlled release: clamp down, build pressure, then open the chord at exactly the right moment.
 
 > **Listen For**
 >

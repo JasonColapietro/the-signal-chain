@@ -17,7 +17,7 @@ J Mascis is one of the great reminders that “too much” can become musical if
 - **Guitar:** A **Fender Jazzmaster** is the guitar most associated with Mascis. The wide single-coil sound matters because it keeps some top-end scrape even when the fuzz is thick.
 - **Fuzz/drive:** Big Muff-style fuzz and stacked gain are commonly cited parts of the Mascis world, often combined with loud amp drive. Exact pedal combinations vary across eras and should not be treated as a single fixed recipe.
 - **Amp:** Loud Marshall-style and Fender-style amp platforms are often associated with his stage and studio sounds. The important behavior is volume, sustain, and a bright top edge that survives the fuzz.
-- **Control:** The guitar's **volume knob** is not an afterthought. It is part of the performance, cleaning up the fuzz into ragged chime or opening it into lead sustain.
+- **Control:** The guitar’s **volume knob** is not an afterthought. It is part of the performance, cleaning up the fuzz into ragged chime or opening it into lead sustain.
 
 The rig looks unruly on paper, but the playing is full of control. The lesson is not “turn everything up.” It is “leave yourself a way back from everything.”
 
@@ -43,7 +43,7 @@ Set up more gain than you need, then learn to ride it.
 
 Practice the same phrase with the guitar volume at 6, 8, and 10. That is the whole class.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 “Start Choppin” sits in the early-'90s alternative space where melody and noise keep interrupting each other. The chords have a bright, almost jangly center, but the lead tone is torn and oversized.
 

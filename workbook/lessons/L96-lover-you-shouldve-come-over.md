@@ -8,13 +8,13 @@
 - **The tone in one sentence:** Clean electric gospel voicings and soft compression carrying a torch song without ever hardening into rock rhythm.
 - **Difficulty:** Advanced
 - **Key & tuning:** D major center with borrowed gospel colors; standard tuning for this lesson
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-This sits in the same Buckley world as the previous two lessons, but the guitar's job is different. "Grace" is drama. "Hallelujah" is exposure. "Lover, You Should've Come Over" is accompaniment as a form of mercy.
+This sits in the same Buckley world as the previous two lessons, but the guitar’s job is different. “Grace” is drama. “Hallelujah” is exposure. “Lover, You Should’ve Come Over” is accompaniment as a form of mercy.
 
-- **Guitar:** Buckley's borrowed **Telecaster** is the instrument most associated with the *Grace* era. For this song, the useful sound is the warmer clean side: neck pickup, fingers or a very soft pick, and enough top end to hear the inner voices.
+- **Guitar:** Buckley’s borrowed **Telecaster** is the instrument most associated with the *Grace* era. For this song, the useful sound is the warmer clean side: neck pickup, fingers or a very soft pick, and enough top end to hear the inner voices.
 - **Amp:** A clean **Fender-style combo** is the right neighborhood. Exact track-level amp certainty is thinner than the legend, so focus on clean headroom and touch response.
 - **Dynamics:** A gentle compressor is often a practical way to approximate the recorded smoothness, but it should not erase the right-hand swells.
 - **Reverb:** A small hall or plate gets you closer than a chorus pedal. The atmosphere should support the chord changes, not announce itself.
@@ -39,11 +39,11 @@ Build a warm clean sound with enough sustain for slow changes.
 - Amp: Bass **4–5**, Mids **5–6**, Treble **4–6**, Reverb **3–5**.
 - Compressor: sustain low-to-medium, mix below half if the pedal allows it.
 - Pick hand: thumb and fingers, or a very light pick with fingers available for double-stops.
-- Chord attack: brush, don't chop. Let the top note sing.
+- Chord attack: brush, don’t chop. Let the top note sing.
 
 If the chords feel stiff, reduce your right-hand motion before changing the amp.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song lives around a **D-major center**, but it borrows the language of gospel and soul: secondary dominants, suspended chords, chromatic bass movement, and major chords that briefly turn minor for ache. That is why it feels like a standard without being one.
 
@@ -53,7 +53,7 @@ The rhythm is slow, but it is not lazy. The chord changes have to arrive with th
 
 ## Signature Moves
 
-These figures are original sketches of the song's vocabulary.
+These figures are original sketches of the song’s vocabulary.
 
 **1. D gospel color**
 
@@ -105,7 +105,7 @@ E|--------------------------|
 
 ## The Drills
 
-Original exercises for the song's slow harmonic movement.
+Original exercises for the song’s slow harmonic movement.
 
 **Drill A — Major-to-Minor IV (~60 BPM)**  
 Train the borrowed-minor move without making it theatrical.

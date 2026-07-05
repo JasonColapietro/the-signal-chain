@@ -12,13 +12,13 @@
 
 ## The Rig & Signal Chain
 
-The guitar sound on "Do I Wanna Know?" is not fast, flashy, or especially crowded. It is heavy because the line is low, deliberate, and placed with care.
+The guitar sound on “Do I Wanna Know?” is not fast, flashy, or especially crowded. It is heavy because the line is low, deliberate, and placed with care.
 
 - **Guitars:** Alex Turner and Jamie Cook are associated with several guitars across this period, including **Jazzmaster, hollowbody, and humbucker-equipped instruments** depending on the live or studio context. The exact tracked guitar should be treated cautiously.
 - **Tuning:** **D standard** is commonly used for the part, giving the riff a lower center without needing a baritone guitar.
 - **Gain:** A **fuzz-edged overdrive** or driven amp sound is the behavior to chase. It is not extreme metal gain; the note envelope stays readable.
-- **Amp:** Vox, Orange, Fender, and other British/American amp references appear around the band's wider gear story. For this lesson, aim for a dark, mid-forward amp with enough top to keep the pick attack.
-- **Effects:** Subtle ambience and production space may be present, but the riff's identity is low tuning, controlled drive, and slow phrasing.
+- **Amp:** Vox, Orange, Fender, and other British/American amp references appear around the band’s wider gear story. For this lesson, aim for a dark, mid-forward amp with enough top to keep the pick attack.
+- **Effects:** Subtle ambience and production space may be present, but the riff’s identity is low tuning, controlled drive, and slow phrasing.
 - **Mic/room:** Exact studio mic details are not reliably needed. The mix impression is close, thick, and intentionally shadowed.
 
 The defining move is patience. The riff sounds dangerous because it refuses to hurry.
@@ -44,9 +44,9 @@ You need low tuning, moderate dirt, and tight note endings.
 
 If the riff sounds too busy, slow down and shorten the sustains. The menace is in the space after each note.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Do I Wanna Know?" is centered on **G minor** in a low-tuned guitar register. The riff is built from minor-pentatonic and blues-scale gestures: root, flat third, fourth, flat fifth color, and flat seventh. Those are old rock ingredients, but the pace and production make them feel very 2010s.
+“Do I Wanna Know?” is centered on **G minor** in a low-tuned guitar register. The riff is built from minor-pentatonic and blues-scale gestures: root, flat third, fourth, flat fifth color, and flat seventh. Those are old rock ingredients, but the pace and production make them feel very 2010s.
 
 The line is a study in **rhythmic patience**. Many riffs impress by moving quickly; this one impresses by making every slide and bend feel heavy. The drums leave room for the guitar to speak, and the guitar leaves enough room for the groove to lean.
 
@@ -104,7 +104,7 @@ D|--5--x--8--x--7--------------|
    Gm-ish movement in D standard
 ```
 
-*Caption: The chord hits should support the riff's mood without becoming a separate metal part.*
+*Caption: The chord hits should support the riff’s mood without becoming a separate metal part.*
 
 ## The Drills
 

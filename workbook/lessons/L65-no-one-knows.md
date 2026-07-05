@@ -12,7 +12,7 @@
 
 ## The Rig & Signal Chain
 
-Josh Homme's tone in this period is a reminder that "big rock guitar" does not have to mean the expected Marshall-stack recipe. The sound is thick, nasal, dry, and almost stubbornly odd.
+Josh Homme’s tone in this period is a reminder that “big rock guitar” does not have to mean the expected Marshall-stack recipe. The sound is thick, nasal, dry, and almost stubbornly odd.
 
 - **Guitar:** Homme is commonly associated with **short-scale and semi-hollow oddball guitars**, including Ovation Ultra GP-style instruments in the broader Queens vocabulary. The exact guitar for every layer of this track is not something I would state as settled fact.
 - **Amp:** **Ampeg VT-40/V-4-style combos and heads** are often cited as part of the Queens sound: loud, mid-forward, and not fashionable in the classic-rock sense. Treat the exact amp blend as approximate.
@@ -43,9 +43,9 @@ You need low tuning, controlled lows, and a strong mid voice.
 
 If it sounds too modern, reduce gain and treble. The target is heavy but not glossy.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"No One Knows" lives in the world created by **C standard tuning**. Shapes that would be familiar in standard tuning now speak lower, darker, and looser. That lower register gives the riff its strut, but the rhythm is what makes it work.
+“No One Knows” lives in the world created by **C standard tuning**. Shapes that would be familiar in standard tuning now speak lower, darker, and looser. That lower register gives the riff its strut, but the rhythm is what makes it work.
 
 The guitar part uses **syncopation** — accents that land between the expected beats. The riff keeps ducking and leaning forward, which gives the song its lopsided swagger. You cannot get that from tone alone; the gaps have to be played.
 
@@ -55,7 +55,7 @@ The band arrangement is also important. The guitar leaves pockets for drums and 
 
 ## Signature Moves
 
-Short study fragments below — low-tuned gestures in the song's spirit, not a full transcription.
+Short study fragments below — low-tuned gestures in the song’s spirit, not a full transcription.
 
 **1. C-standard midrange stomp**
 
@@ -159,7 +159,7 @@ C |--0--0--0--3--0--2--0-------|
 
 ## Make It Yours
 
-The best thing to take from "No One Knows" is the permission to sound a little wrong on purpose. Tune down to C standard, use a guitar that does not feel too polite, push the mids, and write a riff that leaves gaps for the drums. If the tone starts sounding polished, you may be moving away from the point. This lesson is about personality in the midrange and rhythm in the spaces.
+The best thing to take from “No One Knows” is the permission to sound a little wrong on purpose. Tune down to C standard, use a guitar that does not feel too polite, push the mids, and write a riff that leaves gaps for the drums. If the tone starts sounding polished, you may be moving away from the point. This lesson is about personality in the midrange and rhythm in the spaces.
 
 > **Listen For**
 >

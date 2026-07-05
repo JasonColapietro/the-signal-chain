@@ -12,11 +12,11 @@
 
 ## The Rig & Signal Chain
 
-Adam Jones's sound is heavy, but it is not a scooped modern metal wash. It has a hard midrange edge and a sculpted top that lets small rhythmic parts read clearly.
+Adam Jones’s sound is heavy, but it is not a scooped modern metal wash. It has a hard midrange edge and a sculpted top that lets small rhythmic parts read clearly.
 
 - **Guitar:** A **Gibson Les Paul Custom**, with the Silverburst model commonly cited as the guitar most associated with Jones, is the center of the story. A bridge humbucker gives the tight low end and focused attack.
 - **Amps:** Jones is commonly associated with a **blended amp setup**, with Diezel, Marshall, Mesa/Boogie, and other high-gain platforms cited in different eras. The exact album blend should be treated as approximate; the behavior is a layered wall with definition.
-- **Effects:** Delay, flanger, and other modulation appear across his vocabulary, but "Schism" teaches how little you need when the riff and meter are strong.
+- **Effects:** Delay, flanger, and other modulation appear across his vocabulary, but “Schism” teaches how little you need when the riff and meter are strong.
 - **Gain:** Moderate-to-high, but not fizzy. The low D needs to stay percussive.
 - **Mic/room:** The exact cabinet and mic details are not something I would invent. The usable lesson is tight close-mic weight plus enough room/mix space to let the riff breathe.
 
@@ -43,9 +43,9 @@ You can approximate the feel without owning the famous rig.
 
 If the low D blooms too much, reduce bass before reducing gain. The riff needs weight, but it also needs edges.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Schism" is famous for its **uneven phrasing**. Rather than sitting in a comfortable four-bar grid, the parts feel like they are connecting and disconnecting, which is exactly why the title fits the music.
+“Schism” is famous for its **uneven phrasing**. Rather than sitting in a comfortable four-bar grid, the parts feel like they are connecting and disconnecting, which is exactly why the title fits the music.
 
 The guitar is in **drop D**, so the low three strings can form power-chord shapes with one finger. That tuning gives you two things: heavy low roots and fast movement between low-string stabs and higher melodic fragments.
 
@@ -159,7 +159,7 @@ D|--0--0--3--2----|----------------|
 
 ## Make It Yours
 
-The "Schism" lesson is that heaviness does not require constant motion. Put your guitar in drop D, choose a five- or seven-note cell, and repeat it until the pattern becomes physical. Then remove one note. Add one rest. Move the answer up an octave. You will find that the most interesting heavy riffs often come from subtraction and placement, not from more gain.
+The “Schism” lesson is that heaviness does not require constant motion. Put your guitar in drop D, choose a five- or seven-note cell, and repeat it until the pattern becomes physical. Then remove one note. Add one rest. Move the answer up an octave. You will find that the most interesting heavy riffs often come from subtraction and placement, not from more gain.
 
 > **Listen For**
 >

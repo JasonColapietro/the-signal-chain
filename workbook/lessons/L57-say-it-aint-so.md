@@ -1,9 +1,9 @@
-# Lesson 57 — “Say It Ain't So” · Weezer
+# Lesson 57 — “Say It Ain’t So” · Weezer
 
 ## At a Glance
 
 - **Artist:** Weezer (Rivers Cuomo)
-- **Song:** “Say It Ain't So”
+- **Song:** “Say It Ain’t So”
 - **Album:** *Weezer* (1994)
 - **Section:** THE 90s
 - **The tone in one sentence:** A dry, intimate clean part flips into thick crunch, making the pedal-or-channel change feel like a songwriting hook.
@@ -14,7 +14,7 @@
 
 The *Blue Album* guitar sound is often discussed as a combination of tight rhythm playing, layered amps, and smart contrasts rather than one magic device.
 
-- **Guitar:** Humbucker-equipped guitars and Strat-style modified instruments are commonly associated with Rivers Cuomo's early Weezer tones. The practical target is a bridge humbucker for the heavy parts and a clear, quieter setting for the verse.
+- **Guitar:** Humbucker-equipped guitars and Strat-style modified instruments are commonly associated with Rivers Cuomo’s early Weezer tones. The practical target is a bridge humbucker for the heavy parts and a clear, quieter setting for the verse.
 - **Amp:** Mesa/Boogie and Marshall-style gain sounds are commonly cited around this record, but exact per-track amp blends are not reliably documented for player-level settings.
 - **Clean tone:** The verse sound is dry and close, with enough high end to make the chord extensions speak.
 - **Crunch tone:** The chorus tone is thick and compressed, but not so saturated that the chord changes blur.
@@ -43,9 +43,9 @@ Dial two sounds that share the same guitar and feel like the same player.
 
 The two sounds should not feel like two different bands. Match their volume carefully so the crunch grows in width and density more than raw level.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-“Say It Ain't So” uses a simple but powerful arrangement trick: the same song can feel small or huge depending on **density**. The verse guitar is sparse, syncopated, and clean enough that the chord colors matter. The heavy section hits with power chords and thicker rhythm, turning the emotional light on.
+“Say It Ain’t So” uses a simple but powerful arrangement trick: the same song can feel small or huge depending on **density**. The verse guitar is sparse, syncopated, and clean enough that the chord colors matter. The heavy section hits with power chords and thicker rhythm, turning the emotional light on.
 
 Harmonically, the song moves through a moody minor/major relationship. You can think of it as living around **C# minor and E major colors**, with chords that feel familiar but slightly unsettled. The clean guitar part lets extensions and open-string color make the verse more than a plain power-chord loop.
 

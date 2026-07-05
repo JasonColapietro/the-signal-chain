@@ -1,25 +1,25 @@
-# Lesson 104 — "Hands Down" · Dashboard Confessional
+# Lesson 104 — “Hands Down” · Dashboard Confessional
 
 ## At a Glance
 
 - **Artist:** Dashboard Confessional
-- **Song:** "Hands Down"
+- **Song:** “Hands Down”
 - **Album:** *A Mark, a Mission, a Brand, a Scar* (2003)
 - **The tone in one sentence:** A hard-strummed acoustic heart beating inside a full-band emo arrangement, with the pick attack carrying as much urgency as the chords.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** Often taught with open-position D-family shapes; standard tuning, E A D G B E, for this lesson.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Chris Carrabba's Dashboard sound is built around the acoustic guitar first. For "Hands Down," the full-band recording makes the song bigger, but the center is still a bright steel-string part played with conviction.
+Chris Carrabba’s Dashboard sound is built around the acoustic guitar first. For “Hands Down,” the full-band recording makes the song bigger, but the center is still a bright steel-string part played with conviction.
 
 - **Acoustic guitar:** Carrabba has been commonly associated with **Gibson and other stage-ready steel-string acoustics** across the Dashboard years. The exact studio acoustic and mic chain for this track are not reliably documented in public detail, so think in behaviors: bright top, firm low mids, and a pick sound that stays audible.
 - **Electric layers:** The full-band version likely uses electric guitars to widen the chorus and reinforce the arrangement. Treat exact guitar and amp models as approximate; the electrics support the acoustic urgency rather than replacing it.
 - **Processing:** A practical record-side picture is close-miked acoustic, some compression, and room/plate ambience. The compression should make the strum feel steady, not squashed.
 - **Pick:** A medium pick is a reasonable starting point. Too thin gets papery; too heavy can make the part stiff.
 
-This is a good reminder that "tone" is not only pedals and amps. Sometimes the signal chain starts with how evenly you can strum for four minutes.
+This is a good reminder that “tone” is not only pedals and amps. Sometimes the signal chain starts with how evenly you can strum for four minutes.
 
 ## The Tone Recipe
 
@@ -43,9 +43,9 @@ This is a good reminder that "tone" is not only pedals and amps. Sometimes the s
 
 The acoustic should never disappear when the band arrives. It is the pulse.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Hands Down" turns open-position guitar into forward motion. The harmony lives in the familiar major-key emo/pop-rock world: open chords, suspended tones, and changes that feel direct rather than clever.
+“Hands Down” turns open-position guitar into forward motion. The harmony lives in the familiar major-key emo/pop-rock world: open chords, suspended tones, and changes that feel direct rather than clever.
 
 The important musical device is **constant eighth-note strumming**. Your hand keeps moving even when not every string rings. That motion gives the song its breathless quality. If you only think about chord names, you miss the point; the rhythm is the hook.
 
@@ -59,7 +59,7 @@ In other words, the full band does not erase the bedroom-acoustic origin of the 
 
 ## Signature Moves
 
-Short illustrative fragments in the song's language.
+Short illustrative fragments in the song’s language.
 
 **1. The open-chord rush**
 
@@ -160,7 +160,7 @@ E|--------------3--3--3--3--|--------------3--3--3--3--|
 
 ## Make It Yours
 
-Take any open-chord song and make the strumming hand the lead instrument. Keep the chord progression simple, then work on how the pick crosses the strings: lighter in the verse, wider in the chorus, still even the whole time. If you add electric guitar, use it like a frame around the acoustic, not a replacement. The useful lesson from "Hands Down" is that urgency can come from consistency. A plain open chord played with the right pulse can carry a whole record.
+Take any open-chord song and make the strumming hand the lead instrument. Keep the chord progression simple, then work on how the pick crosses the strings: lighter in the verse, wider in the chorus, still even the whole time. If you add electric guitar, use it like a frame around the acoustic, not a replacement. The useful lesson from “Hands Down” is that urgency can come from consistency. A plain open chord played with the right pulse can carry a whole record.
 
 > **Listen For**
 >

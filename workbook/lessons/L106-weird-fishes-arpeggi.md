@@ -1,22 +1,22 @@
-# Lesson 106 — "Weird Fishes/Arpeggi" · Radiohead
+# Lesson 106 — “Weird Fishes/Arpeggi” · Radiohead
 
 ## At a Glance
 
 - **Artist:** Radiohead
-- **Song:** "Weird Fishes/Arpeggi"
+- **Song:** “Weird Fishes/Arpeggi”
 - **Album:** *In Rainbows* (2007)
 - **The tone in one sentence:** Clean guitars woven into a moving arpeggio lattice, where the shimmer comes from interlocking hands more than from any one effect.
 - **Difficulty:** Advanced
 - **Key & tuning:** E-minor / E-Dorian-colored center; standard tuning, E A D G B E.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Radiohead already appears in Lesson 46 with "Paranoid Android"; this lesson is the gentler cousin, where the band uses interlocking clean parts instead of violent contrast.
+Radiohead already appears in Lesson 46 with “Paranoid Android”; this lesson is the gentler cousin, where the band uses interlocking clean parts instead of violent contrast.
 
-The exact *In Rainbows* guitar chain is not published in full studio detail, and Radiohead's parts are often layered across Jonny Greenwood, Ed O'Brien, and Thom Yorke. The useful truth is broader:
+The exact *In Rainbows* guitar chain is not published in full studio detail, and Radiohead’s parts are often layered across Jonny Greenwood, Ed O’Brien, and Thom Yorke. The useful truth is broader:
 
-- **Guitars:** Jonny Greenwood is commonly associated with **Telecaster-style instruments**, and Ed O'Brien with a range of textural Fender-style guitars. Treat the exact guitar on each overdub as uncertain; you want a clear single-coil or split-coil sound that stays even under fast picking.
+- **Guitars:** Jonny Greenwood is commonly associated with **Telecaster-style instruments**, and Ed O’Brien with a range of textural Fender-style guitars. Treat the exact guitar on each overdub as uncertain; you want a clear single-coil or split-coil sound that stays even under fast picking.
 - **Amps:** Clean **Fender / Vox / studio-clean platforms** are a reasonable family to work from. The amp should not sag or distort when the pattern gets busy.
 - **Effects:** Light compression, a little reverb, and possibly subtle delay can help, but the arpeggio itself is the effect. If a delay pedal is doing more work than your right hand, the part loses its human weave.
 - **Layering:** Multiple guitars and patterns create the motion. No single isolated part tells the whole story.
@@ -45,9 +45,9 @@ The signal chain here is almost architectural: one clean line, then another clea
 
 Use less effect than you think. The interlock gets blurry fast.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Weird Fishes/Arpeggi" is built from **arpeggios** — chords broken into individual notes — but the magic is that the parts do not all start and stop in the same emotional place. Each guitar repeats a small cell, and the band layers those cells until the harmony feels like it is continuously turning.
+“Weird Fishes/Arpeggi” is built from **arpeggios** — chords broken into individual notes — but the magic is that the parts do not all start and stop in the same emotional place. Each guitar repeats a small cell, and the band layers those cells until the harmony feels like it is continuously turning.
 
 The tonal center hovers around **E minor**, with Dorian-like brightness when the harmony lifts. Dorian means a minor sound with a natural 6th, which gives minor music a less gloomy, more suspended color. You do not have to name every chord to feel it: the bass and vocal move through a minor world while the guitars keep sparkling above.
 

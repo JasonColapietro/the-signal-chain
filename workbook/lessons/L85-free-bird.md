@@ -8,11 +8,11 @@
 - **The tone in one sentence:** A singing slide intro that opens into a long three-guitar climb — clean sustain, Southern-rock bite, and harmonized leads built for a band, not a bedroom.
 - **Difficulty:** Advanced
 - **Key & tuning:** G major / E minor colors; standard tuning for this lesson (E A D G B E)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Skynyrd's guitar sound is a group arrangement. On this song, the slide intro and the later three-guitar build are different jobs inside the same story.
+Skynyrd’s guitar sound is a group arrangement. On this song, the slide intro and the later three-guitar build are different jobs inside the same story.
 
 - **Guitars:** Gary Rossington is the player most associated with the slide voice, commonly linked to a **Gibson Les Paul**. Allen Collins and the rest of the guitar lineup bring the sharper lead and rhythm layers. Exact track-by-track guitar assignments can get overconfident quickly, so treat the broad roles as safer than rigid claims.
 - **Amps:** Period Southern-rock tone points toward loud tube amps with Fender and Marshall family references depending on the player and context. The behavior is what matters: clean sustain for slide, then midrange-forward crunch for the outro.
@@ -40,11 +40,11 @@ Read this beside Lesson 19. “Sweet Home Alabama” teaches the bright conversa
 - Vibrato: slow and even, moving parallel with the fret.
 - Pick attack: strong but not frantic; the acceleration is rhythmic, not just volume.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The ballad section lives in a **G major** world, with the emotional pull of **E minor** nearby. That relative-major/relative-minor relationship matters: G major and E minor use the same notes, but they feel different depending on where the phrase lands.
 
-The intro's slide part is mostly about **singing into chord tones**. Slide guitar exposes pitch mercilessly. If you aim between frets, everyone hears it. The trick is to approach the note, settle directly over the fret, and then add vibrato after the pitch is true.
+The intro’s slide part is mostly about **singing into chord tones**. Slide guitar exposes pitch mercilessly. If you aim between frets, everyone hears it. The trick is to approach the note, settle directly over the fret, and then add vibrato after the pitch is true.
 
 The outro shifts the lesson to endurance and orchestration. The progression keeps moving while the guitars build from melodic phrases to harmonized lines to fast pentatonic runs. A **harmonized lead** is two guitars playing related melodies, often a third apart. The sound is larger than a single solo because the harmony turns a line into a section.
 

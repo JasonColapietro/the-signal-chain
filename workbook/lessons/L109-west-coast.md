@@ -1,22 +1,22 @@
-# Lesson 109 — "West Coast" · Lana Del Rey
+# Lesson 109 — “West Coast” · Lana Del Rey
 
 ## At a Glance
 
 - **Artist:** Lana Del Rey
-- **Song:** "West Coast"
+- **Song:** “West Coast”
 - **Album:** *Ultraviolence* (2014)
 - **The tone in one sentence:** Halftime tremolo twang — a noir surf guitar pulse slowed down until every chord feels sun-bleached and dangerous.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** F#-minor / E-major color for this lesson; standard tuning, E A D G B E.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-"West Coast" sits in the Dan Auerbach-produced *Ultraviolence* world, where vintage-flavored guitars, tremolo, and room sound do a lot of the storytelling. Exact guitar, amp, and mic choices for this track are not something to state as fixed fact without session notes, so the honest target is the behavior: twang, pulse, and space.
+“West Coast” sits in the Dan Auerbach-produced *Ultraviolence* world, where vintage-flavored guitars, tremolo, and room sound do a lot of the storytelling. Exact guitar, amp, and mic choices for this track are not something to state as fixed fact without session notes, so the honest target is the behavior: twang, pulse, and space.
 
 - **Guitars:** Auerbach is commonly associated with **vintage-style electrics** — Harmony, Silvertone, Gretsch, Gibson, Fender, and similar studio tools all live in his broader orbit. For this lesson, any guitar with a clear bridge or middle pickup can work.
 - **Amp:** A **small tube amp or Fender-style clean/edge platform** is the practical family. You want a little hair when you dig in, but not a rock crunch.
-- **Tremolo:** The key effect. Amp tremolo, optical tremolo, or a pedal can all work. The rate should lock to the song's slow sway rather than flutter nervously.
+- **Tremolo:** The key effect. Amp tremolo, optical tremolo, or a pedal can all work. The rate should lock to the song’s slow sway rather than flutter nervously.
 - **Reverb:** Spring or plate-style ambience, enough to put the guitar in a room.
 
 This is a tone where the empty space is part of the riff. If you fill every gap, you lose the spell.
@@ -43,9 +43,9 @@ This is a tone where the empty space is part of the riff. If you fill every gap,
 
 Set the tremolo while playing the actual part. A rate that sounds good on one held chord may feel wrong once the groove starts.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"West Coast" uses a minor-key atmosphere and a slow, swaying pulse. The guitar part is less about chord complexity and more about **texture as timekeeping**. Tremolo repeatedly turns the signal up and down, so the guitar seems to breathe with the track.
+“West Coast” uses a minor-key atmosphere and a slow, swaying pulse. The guitar part is less about chord complexity and more about **texture as timekeeping**. Tremolo repeatedly turns the signal up and down, so the guitar seems to breathe with the track.
 
 The harmony lives in a dark pop/minor space, with F#-minor and E-major colors a useful way to map the lesson. The guitar language borrows from surf, spaghetti-western twang, and garage-soul restraint:
 
@@ -58,7 +58,7 @@ The most important musical skill is restraint. Play the line, let the tremolo mo
 
 ## Signature Moves
 
-Short illustrative fragments in the track's tremolo-twang language.
+Short illustrative fragments in the track’s tremolo-twang language.
 
 **1. The minor twang pulse**
 

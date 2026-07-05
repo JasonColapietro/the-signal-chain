@@ -5,20 +5,20 @@
 - **Artist:** The Clash
 - **Song:** “London Calling”
 - **Album:** *London Calling* (1979)
-- **The tone in one sentence:** Joe Strummer's dry Esquire-style chop and Mick Jones's thicker Les Paul snarl working together — one hand cuts the groove, the other gives it teeth.
+- **The tone in one sentence:** Joe Strummer’s dry Esquire-style chop and Mick Jones’s thicker Les Paul snarl working together — one hand cuts the groove, the other gives it teeth.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** E minor; standard tuning (E A D G B E)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
 The lesson is two guitar roles, not one perfect sound.
 
 - **Rhythm guitar:** Strummer is most associated with a battered **Fender Esquire/Telecaster-style** guitar. The bridge-pickup chop is the important behavior: bright, percussive, and dry.
-- **Lead/thicker guitar:** Mick Jones is commonly associated with **Gibson Les Paul** guitars in this period, giving the track a fuller midrange voice against Strummer's cut.
+- **Lead/thicker guitar:** Mick Jones is commonly associated with **Gibson Les Paul** guitars in this period, giving the track a fuller midrange voice against Strummer’s cut.
 - **Amps:** The Clash used loud practical stage and studio rigs rather than a fragile boutique chain. Fender, Music Man, Marshall, and similar late-'70s workhorse references all appear around the band, but exact track settings are not the point here.
 - **Gain:** Crunch, not metal. The guitars still have string definition.
-- **Effects:** Minimal. The record's force comes from hands, arrangement, bass, and drums.
+- **Effects:** Minimal. The record’s force comes from hands, arrangement, bass, and drums.
 
 This is punk as arrangement discipline. The rhythm part is not random slashing. It is a controlled, syncopated engine.
 
@@ -41,11 +41,11 @@ This is punk as arrangement discipline. The rhythm part is not random slashing. 
 - Reverb: **0-2**.
 - Pick attack: downstrokes with fast left-hand pressure releases. The mute is part of the chord.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song centers on **E minor**. The main drive comes from a low E-root pressure and a dark minor-key chord movement. The bass and drums are crucial; the guitar does not need to fill every frequency.
 
-The big concept is **syncopated chopping**. Syncopation means the accent lands off the obvious downbeat. Strummer's rhythm style often sounds wild because the hand is moving constantly while the fretting hand decides which hits speak and which hits are muted.
+The big concept is **syncopated chopping**. Syncopation means the accent lands off the obvious downbeat. Strummer’s rhythm style often sounds wild because the hand is moving constantly while the fretting hand decides which hits speak and which hits are muted.
 
 Use partial chords. A full six-string grip can get too big and polite. Two or three strings, hit hard and stopped quickly, give the track its urgency.
 
@@ -53,7 +53,7 @@ The second guitar role is contrast. A Les Paul-style snarl can hold longer notes
 
 ## Signature Moves
 
-These are short study figures in the track's vocabulary.
+These are short study figures in the track’s vocabulary.
 
 **1. Esquire chop**
 
@@ -160,7 +160,7 @@ E|----------(rest)-------(rest)-|
 
 ## Make It Yours
 
-Write one bright, clipped rhythm part and one thicker answer part. Keep them out of each other's way. That is the lesson here: punk guitars can be arranged as carefully as any harmony stack if the roles are clear.
+Write one bright, clipped rhythm part and one thicker answer part. Keep them out of each other’s way. That is the lesson here: punk guitars can be arranged as carefully as any harmony stack if the roles are clear.
 
 Also practice muting as a positive sound. A dead strum is not a mistake between chords. It is the snare drum you get for free when your right hand stays moving.
 

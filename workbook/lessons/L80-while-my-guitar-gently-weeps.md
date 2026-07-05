@@ -5,18 +5,18 @@
 - **Artist:** The Beatles
 - **Song:** “While My Guitar Gently Weeps”
 - **Album:** *The Beatles* (1968)
-- **Section:** JOHNNY'S FAVORITES
-- **The tone in one sentence:** A sustained, vocal Les Paul-style lead tone floating over Harrison's descending minor harmony with more sorrow than flash.
+- **Section:** JOHNNY’S FAVORITES
+- **The tone in one sentence:** A sustained, vocal Les Paul-style lead tone floating over Harrison’s descending minor harmony with more sorrow than flash.
 - **Difficulty:** Intermediate
 - **Key & tuning:** A minor; standard tuning.
 
 ## The Rig & Signal Chain
 
-The story matters here, but it needs the usual caution. This is George Harrison's song, with Eric Clapton commonly credited after the fact as the unlisted lead guitarist on the original session. The guitar lesson is the contrast between Harrison's writing and Clapton's singing lead voice.
+The story matters here, but it needs the usual caution. This is George Harrison’s song, with Eric Clapton commonly credited after the fact as the unlisted lead guitarist on the original session. The guitar lesson is the contrast between Harrison’s writing and Clapton’s singing lead voice.
 
 The Beatles also appear earlier in Lesson 6; use that as the band-context reference and come here for the lead-guitar color.
 
-- **Guitar:** Clapton is commonly associated with Harrison's red Gibson Les Paul, often known as "Lucy," on this track. That detail is widely repeated, but I would still treat pickup position and exact controls as approximate.
+- **Guitar:** Clapton is commonly associated with Harrison’s red Gibson Les Paul, often known as “Lucy,” on this track. That detail is widely repeated, but I would still treat pickup position and exact controls as approximate.
 - **Amp:** The exact amp and studio path are debated in public accounts. A British clean-to-crunch amp or warm studio amp model is a practical target.
 - **Processing:** The finished lead has a smoothed, sustained quality that may owe as much to recording treatment as to amp gain. Do not chase a single pedal as the whole answer.
 - **Gain:** Medium sustain, not modern saturation. You need enough hold for bends, but enough clarity to follow the chord changes.
@@ -43,11 +43,11 @@ The Beatles also appear earlier in Lesson 6; use that as the band-context refere
 
 If the tone gets too sharp, lower treble before adding more gain. The lead should ache, not slice.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song is built around **A minor** and a descending bass motion. That descent is the emotional engine: A, then G, then F♯, then F-like colors depending on the voicing. Even before the lead enters, the harmony feels like it is walking downward.
 
-Clapton's lead works because it respects that movement. He bends and sustains, but the notes still point at the chord underneath. This is not a blues solo pasted on top. It is a vocal line following the song's gravity.
+Clapton’s lead works because it respects that movement. He bends and sustains, but the notes still point at the chord underneath. This is not a blues solo pasted on top. It is a vocal line following the song’s gravity.
 
 The main lead vocabulary is A minor pentatonic with chord-tone awareness. Over changing chords, the same pentatonic box can sound right or wrong depending on where you land. That is the lesson: sustain only matters if the sustained note belongs.
 
@@ -153,7 +153,7 @@ E|----------------|----------------|
 
 ## Make It Yours
 
-Write a four-chord minor progression with a descending bass line, then solo over it using only five notes from minor pentatonic. The rule is that every long note has to fit the chord underneath. That constraint will do more for your phrasing than another scale pattern. This song's lead part endures because it listens to the harmony.
+Write a four-chord minor progression with a descending bass line, then solo over it using only five notes from minor pentatonic. The rule is that every long note has to fit the chord underneath. That constraint will do more for your phrasing than another scale pattern. This song’s lead part endures because it listens to the harmony.
 
 > **Listen For**
 >

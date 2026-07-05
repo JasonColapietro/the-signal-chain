@@ -8,16 +8,16 @@
 - **The tone in one sentence:** Red Special bell tones stacked into miniature guitar choirs — bright, compressed, harmonized lines that sparkle without losing the midrange voice.
 - **Difficulty:** Intermediate
 - **Key & tuning:** E-flat major with quick chromatic turns; standard tuning (E A D G B E)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Brian May's core voice is better documented than most, but the exact overdub recipe for any one layer still deserves caution.
+Brian May’s core voice is better documented than most, but the exact overdub recipe for any one layer still deserves caution.
 
 - **Guitar:** The **Red Special** is the guitar most associated with May: homemade with his father, fitted with switching options that allow in-phase and out-of-phase pickup combinations. Those options are a big part of the bell-like and nasal colors.
 - **Pick:** A coin, famously a sixpence, is the picking tool most associated with him. The hard edge gives the note a bright front.
 - **Boost:** A Rangemaster-style treble booster, or a closely related boost, is commonly cited as the front-end push into the amp.
-- **Amp:** Vox **AC30** combos are the amp family most associated with May's studio and live sound. Cranked EL84 compression gives the sustain and midrange focus.
+- **Amp:** Vox **AC30** combos are the amp family most associated with May’s studio and live sound. Cranked EL84 compression gives the sustain and midrange focus.
 - **Studio detail:** The specific pickup combination and track count for each little harmony part are not public facts I would overstate. The safe claim is layered Red Special-family tones, carefully arranged.
 
 Read this beside Lesson 48. “Bohemian Rhapsody” shows the large guitar orchestra; “Killer Queen” shows the same discipline in smaller, sharper details.
@@ -41,7 +41,7 @@ Read this beside Lesson 48. “Bohemian Rhapsody” shows the large guitar orche
 - Guitar tone: **6-8**.
 - Reverb: low. Let the layers make the width.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 “Killer Queen” is harmonically quick. It moves through polished pop changes with chromatic passing chords, so the guitar part has to be arranged, not merely played over the top.
 
@@ -53,7 +53,7 @@ The rhythmic feel is also tidy. These parts do not sprawl. They enter, sparkle, 
 
 ## Signature Moves
 
-These are original miniature figures in May's arranged-guitar vocabulary.
+These are original miniature figures in May’s arranged-guitar vocabulary.
 
 **1. Bell-like third harmony**
 
@@ -161,7 +161,7 @@ E|-----------------|-----------------|
 
 ## Make It Yours
 
-Write a four-note melody and harmonize it two ways: first in thirds, then as triads. Record the parts separately. That is the doorway into May's world. The magic is not just the gear; it is the patience to build a part one voice at a time.
+Write a four-note melody and harmonize it two ways: first in thirds, then as triads. Record the parts separately. That is the doorway into May’s world. The magic is not just the gear; it is the patience to build a part one voice at a time.
 
 Also notice the restraint of short guitar statements. You can make a track sound expensive without playing constantly. A bright, harmonized two-beat answer in the right spot can do more than a full bar of lead guitar.
 

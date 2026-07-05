@@ -12,7 +12,7 @@
 
 ## The Rig & Signal Chain
 
-Mike McCready's lead identity on this track is often discussed through the lens of classic Strat players, and that is the right family to hear even if every studio detail is not pinned down.
+Mike McCready’s lead identity on this track is often discussed through the lens of classic Strat players, and that is the right family to hear even if every studio detail is not pinned down.
 
 - **Guitar:** A **Fender Stratocaster-style guitar** is the tool most associated with the lead voice here. The neck pickup and neck-plus-middle style sounds give the notes that round, glassy top.
 - **Amp:** A **British-voiced or Fender-style amp pushed into singing breakup** is the practical target. Exact *Ten* session amp settings are not reliably documented in a way that helps a player more than broad behavior does.
@@ -43,13 +43,13 @@ Start with a Strat-style guitar and make it bigger without making it blunt.
 
 The target is a note that blooms after the pick. If the attack is all bite and no body, add mids or move to the neck pickup before adding more gain.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 “Alive” is centered around **A**, with the lead language drawing heavily from **A minor pentatonic**, **A blues scale**, and **A mixolydian** color. That blend is why the solo can sound both bluesy and triumphant. The flat 7 gives it rock authority; the major chord underneath keeps it open.
 
 The riff and solo both use familiar classic-rock grammar. You hear **double-stops**, **whole-step bends**, **repeated motifs**, and **call-and-response phrasing**. The grunge-era setting changes the emotional frame, but the vocabulary is older. That is the lesson: lineage does not disappear when a new decade arrives. It gets re-voiced through a different band, different production, and different urgency.
 
-McCready's lead approach also teaches **solo pacing**. The part does not begin at maximum density. It starts with recognizable shapes, then repeats and raises the intensity. A phrase returns with more vibrato, a bend gets held longer, the register rises. That is how a solo builds without needing complicated harmony.
+McCready’s lead approach also teaches **solo pacing**. The part does not begin at maximum density. It starts with recognizable shapes, then repeats and raises the intensity. A phrase returns with more vibrato, a bend gets held longer, the register rises. That is how a solo builds without needing complicated harmony.
 
 Rhythmically, keep the feel loose enough to breathe. This is not a grid-perfect shred exercise. It is a rock band pushing around a vocal and then letting the guitar take the room.
 

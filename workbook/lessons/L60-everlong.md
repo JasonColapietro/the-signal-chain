@@ -14,7 +14,7 @@
 
 “Everlong” is one of the great 1990s rhythm-guitar parts because the tone is inseparable from the tuning and right hand.
 
-- **Guitar:** Humbucker-equipped Gibson-style guitars, including semi-hollow models, are commonly associated with Dave Grohl's Foo Fighters era. The practical target is a guitar that gives body to high ringing notes and authority to low drop-D shapes.
+- **Guitar:** Humbucker-equipped Gibson-style guitars, including semi-hollow models, are commonly associated with Dave Grohl’s Foo Fighters era. The practical target is a guitar that gives body to high ringing notes and authority to low drop-D shapes.
 - **Amp:** Mesa/Boogie and Marshall-style high-gain rock sounds are commonly cited around this period. Exact track-by-track amp blends are not reliably documented at player-useful knob detail.
 - **Tuning:** Drop D is essential to the shape of the riff. The record is commonly played a half-step below standard pitch, but practicing in plain drop D teaches the mechanics.
 - **Layering:** The recorded guitar wall likely comes from layered rhythm tracks rather than one enormous setting. Keep the part tight before making it huge.
@@ -43,9 +43,9 @@ Tune first, then dial the amp around the riff.
 
 If the low string overwhelms the top notes, lower bass and gain before raising treble. Clarity is the sound.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-The song's guitar identity comes from **drop-D suspended chord shapes**. Drop D lets one finger hold big low-root power shapes while the upper strings ring with color tones. That combination creates the chime: a low foundation with high notes that do not resolve immediately.
+The song’s guitar identity comes from **drop-D suspended chord shapes**. Drop D lets one finger hold big low-root power shapes while the upper strings ring with color tones. That combination creates the chime: a low foundation with high notes that do not resolve immediately.
 
 The riff is rhythmically relentless. The right hand keeps moving, while the fretting hand changes shapes around sustained open or repeated upper notes. That gives the part its feeling of motion even when the harmony is not complicated.
 

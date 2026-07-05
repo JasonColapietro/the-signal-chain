@@ -8,7 +8,7 @@
 - **The tone in one sentence:** A spare, hovering guitar accompaniment where open space, light vibrato, and held chords do more emotional work than a busy part ever could.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** D-centered for this lesson; standard tuning (E A D G B E). Recorded and cover-version approaches vary, so treat the key here as a playable study frame.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
@@ -19,7 +19,7 @@ This is not a gear-chase song. The important sound is **space**: a guitar part t
 - **Effects:** Any ambience should be modest and room-like. A small amount of plate or room reverb can help the sustain, but a long modern wash can hide the touch.
 - **Studio detail:** The reliable detail is the restraint. Exact mic choices and guitar model claims are not documented well enough for this lesson, so the recipe stays behavioral.
 
-The cross-reference is personal as much as musical: Tim Buckley is Jeff Buckley's father, and the brief points forward to the Jeff Buckley lessons later in the expansion. Keep that family line in mind when you hear how much guitar accompaniment can be carried by breath and space.
+The cross-reference is personal as much as musical: Tim Buckley is Jeff Buckley’s father, and the brief points forward to the Jeff Buckley lessons later in the expansion. Keep that family line in mind when you hear how much guitar accompaniment can be carried by breath and space.
 
 ## The Tone Recipe
 
@@ -40,7 +40,7 @@ The cross-reference is personal as much as musical: Tim Buckley is Jeff Buckley'
 - Guitar tone: **6-8** if electric.
 - Vibrato: slow and narrow on held notes, more like a singer holding pitch than a blues shake.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 For this lesson, think in a **D-centered major color** with suspended notes. A suspended chord replaces the third with the second or fourth. That matters here because a normal major or minor chord tells the listener exactly how to feel. A suspended chord withholds that answer.
 
@@ -57,7 +57,7 @@ That restraint is hard for guitar players because it feels like doing less. In t
 
 ## Signature Moves
 
-These are original study fragments built from the song's accompaniment logic.
+These are original study fragments built from the song’s accompaniment logic.
 
 **1. Open-string suspension**
 

@@ -8,11 +8,11 @@
 - **The tone in one sentence:** A close, double-tracked fingerpicked whisper where the guitar sounds less like accompaniment and more like a second nervous system.
 - **Difficulty:** Advanced
 - **Key & tuning:** C/A-minor family of shapes; standard tuning for this lesson
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Elliott Smith's guitar sound is intimate enough that people often confuse the instrument with the recording method. The exact "Angeles" chain is not documented in a way that supports hard claims about microphones or preamps, so keep the rig description modest.
+Elliott Smith’s guitar sound is intimate enough that people often confuse the instrument with the recording method. The exact “Angeles” chain is not documented in a way that supports hard claims about microphones or preamps, so keep the rig description modest.
 
 - **Guitar:** Smith is commonly associated with small-to-mid-sized steel-string acoustics, including Yamaha FG-family instruments across his catalog. For this lesson, the important qualities are quick attack, balanced midrange, and a top that does not boom.
 - **Performance:** Double-tracking is a major part of the sound. The small timing differences between two takes create width without chorus.
@@ -42,9 +42,9 @@ You can approximate it with one acoustic and careful recording, or with a clean 
 
 If the part sounds impressive, you may be playing it too loud. It should feel like you are leaning toward the microphone.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Angeles" is a fingerpicking lesson disguised as a song. The harmony moves through folk-pop shapes, but the real difficulty is **independence**: the thumb carries a bass motion while the fingers outline upper chord tones and little melodic turns.
+“Angeles” is a fingerpicking lesson disguised as a song. The harmony moves through folk-pop shapes, but the real difficulty is **independence**: the thumb carries a bass motion while the fingers outline upper chord tones and little melodic turns.
 
 The emotional color comes from **voice-leading**. A note on top stays still while the bass moves, or an inner voice falls by step while the chord name changes underneath. That is why the song feels harmonically richer than a basic strum sheet would suggest.
 
@@ -52,7 +52,7 @@ The double-tracked performance adds another layer of discipline. Two slightly di
 
 ## Signature Moves
 
-These are original study figures in the style of the song's guitar language.
+These are original study figures in the style of the song’s guitar language.
 
 **1. Thumb-and-fingers weave**
 

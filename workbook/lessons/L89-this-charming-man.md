@@ -5,10 +5,10 @@
 - **Artist:** The Smiths (Johnny Marr)
 - **Song:** “This Charming Man”
 - **Album:** Single, 1983
-- **The tone in one sentence:** Johnny Marr's jangle as orchestration — bright, layered, capo-friendly guitar figures that turn arpeggios into a whole arrangement.
+- **The tone in one sentence:** Johnny Marr’s jangle as orchestration — bright, layered, capo-friendly guitar figures that turn arpeggios into a whole arrangement.
 - **Difficulty:** Intermediate
 - **Key & tuning:** Concert F# major color; standard tuning, often approached with capo 2 and E-shape thinking
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
@@ -40,7 +40,7 @@ This begins a three-lesson Marr run. Lesson 90 turns tremolo into the hook; Less
 - Chorus: **0-2** depth if used.
 - Pick attack: light, precise, and close enough to the bridge for definition.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song is a masterclass in **arpeggiated harmony**. Instead of strumming block chords, Marr breaks shapes into fast melodic patterns. That lets the guitar act as rhythm, hook, and countermelody at once.
 
@@ -162,7 +162,7 @@ E|------------------|-----------------|
 
 Take any plain major chord and add one moving note on top. Then arpeggiate it instead of strumming. That is the simplest door into this vocabulary. The goal is not to play more chords; it is to make one chord show different faces.
 
-For a band arrangement, keep one guitar as the motor and another as the sparkle. If every layer is bright and busy, the track gets smaller. Marr's lesson is that jangle is not a tone setting. It is composition.
+For a band arrangement, keep one guitar as the motor and another as the sparkle. If every layer is bright and busy, the track gets smaller. Marr’s lesson is that jangle is not a tone setting. It is composition.
 
 > **Listen For**
 >

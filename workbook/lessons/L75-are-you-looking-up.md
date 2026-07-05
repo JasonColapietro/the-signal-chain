@@ -8,11 +8,11 @@
 - **Section:** NOW
 - **The tone in one sentence:** Guitar processed until it argues with synths: bent, filtered, compressed, and slightly unstable, but still played with human touch.
 - **Difficulty:** Intermediate
-- **Key & tuning:** This lesson uses E-centered standard-tuning shapes. The record's processing makes exact pitch-and-source claims risky, so focus on the phrasing, bends, and envelope.
+- **Key & tuning:** This lesson uses E-centered standard-tuning shapes. The record’s processing makes exact pitch-and-source claims risky, so focus on the phrasing, bends, and envelope.
 
 ## The Rig & Signal Chain
 
-Mk.gee is a useful NOW lesson because the guitar does not announce itself in the old way. It is not "clean guitar plus effect." It is a sound-design object that still responds to fingers.
+Mk.gee is a useful NOW lesson because the guitar does not announce itself in the old way. It is not “clean guitar plus effect.” It is a sound-design object that still responds to fingers.
 
 - **Guitar:** Mk.gee is commonly associated with guitar setups that feed synth-like processing, including Roland-style guitar-synth and pitch/filter approaches in the broader live and studio vocabulary. I would not claim a single guitar or box as the verified source of this exact track without better documentation.
 - **Processing:** The sound points toward pitch movement, compression, filtering, chorus-like spread, and preamp coloration. The important behavior is a note that bends and blooms like a synth while retaining pick/finger timing.
@@ -42,7 +42,7 @@ Mk.gee is a useful NOW lesson because the guitar does not announce itself in the
 
 If it sounds like a normal guitar with chorus, push the filter or pitch movement slightly. If it stops feeling playable, back off.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The guitar role is part harmony, part hook, part texture. The lines often use simple melodic cells, but the processing bends their identity. A small slide or bend can feel like a synth portamento. A sustained double-stop can feel like a pad.
 
@@ -153,12 +153,12 @@ E|----------------|----------------|
 
 ## Make It Yours
 
-Try building a tone where the first question is not "which amp," but "what happens after I play the note." Add one processor at a time: compression, then pitch movement, then filter, then saturation. Stop when the guitar starts to argue with the keyboard sounds but still obeys your hands. That tension is the lesson.
+Try building a tone where the first question is not “which amp,” but “what happens after I play the note.” Add one processor at a time: compression, then pitch movement, then filter, then saturation. Stop when the guitar starts to argue with the keyboard sounds but still obeys your hands. That tension is the lesson.
 
 > **Listen For**
 >
 > - **0:00–0:20:** guitar-like attack wrapped in synth-like movement.
 > - **Vocal spaces:** small phrases that leave room for the processing to decay.
 > - **Hook returns:** bends that glide rather than snap.
-> - **Layered sections:** guitar and synth timbres crossing into each other's territory.
+> - **Layered sections:** guitar and synth timbres crossing into each other’s territory.
 > - **Final repeats:** instability that feels musical, not accidental.

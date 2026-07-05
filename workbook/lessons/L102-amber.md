@@ -1,25 +1,25 @@
-# Lesson 102 — "Amber" · 311
+# Lesson 102 — “Amber” · 311
 
 ## At a Glance
 
 - **Artist:** 311 (Nick Hexum and Tim Mahoney)
-- **Song:** "Amber"
+- **Song:** “Amber”
 - **Album:** *From Chaos* (2001)
 - **The tone in one sentence:** A clean, chorused reggae-rock shimmer where the guitar stays light on its feet, leaving room for the groove while still carrying the hook.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** Commonly taught around an E-major / C#-minor family of shapes; standard tuning, E A D G B E.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-The exact studio chain for "Amber" is not published at the knob-and-mic level, so the honest version is broad strokes: clean electric guitar, a little modulation, and a relaxed reggae-rock right hand.
+The exact studio chain for “Amber” is not published at the knob-and-mic level, so the honest version is broad strokes: clean electric guitar, a little modulation, and a relaxed reggae-rock right hand.
 
 - **Guitars:** Tim Mahoney and Nick Hexum have long been associated with **PRS-style humbucker and split-coil sounds**, along with bright clean electrics in this era. Treat the exact session guitar as not firmly documented; what matters is a clean pickup position with enough top end to sparkle without getting brittle.
 - **Amp:** 311 rigs from this period are commonly connected with **Mesa/Boogie-style clean and gain platforms**, but for this song the amp behavior is more important than the badge. You want headroom, a rounded low end, and no obvious breakup.
 - **Modulation:** A **chorus** or light dimension-style modulation is the tool most associated with this kind of early-2000s clean shimmer. Keep it slow and shallow enough that the guitar widens instead of wobbling.
 - **Time/space:** A little room or plate reverb is enough. If there is delay in the record-side texture, it is tucked back; the part should still feel dry enough to skank cleanly.
 
-The lesson is that clean tone can still be an effect tone. "Amber" does not need distortion to feel produced. The width, muting, and pocket do the work.
+The lesson is that clean tone can still be an effect tone. “Amber” does not need distortion to feel produced. The width, muting, and pocket do the work.
 
 ## The Tone Recipe
 
@@ -42,13 +42,13 @@ The lesson is that clean tone can still be an effect tone. "Amber" does not need
 
 The danger is overplaying. Set the tone so a small motion speaks, then make the part breathe.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Amber" works like a reggae tune filtered through an alternative-rock band. The guitar often sits on the **offbeats** — the "ands" between the numbered beats — so the groove feels like it is leaning back while the vocal and rhythm section move forward.
+“Amber” works like a reggae tune filtered through an alternative-rock band. The guitar often sits on the **offbeats** — the “ands” between the numbered beats — so the groove feels like it is leaning back while the vocal and rhythm section move forward.
 
 Harmonically, the song is usually taught as a bright major-key loop with a relative-minor shadow. Think of it as the familiar **I-V-vi-IV** neighborhood if you are using E-major shapes: E, B, C#m, A. Even if you learn it from a chart in a different position, the important sound is the same: major warmth, one minor turn, then back to open sunshine.
 
-The guitar's job is not to fill every eighth note. It alternates between three roles:
+The guitar’s job is not to fill every eighth note. It alternates between three roles:
 
 - **Skank:** short, clipped chord hits on the offbeats.
 - **Arpeggio:** clean picked notes that let the chorus smear the edges.
@@ -109,7 +109,7 @@ E|----------------------------------|
 
 ## The Drills
 
-These are original exercises in the song's spirit.
+These are original exercises in the song’s spirit.
 
 **Drill 1 — Offbeat Clean Lock.** Trains the reggae-rock pocket and the fretting-hand mute.
 
@@ -125,7 +125,7 @@ E|--x---0---x---0---x---------------|
    1   &   2   &   3   &   4   &
 ```
 
-*Builds: offbeat accuracy. Keep your strumming hand moving through the downbeats, but only let the chord speak on the "&."*
+*Builds: offbeat accuracy. Keep your strumming hand moving through the downbeats, but only let the chord speak on the “&.”*
 
 **Drill 2 — Chorus Arpeggio Balance.** Trains clean note volume and relaxed sustain.
 
@@ -159,7 +159,7 @@ E|--x---0---x---0---|-------------------------|
 
 ## Make It Yours
 
-Take the cleanest progression you know and remove half the strums. Put the important hits on the offbeats, add a light chorus, and listen to how much space appears. That is the useful part of "Amber": the guitar sounds produced, but it is not crowded. If you usually lean on gain to make a part feel finished, try this instead — a clean amp, a shallow chorus, and a right hand that knows when to stop the chord.
+Take the cleanest progression you know and remove half the strums. Put the important hits on the offbeats, add a light chorus, and listen to how much space appears. That is the useful part of “Amber”: the guitar sounds produced, but it is not crowded. If you usually lean on gain to make a part feel finished, try this instead — a clean amp, a shallow chorus, and a right hand that knows when to stop the chord.
 
 > **Listen For**
 >

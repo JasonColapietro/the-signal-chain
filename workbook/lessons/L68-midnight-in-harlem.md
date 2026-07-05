@@ -17,7 +17,7 @@ Derek Trucks is one of the clearest modern examples of hands-first tone. The gea
 - **Guitar:** A **Gibson SG** is the guitar most associated with Trucks. The humbuckers feed a warm, sustaining slide sound without needing much help.
 - **Tuning:** **Open E** is commonly associated with this style: E B E G# B E. It lets the slide form full major chords straight across the strings.
 - **Slide:** A glass slide, often discussed in the Duane Allman family of sounds, is the common reference point. The exact material matters less than fit, weight, and intonation control.
-- **Amp:** A loud **Fender Super Reverb-style tube combo** is commonly cited around Trucks's core tone: clean, loud, and starting to sing when pushed.
+- **Amp:** A loud **Fender Super Reverb-style tube combo** is commonly cited around Trucks’s core tone: clean, loud, and starting to sing when pushed.
 - **Pedals:** The famous lesson is almost none. Trucks is widely associated with going straight into the amp, using volume, picking hand, and slide pressure instead of gain pedals.
 - **Mic/room:** Exact recording details are not the point here. The behavior is vocal sustain, clean headroom, and natural amp bloom.
 
@@ -44,9 +44,9 @@ The affordable version is about setup and discipline.
 
 If the tone feels thin, check your intonation and muting before adding effects. Slide tone starts with the note being in tune.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Midnight in Harlem" lives in **E major**, with gospel and soul phrasing shaping the lead guitar. The harmony is not complicated on paper; the depth is in the voice-like way Trucks moves between notes.
+“Midnight in Harlem” lives in **E major**, with gospel and soul phrasing shaping the lead guitar. The harmony is not complicated on paper; the depth is in the voice-like way Trucks moves between notes.
 
 Open E tuning gives you a full E major chord across the strings, so the slide can move horizontally like a singer moving through vowels. The risk is that everything can ring all the time. You have to mute behind the slide with the fretting hand and ahead of it with the picking hand.
 
@@ -56,7 +56,7 @@ The most important musical concept is **vocal phrasing**. Trucks often sounds li
 
 ## Signature Moves
 
-Short study fragments below — slide vocabulary in the song's spirit, not a full transcription.
+Short study fragments below — slide vocabulary in the song’s spirit, not a full transcription.
 
 **1. Open-E vocal slide**
 

@@ -8,7 +8,7 @@
 - **The tone in one sentence:** A pulsing tremolo guitar spread across amps until the rhythm of the effect becomes the riff itself.
 - **Difficulty:** Intermediate
 - **Key & tuning:** F# minor center; standard tuning (E A D G B E)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
@@ -41,7 +41,7 @@ This is the second Marr lesson in the run. Lesson 89 is jangle as orchestration;
 - Reverb: **2-4**.
 - Pick attack: steady chord hits. Let the tremolo provide motion after the strike.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The harmony is sparse. The track lives around an **F# minor** center, but the emotional identity comes from the pulsing guitar bed rather than a busy progression.
 

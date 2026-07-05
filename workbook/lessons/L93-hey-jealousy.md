@@ -8,11 +8,11 @@
 - **The tone in one sentence:** Bright jangle pushed just far enough into crunch that the heartbreak still feels like a bar band trying to stay awake.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** D major; standard tuning, E A D G B E
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-The exact session rig for "Hey Jealousy" is not reliably documented at the level of model numbers and dial settings, and this is one of those records where over-specifying it misses the point. The audible recipe is clear: bright electric guitars, light-to-moderate crunch, and layers that stay open enough for the melody.
+The exact session rig for “Hey Jealousy” is not reliably documented at the level of model numbers and dial settings, and this is one of those records where over-specifying it misses the point. The audible recipe is clear: bright electric guitars, light-to-moderate crunch, and layers that stay open enough for the melody.
 
 - **Guitar:** Hopkins is best approached here through a bright solidbody or semi-hollow voice. A Rickenbacker-style, Tele-style, or clear humbucker guitar all land in the neighborhood if the top end stays articulate.
 - **Amp:** A clean-to-crunch amp is the safer target than a heavy distortion sound. The track has grit, but the chords still speak as chords.
@@ -42,11 +42,11 @@ You can make the sound with almost any guitar if you keep the gain honest.
 
 If the open strings blur, lower the gain before you lower the treble.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-The song's center is the familiar **D – A – Bm – G** world: I, V, vi, IV in D major. That progression can become bland if you strum it like a campfire pattern. The Gin Blossoms trick is to keep the rhythm guitars moving with small arpeggios, open-string glue, and chord stabs that make the changes feel restless.
+The song’s center is the familiar **D – A – Bm – G** world: I, V, vi, IV in D major. That progression can become bland if you strum it like a campfire pattern. The Gin Blossoms trick is to keep the rhythm guitars moving with small arpeggios, open-string glue, and chord stabs that make the changes feel restless.
 
-The **vi chord** (Bm) is the emotional hinge. In a major key, moving from I to vi gives you sadness without leaving the key. The guitars don't need to announce that with a big minor flourish. They just let the Bm arrive and keep the right hand turning.
+The **vi chord** (Bm) is the emotional hinge. In a major key, moving from I to vi gives you sadness without leaving the key. The guitars don’t need to announce that with a big minor flourish. They just let the Bm arrive and keep the right hand turning.
 
 The arrangement also uses classic jangle logic: high strings ring while the bass and lower guitar notes move underneath. That creates the illusion of more harmony than the part is actually playing.
 
@@ -84,7 +84,7 @@ E|--------------3-----------|
    Bm             G
 ```
 
-*Caption: The minor chord darkens the loop, then the G opens it back up. Don't rush the change.*
+*Caption: The minor chord darkens the loop, then the G opens it back up. Don’t rush the change.*
 
 **3. Chorus-width strum**
 
@@ -104,7 +104,7 @@ E|-----------------------------3-3-3-3--|
 
 ## The Drills
 
-Original exercises in the song's style.
+Original exercises in the song’s style.
 
 **Drill A — Arpeggio Clock (~104 BPM)**  
 Train even eighth-note picking across open-position chords.

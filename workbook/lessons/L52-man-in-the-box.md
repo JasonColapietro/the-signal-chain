@@ -12,11 +12,11 @@
 
 ## The Rig & Signal Chain
 
-Jerry Cantrell's early Alice in Chains tone is thick, dry, and mid-heavy, but the details are often discussed in broad strokes rather than clean session documentation.
+Jerry Cantrell’s early Alice in Chains tone is thick, dry, and mid-heavy, but the details are often discussed in broad strokes rather than clean session documentation.
 
 - **Guitar:** A **G&L Rampage-style guitar with a bridge humbucker** is the instrument most associated with Cantrell in this era. Les Paul-style humbuckers can cover the same job if they have enough midrange and output.
-- **Talk box:** A **talk box** is the obvious special effect on the signature vocal-like lines. The common behavior is a driven guitar signal routed through a small driver and tube so the player's mouth shapes the tone before a mic captures it. Exact unit and studio chain details should be treated as approximate unless directly sourced.
-- **Amp:** Hot Marshall-style and modified high-gain amp sounds are commonly tied to Cantrell's early-'90s records. The important behavior is not a scooped metal tone; it is compressed grind with a strong center.
+- **Talk box:** A **talk box** is the obvious special effect on the signature vocal-like lines. The common behavior is a driven guitar signal routed through a small driver and tube so the player’s mouth shapes the tone before a mic captures it. Exact unit and studio chain details should be treated as approximate unless directly sourced.
+- **Amp:** Hot Marshall-style and modified high-gain amp sounds are commonly tied to Cantrell’s early-'90s records. The important behavior is not a scooped metal tone; it is compressed grind with a strong center.
 - **Tuning:** The half-step-down tuning is central. It lowers the riff enough to feel heavier without changing the familiar shapes under your fingers.
 
 The talk box is the spice, not the whole meal. The base tone still has to work as a dry, heavy rhythm sound before the mouth-shaped line arrives.
@@ -42,11 +42,11 @@ Build the core riff tone first, then add the talk-box substitute.
 
 If the riff gets blurry, lower the gain before you lower the tuning. The chug comes from tight muting and midrange more than from extra distortion.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The riff lives in an **E-flat-centered** heavy blues-rock space because the guitar is tuned down a half-step. Under the fingers, you can think in familiar E shapes; to the ear, everything sounds a semitone lower.
 
-The core musical move is a **pedal-tone riff**. A low note keeps returning while upper notes grind against it. That creates weight without needing fast chord movement. Cantrell's writing often does this beautifully: the harmony feels dark and suspended, while the rhythm guitar stays simple enough to hit hard.
+The core musical move is a **pedal-tone riff**. A low note keeps returning while upper notes grind against it. That creates weight without needing fast chord movement. Cantrell’s writing often does this beautifully: the harmony feels dark and suspended, while the rhythm guitar stays simple enough to hit hard.
 
 The talk box line adds a second lesson. It turns guitar tone into a kind of vowel. Instead of thinking only about pitch, you start thinking about **formants** — the resonant shapes that make a sound feel like “ah,” “oh,” or “ee.” A wah pedal hints at this, but a talk box makes it physical because your mouth becomes part of the filter.
 

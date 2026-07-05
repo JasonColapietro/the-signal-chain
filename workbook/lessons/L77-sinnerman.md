@@ -5,19 +5,19 @@
 - **Artist:** Nina Simone (Al Schackman on guitar)
 - **Song:** “Sinnerman”
 - **Album:** *Pastel Blues* (1965)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 - **The tone in one sentence:** Clean rhythm-section guitar tucked inside a storm of piano, percussion, and voice, proving that discipline can be more powerful than volume.
 - **Difficulty:** Intermediate
 - **Key & tuning:** Minor-vamp vocabulary written here in E minor; standard tuning. Use the shapes as movable rhythm tools if you are matching a specific recording pitch.
 
 ## The Rig & Signal Chain
 
-The guitar on "Sinnerman" is not a gear-flex moment. It is a lesson in placement. Al Schackman was a deep musical partner to Nina Simone, and the guitar often works like a second rhythm instrument inside the piano's momentum.
+The guitar on “Sinnerman” is not a gear-flex moment. It is a lesson in placement. Al Schackman was a deep musical partner to Nina Simone, and the guitar often works like a second rhythm instrument inside the piano’s momentum.
 
 - **Guitar:** The exact instrument on this recording is not a detail I would state with certainty. A clean hollowbody, semi-hollow, or warm solidbody can all teach the part if the attack is controlled.
 - **Amp:** A small-to-medium clean amp sound is the practical target. The tone should have body, but not so much low end that it fights piano and bass.
 - **Effects:** No obvious pedal identity is the lesson. If you use reverb, keep it modest.
-- **Role:** The guitar is a rhythmic witness: comping, nudging, and reinforcing the pulse rather than competing with Simone's piano.
+- **Role:** The guitar is a rhythmic witness: comping, nudging, and reinforcing the pulse rather than competing with Simone’s piano.
 
 ## The Tone Recipe
 
@@ -39,9 +39,9 @@ The guitar on "Sinnerman" is not a gear-flex moment. It is a lesson in placement
 
 You want the pick to be audible without turning the guitar into the lead voice.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Sinnerman" is a study in the power of the **minor vamp**. A vamp is a repeated harmonic and rhythmic cell that holds the floor while the performance builds above it. The guitar does not need many chords. It needs time, placement, and stamina.
+“Sinnerman” is a study in the power of the **minor vamp**. A vamp is a repeated harmonic and rhythmic cell that holds the floor while the performance builds above it. The guitar does not need many chords. It needs time, placement, and stamina.
 
 In this workbook version, E minor gives us open-string access. The useful notes are E minor pentatonic — E, G, A, B, D — plus chord fragments that imply Em, Am, and B7 when the arrangement needs more direction.
 
@@ -156,7 +156,7 @@ Put on a metronome and play one minor chord for longer than feels comfortable. C
 
 > **Listen For**
 >
-> - **0:00–1:00:** the piano's pulse setting the storm before guitar detail matters.
+> - **0:00–1:00:** the piano’s pulse setting the storm before guitar detail matters.
 > - **Early vocal sections:** guitar texture sitting inside the rhythm, not above it.
 > - **Build sections:** small comping changes making the groove feel wider.
 > - **Percussion-heavy moments:** guitar acting like another timekeeper.

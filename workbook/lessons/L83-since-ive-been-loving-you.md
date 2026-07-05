@@ -1,14 +1,14 @@
-# Lesson 83 — “Since I've Been Loving You” · Led Zeppelin
+# Lesson 83 — “Since I’ve Been Loving You” · Led Zeppelin
 
 ## At a Glance
 
 - **Artist:** Led Zeppelin
-- **Song:** “Since I've Been Loving You”
+- **Song:** “Since I’ve Been Loving You”
 - **Album:** *Led Zeppelin III* (1970)
-- **The tone in one sentence:** Jimmy Page's blues voice at its most dynamic — a bright humbucker or single-coil pushed into singing breakup, clean enough for whispers and hot enough to scream when the hand digs in.
+- **The tone in one sentence:** Jimmy Page’s blues voice at its most dynamic — a bright humbucker or single-coil pushed into singing breakup, clean enough for whispers and hot enough to scream when the hand digs in.
 - **Difficulty:** Advanced
 - **Key & tuning:** C minor blues; standard tuning (E A D G B E)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
@@ -40,11 +40,11 @@ Read this next to Lessons 16 and 17: those Zeppelin lessons show Page as riff ar
 - Pick attack: fingers or pick both work; what matters is the ability to go from near-clean to biting within one phrase.
 - Vibrato: wide, slow, and deliberate on held notes.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song is a **slow C minor blues**. The core scale is **C minor pentatonic** (C-Eb-F-G-Bb), with the blues note Gb available for tension. Page also aims hard at chord tones, especially when the harmony moves. That is why the solo sounds like speech instead of a scale exercise.
 
-A slow blues leaves nowhere to hide. At this tempo, a bend that is a little sharp or flat stays in the listener's ear. The lesson is not speed. It is **dynamic control**: one phrase whispered, the next phrase nearly breaking the speaker.
+A slow blues leaves nowhere to hide. At this tempo, a bend that is a little sharp or flat stays in the listener’s ear. The lesson is not speed. It is **dynamic control**: one phrase whispered, the next phrase nearly breaking the speaker.
 
 The organ and guitar also matter together. The guitar is not filling every measure. It answers, complains, waits, and then cuts through. That is classic blues conversation: the band states the room, the guitar says one sentence, then the singer answers.
 
@@ -52,7 +52,7 @@ The most useful concept here is **target-note bending**. You do not just bend be
 
 ## Signature Moves
 
-These are short study fragments in Page's blues vocabulary, not a full transcription.
+These are short study fragments in Page’s blues vocabulary, not a full transcription.
 
 **1. The C-minor cry**
 

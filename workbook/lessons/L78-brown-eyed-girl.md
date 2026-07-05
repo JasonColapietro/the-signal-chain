@@ -5,7 +5,7 @@
 - **Artist:** Van Morrison
 - **Song:** “Brown Eyed Girl”
 - **Album:** *Blowin' Your Mind!* (1967)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 - **The tone in one sentence:** Bright, clean double-stops over simple major chords — one of the first hooks that teaches players how two notes can become a whole memory.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** G major; standard tuning.
@@ -39,7 +39,7 @@ This is a lesson where the part is far more documented in players' hands than th
 
 The double-stops should feel effortless. If they sound harsh, lower treble before you soften the rhythm.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song is in **G major**, and the basic chord loop is one of the friendliest in guitar music: G, C, G, D. The hook uses **thirds** — two-note shapes that move through the major scale. A third is simply two notes separated by three letter names, like G to B or A to C.
 
@@ -151,7 +151,7 @@ E|----------------------------|
 
 ## Make It Yours
 
-Take any I-IV-V song in a major key and write a two-string hook before you write a solo. Start with thirds on the top two strings, then move the same shapes to the G and B strings. You will hear why this part became every beginner's friend: it sounds musical immediately, but it also teaches harmony quietly.
+Take any I-IV-V song in a major key and write a two-string hook before you write a solo. Start with thirds on the top two strings, then move the same shapes to the G and B strings. You will hear why this part became every beginner’s friend: it sounds musical immediately, but it also teaches harmony quietly.
 
 > **Listen For**
 >

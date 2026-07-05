@@ -5,7 +5,7 @@
 - **Artist:** Bob Dylan (Mike Bloomfield on lead guitar)
 - **Song:** “Like a Rolling Stone”
 - **Album:** *Highway 61 Revisited* (1965)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 - **The tone in one sentence:** A bright, wiry electric guitar stepping into a folk song and making the whole track feel newly dangerous.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** C major; standard tuning.
@@ -39,11 +39,11 @@ This is the going-electric Telecaster lesson, but with the usual caution: the re
 
 The guitar should feel like a speaking voice in a crowded room: bright enough to be heard, not so loud that it ruins the conversation.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-The song is in **C major**, and the famous lift comes from simple chords moving with enormous confidence. The guitar's job is to decorate that movement with short answers: double-stops, little pentatonic turns, and clipped fills around the vocal.
+The song is in **C major**, and the famous lift comes from simple chords moving with enormous confidence. The guitar’s job is to decorate that movement with short answers: double-stops, little pentatonic turns, and clipped fills around the vocal.
 
-The lead vocabulary is mostly major pentatonic and chord-tone targeting. Over C, that means C, D, E, G, and A, with passing notes used as color. Bloomfield's blues background matters, but he is not pouring a club solo over the track. He is adding electricity to the arrangement.
+The lead vocabulary is mostly major pentatonic and chord-tone targeting. Over C, that means C, D, E, G, and A, with passing notes used as color. Bloomfield’s blues background matters, but he is not pouring a club solo over the track. He is adding electricity to the arrangement.
 
 That is the lesson: sometimes the right electric guitar part is not bigger, faster, or dirtier. It is the part that changes the temperature of the whole band.
 
@@ -148,11 +148,11 @@ E|----------------------------|
    C stab    F stab
 ```
 
-*Builds:* clipped arrangement playing. Do not let the chord wash into the next instrument's space.
+*Builds:* clipped arrangement playing. Do not let the chord wash into the next instrument’s space.
 
 ## Make It Yours
 
-Put a bright electric guitar into any acoustic song you know, but give yourself a rule: no full strumming for the first verse. Only answer phrases, two-note shapes, and short chord stabs. You will hear quickly whether your part is helping the song lift or just adding noise. Bloomfield's lesson here is courage with restraint.
+Put a bright electric guitar into any acoustic song you know, but give yourself a rule: no full strumming for the first verse. Only answer phrases, two-note shapes, and short chord stabs. You will hear quickly whether your part is helping the song lift or just adding noise. Bloomfield’s lesson here is courage with restraint.
 
 > **Listen For**
 >

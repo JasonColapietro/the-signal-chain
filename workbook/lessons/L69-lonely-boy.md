@@ -12,7 +12,7 @@
 
 ## The Rig & Signal Chain
 
-Dan Auerbach's sound is a useful correction to the idea that "vintage" always means polite. His guitar tones often sound small, overloaded, and memorable on purpose.
+Dan Auerbach’s sound is a useful correction to the idea that “vintage” always means polite. His guitar tones often sound small, overloaded, and memorable on purpose.
 
 - **Guitar:** Auerbach is commonly associated with **Harmony, Supro, Teisco, and other pawnshop/vintage-style guitars** across the Black Keys catalog. The exact guitar on every layer of this track is not something I would state as certain.
 - **Fuzz/drive:** **Stacked fuzz, dirty boosts, and old amp breakup** are the behavior to chase. The sound is not a smooth overdrive; it has a ragged edge and a compressed front.
@@ -44,9 +44,9 @@ Build a controlled mess.
 
 If the sound turns into a flat wall, lower one gain stage. Stacked fuzz works best when each layer still leaves some shape.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Lonely Boy" sits in an **E blues-rock** world. The riff vocabulary is familiar: minor pentatonic, flat-third grit, and short repeated cells. What makes it modern is the compression, the production, and the way the riff is trimmed to its most useful shape.
+“Lonely Boy” sits in an **E blues-rock** world. The riff vocabulary is familiar: minor pentatonic, flat-third grit, and short repeated cells. What makes it modern is the compression, the production, and the way the riff is trimmed to its most useful shape.
 
 The main idea depends on **call-and-response phrasing**. A short low figure answers itself, then the band locks into the groove. The guitar is not playing a long blues solo; it is turning blues material into a pop hook.
 
@@ -56,7 +56,7 @@ The tone and part are linked. A cleaner tone would make the riff feel almost too
 
 ## Signature Moves
 
-Short study fragments below — garage-blues gestures in the song's spirit.
+Short study fragments below — garage-blues gestures in the song’s spirit.
 
 **1. E blues hook cell**
 

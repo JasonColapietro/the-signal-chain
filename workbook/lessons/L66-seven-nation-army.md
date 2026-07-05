@@ -12,11 +12,11 @@
 
 ## The Rig & Signal Chain
 
-Jack White's sound here is famous because it refuses to behave like the clean, separated studio recipe people expected. The low hook is widely understood as guitar processed to impersonate a bass, and that is the whole lesson.
+Jack White’s sound here is famous because it refuses to behave like the clean, separated studio recipe people expected. The low hook is widely understood as guitar processed to impersonate a bass, and that is the whole lesson.
 
-- **Guitar:** A **1960s Airline/Supro-style fiberglass guitar** is the instrument most associated with White's early White Stripes identity. The exact guitar is less important than the behavior: bright, raw pickups into a rude front end.
+- **Guitar:** A **1960s Airline/Supro-style fiberglass guitar** is the instrument most associated with White’s early White Stripes identity. The exact guitar is less important than the behavior: bright, raw pickups into a rude front end.
 - **Octave:** A **DigiTech Whammy-style octave-down pedal** is commonly cited for the main hook, set to make the guitar speak one octave lower. That is why the riff feels like bass even though it comes from a guitar.
-- **Fuzz/drive:** A **Big Muff-style fuzz** and old Valco/Silvertone-style amp drive are often associated with White's broader tone. On this track, keep the fuzz controlled enough that the octave line stays readable.
+- **Fuzz/drive:** A **Big Muff-style fuzz** and old Valco/Silvertone-style amp drive are often associated with White’s broader tone. On this track, keep the fuzz controlled enough that the octave line stays readable.
 - **Amp:** Small vintage combo behavior is the target: mid-forward, a little ragged, not hi-fi.
 - **Mic/room:** Exact recording details are not necessary for the lesson and should not be turned into fake certainty. The sound is close, dry, and deliberately rough.
 
@@ -43,13 +43,13 @@ You can build this with one pitch pedal and one dirty sound.
 
 If the pitch pedal glitches too much, pick closer to the bridge and mute unused strings. Octave pedals reward clean input.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Seven Nation Army" is built from a **minor-key riff** so simple that it became a stadium chant. The notes outline E minor territory, and the phrase is memorable because the rhythm leaves just enough space after each move.
+“Seven Nation Army” is built from a **minor-key riff** so simple that it became a stadium chant. The notes outline E minor territory, and the phrase is memorable because the rhythm leaves just enough space after each move.
 
 The riff also teaches **single-string authority**. Beginners often think big tone comes from big chords, but this song proves the opposite. One string, one rhythm, and one effect can carry the entire identity of a track.
 
-The guitar's octave-down treatment changes the arrangement. It makes the riff sit in the bass register while still keeping the pick attack of a guitar. That attack is why the line cuts through even when it sounds low.
+The guitar’s octave-down treatment changes the arrangement. It makes the riff sit in the bass register while still keeping the pick attack of a guitar. That attack is why the line cuts through even when it sounds low.
 
 The rest of the song is built around contrast: low hook, dry drums, then guitar layers that enter without polishing away the roughness.
 
@@ -160,7 +160,7 @@ The reusable idea is not the exact riff. It is the decision to make one guitar c
 > **Listen For**
 >
 > - Around 0:00, the **octave-down guitar** behaving like a bass but keeping pick attack.
-> - Around 0:20, the riff's rests staying clean and confident.
+> - Around 0:20, the riff’s rests staying clean and confident.
 > - Around 0:55, the added guitar weight keeping the same blunt shape.
 > - Around 2:00, the rough amp/fuzz character staying part of the charm.
 > - Around 3:10, the final hook still working because the part never needed many notes.

@@ -8,18 +8,18 @@
 - **The tone in one sentence:** A nearly naked Telecaster neck-pickup arpeggio, fingerplayed so quietly that breath, room, and string noise become part of the performance.
 - **Difficulty:** Intermediate
 - **Key & tuning:** C concert; standard tuning with capo at the 5th fret, using G-position shapes
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
 This is one of the clean electric tones I keep coming back to because there is almost nowhere to hide.
 
-- **Guitar:** Buckley's borrowed **1983 Fender Telecaster** is the instrument most commonly tied to the *Grace* recording. For this track, the neck-pickup family of sounds is the target: round, soft, and close.
+- **Guitar:** Buckley’s borrowed **1983 Fender Telecaster** is the instrument most commonly tied to the *Grace* recording. For this track, the neck-pickup family of sounds is the target: round, soft, and close.
 - **Amp:** A clean **Fender-style combo** is the defensible neighborhood. The exact amp identity and every studio-chain detail are debated enough that I would not reduce the track to one certain model.
 - **Reverb/space:** A gentle studio ambience and/or rack reverb is part of the halo, but the recording does not sound like a washed-out effect demo. The dry finger attack remains close.
-- **Mic/room:** Bearsville Studio A and Andy Wallace's production are part of the story. Exact mic claims are often repeated with too much confidence, so keep them hedged unless you have a primary source.
+- **Mic/room:** Bearsville Studio A and Andy Wallace’s production are part of the story. Exact mic claims are often repeated with too much confidence, so keep them hedged unless you have a primary source.
 
-For the longer argument, cross-reference the *Print the Quiet* essay on Buckley's exact "Hallelujah" recording. That piece treats the room, breath, take-level editing, and the decision to leave the human details in as part of the tone itself.
+For the longer argument, cross-reference the *Print the Quiet* essay on Buckley’s exact “Hallelujah” recording. That piece treats the room, breath, take-level editing, and the decision to leave the human details in as part of the tone itself.
 
 ## The Tone Recipe
 
@@ -42,13 +42,13 @@ The affordable version is simple, but it will not forgive sloppy hands.
 
 If the part sounds too pretty, play softer. If it sounds too cloudy, use less reverb before you change the guitar.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-Buckley's version is built from **G-position shapes under a capo at the 5th fret**, which sound in C concert. That matters because the guitar gets open-position resonance while the song sits in a higher, more vocal key.
+Buckley’s version is built from **G-position shapes under a capo at the 5th fret**, which sound in C concert. That matters because the guitar gets open-position resonance while the song sits in a higher, more vocal key.
 
 The harmony moves through familiar I, vi, IV, and V colors, with a **B7-style turn** that briefly points toward the relative minor. The theory is not exotic. The performance is. The thumb states the bass, then the fingers let the chord arrive slightly after it. That tiny delay makes the guitar breathe.
 
-The feel is **6/8**: two big pulses per bar, each divided into three. Count it as "ONE-and-a TWO-and-a," but do not make it mechanical. The whole performance depends on restraint: a bass note, a brushed chord, a little high-string answer, then space.
+The feel is **6/8**: two big pulses per bar, each divided into three. Count it as “ONE-and-a TWO-and-a,” but do not make it mechanical. The whole performance depends on restraint: a bass note, a brushed chord, a little high-string answer, then space.
 
 ## Signature Moves
 

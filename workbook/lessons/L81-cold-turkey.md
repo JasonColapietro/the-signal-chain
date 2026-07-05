@@ -8,13 +8,13 @@
 - **The tone in one sentence:** Two guitars moving like one damaged machine — thin, nasty, midrange-forward fuzz and overdrive, with Lennon and Eric Clapton locked into a hard unison line.
 - **Difficulty:** Intermediate
 - **Key & tuning:** A minor / A blues center; standard tuning (E A D G B E)
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
 This is one of those records where the exact session chain is less important than the behavior. The guitar sound is narrow, dry, aggressive, and almost impatient. It does not feel like a polished late-'60s lead tone. It feels like a riff being dragged across the floor.
 
-- **Guitars:** Lennon in this period is most commonly associated with his stripped-down **Epiphone Casino**, and Clapton is the other guitar voice most associated with this track. Clapton's exact guitar for the session is not something I would state with certainty; late-'60s Clapton lore points toward Gibson humbuckers and loud amps, but the record itself matters more than the brand name.
+- **Guitars:** Lennon in this period is most commonly associated with his stripped-down **Epiphone Casino**, and Clapton is the other guitar voice most associated with this track. Clapton’s exact guitar for the session is not something I would state with certainty; late-'60s Clapton lore points toward Gibson humbuckers and loud amps, but the record itself matters more than the brand name.
 - **Gain:** The sound is commonly described as fuzzed or heavily overdriven rather than smooth distortion. Think a fuzz or cranked amp with the low end cut tight, not a big sustaining wall.
 - **Amp:** A small-to-medium tube amp pushed hard gets closer than a modern high-gain stack. The reliable clue is the texture: hard attack, little polish, not much room.
 - **Studio detail:** The mic and exact amp settings are not reliably documented at a useful level, so I will not invent them. The safe description is two gritty guitar tracks, close and dry, with little sweetening.
@@ -40,7 +40,7 @@ The seed of the lesson is the unison. Lennon and Clapton are not taking turns be
 - Pick attack: hard downstrokes and clipped releases. Do not smooth it out.
 - Gain placement: put the dirt before a mostly clean amp, or run the amp just past clean and let the pedal add the ragged edge.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song sits around **A minor / A blues**. The riff language is simple on paper: minor pentatonic, the flat fifth for poison, and repeated low-root pressure. What makes it work is not harmonic complexity. It is insistence.
 

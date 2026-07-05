@@ -12,15 +12,15 @@
 
 ## The Rig & Signal Chain
 
-Matt Bellamy's early-2000s tone is where the guitar starts to feel like a controller as much as a traditional instrument. The broad strokes are well known; the exact session chain should be treated carefully.
+Matt Bellamy’s early-2000s tone is where the guitar starts to feel like a controller as much as a traditional instrument. The broad strokes are well known; the exact session chain should be treated carefully.
 
 - **Guitar:** A **Manson-style guitar** with a bridge humbucker is the tool most associated with Bellamy in this era. The famous story is the **Z.Vex Fuzz Factory-style circuit** built into the guitar, which is commonly cited as part of his gated, sputtering lead sound.
 - **Fuzz:** A **Fuzz Factory** or similar gated fuzz is the important behavior: compressed attack, bright harmonic spray, and a tendency to misbehave if the stability/gate controls are pushed.
 - **Amp:** Bellamy is commonly associated with high-headroom British gain platforms and blended live rigs, but for this lesson the practical target is a bright amp that stays articulate under fuzz.
-- **Other effects:** Whammy, delay, and modulation appear across Bellamy's wider vocabulary, but the riff here lives mostly on fuzz, precision, and the pickup.
+- **Other effects:** Whammy, delay, and modulation appear across Bellamy’s wider vocabulary, but the riff here lives mostly on fuzz, precision, and the pickup.
 - **Mic/room:** Exact recording details for the guitar track are not something I would state as fact. Treat detailed mic recipes as lore unless the source is first-hand.
 
-The point is not just "more fuzz." It is fuzz disciplined by clean fretting and even picking.
+The point is not just “more fuzz.” It is fuzz disciplined by clean fretting and even picking.
 
 ## The Tone Recipe
 
@@ -43,9 +43,9 @@ This sound is easier to approximate than to control.
 
 If the line splatters apart, lower the fuzz or gate before blaming your fingers. The best Bellamy-style fuzz still has a clear note in the middle of the noise.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Plug In Baby" is centered on **B minor**, and the opening figure borrows the drama of classical sequence writing: a line climbs, turns, and keeps re-aiming itself until the band drops in.
+“Plug In Baby” is centered on **B minor**, and the opening figure borrows the drama of classical sequence writing: a line climbs, turns, and keeps re-aiming itself until the band drops in.
 
 The main idea is built from **minor-scale motion** with strong chromatic color. It sounds almost baroque because the notes are packed close together and the contour keeps moving. On guitar, that means two jobs at once: fretting hand accuracy and picking hand evenness. Fuzz exaggerates both.
 
@@ -71,7 +71,7 @@ E|-----------------------------|
    chromatic turn into B minor
 ```
 
-*Caption: The riff's drama comes from close notes under a very bright fuzz. Fret cleanly or the circuit will smear the melody.*
+*Caption: The riff’s drama comes from close notes under a very bright fuzz. Fret cleanly or the circuit will smear the melody.*
 
 **2. Fast string-crossing control**
 

@@ -12,11 +12,11 @@
 
 ## The Rig & Signal Chain
 
-Daron Malakian's guitar sound on this era of System of a Down is less about polish and more about contrast. The part has to go from surgical low-string hits to almost folk-like melodic movement without feeling like a different player.
+Daron Malakian’s guitar sound on this era of System of a Down is less about polish and more about contrast. The part has to go from surgical low-string hits to almost folk-like melodic movement without feeling like a different player.
 
-- **Guitar:** An **Ibanez Iceman** is commonly cited as one of Malakian's most associated guitars in this era, usually feeding a bridge humbucker sound.
+- **Guitar:** An **Ibanez Iceman** is commonly cited as one of Malakian’s most associated guitars in this era, usually feeding a bridge humbucker sound.
 - **Amp:** A **Marshall-style high-gain rig** is the behavior most associated with the tone: dry, mid-present, and fast under the pick. Exact studio amp details should be treated as approximate rather than a single magic box.
-- **Effects:** The main rhythm tone is not dependent on a visible wash of effects. If there is ambience in the recording, it is not the lesson's center.
+- **Effects:** The main rhythm tone is not dependent on a visible wash of effects. If there is ambience in the recording, it is not the lesson’s center.
 - **Gain:** Enough saturation to make the low C bark, but not so much that the stops blur.
 - **Mic/room:** Specific mic placements are not reliably documented at a useful level, so the practical target is close, dry, and immediate.
 
@@ -43,9 +43,9 @@ You can build the sound with a simple high-gain setup.
 
 If the riff feels slow, do not add gain. Tighten the palm mute and shorten the notes.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Chop Suey!" lives in a **C-centered** drop-tuned world, with a lot of color coming from minor-mode movement and sudden dynamic shifts. The song's identity is the jump from delicate arpeggios to clipped low-string force.
+“Chop Suey!” lives in a **C-centered** drop-tuned world, with a lot of color coming from minor-mode movement and sudden dynamic shifts. The song’s identity is the jump from delicate arpeggios to clipped low-string force.
 
 Drop C tuning gives the guitar a broad low root, but the song avoids becoming a single-note grind. The contrast comes from **register shifts**: low C chugs, then higher melodic shapes, then back again. That vertical jump is what makes the arrangement feel unstable in a useful way.
 

@@ -12,7 +12,7 @@
 
 ## The Rig & Signal Chain
 
-Annie Clark's guitar sound in this era is a good 2010s lesson because the rig stops behaving like a vintage chain and starts behaving like a designed system. The guitar is still in your hands, but the edges are being squared off by fuzz, compression, filtering, and hard stops.
+Annie Clark’s guitar sound in this era is a good 2010s lesson because the rig stops behaving like a vintage chain and starts behaving like a designed system. The guitar is still in your hands, but the edges are being squared off by fuzz, compression, filtering, and hard stops.
 
 - **Guitar:** Clark is commonly associated with bright, compact solidbody guitars, including her Harmony and Ernie Ball Music Man-era instruments. The exact guitar used for this track is not published at the level where I would call it settled, so the honest target is a clear, immediate guitar with enough upper-mid bite to survive heavy processing.
 - **Gain:** A gated fuzz or tight distortion is the tool most associated with this kind of tone. The important behavior is not just dirt; it is the way the sound shuts off quickly when the fretting hand mutes.
@@ -41,7 +41,7 @@ Annie Clark's guitar sound in this era is a good 2010s lesson because the rig st
 
 The sound should not bloom like classic rock fuzz. It should appear, make its point, and disappear.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The part sits in an E-centered rock world, but the hook is less about a long melody than about **rhythmic geometry**. Short notes, rests, and small chromatic moves do the work. That is why the tone matters: a smeared rig turns the riff into mush, while a gated one makes the rests part of the groove.
 
@@ -159,7 +159,7 @@ Take any riff you already know and remove half the sustain. Keep the notes, but 
 
 > **Listen For**
 >
-> - **0:00–0:15:** the guitar's clipped entrance — the rests are as audible as the notes.
+> - **0:00–0:15:** the guitar’s clipped entrance — the rests are as audible as the notes.
 > - **0:20–0:40:** the way fuzz stays narrow instead of spreading across the whole mix.
 > - **Around the vocal entrances:** guitar figures answer in short shapes rather than long fills.
 > - **Chorus sections:** thicker texture, but still controlled note length.

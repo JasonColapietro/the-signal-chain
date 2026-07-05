@@ -2,22 +2,22 @@
 
 ## At a Glance
 
-- **Artist:** Third Eye Blind, with Kevin Cadogan's bright rhythm-guitar architecture in focus
+- **Artist:** Third Eye Blind, with Kevin Cadogan’s bright rhythm-guitar architecture in focus
 - **Song:** “Semi-Charmed Life”
 - **Album:** *Third Eye Blind* (1997)
 - **The tone in one sentence:** Compressed, bright crunch stabs layered into a pop rhythm track that feels sunny on top and restless underneath.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** G major; standard tuning, E A D G B E
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Kevin Cadogan's guitar work on the first Third Eye Blind record is precise, bright, and arranged. The exact session chain for this track is not reliably public at a knob-by-knob level, so the useful target is the layered behavior.
+Kevin Cadogan’s guitar work on the first Third Eye Blind record is precise, bright, and arranged. The exact session chain for this track is not reliably public at a knob-by-knob level, so the useful target is the layered behavior.
 
 - **Guitar:** Cadogan is often associated with Gibson-style semi-hollow and solidbody guitars, but the track can be approached with any clear electric that keeps chord stabs articulate.
 - **Amp:** A medium-gain British-leaning or American crunch sound gets the point across. Too much gain erases the rhythmic edges.
 - **Compression:** The rhythm guitars feel controlled and forward, so light compression or a tight amp response is useful.
-- **Layers:** The record's width likely comes from multiple guitar passes. Do not expect one track with a giant tone to do the whole job.
+- **Layers:** The record’s width likely comes from multiple guitar passes. Do not expect one track with a giant tone to do the whole job.
 
 The part works because the guitars are bright and clipped, not because they are heavy.
 
@@ -42,7 +42,7 @@ Build a crunchy pop rhythm sound with a clean edge.
 
 If the rhythm feels messy, shorten the notes before changing the sound.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 The song largely lives in a **G – D – C** orbit: I, V, IV in G major. On paper that is as plain as it gets. The arrangement makes it move by using syncopated stabs, partial chords, and rhythmic layering.
 

@@ -2,13 +2,13 @@
 
 ## At a Glance
 
-- **Artist:** Paul Simon, with Ray Phiri's guitar voice at the center of the arrangement
+- **Artist:** Paul Simon, with Ray Phiri’s guitar voice at the center of the arrangement
 - **Song:** “Graceland”
 - **Album:** *Graceland* (1986)
 - **The tone in one sentence:** Bright, dry, dancing clean electric guitar that turns township-jive chime into a pop hook without ever stepping on the vocal.
 - **Difficulty:** Intermediate
 - **Key & tuning:** E major; standard tuning, E A D G B E
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
@@ -19,7 +19,7 @@ The important name here is **Ray Phiri**, the South African guitarist whose clea
 - **Effects:** Little obvious gain. If there is compression, it behaves like leveling rather than an audible squash. The reverb is modest; the chime comes from touch and arrangement more than from a wet effect.
 - **Band context:** The guitar is part of a lattice. Bass, drums, accordion, and backing voices all leave little windows for the guitar to answer. The guitar tone works because it is lean.
 
-This is a good reminder that "clean" does not mean plain. Clean tone exposes rhythm, muting, and note length. On this record, those are the instrument.
+This is a good reminder that “clean” does not mean plain. Clean tone exposes rhythm, muting, and note length. On this record, those are the instrument.
 
 ## The Tone Recipe
 
@@ -40,11 +40,11 @@ You can get close with common gear if you keep the signal light and the hands pr
 - Pick attack: light-to-medium, close to the bridge for snap.
 - Left hand: release pressure immediately after each stab. The rests are part of the groove.
 
-The trap is adding gain because the part feels exposed. Don't. Make the part smaller and more rhythmic instead.
+The trap is adding gain because the part feels exposed. Don’t. Make the part smaller and more rhythmic instead.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Graceland" sits in an E-major world, but the guitar part is not just cowboy chords in E. It borrows from the South African **township jive** vocabulary: high-register double-stops, major-pentatonic melody, clipped upbeats, and little answering phrases that dance around the vocal.
+“Graceland” sits in an E-major world, but the guitar part is not just cowboy chords in E. It borrows from the South African **township jive** vocabulary: high-register double-stops, major-pentatonic melody, clipped upbeats, and little answering phrases that dance around the vocal.
 
 The scale color is mostly **E major pentatonic**: E, F#, G#, B, C#. That scale avoids the half-step rubs of the full major scale, which is why the lines feel open and bright. Add the 6th and 3rd as double-stops and you get the sweet, chiming sound that keeps the track moving without becoming busy.
 

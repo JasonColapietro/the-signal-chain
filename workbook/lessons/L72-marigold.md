@@ -12,7 +12,7 @@
 
 ## The Rig & Signal Chain
 
-Misha Mansoor's importance here is not just "heavy guitar." The important shift is that a fully digital or digitally managed rig becomes the normal professional tool. By the mid-2010s, amp modelers are not demos or backups; they are the sound of the record.
+Misha Mansoor’s importance here is not just “heavy guitar.” The important shift is that a fully digital or digitally managed rig becomes the normal professional tool. By the mid-2010s, amp modelers are not demos or backups; they are the sound of the record.
 
 - **Guitar:** Mansoor is commonly associated with extended-range and down-tuned guitars using clear, high-output pickups, including signature and Bare Knuckle-style pickup families. For this specific song, I would describe the target as a stable, intonated guitar in drop tuning rather than pretend one model is the whole story.
 - **Front end:** A tight boost or overdrive before the amp model is the common djent recipe: low drive, high level, bass trimmed before distortion.
@@ -41,9 +41,9 @@ Misha Mansoor's importance here is not just "heavy guitar." The important shift 
 
 If the sound gets bigger but the rhythm gets less clear, reduce gain before you add anything else.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Marigold" teaches the moment where **djent** becomes more than a production trick. The low-string chugs are precise, but the song is full of broad, almost orchestral chord colors: suspended voicings, add9 shapes, and high melodic tones ringing over a mechanical low end.
+“Marigold” teaches the moment where **djent** becomes more than a production trick. The low-string chugs are precise, but the song is full of broad, almost orchestral chord colors: suspended voicings, add9 shapes, and high melodic tones ringing over a mechanical low end.
 
 The basic concept is **rhythmic displacement**. The low C may hit in tight patterns that feel like drum programming, while the fretting hand grabs shapes that would collapse under a looser amp. The modeler rig lets those two jobs coexist: low-string percussion and upper-string harmony.
 

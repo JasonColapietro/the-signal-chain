@@ -8,17 +8,17 @@
 - **The tone in one sentence:** A clean-to-stormy Telecaster voice wrapped in room, altered voicings, and right-hand drama until rhythm guitar becomes a second singer.
 - **Difficulty:** Advanced
 - **Key & tuning:** E minor center with modal color; standard tuning for this lesson
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Buckley's *Grace*-era rig is better documented than many '90s rigs, but track-by-track certainty still gets slippery. The defensible version is broad, not surgical.
+Buckley’s *Grace*-era rig is better documented than many '90s rigs, but track-by-track certainty still gets slippery. The defensible version is broad, not surgical.
 
-- **Guitar:** Buckley's borrowed **1983 Fender Telecaster** is the instrument most associated with this era. The neck and middle-of-the-hand attack matter more than the model name; he could make a clean note bloom without picking hard.
+- **Guitar:** Buckley’s borrowed **1983 Fender Telecaster** is the instrument most associated with this era. The neck and middle-of-the-hand attack matter more than the model name; he could make a clean note bloom without picking hard.
 - **Clean amp:** A **Fender brownface-style clean combo**, commonly cited around the *Grace* sessions as a Vibroverb/Vibrolux-family reissue, is the safe tonal neighborhood. Exact amp identity on every guitar pass is not something I would state without a session sheet.
 - **Dirty amp:** A **Mesa/Boogie Trem-O-Verb** is commonly associated with his louder live rig, with a Mesa cabinet in the broader setup. For this lesson, treat the dirty side as a clean amp being pushed into a darker, wider roar, not modern metal gain.
-- **Effects:** An **Alesis Quadraverb** is often tied to Buckley's atmospheric clean sounds, with other pedals in the Grace-era orbit including Whammy, Big Muff, and chorus/flange. Which exact device is on which second of "Grace" is less certain than the fan diagrams make it look.
-- **Room/mix:** Andy Wallace's production leaves space around the guitar. The room and reverb are part of the instrument, but they do not hide the pick hand.
+- **Effects:** An **Alesis Quadraverb** is often tied to Buckley’s atmospheric clean sounds, with other pedals in the Grace-era orbit including Whammy, Big Muff, and chorus/flange. Which exact device is on which second of “Grace” is less certain than the fan diagrams make it look.
+- **Room/mix:** Andy Wallace’s production leaves space around the guitar. The room and reverb are part of the instrument, but they do not hide the pick hand.
 
 This is a song where gear lists can distract you. The real sound is clean articulation pushed into emotional overload.
 
@@ -43,9 +43,9 @@ Build two versions of the sound: a glassy clean and a wider driven lift.
 
 The setting should feel fragile at first, then capable of widening without becoming fizzy.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Grace" lives around an **E-minor center**, but it refuses to behave like a plain minor-key rock song. Open strings ring across changing shapes, suspended tones hang unresolved, and the harmony leans into borrowed colors that make the guitar feel unstable in a beautiful way.
+“Grace” lives around an **E-minor center**, but it refuses to behave like a plain minor-key rock song. Open strings ring across changing shapes, suspended tones hang unresolved, and the harmony leans into borrowed colors that make the guitar feel unstable in a beautiful way.
 
 The guitar lesson is **altered voicing under vocal drama**. Instead of blocking out simple chords, the part lets high notes remain while the bass or inner voices move. That creates tension without needing constant distortion. When the band grows, the same harmonic unease becomes huge because your ear already knows the shape.
 
@@ -105,7 +105,7 @@ E|-----------------------|
 
 ## The Drills
 
-Original exercises in the song's style.
+Original exercises in the song’s style.
 
 **Drill A — Open-String Tension Ladder (~72 BPM)**  
 Train altered voicings with a ringing top string.
@@ -154,7 +154,7 @@ E|---------------------------------|
 
 ## Make It Yours
 
-The useful lesson from "Grace" is that drama can live inside the voicing before it ever reaches the pedalboard. Take a minor progression you already know and keep one open string ringing across the changes. Then add a second version where the right hand grows from fingerpicked quiet to full strum. If the chords already ache when clean, the driven section will feel earned. Buckley's world is not "add reverb and be mysterious." It is voice-leading, touch, and the courage to leave the unstable note hanging.
+The useful lesson from “Grace” is that drama can live inside the voicing before it ever reaches the pedalboard. Take a minor progression you already know and keep one open string ringing across the changes. Then add a second version where the right hand grows from fingerpicked quiet to full strum. If the chords already ache when clean, the driven section will feel earned. Buckley’s world is not “add reverb and be mysterious.” It is voice-leading, touch, and the courage to leave the unstable note hanging.
 
 > **Listen For**
 >

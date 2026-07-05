@@ -12,9 +12,9 @@
 
 ## The Rig & Signal Chain
 
-Jonny Buckland's early Coldplay sound is usually discussed less as a gear museum piece and more as a lesson in arrangement. The part works because the guitar leaves room for the vocal, bass, and drums.
+Jonny Buckland’s early Coldplay sound is usually discussed less as a gear museum piece and more as a lesson in arrangement. The part works because the guitar leaves room for the vocal, bass, and drums.
 
-- **Guitar:** A **Fender Telecaster**, with the Thinline-style Telecaster often cited around this era, is the guitar most associated with Buckland's early lead voice. Use the bridge or bridge-plus-neck sound if your guitar has it; the target is clear and glassy, not thick.
+- **Guitar:** A **Fender Telecaster**, with the Thinline-style Telecaster often cited around this era, is the guitar most associated with Buckland’s early lead voice. Use the bridge or bridge-plus-neck sound if your guitar has it; the target is clear and glassy, not thick.
 - **Effects:** A **delay and reverb path** is commonly associated with this kind of Buckland tone. The echoes sit behind the note rather than turning into a rhythmic pattern. Exact studio pedal choices for this track are not documented clearly enough for me to name a full board as fact.
 - **Amp:** A clean **Vox- or Fender-style tube amp** is the safest behavior to chase: chime, headroom, and a little compression when the chorus lifts. Treat any exact amp-setting claim as approximate.
 - **Gain:** Very little. If there is breakup, it is more edge and hair than distortion.
@@ -44,9 +44,9 @@ You can get most of the way there with ordinary clean gear.
 
 If the part sounds too small, do not add distortion first. Add space, brighten the guitar slightly, and play fewer notes.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Yellow" sits in **B major**, but the guitar part feels bigger than a basic open-position pop progression because it leans on ringing tones and patient phrasing. The harmony is not trying to surprise you; the arrangement is doing the emotional work.
+“Yellow” sits in **B major**, but the guitar part feels bigger than a basic open-position pop progression because it leans on ringing tones and patient phrasing. The harmony is not trying to surprise you; the arrangement is doing the emotional work.
 
 The main guitar idea favors **sustained upper notes** against moving chords. That creates a gentle pedal-tone effect: one voice stays in your ear while the harmony changes underneath it. Pedal tones are powerful because they make simple changes feel connected, almost like one long breath.
 
@@ -160,7 +160,7 @@ E|--7--7-----7--7--7-----7--7-----|
 
 ## Make It Yours
 
-The useful thing to steal from "Yellow" is the confidence to let a clean guitar be small and still matter. Write a simple two- or three-note figure over a chord progression you already know, then remove half of it. Add a short delay, keep the repeats quiet, and listen for the place where the guitar starts to frame the song instead of filling every gap. That is the 2000s lesson here: texture can be a hook.
+The useful thing to steal from “Yellow” is the confidence to let a clean guitar be small and still matter. Write a simple two- or three-note figure over a chord progression you already know, then remove half of it. Add a short delay, keep the repeats quiet, and listen for the place where the guitar starts to frame the song instead of filling every gap. That is the 2000s lesson here: texture can be a hook.
 
 > **Listen For**
 >

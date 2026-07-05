@@ -8,16 +8,16 @@
 - **The tone in one sentence:** A layered clean-guitar arrangement where strummed acoustics, bright electrics, and melodic fills support the song so gracefully that the guitar part feels almost invisible.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** Concert B major / G# minor color; standard tuning, often taught with capo 4 using G-shape logic
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-This is not the Smiths guitar part people usually air-guitar. That is why it matters. Marr's job here is arrangement support.
+This is not the Smiths guitar part people usually air-guitar. That is why it matters. Marr’s job here is arrangement support.
 
 - **Guitars:** Marr is commonly associated with layered acoustics and clean electrics across this period, using whatever served the song rather than one fixed jangle machine. The exact guitar stack for this track is not something I would state at a forensic level.
 - **Acoustic layer:** A capoed steel-string approach gives the part lift without needing heavy strumming.
 - **Electric layer:** Clean, bright electric fills can add motion around the vocal without becoming lead guitar.
-- **Effects:** Light compression, modest reverb, and possibly chorus-like width are useful substitutes, but the record's lesson is layering, not effect depth.
+- **Effects:** Light compression, modest reverb, and possibly chorus-like width are useful substitutes, but the record’s lesson is layering, not effect depth.
 
 This closes the three-lesson Marr run from Lessons 89-91: jangle as hook, tremolo as hook, and finally arrangement as hook.
 
@@ -41,7 +41,7 @@ This closes the three-lesson Marr run from Lessons 89-91: jangle as hook, tremol
 - Reverb: **2-3**.
 - Pick attack: relaxed, even, and supportive.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 Using capo 4, the song can be thought of in friendly **G-shape** territory while sounding in B. That matters because open-position shapes have a ring that barre chords often lose. The guitar sounds bright without needing to be loud.
 

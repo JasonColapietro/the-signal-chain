@@ -1,14 +1,14 @@
-# Lesson 103 — "Cute Without the 'E' (Cut from the Team)" · Taking Back Sunday
+# Lesson 103 — “Cute Without the 'E' (Cut from the Team)” · Taking Back Sunday
 
 ## At a Glance
 
 - **Artist:** Taking Back Sunday
-- **Song:** "Cute Without the 'E' (Cut from the Team)"
+- **Song:** “Cute Without the 'E' (Cut from the Team)”
 - **Album:** *Tell All Your Friends* (2002)
 - **The tone in one sentence:** Two mid-gain guitars arguing and completing each other — one holding the floor with power chords, the other throwing octave hooks and nervous high-register answers.
 - **Difficulty:** Intermediate
 - **Key & tuning:** Commonly learned in standard or slightly altered live/tab versions; this lesson is written in standard tuning, E A D G B E, to teach the two-guitar vocabulary.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
@@ -42,7 +42,7 @@ The temptation is to dime the gain because the song feels frantic. Resist that. 
 
 If you are playing both parts alone, keep the rhythm guitar a little darker and the lead/octave guitar a little brighter. That is the simplest way to fake the conversation.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 This song is a lesson in **dual-guitar arrangement**. One guitar can play the chord roots and keep the song moving, while the other uses octaves, slides, and high-string figures to give the part its identity.
 

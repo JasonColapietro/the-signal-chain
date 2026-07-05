@@ -14,12 +14,12 @@
 
 The *Dookie* rhythm tone is famous because it sounds direct and playable, not because it hides behind complicated gear.
 
-- **Guitar:** Billie Joe Armstrong's guitar nicknamed **Blue**, a modified Strat-style instrument, is the guitar most associated with this era. A bridge humbucker is commonly tied to that punchy punk rhythm sound.
+- **Guitar:** Billie Joe Armstrong’s guitar nicknamed **Blue**, a modified Strat-style instrument, is the guitar most associated with this era. A bridge humbucker is commonly tied to that punchy punk rhythm sound.
 - **Amp:** A modded Marshall “plexi”-style sound is commonly cited for the *Dookie* guitar tone. The useful behavior is bright, mid-forward crunch with tight attack. Exact studio settings should be treated as approximate.
 - **Tuning:** The half-step-down tuning is part of the feel. Familiar open-position power-chord shapes sound a little lower and looser.
 - **Effects:** This is not a pedalboard lesson. Any extra processing should stay out of the way.
 
-The tone is less saturated than beginners often dial it. Too much gain makes the downstrokes smaller. The record's power comes from timing and attack.
+The tone is less saturated than beginners often dial it. Too much gain makes the downstrokes smaller. The record’s power comes from timing and attack.
 
 ## The Tone Recipe
 
@@ -43,7 +43,7 @@ Build a clear crunch tone, then make your right hand do the work.
 
 If your forearm locks up, slow down. Punk rhythm is endurance plus accuracy, not a contest with the strings.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 “Basket Case” is a masterclass in **power-chord movement**. The harmony moves quickly enough to feel melodic, but every shape is approachable. That is why the song is beginner-friendly and still satisfying: the difficulty is not exotic fingering, it is timing.
 

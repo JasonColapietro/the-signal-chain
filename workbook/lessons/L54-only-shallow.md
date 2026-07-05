@@ -43,7 +43,7 @@ Build the moving envelope first, then add dirt.
 
 If the part sounds like normal distortion with reverb after it, move the reverb earlier in the chain or increase the reverse envelope until the attack feels like it is swelling backward.
 
-## What's Going On Musically
+## What’s Going On Musically
 
 “Only Shallow” is less about a riff you can separate from the recording and more about **motion inside a chord cloud**. The harmony is simple enough to feel songlike, but the texture keeps the ear from locking onto a fixed pitch.
 

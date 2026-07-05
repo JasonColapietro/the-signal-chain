@@ -1,23 +1,23 @@
-# Lesson 111 — "willow" · Taylor Swift
+# Lesson 111 — “willow” · Taylor Swift
 
 ## At a Glance
 
 - **Artist:** Taylor Swift (Aaron Dessner)
-- **Song:** "willow"
+- **Song:** “willow”
 - **Album:** *evermore* (2020)
 - **The tone in one sentence:** A muted plucked figure turned into a hook, intimate enough to feel acoustic but precise enough to run the whole track.
 - **Difficulty:** Beginner to Intermediate
 - **Key & tuning:** E-minor-centered for this lesson; standard tuning, E A D G B E.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-The *evermore* guitar world is more about close detail than big amp identity. Aaron Dessner's production often blends acoustic instruments, muted plucked textures, and processed ambience until the line feels familiar but slightly unreal. For "willow," the public lesson should stay honest: the exact instrument chain is not reliably documented at a fine level, so we teach the behavior.
+The *evermore* guitar world is more about close detail than big amp identity. Aaron Dessner’s production often blends acoustic instruments, muted plucked textures, and processed ambience until the line feels familiar but slightly unreal. For “willow,” the public lesson should stay honest: the exact instrument chain is not reliably documented at a fine level, so we teach the behavior.
 
 - **Instrument:** The hook is commonly heard as a **muted plucked guitar-family part**, with acoustic or lightly processed electric qualities depending on how you focus your ear. Do not overstate the exact instrument without session documentation.
 - **Processing:** Light compression, close-mic intimacy, and short ambience are the likely practical ingredients. The note attack is clear, but the decay is controlled.
 - **Amp/pedals:** If you use electric guitar, keep the amp clean and dry-to-slightly-roomy. No obvious overdrive is needed.
-- **Muting:** The most important "effect" is the palm or fretting-hand mute. The note should bloom just enough to identify pitch, then get out of the way.
+- **Muting:** The most important “effect” is the palm or fretting-hand mute. The note should bloom just enough to identify pitch, then get out of the way.
 
 This is a modern production lesson: a tiny guitar figure can be the hook if the tone is focused and the rhythm is exact.
 
@@ -43,9 +43,9 @@ This is a modern production lesson: a tiny guitar figure can be the hook if the 
 
 If the line rings like folk strumming, mute more. If it sounds like a dead click, mute less.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"willow" shows how a small repeating figure can become the center of a song. Harmonically, the lesson sits in an **E-minor** world with a descending, circular feeling. The guitar part does not need to spell every chord in full. It outlines the motion with a few carefully placed notes.
+“willow” shows how a small repeating figure can become the center of a song. Harmonically, the lesson sits in an **E-minor** world with a descending, circular feeling. The guitar part does not need to spell every chord in full. It outlines the motion with a few carefully placed notes.
 
 The key musical idea is **ostinato** — a repeated figure that runs through a section. An ostinato works when it is simple enough to remember and flexible enough to survive chord changes. Here, the muted pluck gives the track a pulse that is more intimate than a drum loop and more melodic than a click.
 
@@ -159,7 +159,7 @@ E|------------------------------------------|
 
 ## Make It Yours
 
-Write a two-bar figure with only three or four notes, then mute it until the decay becomes part of the groove. Move one bass note while keeping the top note steady. That is the "willow" lesson: the guitar can carry a modern pop arrangement by being small, repeatable, and emotionally specific. If you are producing at home, do not bury the figure under reverb. Put it close, compress it gently, and let the tiny inconsistencies make it human.
+Write a two-bar figure with only three or four notes, then mute it until the decay becomes part of the groove. Move one bass note while keeping the top note steady. That is the “willow” lesson: the guitar can carry a modern pop arrangement by being small, repeatable, and emotionally specific. If you are producing at home, do not bury the figure under reverb. Put it close, compress it gently, and let the tiny inconsistencies make it human.
 
 > **Listen For**
 >

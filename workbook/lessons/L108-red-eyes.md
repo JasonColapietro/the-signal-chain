@@ -1,18 +1,18 @@
-# Lesson 108 — "Red Eyes" · The War on Drugs
+# Lesson 108 — “Red Eyes” · The War on Drugs
 
 ## At a Glance
 
 - **Artist:** The War on Drugs (Adam Granduciel)
-- **Song:** "Red Eyes"
+- **Song:** “Red Eyes”
 - **Album:** *Lost in the Dream* (2014)
 - **The tone in one sentence:** A blurred heartland lead tone swimming in delay and reverb, where the guitar feels half like a lead instrument and half like weather.
 - **Difficulty:** Intermediate
 - **Key & tuning:** D/A-major orbit for this lesson; standard tuning, E A D G B E.
-- **Section:** JOHNNY'S FAVORITES
+- **Section:** JOHNNY’S FAVORITES
 
 ## The Rig & Signal Chain
 
-Adam Granduciel's sound is heavily associated with layered guitars, pedals, and studio atmosphere, but "exact rig" talk gets slippery fast. The War on Drugs records often sound like several eras of guitar recording stacked together: Fender-like chime, tape-style delay, synth pads, and overdriven leads that bloom rather than bark.
+Adam Granduciel’s sound is heavily associated with layered guitars, pedals, and studio atmosphere, but “exact rig” talk gets slippery fast. The War on Drugs records often sound like several eras of guitar recording stacked together: Fender-like chime, tape-style delay, synth pads, and overdriven leads that bloom rather than bark.
 
 - **Guitars:** Granduciel is commonly associated with **Fender offset and Tele/Strat-style guitars**, along with other studio instruments. Treat the exact guitar on a given overdub as uncertain; use a clear single-coil or bright humbucker sound.
 - **Amps:** A **Fender-style clean or edge-of-breakup platform** is the most useful starting point. The amp should stay open when delay and reverb pile up.
@@ -44,9 +44,9 @@ The signal chain is less about one heroic pedal and more about a controlled wash
 
 If the repeats step on the next phrase, lower feedback before lowering the mix. You want atmosphere, not traffic.
 
-## What's Going On Musically
+## What’s Going On Musically
 
-"Red Eyes" is heartland rock through a dream machine. The guitar language is built from **major pentatonic** shapes, open-string drones, and sustained bends that feel vocal without being blues-club formal.
+“Red Eyes” is heartland rock through a dream machine. The guitar language is built from **major pentatonic** shapes, open-string drones, and sustained bends that feel vocal without being blues-club formal.
 
 The harmony sits in a bright major orbit, with the guitars often implying more movement than the chord chart alone suggests. A simple lead note can feel huge because the delay repeats it into the next chord. That is the theory of the sound: **the effect extends the phrase into the harmony after it.**
 
@@ -60,7 +60,7 @@ This is not shred guitar. It is landscape guitar. The hard part is trusting one 
 
 ## Signature Moves
 
-Short illustrative fragments in the song's lead vocabulary.
+Short illustrative fragments in the song’s lead vocabulary.
 
 **1. The delayed pentatonic call**
 
@@ -159,7 +159,7 @@ E|------------------------------------------|
 
 ## Make It Yours
 
-Set up a clean amp, one low-gain drive, one delay, and one reverb. Then play fewer notes than you normally would. Let a bend hang until the repeats decay, and answer it with a double-stop instead of a run. If the sound feels empty, add a droning open string before you add more gain. The useful lesson from "Red Eyes" is that a guitar part can be a horizon line: simple, wide, and always pulling the song forward.
+Set up a clean amp, one low-gain drive, one delay, and one reverb. Then play fewer notes than you normally would. Let a bend hang until the repeats decay, and answer it with a double-stop instead of a run. If the sound feels empty, add a droning open string before you add more gain. The useful lesson from “Red Eyes” is that a guitar part can be a horizon line: simple, wide, and always pulling the song forward.
 
 > **Listen For**
 >
