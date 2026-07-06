@@ -29,7 +29,7 @@ One $19.99 unlock at [guitar.solutions](https://guitar.solutions) opens all thre
 
 - **8 parts, 46 chapters + 4 appendices** — from the Rickenbacker Frying Pan to digital modeling,
   with deep dives on Hendrix, Clapton, Page, Gilmour, Van Halen, SRV, The Edge, and more.
-- **50 analytical song-lessons** (the Workbook) — each with the real rig, an accessible tone recipe,
+- **111 analytical song-lessons** (the Workbook) — each with the real rig, an accessible tone recipe,
   the theory, short fair-use excerpts, and original tablature drills.
 - **12 hand-built inline-SVG diagrams & infographics** — the signal chain, tube-amp anatomy, the EQ
   spectrum, clipping waveforms, the harmonic series, gain staging, a pedalboard, and a century timeline.
