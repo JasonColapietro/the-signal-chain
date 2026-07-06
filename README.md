@@ -13,14 +13,14 @@ A one-time **$19.99 unlock** opens all three editions and the PDF downloads.
 An illustrated, ~480-page history of electric guitar tone — the amplifiers, the effects pedals,
 and the players who defined the sound — woven with mid-level music theory, hundreds of properly
 formatted tablature examples, and original vector diagrams. It ships in three editions, plus a
-50-lesson hands-on companion.
+111-lesson hands-on companion.
 
 ## Editions
 
 | Edition | Pages | Read it |
 |---|---|---|
 | **The Signal Chain** — the history | ~485 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN.html) · full edition + PDF with the unlock |
-| **The Tone Workbook** — 50 song-lessons | ~338 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN-WORKBOOK.html) · full edition + PDF with the unlock |
+| **The Tone Workbook** — 111 song-lessons | ~560 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN-WORKBOOK.html) · full edition + PDF with the unlock |
 | **Deluxe Edition** — book + lessons interleaved | ~827 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN-DELUXE.html) · full edition + PDF with the unlock |
 
 One $19.99 unlock at [guitar.solutions](https://guitar.solutions) opens all three editions and the PDF downloads.
