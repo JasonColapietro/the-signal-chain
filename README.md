@@ -4,6 +4,7 @@
 by **Jason Colapietro** · *Johnny Suede Press*
 
 ### 📖 [Start reading free → **guitar.solutions**](https://guitar.solutions)
+### [HN technical page -> **show-hn.html**](https://guitar.solutions/show-hn.html)
 
 Chapter one of every edition and four full sample lessons are free on the site.
 A one-time **$19.99 unlock** opens all three editions and the PDF downloads.
@@ -44,6 +45,31 @@ typeset HTML with headless Chrome. The book's Markdown sources moved to a privat
 repo — the free chapter, the four free lessons, and the whole typesetting engine stay
 public right here.
 
+## Show HN / technical demo
+
+If you are here from Hacker News, start with the code, not the sales page:
+
+```bash
+python3 example_build.py -o /tmp/tsc.html
+python3 -m unittest discover -s tests
+python3 build_panels.py
+python3 build_lesson_pages.py
+```
+
+What is public:
+
+- `bookkit.py` - the small Markdown-to-HTML typesetting engine.
+- `example_build.py` - a minimal builder that turns one public Markdown file into self-contained HTML.
+- `examples/show-hn-sample.md` - a deliberately small sample source file.
+- `build_panels.py` - plain-Python amp-panel SVG generation.
+- `build_lesson_pages.py` - the generator for the four free standalone lesson pages.
+- `show-hn.html` - a source-first page for the Python pipeline and related public surfaces.
+
+What is not public: the paid chapter and lesson Markdown sources. They are the book product,
+so this repository should be read as source-visible publishing infrastructure, not a fully
+open-source release of the paid manuscript. No open-source license is granted unless a
+`LICENSE` file is added.
+
 ## Repository layout
 
 ```
@@ -54,6 +80,10 @@ build_deluxe.py       builds the interleaved deluxe edition
 build_quiet.py        builds the Print the Quiet essay pages
 build_lesson_pages.py builds the standalone free-lesson pages from lessons.html
 build_panels.py       draws the amp-panel settings SVGs
+example_build.py      builds one public Markdown sample through bookkit.py
+show-hn.html          HN-facing technical entry page
+SHOW_HN.md            suggested submission copy and first comment
+tests/                standard-library smoke tests for the public engine path
 ```
 
 ## The IP chapter
@@ -68,6 +98,17 @@ Every guitar player who maps the signal chain eventually asks the same question 
 > — Jason Colapietro
 
 More on programmable IP, music rights, and creator ownership infrastructure at [suedeai.ai](https://suedeai.ai).
+
+## Related surfaces
+
+The Signal Chain is the book/reference surface in a wider Suede guitar stack:
+
+- [Suede Muse](https://muse.suedeai.ai) - a daily creative constraint and AI bandmate for musicians.
+- [Suede Social](https://social.suedeai.ai) - public Rig Cards, sourced gear takes, and signal-chain feedback.
+- [Strumly](https://strumly.suedeai.ai) - guitar coach tools for practice, chords, scales, ear training, and tuning.
+- [Suede DNA](https://dna.suedeai.ai) - an archive of documented guitarists' rigs and signal chains.
+- [GuitarHub](https://guitarhub.org) and [GuitarChords](https://guitarchords.info) - related guitar reference surfaces.
+- [Suede AI](https://suedeai.ai) - creator ownership infrastructure behind the broader ecosystem.
 
 ## About the author
 

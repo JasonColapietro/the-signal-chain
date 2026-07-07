@@ -96,7 +96,7 @@ def main():
 <meta property="og:title" content="%(song)s — the tone, the rig, and the lesson"/>
 <meta property="og:description" content="%(desc)s"/>
 <meta property="og:url" content="%(url)s"/>
-<meta property="og:image" content="%(site)s/og-card.png"/>
+<meta property="og:image" content="%(site)s/og/og-%(slug)s.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta property="og:image:alt" content="THE SIGNAL CHAIN — free guitar lesson: %(song)s"/>
@@ -105,7 +105,7 @@ def main():
 <meta name="twitter:creator" content="@johnnysuede"/>
 <meta name="twitter:title" content="%(song)s — the tone, the rig, and the lesson"/>
 <meta name="twitter:description" content="%(desc)s"/>
-<meta name="twitter:image" content="%(site)s/og-card.png"/>
+<meta name="twitter:image" content="%(site)s/og/og-%(slug)s.png"/>
 <meta name="theme-color" content="#120e0b"/>
 %(icons)s
 %(fonts)s
@@ -134,7 +134,7 @@ def main():
 </html>
 """ % {
             "title": L["title"], "desc": L["desc"], "keywords": L["keywords"],
-            "url": url, "song": L["song"], "site": SITE, "icons": icons,
+            "url": url, "song": L["song"], "slug": L["slug"], "site": SITE, "icons": icons,
             "fonts": fonts, "jsonld": jsonld, "style": style, "navbar": navbar,
             "article": art, "teaser": teaser, "endcta": endcta,
             "footer": footer, "script": script,

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Show HN: The Python Typesetter Behind The Signal Chain</title>
+<meta name="description" content="A source-first page for the dependency-free Python typesetting pipeline behind The Signal Chain at guitar.solutions."/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://guitar.solutions/show-hn.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Show HN: The Python Typesetter Behind The Signal Chain"/>
+<meta property="og:description" content="Plain Python turns Markdown, tab blocks, and generated SVG panels into the self-contained HTML used by guitar.solutions."/>
+<meta property="og:url" content="https://guitar.solutions/show-hn.html"/>
+<meta property="og:image" content="https://guitar.solutions/og-card.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Show HN: The Python Typesetter Behind The Signal Chain"/>
+<meta name="twitter:description" content="Plain Python turns Markdown, tab blocks, and generated SVG panels into the self-contained HTML used by guitar.solutions."/>
+<meta name="twitter:image" content="https://guitar.solutions/og-card.png"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+<style>
+:root{
+  --paper:#f7f2e8;
+  --ink:#221a12;
+  --muted:#6b5d4c;
+  --line:#d8c7aa;
+  --panel:#fffaf0;
+  --code:#efe6d2;
+  --accent:#8c2f22;
+  --accent2:#246b50;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:17px;
+  line-height:1.58;
+  overflow-x:hidden;
+}
+a{color:var(--accent);text-underline-offset:.16em}
+a:hover{color:#5d1d16}
+.wrap{max-width:76rem;margin:0 auto;padding:0 clamp(1rem,3vw,2rem)}
+.wrap,.card,.intro>*,.console>*,.grid>*,.status>*{min-width:0}
+.skip{position:absolute;left:-200vw;top:.5rem;background:var(--ink);color:var(--paper);padding:.45rem .7rem}
+.skip:focus{left:.5rem}
+header{
+  border-bottom:1px solid var(--line);
+  background:rgba(247,242,232,.94);
+  position:sticky;
+  top:0;
+  z-index:3;
+}
+.nav{display:flex;gap:.8rem;align-items:center;min-height:3.7rem;flex-wrap:wrap}
+.brand{font-weight:800;margin-right:auto;color:var(--ink);text-decoration:none}
+.nav a:not(.brand){font-size:.88rem}
+main{padding:2rem 0 4rem}
+.intro{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(18rem,.95fr);gap:1.4rem;align-items:start}
+h1{font-size:clamp(2rem,5vw,4.2rem);line-height:1;margin:.2rem 0 .8rem;letter-spacing:0}
+h2{font-size:1.28rem;margin:0 0 .85rem}
+h3{font-size:1rem;margin:1.2rem 0 .4rem}
+p{margin:.55rem 0}
+.kicker{font:700 .75rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
+.lead{font-size:1.1rem;color:#3c3024;max-width:42rem}
+.actions{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.1rem}
+.btn{
+  display:inline-flex;
+  align-items:center;
+  min-height:2.5rem;
+  padding:.58rem .82rem;
+  border:1px solid var(--ink);
+  color:var(--ink);
+  text-decoration:none;
+  font-weight:750;
+  background:transparent;
+  max-width:100%;
+}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn:hover{transform:translateY(-1px)}
+.card{
+  border:1px solid var(--line);
+  background:var(--panel);
+  padding:1rem;
+}
+.console{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:1rem;margin-top:1.4rem}
+.console .card{min-height:100%}
+pre{
+  margin:.75rem 0 0;
+  padding:.9rem;
+  overflow:auto;
+  background:var(--code);
+  border:1px solid var(--line);
+  color:#21170f;
+  font:13px/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--code);padding:.08rem .28rem}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:1.2rem}
+.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+ul{margin:.55rem 0 0;padding-left:1.1rem}
+li{margin:.38rem 0}
+.label{font:700 .74rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.note{color:var(--muted)}
+.status{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem;margin-top:1rem}
+.pill{border:1px solid var(--line);padding:.55rem .65rem;background:#fbf4e6}
+.pill b{display:block;font-size:.95rem}
+.ecosystem a{font-weight:700}
+footer{border-top:1px solid var(--line);padding:1.3rem 0;color:var(--muted);font-size:.9rem}
+@media(max-width:820px){
+  .intro,.console,.grid,.two,.status{grid-template-columns:1fr}
+  header{position:static}
+  .nav{align-items:flex-start;padding:.7rem 0}
+  .brand{flex-basis:100%;margin-right:0}
+  .nav a:not(.brand){font-size:.84rem}
+  h1{font-size:2.08rem}
+  h1,.lead,p,li{overflow-wrap:anywhere}
+  .actions{display:grid;grid-template-columns:1fr}
+  .btn{justify-content:center;text-align:center}
+  pre{font-size:12px;white-space:pre-wrap;word-break:break-word}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html">The Signal Chain</a>
+    <a href="https://github.com/JasonColapietro/the-signal-chain">Source</a>
+    <a href="README.md">README</a>
+    <a href="SHOW_HN.md">HN packet</a>
+    <a href="lessons.html">Free lessons</a>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <section class="intro" aria-labelledby="title">
+    <div>
+      <p class="kicker">Show HN technical entry</p>
+      <h1 id="title">Dependency-free Python for a guitar-tone book.</h1>
+      <p class="lead">The public artifact is not the paid manuscript. It is the publishing pipeline: a small Python renderer that turns Markdown, guitar-tab blocks, and generated SVG panels into the self-contained HTML behind <a href="https://guitar.solutions">guitar.solutions</a>.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/JasonColapietro/the-signal-chain">Open source-visible repo</a>
+        <a class="btn" href="examples/show-hn-sample.md">Read sample input</a>
+        <a class="btn" href="lessons.html">Try four free lessons</a>
+      </div>
+    </div>
+    <aside class="card" aria-label="Quick status">
+      <p class="label">What to run</p>
+      <pre><code>python3 example_build.py -o /tmp/tsc.html
+python3 -m unittest discover -s tests
+python3 build_panels.py
+python3 build_lesson_pages.py</code></pre>
+      <p class="note">Standard-library Python for the public demo path. Chrome is only needed when printing PDFs.</p>
+    </aside>
+  </section>
+
+  <section class="console" aria-label="Input and output">
+    <article class="card">
+      <p class="label">Public input</p>
+      <h2>Markdown, not a CMS export</h2>
+      <p>The demo file is intentionally tiny so the renderer can be inspected without private book sources.</p>
+      <pre><code># Show HN Sample - The Little Amp Check
+
+## At a Glance
+
+- Source: examples/show-hn-sample.md
+- Builder: example_build.py
+- Engine: bookkit.py
+
+```text
+e|----------------0-----|
+B|------------1---------|
+G|--------0-------------|
+D|----2-----------------|
+A|3---------------------|
+E|----------------------|
+```</code></pre>
+    </article>
+    <article class="card">
+      <p class="label">Rendered output</p>
+      <h2>Self-contained HTML</h2>
+      <p><code>bookkit.py</code> handles the project-specific Markdown subset: headings, paragraphs, lists, tables, callouts, links, inline code, emphasis, and fenced tab blocks.</p>
+      <pre><code>&lt;section class="chapter" id="show-hn-sample"&gt;
+  &lt;div class="chapter-head"&gt;
+    &lt;p class="kicker"&gt;Show HN Sample&lt;/p&gt;
+    &lt;h1&gt;The Little Amp Check&lt;/h1&gt;
+  &lt;/div&gt;
+  &lt;pre class="tab"&gt;&lt;code&gt;e|----------------0-----|...&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;</code></pre>
+    </article>
+  </section>
+
+  <section class="grid" aria-label="Public code map">
+    <article class="card">
+      <p class="label">Renderer</p>
+      <h2><code>bookkit.py</code></h2>
+      <p>The shared Markdown-to-HTML typesetting engine. It escapes source text and emits the book's house HTML/CSS.</p>
+    </article>
+    <article class="card">
+      <p class="label">Panels</p>
+      <h2><code>build_panels.py</code></h2>
+      <p>Plain Python creates amp-setting SVG panels from dicts, no drawing library or image-export step.</p>
+    </article>
+    <article class="card">
+      <p class="label">Lessons</p>
+      <h2><code>build_lesson_pages.py</code></h2>
+      <p>Generates standalone canonical pages for the four complete free lessons.</p>
+    </article>
+  </section>
+
+  <section class="grid two" aria-label="Boundaries and limitations">
+    <article class="card">
+      <p class="label">Public/private boundary</p>
+      <h2>What is not included</h2>
+      <p>The paid chapter and lesson Markdown sources live in a private build repo. That text is the product. This repo exposes the engine, public sample, generated site files, and free lesson generators.</p>
+    </article>
+    <article class="card">
+      <p class="label">Limitations</p>
+      <h2>Not a general book engine</h2>
+      <ul>
+        <li>No full CommonMark parser.</li>
+        <li>No notation engine; tab is fixed-width text.</li>
+        <li>No open-source license yet; treat this as source-visible.</li>
+        <li>PDF quality depends on browser print CSS and source discipline.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="status" aria-label="Tryable public surfaces">
+    <div class="pill"><b>Free lessons</b><a href="lessons.html">4 public pages</a></div>
+    <div class="pill"><b>Sample chapter</b><a href="print-the-quiet.html">Print the Quiet</a></div>
+    <div class="pill"><b>Book previews</b><a href="catalog.html">3 editions</a></div>
+    <div class="pill"><b>Source</b><a href="https://github.com/JasonColapietro/the-signal-chain">GitHub repo</a></div>
+  </section>
+
+  <section class="card ecosystem" aria-label="Related Suede and guitar surfaces" style="margin-top:1rem">
+    <p class="label">Muse, Social, and the rest</p>
+    <h2>Where this sits in the wider Suede guitar stack</h2>
+    <p>The HN object is the Python publishing pipeline above. The related public surfaces are here for context:</p>
+    <ul>
+      <li><a href="https://muse.suedeai.ai">Suede Muse</a> - a daily creative constraint and AI bandmate for musicians.</li>
+      <li><a href="https://social.suedeai.ai">Suede Social</a> - public Rig Cards, sourced gear takes, and signal-chain feedback.</li>
+      <li><a href="https://strumly.suedeai.ai">Strumly</a> - guitar coach tools for practice, chords, scales, ear training, and tuning.</li>
+      <li><a href="https://dna.suedeai.ai">Suede DNA</a> - archived guitarists' rigs and signal chains.</li>
+      <li><a href="https://guitarhub.org">GuitarHub</a> and <a href="https://guitarchords.info">GuitarChords</a> - related reference surfaces.</li>
+      <li><a href="https://suedeai.ai">Suede AI</a> - creator ownership infrastructure behind the broader ecosystem.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Written and built by Jason Colapietro / Johnny Suede. This page is intentionally source-first for HN readers.</div>
+</footer>
+</body>
+</html>
