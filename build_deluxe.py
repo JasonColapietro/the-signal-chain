@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build THE SIGNAL CHAIN — DELUXE EDITION: the full book with all 50 lessons
+"""Build THE SIGNAL CHAIN — DELUXE EDITION: the full book with all 111 lessons
 interleaved as indigo 'Workshop' blocks. Uses the shared bookkit engine."""
 
 import os

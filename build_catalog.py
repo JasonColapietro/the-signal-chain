@@ -181,7 +181,7 @@ def build():
         "author": PERSON, "publisher": ORG, "image": OG, "hasPart": all_items,
     }
     kw = ("Jason Colapietro, Johnny Suede, The Signal Chain, Print the Quiet, Suede 100, "
-          "Strumly, Suede Studio Guitar, guitar books, guitar apps, Suede Labs")
+          "Strumly, Suede Guitar Tuner & Studio, Suede AI Music Generator, guitar books, guitar apps, Suede Labs")
     head = head_html(m["seo_title"], m["seo_description"], kw, canonical, jsonld)
     htmlpage = bk.doc(m["seo_title"] + " | Jason Colapietro (Johnny Suede)",
                       bk.build_css(THEME) + CATALOG_CSS, "\n".join(body), head)

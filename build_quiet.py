@@ -30,6 +30,18 @@ ESSAYS = meta["essays"]
 SERIES = meta["series"]
 N = len(ESSAYS)
 
+PTQ_QUOTES = {
+    1: "Tone is the instrument's autobiography. Every guitar that passed through Jeff Buckley's hands left a different answer to the same question — and the answer is the record. That's why provenance matters. The tone doesn't live in the tab. It lives in the chain.",
+    2: "The loudness war is a rights story as much as a technical one. The people who normalized recordings into distortion had the master files. The artists who lost the dynamics didn't. When you own the file, you set the ceiling. When you don't, someone else does.",
+    3: "A compressor doesn't just control volume — it makes a decision about what the music is allowed to feel. That's an authorship act. Every choice about attack and release is a creative fingerprint. The question the AI era forces is: who owns the fingerprint?",
+    4: "Clean signal is honest signal. The temptation to add one more layer, one more treatment, is the same temptation as adding one more license clause without telling the artist. At some point you're not enhancing — you're covering your tracks.",
+    5: "The room is in the recording whether you intended it or not. The reverb tail of a specific studio, a specific afternoon, in a specific city — that's proof of presence. That's what a timestamp is for creative work: an acoustic signature you can't manufacture after the fact.",
+    6: "Every take is a different document. The one you release is the one you're staking a claim to. That's true in the studio and it's true in IP — the version you register is the one the world anchors to. Everything else is rehearsal.",
+    7: "Tape doesn't just record the sound — it participates in it. The saturation is the medium writing itself into the signal. That's the oldest form of embedded metadata: the material leaving its mark on the content. Blockchain is just tape for ownership.",
+    8: "Between 1994 and today the vocal chain went from tape to Neve to Pro Tools to AI voice models that can reconstruct a singer from three bars of audio. The chain got infinitely longer. The question of who owns the source at the start of that chain got infinitely more important.",
+    9: "What's in the tape that isn't in the score is everything that makes the recording worth protecting. The phrasing, the breath, the ambient noise, the unique degradation of a particular machine on a particular morning. You can't write that down. You can only prove you made it first.",
+}
+
 PERSON = {"@type": "Person", "name": AUTHOR, "alternateName": "Johnny Suede", "url": "https://suedeai.ai"}
 ORG = {"@type": "Organization", "name": IMPRINT}
 
@@ -130,6 +142,27 @@ def render_body(fn):
     return re.sub(r"<p>", '<p class="lead">', bh, count=1)  # drop cap on opener
 
 
+def quote_figure(e):
+    quote = esc(PTQ_QUOTES[e["n"]])
+    return ('<figure style="border-left:3px solid #b06a24;padding:.9rem 1.2rem;margin:2.5rem 0 0;'
+            'background:rgba(176,106,36,.07);"><blockquote style="margin:0;padding:0;font-size:1.02rem;'
+            'line-height:1.65;font-style:italic;color:#3a2f24;"><p style="margin:0;">%s</p></blockquote>'
+            '<figcaption style="display:block;margin-top:.6rem;font-size:.82rem;color:#7a5c38;font-style:normal;">'
+            '— Jason Colapietro, <em>Print the Quiet</em></figcaption></figure>' % quote)
+
+
+def also_by():
+    return ('<aside class="ptq-promo" style="margin-top:1.5rem;"><p class="k">Also by Jason Colapietro</p>'
+            '<p style="margin-bottom:.45rem;"><a href="https://www.amazon.com/dp/B0GRG8LGQQ" target="_blank" rel="noopener">'
+            '<b>Stake Your Claim</b></a> — AI ownership, authorship, provenance, and creator rights. Kindle.</p>'
+            '<p style="margin-bottom:.45rem;"><a href="https://www.amazon.com/dp/B0GMB2VLXQ" target="_blank" rel="noopener">'
+            '<b>Proof as Infrastructure</b></a> — building systems where proof is baked in, not bolted on. Kindle.</p>'
+            '<p style="margin-bottom:.45rem;"><a href="https://www.amazon.com/author/johnnysuede" target="_blank" rel="noopener">'
+            '<b>The Guitar Without a Number</b></a> — Kindle.</p>'
+            '<p style="margin-bottom:0;"><a href="https://www.amazon.com/dp/B0GD5FX6N6" target="_blank" rel="noopener">'
+            '<b>The Human Authenticity Layer</b></a> — Kindle.</p></aside>')
+
+
 def essay_page(i, e):
     n = e["n"]
     canonical = "%s/%s" % (SITE, outname(e))
@@ -158,9 +191,9 @@ def essay_page(i, e):
     back = '<div class="ptq-back"><a href="print-the-quiet.html">↩ All nine essays</a></div>'
     promo = ('<aside class="ptq-promo"><p class="k">From the same desk</p>'
              '<p><b>THE SIGNAL CHAIN</b> — a player’s history of amplifiers, effects, and electric '
-             'guitar tone, with a self-taught memoir and 50 song lessons. Chapter one and three lessons are free.</p>'
+             'guitar tone, with a self-taught memoir and 111 song lessons. Chapter one and four lessons are free.</p>'
              '<a class="btn" href="index.html">Read the book →</a></aside>')
-    body_html = bar + '<article>' + header + body + '</article>' + nav + back + promo
+    body_html = bar + '<article>' + header + body + '</article>' + nav + back + quote_figure(e) + promo + also_by()
     disp = e.get("seo_title", e["title"])  # SEO/title text; visible <h1> stays e["title"]
     series_name = "Print the Quiet"
     base = disp if disp == series_name else "%s — %s" % (disp, series_name)
@@ -201,10 +234,10 @@ def index_page():
     items.append('</ol>')
     promo = ('<aside class="ptq-promo"><p class="k">The book</p>'
              '<p><b>THE SIGNAL CHAIN</b> — a player’s history of guitar tone, the gear, and the '
-             'self-taught life behind the sound. Chapter one and three lessons free; one $19.99 unlock opens '
+             'self-taught life behind the sound. Chapter one and four lessons free; one $19.99 unlock opens '
              'all three editions.</p>'
              '<a class="btn" href="index.html">Read the book →</a></aside>')
-    body_html = bar + head_blk + "".join(items) + promo
+    body_html = bar + head_blk + "".join(items) + promo + also_by()
     jsonld = {
         "@context": "https://schema.org", "@type": "CollectionPage", "name": "Print the Quiet",
         "description": SERIES["seo_description"], "url": canonical, "inLanguage": "en",

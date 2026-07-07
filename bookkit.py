@@ -425,7 +425,7 @@ def _panel(buy_url, unlock_url="unlock.html", lessons_url="lessons.html"):
         '<div style="font-size:1rem;line-height:1.65;color:#d9c9a8;max-width:34rem;margin:0 auto;">'
         'One purchase opens all three editions, plus the PDF downloads: '
         '<b style="color:#f2e7cf;">The Signal Chain</b> (the history), '
-        '<b style="color:#f2e7cf;">The Tone Workbook</b> (all 50 lessons), and '
+        '<b style="color:#f2e7cf;">The Tone Workbook</b> (all 111 lessons), and '
         '<b style="color:#f2e7cf;">A Life in Six Strings</b> (the complete edition).</div>'
         '<div style="margin:1.6rem 0 .4rem;"><a href="@BUY@" '
         'style="display:inline-block;background:linear-gradient(180deg,#ffb84d,#eb9a26);color:#1a130b;'
@@ -433,7 +433,7 @@ def _panel(buy_url, unlock_url="unlock.html", lessons_url="lessons.html"):
         'Unlock everything \u00b7 $19.99</a></div>'
         '<div style="font-size:.85rem;color:#a98e6b;margin-top:1rem;">'
         'Already purchased? <a href="@UNLOCK@" style="color:#ffb84d;">Restore access</a>'
-        ' &nbsp;\u00b7&nbsp; Still browsing? <a href="@LESSONS@" style="color:#ffb84d;">Three full lessons are free</a></div>'
+        ' &nbsp;\u00b7&nbsp; Still browsing? <a href="@LESSONS@" style="color:#ffb84d;">Four full lessons are free</a></div>'
         '</section>'
     )
     return tpl.replace('@BUY@', buy_url).replace('@UNLOCK@', unlock_url).replace('@LESSONS@', lessons_url)
