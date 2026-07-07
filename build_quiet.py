@@ -157,8 +157,8 @@ def also_by():
             '<b>Stake Your Claim</b></a> — AI ownership, authorship, provenance, and creator rights. Kindle.</p>'
             '<p style="margin-bottom:.45rem;"><a href="https://www.amazon.com/dp/B0GMB2VLXQ" target="_blank" rel="noopener">'
             '<b>Proof as Infrastructure</b></a> — building systems where proof is baked in, not bolted on. Kindle.</p>'
-            '<p style="margin-bottom:.45rem;"><a href="https://www.amazon.com/author/johnnysuede" target="_blank" rel="noopener">'
-            '<b>The Guitar Without a Number</b></a> — Kindle.</p>'
+            '<p style="margin-bottom:.45rem;"><a href="https://guitar.solutions/catalog.html" target="_blank" rel="noopener">'
+            '<b>The Guitar Without a Number</b></a> — catalog note.</p>'
             '<p style="margin-bottom:0;"><a href="https://www.amazon.com/dp/B0GD5FX6N6" target="_blank" rel="noopener">'
             '<b>The Human Authenticity Layer</b></a> — Kindle.</p></aside>')
 
