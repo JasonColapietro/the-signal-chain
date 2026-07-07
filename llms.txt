@@ -20,6 +20,7 @@ The Signal Chain is a systematic guide to the history and science of electric gu
 ## Key pages
 
 - Home: https://guitar.solutions
+- Show HN technical page: https://guitar.solutions/show-hn.html
 - Print the Quiet (sample chapter): https://guitar.solutions/print-the-quiet.html
 - Catalog: https://guitar.solutions/catalog.html
 - Four free lessons (index): https://guitar.solutions/lessons.html
@@ -32,6 +33,10 @@ The Signal Chain is a systematic guide to the history and science of electric gu
 
 - Guitar chord tools: https://guitarchords.info
 - Guitar editorial and rights: https://guitarhub.org
+- Suede Muse: https://muse.suedeai.ai
+- Suede Social: https://social.suedeai.ai
+- Strumly: https://strumly.suedeai.ai
+- Suede DNA: https://dna.suedeai.ai
 - Suede AI (creator ownership infrastructure): https://suedeai.ai
 - Founder profile: https://suedeai.ai/founder
 
