@@ -4,11 +4,14 @@ Uses the shared bookkit engine. Oxblood + amber theme on warm cream."""
 
 import os
 import re
+import sys
 import bookkit as bk
 import art
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 CH = os.path.join(BASE, "chapters")
+if not os.path.isdir(CH):
+    sys.exit("chapters/ lives in the private build repo — this script is not runnable here")
 TITLE = "THE SIGNAL CHAIN"
 SUBTITLE = "A Player's History of Amplifiers, Effects, and the Pursuit of Electric Guitar Tone"
 EPIGRAPH = "Tone is not a thing you buy. It is the whole journey of a string's voice, from steel to speaker."

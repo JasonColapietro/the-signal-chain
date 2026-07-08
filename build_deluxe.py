@@ -4,11 +4,14 @@ interleaved as indigo 'Workshop' blocks. Uses the shared bookkit engine."""
 
 import os
 import re
+import sys
 import bookkit as bk
 import art
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 CH = os.path.join(BASE, "chapters")
+if not os.path.isdir(CH):
+    sys.exit("chapters/ lives in the private build repo — this script is not runnable here")
 LES = os.path.join(BASE, "workbook", "lessons")
 TITLE = "THE SIGNAL CHAIN"
 SUB = "A Life in Six Strings"
