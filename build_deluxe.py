@@ -178,9 +178,10 @@ open(os.path.join(BASE, "THE-SIGNAL-CHAIN-DELUXE.md"), "w", encoding="utf-8").wr
 # html
 A, A2 = THEME["accent"], THEME["accent2"]
 META_TITLE = "THE SIGNAL CHAIN: A Life in Six Strings — Guitar Tone History + 50 Hands-On Lessons"
-DESC = ("THE SIGNAL CHAIN: A Life in Six Strings by Jason Colapietro (Johnny Suede): the complete illustrated "
-        "history of guitar amplifiers and effects, with fifty hands-on song-tone lessons and tablature "
-        "interleaved throughout.")
+CANONICAL_URL = "https://guitar.solutions/THE-SIGNAL-CHAIN-DELUXE.html"
+OG_IMAGE = "https://guitar.solutions/og-card.png"
+DESC = ("THE SIGNAL CHAIN: A Life in Six Strings by Jason Colapietro (Johnny Suede): the complete "
+        "history of guitar tone, with 50 hands-on lessons woven throughout.")
 KEYWORDS = ("guitar tone, guitar amplifiers, effects pedals, guitar history, guitar lessons, tablature, "
             "music theory, Marshall, Fender, Vox, fuzz, Tube Screamer, Jason Colapietro, Johnny Suede")
 B = [art.cover("The Complete Edition", TITLE, SUB, AUTHOR, "Johnny Suede Press", A, A2),
@@ -219,9 +220,11 @@ for p in part_seq:
 free_B, locked_html = bk.split_gated(B, "sec-02-anatomy-of-an-amplifier")
 free_B.append(bk.gate_block("deluxe", "https://buy.stripe.com/eVqcN774Xajzb3mgMraZi0i"))
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME, WS),
-              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
+              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
+                                        CANONICAL_URL, OG_IMAGE))
 gated = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME, WS),
-               "\n".join(free_B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
+               "\n".join(free_B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
+                                              CANONICAL_URL, OG_IMAGE))
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN-DELUXE.html"), "w", encoding="utf-8").write(gated)
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN-DELUXE-FULL.html"), "w", encoding="utf-8").write(html)
 bk.write_locked_fragment("deluxe", locked_html)

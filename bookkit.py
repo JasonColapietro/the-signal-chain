@@ -373,30 +373,53 @@ def build_css(theme, ws=None):
     return css
 
 
-def seo_head(meta_title, desc, keywords, author, publisher):
+JASON_PERSON_ID = "https://suedeai.ai/founder#person"
+JASON_CANONICAL_URL = "https://suedeai.ai/founder"
+
+
+def seo_head(meta_title, desc, keywords, author, publisher, canonical_url=None, image=None):
     import json
     ld = {
         "@context": "https://schema.org", "@type": "Book", "name": meta_title,
-        "author": {"@type": "Person", "name": author, "alternateName": "Johnny Suede"},
+        "author": {"@type": "Person", "@id": JASON_PERSON_ID, "name": author,
+                   "alternateName": "Johnny Suede", "url": JASON_CANONICAL_URL},
         "publisher": {"@type": "Organization", "name": publisher},
         "inLanguage": "en", "description": desc, "keywords": keywords,
         "genre": ["Music", "Guitar", "Reference"],
         "about": ["electric guitar tone", "guitar amplifiers", "effects pedals", "guitar tablature"],
     }
+    if canonical_url:
+        ld["url"] = canonical_url
+    if image:
+        ld["image"] = image
 
     def m(name, content, prop=False):
         a = "property" if prop else "name"
         return '<meta %s="%s" content="%s"/>' % (a, name, _html.escape(content, quote=True))
 
-    return "".join([
+    tags = [
         m("description", desc), m("keywords", keywords),
         m("author", author + " (Johnny Suede)"), m("robots", "index, follow"),
+    ]
+    if canonical_url:
+        tags.append('<link rel="canonical" href="%s"/>' % _html.escape(canonical_url, quote=True))
+    tags += [
         m("og:title", meta_title, True), m("og:description", desc, True),
         m("og:type", "book", True), m("og:site_name", publisher, True), m("og:locale", "en_US", True),
         m("book:author", author, True),
-        m("twitter:card", "summary"), m("twitter:title", meta_title), m("twitter:description", desc),
-        '<script type="application/ld+json">' + json.dumps(ld) + "</script>",
-    ])
+    ]
+    if canonical_url:
+        tags.append(m("og:url", canonical_url, True))
+    if image:
+        tags.append(m("og:image", image, True))
+        tags.append(m("twitter:card", "summary_large_image"))
+    else:
+        tags.append(m("twitter:card", "summary"))
+    tags += [m("twitter:title", meta_title), m("twitter:description", desc)]
+    if image:
+        tags.append(m("twitter:image", image))
+    tags.append('<script type="application/ld+json">' + json.dumps(ld) + "</script>")
+    return "".join(tags)
 
 
 def doc(title, css, body_html, head_extra=""):

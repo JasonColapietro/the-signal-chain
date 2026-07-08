@@ -125,9 +125,10 @@ open(os.path.join(BASE, "THE-SIGNAL-CHAIN.md"), "w", encoding="utf-8").write(mas
 # html
 A, A2 = THEME["accent"], THEME["accent2"]
 META_TITLE = "THE SIGNAL CHAIN — A Player's History of Guitar Tone, Amps & Effects"
+CANONICAL_URL = "https://guitar.solutions/THE-SIGNAL-CHAIN.html"
+OG_IMAGE = "https://guitar.solutions/og-card.png"
 DESC = ("THE SIGNAL CHAIN by Jason Colapietro (Johnny Suede): an illustrated history of guitar "
-        "amplifiers, effects pedals, and tone, with rich gear history, mid-level music theory, and "
-        "hundreds of properly formatted guitar tablature examples.")
+        "amplifiers, effects, and tone, with theory and tablature examples.")
 KEYWORDS = ("guitar tone, guitar amplifier history, effects pedals, fuzz, overdrive, Tube Screamer, "
             "Big Muff, Marshall, Fender, Vox, Uni-Vibe, guitar tablature, music theory, "
             "Jason Colapietro, Johnny Suede")
@@ -161,9 +162,11 @@ for p in part_seq:
 free_B, locked_html = bk.split_gated(B, "sec-02-anatomy-of-an-amplifier")
 free_B.append(bk.gate_block("book", "https://buy.stripe.com/eVqcN774Xajzb3mgMraZi0i"))
 html = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
-              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
+              "\n".join(B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
+                                        CANONICAL_URL, OG_IMAGE))
 gated = bk.doc(META_TITLE + " | Jason Colapietro (Johnny Suede)", bk.build_css(THEME),
-               "\n".join(free_B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press"))
+               "\n".join(free_B), bk.seo_head(META_TITLE, DESC, KEYWORDS, AUTHOR, "Johnny Suede Press",
+                                              CANONICAL_URL, OG_IMAGE))
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN.html"), "w", encoding="utf-8").write(gated)
 open(os.path.join(BASE, "THE-SIGNAL-CHAIN-FULL.html"), "w", encoding="utf-8").write(html)
 bk.write_locked_fragment("book", locked_html)

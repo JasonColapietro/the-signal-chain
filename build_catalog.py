@@ -20,7 +20,8 @@ IMPRINT = "Johnny Suede Press"
 THEME = {"paper": "#f7f2e8", "ink": "#2a2118", "inksoft": "#6b5d4c", "accent": "#8c2f22",
          "accent2": "#b06a24", "rule": "#d9c9a9", "tabbg": "#efe6d2", "quote": "#efe6d2"}
 
-PERSON = {"@type": "Person", "name": AUTHOR, "alternateName": "Johnny Suede", "url": "https://suedeai.ai"}
+PERSON = {"@type": "Person", "@id": "https://suedeai.ai/founder#person", "name": AUTHOR,
+          "alternateName": "Johnny Suede", "url": "https://suedeai.ai/founder"}
 ORG = {"@type": "Organization", "name": IMPRINT}
 
 

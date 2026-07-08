@@ -72,7 +72,8 @@ def main():
         jsonld = (
             '{"@context":"https://schema.org","@type":"Article",'
             '"headline":"%s \\u2014 the tone, the rig, and the lesson",'
-            '"author":{"@type":"Person","name":"Jason Colapietro","alternateName":"Johnny Suede"},'
+            '"author":{"@type":"Person","@id":"https://suedeai.ai/founder#person",'
+            '"name":"Jason Colapietro","alternateName":"Johnny Suede","url":"https://suedeai.ai/founder"},'
             '"publisher":{"@type":"Organization","name":"Johnny Suede Press"},'
             '"mainEntityOfPage":"%s",'
             '"about":{"@type":"MusicRecording","name":"%s","byArtist":{"@type":"MusicGroup","name":"%s"}},'
