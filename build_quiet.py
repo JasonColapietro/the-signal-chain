@@ -42,7 +42,8 @@ PTQ_QUOTES = {
     9: "What's in the tape that isn't in the score is everything that makes the recording worth protecting. The phrasing, the breath, the ambient noise, the unique degradation of a particular machine on a particular morning. You can't write that down. You can only prove you made it first.",
 }
 
-PERSON = {"@type": "Person", "name": AUTHOR, "alternateName": "Johnny Suede", "url": "https://suedeai.ai"}
+PERSON = {"@type": "Person", "@id": "https://suedeai.ai/founder#person", "name": AUTHOR,
+          "alternateName": "Johnny Suede", "url": "https://suedeai.ai/founder"}
 ORG = {"@type": "Organization", "name": IMPRINT}
 
 
