@@ -467,7 +467,9 @@ def split_gated(B, cut_id):
     Returns (free_blocks, locked_html). The locked half is shipped to the
     content API, never to the public site."""
     marker = 'id="%s"' % cut_id
-    idx = next(i for i, blk in enumerate(B) if marker in blk)
+    idx = next((i for i, blk in enumerate(B) if marker in blk), None)
+    if idx is None:
+        raise ValueError("split_gated: no section found with id=%r" % cut_id)
     return list(B[:idx]), "\n".join(B[idx:])
 
 
