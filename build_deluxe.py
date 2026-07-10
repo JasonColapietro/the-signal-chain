@@ -181,8 +181,8 @@ open(os.path.join(BASE, "THE-SIGNAL-CHAIN-DELUXE.md"), "w", encoding="utf-8").wr
 # html
 A, A2 = THEME["accent"], THEME["accent2"]
 META_TITLE = "THE SIGNAL CHAIN: A Life in Six Strings — Guitar Tone History + 50 Hands-On Lessons"
-CANONICAL_URL = "https://guitar.solutions/THE-SIGNAL-CHAIN-DELUXE.html"
-OG_IMAGE = "https://guitar.solutions/og-card.png"
+CANONICAL_URL = "https://www.guitar.solutions/THE-SIGNAL-CHAIN-DELUXE.html"
+OG_IMAGE = "https://www.guitar.solutions/og-card.png"
 DESC = ("THE SIGNAL CHAIN: A Life in Six Strings by Jason Colapietro (Johnny Suede): the complete "
         "history of guitar tone, with 50 hands-on lessons woven throughout.")
 KEYWORDS = ("guitar tone, guitar amplifiers, effects pedals, guitar history, guitar lessons, tablature, "

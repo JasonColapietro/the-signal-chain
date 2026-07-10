@@ -6,7 +6,7 @@
 <title>Unlock — THE SIGNAL CHAIN</title>
 <meta name="description" content="Your all-access unlock for THE SIGNAL CHAIN: all three editions plus PDF downloads."/>
 <meta name="robots" content="noindex, follow"/>
-<link rel="canonical" href="https://guitar.solutions/unlock.html"/>
+<link rel="canonical" href="https://www.guitar.solutions/unlock.html"/>
 <meta name="theme-color" content="#120e0b"/>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -90,7 +90,7 @@ p{margin:.4rem 0;text-wrap:pretty}
     <p>Bought the book already? Open your <strong style="color:var(--cream)">personal unlock link</strong> (you saved it after purchase, or use the link Stripe sent you back to after paying). You can also paste it here:</p>
     <div class="restore">
       <label for="restore-in" style="position:absolute;left:-200vw">Paste your unlock link or session id</label>
-      <input id="restore-in" type="text" placeholder="https://guitar.solutions/unlock.html?session_id=cs_live_…" autocomplete="off"/>
+      <input id="restore-in" type="text" placeholder="https://www.guitar.solutions/unlock.html?session_id=cs_live_…" autocomplete="off"/>
       <button class="btn" id="restore-go" type="button">Restore access</button>
     </div>
     <p id="restore-err" class="err hide"></p>
@@ -118,7 +118,7 @@ p{margin:.4rem 0;text-wrap:pretty}
 
   function unlockedUI(token,session){
     try{localStorage.setItem('tsc-token',token);localStorage.setItem('tsc-session',session);}catch(e){}
-    var link='https://guitar.solutions/unlock.html?session_id='+session;
+    var link='https://www.guitar.solutions/unlock.html?session_id='+session;
     document.getElementById('mylink-url').textContent=link;
     document.getElementById('copy-link').onclick=function(){
       (navigator.clipboard?navigator.clipboard.writeText(link):Promise.reject()).then(function(){

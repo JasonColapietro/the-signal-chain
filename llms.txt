@@ -3,7 +3,7 @@
 > The Signal Chain is a guitar history and reference book published by Jason Colapietro. The site at guitar.solutions is the companion reference for the book — covering amp lineages, effect pedal history, signal path, and the story of the electric guitar's sound.
 
 - Author / Publisher: Jason Colapietro (also known as Johnny Suede)
-- Canonical URL: https://guitar.solutions
+- Canonical URL: https://www.guitar.solutions
 - Book: The Signal Chain — available on Amazon and major book retailers
 
 ## What The Signal Chain covers
@@ -19,15 +19,15 @@ The Signal Chain is a systematic guide to the history and science of electric gu
 
 ## Key pages
 
-- Home: https://guitar.solutions
-- Show HN technical page: https://guitar.solutions/show-hn.html
-- Print the Quiet (sample chapter): https://guitar.solutions/print-the-quiet.html
-- Catalog: https://guitar.solutions/catalog.html
-- Four free lessons (index): https://guitar.solutions/lessons.html
-- Free lesson, Purple Haze (Jimi Hendrix tone): https://guitar.solutions/lesson-purple-haze.html
-- Free lesson, Comfortably Numb (David Gilmour tone): https://guitar.solutions/lesson-comfortably-numb.html
-- Free lesson, Pride and Joy (Stevie Ray Vaughan tone): https://guitar.solutions/lesson-pride-and-joy.html
-- Free lesson, Smells Like Teen Spirit (Nirvana tone): https://guitar.solutions/lesson-smells-like-teen-spirit.html
+- Home: https://www.guitar.solutions
+- Show HN technical page: https://www.guitar.solutions/show-hn.html
+- Print the Quiet (sample chapter): https://www.guitar.solutions/print-the-quiet.html
+- Catalog: https://www.guitar.solutions/catalog.html
+- Four free lessons (index): https://www.guitar.solutions/lessons.html
+- Free lesson, Purple Haze (Jimi Hendrix tone): https://www.guitar.solutions/lesson-purple-haze.html
+- Free lesson, Comfortably Numb (David Gilmour tone): https://www.guitar.solutions/lesson-comfortably-numb.html
+- Free lesson, Pride and Joy (Stevie Ray Vaughan tone): https://www.guitar.solutions/lesson-pride-and-joy.html
+- Free lesson, Smells Like Teen Spirit (Nirvana tone): https://www.guitar.solutions/lesson-smells-like-teen-spirit.html
 
 ## Related properties
 

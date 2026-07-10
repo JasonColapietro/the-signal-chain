@@ -34,5 +34,5 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-Sitemap: https://guitar.solutions/sitemap.xml
-Host: https://guitar.solutions
+Sitemap: https://www.guitar.solutions/sitemap.xml
+Host: https://www.guitar.solutions

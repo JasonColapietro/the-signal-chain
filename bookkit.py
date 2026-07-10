@@ -422,12 +422,21 @@ def seo_head(meta_title, desc, keywords, author, publisher, canonical_url=None, 
     return "".join(tags)
 
 
+SKIP_LINK_CSS = (
+    '.skip{position:absolute;left:-200vw;top:.5rem;z-index:9999;background:#eb9a26;'
+    'color:#1a130b;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;'
+    'padding:.5rem 1rem;border-radius:4px;text-decoration:none}.skip:focus{left:.5rem}'
+)
+SKIP_LINK_HTML = '<a class="skip" href="#main">Skip to content</a>'
+
+
 def doc(title, css, body_html, head_extra=""):
     return ("<!DOCTYPE html>\n"
             '<html lang="en"><head><meta charset="utf-8"/>'
             '<meta name="viewport" content="width=device-width, initial-scale=1"/>'
-            "<title>%s</title>%s<style>%s</style></head><body><div class=\"page\">%s</div></body></html>"
-            % (esc(title), head_extra, css, body_html))
+            "<title>%s</title>%s<style>%s%s</style></head><body>%s<div class=\"page\">"
+            '<main id="main">%s</main></div></body></html>'
+            % (esc(title), head_extra, css, SKIP_LINK_CSS, SKIP_LINK_HTML, body_html))
 
 
 # ----------------------------------------------------------------- PAYWALL

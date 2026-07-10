@@ -10,7 +10,7 @@ Self-contained, no third-party dependencies, same as every builder here.
 import io
 import re
 
-SITE = "https://guitar.solutions"
+SITE = "https://www.guitar.solutions"
 
 LESSONS = [
     {

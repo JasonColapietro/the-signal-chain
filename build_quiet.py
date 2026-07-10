@@ -16,7 +16,7 @@ import bookkit as bk
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(BASE, "articles", "print-the-quiet")
-SITE = "https://guitar.solutions"
+SITE = "https://www.guitar.solutions"
 OG = SITE + "/og-card.png"
 AUTHOR = "Jason Colapietro"
 IMPRINT = "Johnny Suede Press"

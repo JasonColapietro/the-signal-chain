@@ -128,8 +128,8 @@ open(os.path.join(BASE, "THE-SIGNAL-CHAIN.md"), "w", encoding="utf-8").write(mas
 # html
 A, A2 = THEME["accent"], THEME["accent2"]
 META_TITLE = "THE SIGNAL CHAIN — A Player's History of Guitar Tone, Amps & Effects"
-CANONICAL_URL = "https://guitar.solutions/THE-SIGNAL-CHAIN.html"
-OG_IMAGE = "https://guitar.solutions/og-card.png"
+CANONICAL_URL = "https://www.guitar.solutions/THE-SIGNAL-CHAIN.html"
+OG_IMAGE = "https://www.guitar.solutions/og-card.png"
 DESC = ("THE SIGNAL CHAIN by Jason Colapietro (Johnny Suede): an illustrated history of guitar "
         "amplifiers, effects, and tone, with theory and tablature examples.")
 KEYWORDS = ("guitar tone, guitar amplifier history, effects pedals, fuzz, overdrive, Tube Screamer, "
