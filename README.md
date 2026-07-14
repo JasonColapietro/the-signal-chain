@@ -3,7 +3,18 @@
 **A Player's History of Amplifiers, Effects, and the Pursuit of Electric Guitar Tone**
 by **Jason Colapietro** · *Johnny Suede Press*
 
-### 📖 [Start reading free → **guitar.solutions**](https://guitar.solutions)
+> **2026-07-14 — guitar.solutions has moved.** The domain now points at
+> [Strumly](https://strumly.suedeai.ai), and this book's content (chapters,
+> the four free lessons, the nine Print the Quiet essays, and the catalog)
+> now lives at **[strumly.suedeai.ai/book](https://strumly.suedeai.ai/book)**.
+> This repo's GitHub Pages build is retained for source history but is no
+> longer the live site — its custom domain has been removed so it doesn't
+> compete with guitar.solutions' DNS. See `THE-SIGNAL-CHAIN.html`,
+> `THE-SIGNAL-CHAIN-WORKBOOK.html`, and `THE-SIGNAL-CHAIN-DELUXE.html` in this
+> repo for the original static source; the live copies are served from
+> Strumly at `/book/*.html`.
+
+### 📖 [Start reading free → **strumly.suedeai.ai/book**](https://strumly.suedeai.ai/book)
 ### [HN technical page -> **show-hn.html**](https://guitar.solutions/show-hn.html)
 
 Chapter one of every edition and four full sample lessons are free on the site.
