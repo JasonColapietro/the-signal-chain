@@ -1,3 +1,11 @@
+> **Archived — this site is retired.**
+>
+> THE SIGNAL CHAIN is published on Strumly: <https://strumly.suedeai.ai/book>.
+> The GitHub Pages output in this repo is now redirect stubs only; the custom
+> domain was sunset and `guitar.solutions` is served by `~/code/strumly`.
+> The `.py` builders and the lesson sources under `workbook/` are kept as the
+> archive of record. Do not redeploy this as a live site.
+
 # THE SIGNAL CHAIN
 
 **A Player's History of Amplifiers, Effects, and the Pursuit of Electric Guitar Tone**

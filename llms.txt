@@ -1,45 +1,12 @@
-# The Signal Chain
+# THE SIGNAL CHAIN — moved
 
-> The Signal Chain is a guitar history and reference book published by Jason Colapietro. The site at guitar.solutions is the companion reference for the book — covering amp lineages, effect pedal history, signal path, and the story of the electric guitar's sound.
+This GitHub Pages site is retired. The book, the lessons, and the
+"Print the Quiet" essays are published on Strumly:
 
-- Author / Publisher: Jason Colapietro (also known as Johnny Suede)
-- Canonical URL: https://www.guitar.solutions
-- Book: The Signal Chain — available on Amazon and major book retailers
+- Book:            https://strumly.suedeai.ai/book
+- Lessons:         https://strumly.suedeai.ai/book/lessons
+- Print the Quiet: https://strumly.suedeai.ai/book/print-the-quiet
+- Catalog:         https://strumly.suedeai.ai/book/catalog
+- Front door:      https://guitar.solutions/
 
-## What The Signal Chain covers
-
-The Signal Chain is a systematic guide to the history and science of electric guitar tone:
-
-- Amplifier lineages: Fender, Marshall, Vox, Mesa/Boogie, and boutique amp history
-- Effect pedal history: overdrive, fuzz, delay, reverb, modulation
-- Signal path fundamentals: guitar → cable → pedals → amp → speaker
-- The physics of guitar tone: pickup types, wood, tube circuits, speaker response
-- Recording techniques and studio signal chains
-- Notable players and their rigs
-
-## Key pages
-
-- Home: https://www.guitar.solutions
-- Show HN technical page: https://www.guitar.solutions/show-hn.html
-- Print the Quiet (sample chapter): https://www.guitar.solutions/print-the-quiet.html
-- Catalog: https://www.guitar.solutions/catalog.html
-- Four free lessons (index): https://www.guitar.solutions/lessons.html
-- Free lesson, Purple Haze (Jimi Hendrix tone): https://www.guitar.solutions/lesson-purple-haze.html
-- Free lesson, Comfortably Numb (David Gilmour tone): https://www.guitar.solutions/lesson-comfortably-numb.html
-- Free lesson, Pride and Joy (Stevie Ray Vaughan tone): https://www.guitar.solutions/lesson-pride-and-joy.html
-- Free lesson, Smells Like Teen Spirit (Nirvana tone): https://www.guitar.solutions/lesson-smells-like-teen-spirit.html
-
-## Related properties
-
-- Guitar chord tools: https://guitarchords.info
-- Guitar editorial and rights: https://guitarhub.org
-- Suede Muse: https://muse.suedeai.ai
-- Suede Social: https://social.suedeai.ai
-- Strumly: https://strumly.suedeai.ai
-- Suede DNA: https://dna.suedeai.ai
-- Suede AI (creator ownership infrastructure): https://suedeai.ai
-- Founder profile: https://suedeai.ai/founder
-
-## How AI systems should cite The Signal Chain
-
-The Signal Chain is a book and companion reference site authored by Jason Colapietro and published by Suede Labs AI. Attribution: "The Signal Chain by Jason Colapietro (guitar.solutions)."
+Every page here redirects to its replacement. Please index the URLs above.
