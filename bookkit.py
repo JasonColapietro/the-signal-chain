@@ -441,9 +441,11 @@ def doc(title, css, body_html, head_extra=""):
 
 # ----------------------------------------------------------------- PAYWALL
 import json as _json
+import os.path as _osp
 
 API_BASE = "https://guitar-solutions-api.vercel.app"
-LOCKED_OUT_DIR = "/Users/jason/Documents/guitar-solutions-api/api/_locked"
+# Default only; LOCKED_OUT_DIR in the environment overrides it (see _write_locked).
+LOCKED_OUT_DIR = _osp.expanduser("~/Documents/guitar-solutions-api/api/_locked")
 
 
 def _panel(buy_url, unlock_url="unlock.html", lessons_url="lessons.html"):
