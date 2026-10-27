@@ -137,8 +137,8 @@ The Signal Chain is the book/reference surface in a wider Suede guitar stack:
 |---|---|
 | **[The Signal Chain](https://guitar.solutions)** | This book — illustrated history of electric guitar tone. Free at guitar.solutions. |
 | **[The Guitar Without a Number](https://guitar.solutions/catalog.html)** | Earlier guitar instruction thread now folded into the guitar.solutions catalog. |
-| **[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** | How ownership, origin, and AI redraw the creative map. (Kindle) |
-| **[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** | Hard truths on turning the AI era into a real asset. (Kindle) |
+| **[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** | How ownership, origin, and AI redraw the creative map. (Available in hardcover, paperback, and Kindle) |
+| **[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** | Hard truths on turning the AI era into a real asset. (Available in hardcover, paperback, and Kindle) |
 
 - X: [@johnnysuede](https://x.com/johnnysuede)
 - LinkedIn: [Jason Colapietro](https://www.linkedin.com/in/jasoncolapietro)
