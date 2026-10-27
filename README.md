@@ -39,7 +39,7 @@ formatted tablature examples, and original vector diagrams. It ships in three ed
 
 | Edition | Pages | Read it |
 |---|---|---|
-| **The Signal Chain** — the history | ~485 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN.html) · full edition + PDF with the unlock |
+| <img src="https://suedeai.ai/books/the-signal-chain-cover.webp" alt="Cover of The Signal Chain" width="80"><br>**The Signal Chain** — the history | ~485 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN.html) · full edition + PDF with the unlock |
 | **The Tone Workbook** — 111 song-lessons | ~560 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN-WORKBOOK.html) · full edition + PDF with the unlock |
 | **Deluxe Edition** — book + lessons interleaved | ~827 | [Free preview](https://guitar.solutions/THE-SIGNAL-CHAIN-DELUXE.html) · full edition + PDF with the unlock |
 
@@ -135,10 +135,9 @@ The Signal Chain is the book/reference surface in a wider Suede guitar stack:
 
 | Book | Description |
 |---|---|
-| **[The Signal Chain](https://guitar.solutions)** | This book — illustrated history of electric guitar tone. Free at guitar.solutions. |
-| **[The Guitar Without a Number](https://guitar.solutions/catalog.html)** | Earlier guitar instruction thread now folded into the guitar.solutions catalog. |
-| **[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** | How ownership, origin, and AI redraw the creative map. (Available in hardcover, paperback, and Kindle) |
-| **[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** | Hard truths on turning the AI era into a real asset. (Available in hardcover, paperback, and Kindle) |
+| <img src="https://suedeai.ai/books/the-signal-chain-cover.webp" alt="Cover of The Signal Chain" width="80"><br>**[The Signal Chain](https://guitar.solutions)** | This book — illustrated history of electric guitar tone. Free at guitar.solutions. Includes the former *The Guitar Without a Number*. |
+| <img src="https://suedeai.ai/books/human-authenticity-layer-cover.jpg" alt="Cover of The Human Authenticity Layer" width="80"><br>**[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** | How ownership, origin, and AI redraw the creative map. (Available in hardcover, paperback, and Kindle) |
+| <img src="https://suedeai.ai/books/stake-your-claim-cover.jpg" alt="Cover of Stake Your Claim" width="80"><br>**[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** | Hard truths on turning the AI era into a real asset. (Available in hardcover, paperback, and Kindle) |
 
 - X: [@johnnysuede](https://x.com/johnnysuede)
 - LinkedIn: [Jason Colapietro](https://www.linkedin.com/in/jasoncolapietro)
