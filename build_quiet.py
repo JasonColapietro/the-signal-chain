@@ -155,13 +155,13 @@ def quote_figure(e):
 def also_by():
     return ('<aside class="ptq-promo" style="margin-top:1.5rem;"><p class="k">Also by Jason Colapietro</p>'
             '<p style="margin-bottom:.45rem;"><a href="https://www.amazon.com/dp/B0GRG8LGQQ" target="_blank" rel="noopener">'
-            '<b>Stake Your Claim</b></a> — AI ownership, authorship, provenance, and creator rights. Kindle.</p>'
+            '<b>Stake Your Claim</b></a> — AI ownership, authorship, provenance, and creator rights. Available in hardcover, paperback, and Kindle.</p>'
             '<p style="margin-bottom:.45rem;"><a href="https://www.amazon.com/dp/B0GMB2VLXQ" target="_blank" rel="noopener">'
-            '<b>Proof as Infrastructure</b></a> — building systems where proof is baked in, not bolted on. Kindle.</p>'
+            '<b>Proof as Infrastructure</b></a> — building systems where proof is baked in, not bolted on. Available in hardcover, paperback, and Kindle.</p>'
             '<p style="margin-bottom:.45rem;"><a href="https://guitar.solutions/catalog.html" target="_blank" rel="noopener">'
             '<b>The Guitar Without a Number</b></a> — catalog note.</p>'
             '<p style="margin-bottom:0;"><a href="https://www.amazon.com/dp/B0GD5FX6N6" target="_blank" rel="noopener">'
-            '<b>The Human Authenticity Layer</b></a> — Kindle.</p></aside>')
+            '<b>The Human Authenticity Layer</b></a> — Available in hardcover, paperback, and Kindle.</p></aside>')
 
 
 def essay_page(i, e):
